@@ -1,0 +1,40 @@
+name: Update Omnix Adult Zone M3U
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'  # Run every 12 hours
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-m3u:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run update script
+        run: |
+          cd scripts
+          python omnix_adult_zone.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git pull # Pull before pushing to avoid conflicts
+          git add scripts/omnix_adult_zone.m3u
+          git commit -m "Update Omnix Adult Zone M3U [skip ci]" || exit 0
+          git push
