@@ -28,17 +28,13 @@ jobs:
       - name: Run validator script
         run: |
           cd scripts
-          if [ -f "omnix_adult_zone.m3u" ]; then
-             python omnix_adult_zone_validator.py
-          else
-             echo "Input M3U not found, skipping validation."
-          fi
+          python omnix_adult_zone_validator.py
 
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull # Pull before pushing
-          git add scripts/omnix_adult_zone_active.m3u
+          git pull
+          git add playlist/omnix_adult_zone_active.m3u
           git commit -m "Update Omnix Adult Zone Active M3U [skip ci]" || exit 0
           git push

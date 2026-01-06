@@ -34,7 +34,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull # Pull before pushing to avoid conflicts
-          git add scripts/omnix_adult_zone.m3u
+          git pull
+          git add playlist/omnix_adult_zone.m3u
           git commit -m "Update Omnix Adult Zone M3U [skip ci]" || exit 0
           git push

@@ -3,7 +3,12 @@ import os
 
 def download_m3u():
     url = "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Private/Movies.m3u"
-    output_file = "omnix_adult_zone.m3u"
+    
+    # Ensure playlist directory exists
+    playlist_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'playlist')
+    os.makedirs(playlist_dir, exist_ok=True)
+    
+    output_file = os.path.join(playlist_dir, "omnix_adult_zone.m3u")
     
     try:
         print(f"Downloading M3U from {url}...")

@@ -29,8 +29,13 @@ def check_stream(line):
     return None
 
 def validate_m3u():
-    input_file = "omnix_adult_zone.m3u"
-    output_file = "omnix_adult_zone_active.m3u"
+    # Setup paths relative to script location
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    playlist_dir = os.path.join(base_dir, 'playlist')
+    os.makedirs(playlist_dir, exist_ok=True)
+
+    input_file = os.path.join(playlist_dir, "omnix_adult_zone.m3u")
+    output_file = os.path.join(playlist_dir, "omnix_adult_zone_active.m3u")
     
     if not os.path.exists(input_file):
         print(f"{input_file} not found!")
