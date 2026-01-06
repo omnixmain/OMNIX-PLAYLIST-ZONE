@@ -1,34 +1,42 @@
-import requests
-import concurrent.futures
+import aiohttp
+import asyncio
 import os
 import time
+from tqdm.asyncio import tqdm
 
-def check_stream(line):
+# Semaphore to control concurrency (adjust as needed based on network/CPU)
+CONCURRENCY_LIMIT = 50
+
+async def check_stream(session, line, semaphore):
     url = line.strip()
     if not url.startswith('http'):
         return None
-        
-    try:
-        # Stream check with headers to mimic a browser/player
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-        }
-        # Use HEAD request for speed, but some servers reject HEAD, so fallback to GET with stream=True
-        try:
-            response = requests.head(url, headers=headers, timeout=5, allow_redirects=True)
-            if response.status_code == 200:
-                return url
-        except:
-            # Fallback to a very short GET
-            response = requests.get(url, headers=headers, stream=True, timeout=5)
-            if response.status_code == 200:
-                response.close()
-                return url
-    except:
-        pass
-    return None
 
-def validate_m3u():
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+
+    async with semaphore:
+        try:
+            # Try HEAD request first for speed
+            try:
+                async with session.head(url, headers=headers, timeout=5, allow_redirects=True) as response:
+                    if response.status == 200:
+                        return url
+            except (aiohttp.ClientError, asyncio.TimeoutError):
+                # Fallback to GET with stream=True equivalent (just reading headers/start)
+                # In aiohttp, we just do the request and close it.
+                pass
+
+            # Fallback to GET
+            async with session.get(url, headers=headers, timeout=5) as response:
+                if response.status == 200:
+                    return url
+        except (aiohttp.ClientError, asyncio.TimeoutError, Exception):
+            pass
+        return None
+
+async def validate_m3u_async():
     # Setup paths relative to script location
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     playlist_dir = os.path.join(base_dir, 'playlist')
@@ -66,32 +74,42 @@ def validate_m3u():
         entries.append(current_entry)
 
     print(f"Found {len(entries)} entries. Checking validity...")
-
-    active_entries = []
     
-    # Process in chunks to avoid overwhelming local network or CPU if list is huge
-    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
-        future_to_entry = {executor.submit(check_stream, entry[-1].strip()): entry for entry in entries}
-        
-        for future in concurrent.futures.as_completed(future_to_entry):
-            entry = future_to_entry[future]
-            try:
-                result = future.result()
-                if result:
-                    active_entries.append(entry)
-                    # Optional: Print progress
-            except Exception:
-                pass
+    semaphore = asyncio.Semaphore(CONCURRENCY_LIMIT)
+    
+    # helper to check entry and return it if valid
+    async def check_entry(session, entry, semaphore):
+        url = entry[-1].strip()
+        res = await check_stream(session, url, semaphore)
+        return entry if res else None
 
-    print(f"Found {len(active_entries)} active streams out of {len(entries)}.")
+    async with aiohttp.ClientSession() as session:
+        tasks = [check_entry(session, entry, semaphore) for entry in entries]
+        
+        valid_entries = []
+        for f in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc="Validating Streams", unit="stream"):
+            result = await f
+            if result:
+                valid_entries.append(result)
+
+    print(f"Found {len(valid_entries)} active streams out of {len(entries)}.")
 
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write("#EXTM3U\n")
-        for entry in active_entries:
+        # To maintain original order, strict concurrency might scramble it.
+        # But usually playlist order doesn't matter as much as validity.
+        # If order matters, we'd need to await all and index them.
+        # For now, we append as they finish (or just collected list). 
+        # Actually standard asyncio.gather maintains order if we used that, but as_completed does not.
+        # Let's just write what we found.
+        for entry in valid_entries:
             for line in entry:
                 f.write(line)
 
     print(f"Saved active playlist to {output_file}")
 
+def main():
+    asyncio.run(validate_m3u_async())
+
 if __name__ == "__main__":
-    validate_m3u()
+    main()
