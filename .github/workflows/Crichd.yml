@@ -1,0 +1,44 @@
+name: Auto Refresh Playlist
+
+on:
+  schedule:
+    - cron: '*/28 * * * *'  # Run every 28 minutes
+  workflow_dispatch:      # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-playlist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install requests colorama
+
+      - name: Run Omnix Refresher
+        run: |
+          python scripts/Crichd.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add playlist/Crichd.m3u
+          
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-refresh playlist [skip ci]"
+            git push
+          fi
