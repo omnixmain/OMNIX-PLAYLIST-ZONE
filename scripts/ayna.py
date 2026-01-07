@@ -19,7 +19,8 @@ BASE_URL = "https://n.shopnojaal.top/ayna/"
 # Match href that contains play.php
 LINK_PATTERN = r'<a[^>]+href=["\']([^"\']*play\.php\?id=[^"\']+)["\'][^>]*>(.*?)</a>'
 VIDEO_SRC_PATTERN = r'var\s+streamUrl\s*=\s*atob\("([^"]+)"\)'
-LOGO_PATTERN = r'<img[^>]+src=["\']([^"\']+)["\'][^>]*>'
+# Non-greedy match for src to avoid skipping to onerror
+LOGO_PATTERN = r'<img[^>]*?\bsrc=["\']([^"\']+)["\']'
 
 def log(msg):
     print(msg)
