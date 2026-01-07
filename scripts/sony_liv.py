@@ -68,40 +68,54 @@ def extract_stream_url(page_url):
         
         if response.status_code != 200:
             print(f"  Failed to load page: {response.status_code}")
-            return None
+            return None, None
             
         match = re.search(r'const\s+channelData\s*=\s*({.*?});', response.text)
+        logo = None
+        m3u8 = None
+        
         if match:
             json_str = match.group(1)
             try:
                 data = json.loads(json_str)
                 m3u8 = data.get('m3u8')
-                if m3u8 and m3u8.startswith('http'):
-                    return m3u8
+                # Try to find logo in common fields
+                logo = data.get('logo') or data.get('image') or data.get('poster')
             except json.JSONDecodeError:
                 pass
         
-        m3u8_match = re.search(r'"m3u8"\s*:\s*"(.*?)"', response.text)
-        if m3u8_match:
-            return m3u8_match.group(1).replace(r'\/', '/')
+        if not m3u8:
+            m3u8_match = re.search(r'"m3u8"\s*:\s*"(.*?)"', response.text)
+            if m3u8_match:
+                m3u8 = m3u8_match.group(1).replace(r'\/', '/')
+        
+        # Fallback regex for logo if not found in JSON
+        if not logo:
+             logo_match = re.search(r'"(logo|image|poster)"\s*:\s*"(.*?)"', response.text)
+             if logo_match:
+                 logo = logo_match.group(2).replace(r'\/', '/')
+                 
+        if m3u8 and m3u8.startswith('http'):
+            return m3u8, logo
             
-        return None
+        return None, None
 
     except Exception as e:
         print(f"  Error extracting stream: {e}")
-        return None
+        return None, None
 
 def get_channels():
     pages = get_channel_links()
     valid_channels = []
     
     for page in pages:
-        stream_url = extract_stream_url(page['page_url'])
+        stream_url, logo = extract_stream_url(page['page_url'])
         if stream_url:
             print(f"  > Found stream for {page['name']}")
             valid_channels.append({
                 'name': page['name'],
-                'url': stream_url
+                'url': stream_url,
+                'logo': logo or ""
             })
         else:
             print(f"  > No stream found for {page['name']}")
@@ -120,8 +134,9 @@ def generate_m3u(channels):
         for channel in channels:
             name = channel['name']
             url = channel['url']
+            logo = channel['logo']
             
-            f.write(f'#EXTINF:-1 group-title="Sony Liv",{name}\n')
+            f.write(f'#EXTINF:-1 group-title="Sony Liv" tvg-logo="{logo}",{name}\n')
             f.write('#EXTVLCOPT:network-caching=1000\n')
             f.write(f'#EXTVLCOPT:http-user-agent={HEADERS["User-Agent"]}\n')
             f.write(f'#EXTVLCOPT:http-referrer={HEADERS["Referer"]}\n')

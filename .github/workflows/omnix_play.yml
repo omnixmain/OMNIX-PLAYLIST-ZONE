@@ -1,0 +1,31 @@
+name: Automate Omnix Play M3U
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Runs every 6 hours
+  workflow_dispatch:      # Allows manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Run Omnix Play Script
+        run: |
+          python scripts/omnix_play.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add playlist/omnix_play.m3u
+          git commit -m "Update omnix_play.m3u" || echo "No changes to commit"
+          git push
