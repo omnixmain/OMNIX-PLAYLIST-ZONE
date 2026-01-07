@@ -1,4 +1,4 @@
-name: Automate Omnix Play M3U
+name: Update Omnix Play Playlist
 
 on:
   schedule:
