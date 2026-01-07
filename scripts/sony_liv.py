@@ -126,8 +126,30 @@ def generate_m3u(channels):
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        f.write('#EXTM3U\n')
-        f.write(f'#EXTINF:-1, Updated: {current_time}\n')
+        # Calculate BD Time (UTC + 6)
+        # Note: utcnow is deprecated, using now(datetime.timezone.utc) if possible or adjusting locally
+        utc_now = datetime.datetime.utcnow()
+        bd_time = utc_now + datetime.timedelta(hours=6)
+        formatted_time = bd_time.strftime("%Y-%m-%d %I:%M %p")
+
+        m3u_header = f"""#EXTM3U
+#=================================
+# Developed By: OMNIX EMPIER
+# IPTV Telegram Channels: https://t.me/omnix_Empire
+# Last Updated: {formatted_time} (BD Time)
+# Disclaimer:
+# This tool does NOT host any content.
+# It aggregates publicly available data for informational purposes only.
+# For any issues or concerns, please contact the developer.
+#=================================="""
+        
+        f.write(m3u_header + '\n')
+        # f.write(f'#EXTINF:-1, Updated: {current_time}\n') # Removing old updated line to avoid dupes
+        # f.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\n') # Header already has user agent later? No, this is global
+        # Keeping global UA and status check if they are critical, but user asked for specific header.
+        
+        # Adding back global tags if needed by player, but standard header often replaces top metadata
+        # Let's keep the user agent as it might be useful, but put it after the banner
         f.write('#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\n')
         f.write('http://example.com/status\n\n')
         

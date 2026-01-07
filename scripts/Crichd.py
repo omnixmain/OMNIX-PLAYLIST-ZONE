@@ -40,8 +40,25 @@ def fetch_and_refresh():
         
         print(f"{Fore.GREEN}[+] Successfully extracted {len(channels)} channels.")
         
+        # Calculate BD Time (UTC + 6)
+        import datetime
+        utc_now = datetime.datetime.utcnow()
+        bd_time = utc_now + datetime.timedelta(hours=6)
+        formatted_time = bd_time.strftime("%Y-%m-%d %I:%M %p")
+
+        m3u_header = f"""#EXTM3U
+#=================================
+# Developed By: OMNIX EMPIER
+# IPTV Telegram Channels: https://t.me/omnix_Empire
+# Last Updated: {formatted_time} (BD Time)
+# Disclaimer:
+# This tool does NOT host any content.
+# It aggregates publicly available data for informational purposes only.
+# For any issues or concerns, please contact the developer.
+#=================================="""
+        
         with open(output_path, 'w', encoding='utf-8') as f:
-            f.write("#EXTM3U\n")
+            f.write(m3u_header + "\n")
             
             for channel in channels:
                 name = channel.get('name', 'Unknown Channel')
