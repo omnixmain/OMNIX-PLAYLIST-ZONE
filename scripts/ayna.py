@@ -5,15 +5,8 @@ import sys
 from urllib.parse import urljoin
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import socket
-try:
-    import urllib3.util.connection as urllib3_cn
-except ImportError:
-    import requests.packages.urllib3.util.connection as urllib3_cn
 
-def allowed_gai_family():
-    return socket.AF_INET
 
-urllib3_cn.allowed_gai_family = allowed_gai_family
 
 BASE_URL = "http://xown.site/web/ayna"
 # Match href that contains play.php
@@ -27,21 +20,31 @@ def log(msg):
 
 def process_channel(args):
     """
-    Worker function to process a single channel.
-    args is a tuple: (session, base_url, url, name, logo_url)
+    Worker function to process a single channel using curl.
+    args is a tuple: (base_url, url, name, logo_url)
     """
-    session, base_url, url, name, logo_url = args
+    base_url, url, name, logo_url = args
     full_url = urljoin(base_url, url)
     
     try:
-        # Response time might be slow, giving it 15s
-        play_resp = session.get(full_url, timeout=15)
+        curl_cmd = 'curl.exe' if sys.platform == 'win32' else 'curl'
+        # Reduced timeout for individual channels
+        result = subprocess.run(
+            [curl_cmd, '-s', '-L', '--retry', '2', '-H', 'User-Agent: Mozilla/5.0', '--max-time', '15', full_url],
+            capture_output=True,
+            text=True,
+            encoding='utf-8',
+            errors='ignore'
+        )
         
-        if play_resp.status_code != 200:
+        if result.returncode != 0:
+            # log(f"[{name}] Failed curl: {result.returncode}") # optional debug
             return None
         
+        play_resp_text = result.stdout
+        
         # Extract video source
-        match = re.search(VIDEO_SRC_PATTERN, play_resp.text)
+        match = re.search(VIDEO_SRC_PATTERN, play_resp_text)
         if match:
             video_src = match.group(1)
             return {
@@ -49,6 +52,8 @@ def process_channel(args):
                 "logo": logo_url,
                 "url": video_src
             }
+        # else:
+            # log(f"[{name}] Failed: No video src.") 
     except Exception as e:
         log(f"Error processing {name}: {e}")
         pass
@@ -58,10 +63,9 @@ def process_channel(args):
 def main():
     log(f"Fetching channel list from {BASE_URL}...")
     headers = {
-        'User-Agent': 'curl/8.16.0',
-        'Accept': '*/*, text/html',
+        'User-Agent': 'Mozilla/5.0',
+        'Accept': '*/*',
         'Connection': 'keep-alive',
-        'Accept-Encoding': 'identity',
     }
     
     session = requests.Session()
@@ -73,15 +77,27 @@ def main():
     retries = Retry(total=5, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
     session.mount('http://', HTTPAdapter(max_retries=retries))
     
+    import subprocess
     try:
-        response = session.get(BASE_URL, timeout=30)
-        response.raise_for_status()
+        # Use curl to fetch the main page
+        curl_cmd = 'curl.exe' if sys.platform == 'win32' else 'curl'
+        result = subprocess.run(
+            [curl_cmd, '-s', '-L', '--retry', '3', '-H', 'User-Agent: Mozilla/5.0', BASE_URL],
+            capture_output=True,
+            text=True,
+            encoding='utf-8',
+            errors='ignore' # ignore encoding errors
+        )
+        if result.returncode != 0:
+            log(f"Failed to fetch main page with curl. RC: {result.returncode}, Stderr: {result.stderr}, Stdout: {result.stdout}")
+            return
+        response_text = result.stdout
     except Exception as e:
-        log(f"Failed to fetch main page: {e}")
+        log(f"Failed to run curl: {e}")
         return
 
     # Find all channel links and names
-    raw_matches = re.findall(LINK_PATTERN, response.text, re.IGNORECASE | re.DOTALL)
+    raw_matches = re.findall(LINK_PATTERN, response_text, re.IGNORECASE | re.DOTALL)
     
     channels_to_process = []
     seen_urls = set()
@@ -113,34 +129,11 @@ def main():
     
     m3u_content = ["#EXTM3U"]
     
-    # Use a session for connection pooling
-    session = requests.Session()
-    session.headers.update(headers)
-    
-    # Prepare arguments for worker
-    # We pass the session (Session is not thread-safe if we were making concurrent requests *with the same session object* potentially,
-    # but here we are just reading. Actually requests.Session IS thread-safe.
-    # However, creating a new session per thread or one global session is fine.
-    # For simplicity and performance, one shared session is usually okay.
     
     work_items = []
     for url, name, logo in channels_to_process:
-        # We pass relative url here because process_channel does urljoin, but wait, we already did urljoin above.
-        # Let's clean up. The process_channel takes 'url', let's pass the already full url.
-        # Actually my process_channel expects (session, base_url, url, ...) and does join.
-        # But `channels_to_process` has `full_url`. 
-        # I will adjust the args passed.
-        work_items.append((session, BASE_URL, url, name, logo))
+        work_items.append((BASE_URL, url, name, logo))
         
-    # We need to change process_channel to accept full_url or handle it. 
-    # Since I can't restart the edit without cancelling, I'll rely on my instruction to Rewrite implementation.
-    # Wait, the ReplacementContent is what I am searching for. I need to make sure the ReplacementContent is correct.
-    # In my ReplacementContent above:
-    # process_channel takes args=(session, base_url, url, name, logo_url)
-    # and does full_url = urljoin(base_url, url)
-    # in the loop: channels_to_process has FULL URLs. 
-    # So urljoin(BASE_URL, full_url) will still be full_url. This is fine.
-    
     results = []
     completed_count = 0
     total = len(work_items)
