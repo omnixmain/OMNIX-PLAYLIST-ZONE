@@ -21,6 +21,7 @@ LINK_PATTERN = r'<a[^>]+href=["\']([^"\']*play\.php\?id=[^"\']+)["\'][^>]*>(.*?)
 VIDEO_SRC_PATTERN = r'var\s+streamUrl\s*=\s*atob\("([^"]+)"\)'
 # Non-greedy match for src to avoid skipping to onerror
 LOGO_PATTERN = r'<img[^>]*?\bsrc=["\']([^"\']+)["\']'
+CATEGORY_PATTERN = r'<span[^>]*class=["\']channel-category["\'][^>]*>(.*?)</span>'
 
 def log(msg):
     print(msg)
@@ -29,9 +30,9 @@ def log(msg):
 def process_channel(args):
     """
     Worker function to process a single channel using curl_cffi.
-    args is a tuple: (base_url, url, name, logo_url)
+    args is a tuple: (base_url, url, name, logo_url, category)
     """
-    base_url, url, name, logo_url = args
+    base_url, url, name, logo_url, category = args
     full_url = urljoin(base_url, url)
     
     try:
@@ -55,6 +56,7 @@ def process_channel(args):
                 return {
                     "name": name,
                     "logo": logo_url,
+                    "group": category,
                     "url": video_src
                 }
             except Exception as e:
@@ -100,6 +102,12 @@ def main():
             raw_logo = logo_match.group(1)
             logo_url = urljoin(BASE_URL, raw_logo)
 
+        # Extract Category
+        category = "Ayna TV" # Default
+        cat_match = re.search(CATEGORY_PATTERN, name_html, re.IGNORECASE)
+        if cat_match:
+            category = cat_match.group(1).strip()
+
         # Clean Name
         name_match = re.search(r'<h6[^>]*class=["\']channel-name["\'][^>]*>(.*?)</h6>', name_html, re.IGNORECASE)
         if name_match:
@@ -111,7 +119,7 @@ def main():
         full_url = urljoin(BASE_URL, url)
         
         if full_url not in seen_urls:
-            channels_to_process.append((full_url, clean_name, logo_url))
+            channels_to_process.append((full_url, clean_name, logo_url, category))
             seen_urls.add(full_url)
     
     log(f"Processing {len(channels_to_process)} unique channels with threading...")
@@ -125,8 +133,8 @@ def main():
     
     
     work_items = []
-    for url, name, logo in channels_to_process:
-        work_items.append((BASE_URL, url, name, logo))
+    for url, name, logo, category in channels_to_process:
+        work_items.append((BASE_URL, url, name, logo, category))
         
     results = []
     completed_count = 0
@@ -150,7 +158,8 @@ def main():
     # Generate M3U
     for item in results:
         logo_attr = f' tvg-logo="{item["logo"]}"' if item["logo"] else ""
-        m3u_content.append(f'#EXTINF:-1 group-title="Ayna TV"{logo_attr},{item["name"]}')
+        group = item.get("group", "Ayna TV")
+        m3u_content.append(f'#EXTINF:-1 group-title="{group}"{logo_attr},{item["name"]}')
         m3u_content.append(item["url"])
 
     import os
