@@ -123,6 +123,8 @@ def generate_m3u(channels):
             
             f.write(f'#EXTINF:-1 group-title="Sony Liv",{name}\n')
             f.write('#EXTVLCOPT:network-caching=1000\n')
+            f.write(f'#EXTVLCOPT:http-user-agent={HEADERS["User-Agent"]}\n')
+            f.write(f'#EXTVLCOPT:http-referrer={HEADERS["Referer"]}\n')
             f.write(f'{url}\n\n')
             
     print(f"Playlist generated: {OUTPUT_FILE} with {len(channels)} channels.")

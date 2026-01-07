@@ -1,93 +1,137 @@
 #EXTM3U
-#EXTINF:-1, Updated: 2026-01-07 17:00:46
+#EXTINF:-1, Updated: 2026-01-07 17:19:32
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 http://example.com/status
 
 #EXTINF:-1 group-title="Sony Liv",SONY HD
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2011671-b/SETHD/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SAB HD
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2011749-b/SABHD/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY MARATHI
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2011740-b/SonyMarathi/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY PAL
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2011741-b/SonyPalSD/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY AATH
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2011641-b/SonyAathSD/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY YAY
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2011746-b/SonyYaySD/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY MAX HD
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2011670-b/SonyMaxhd/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY MAX
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2011745-b/SonyMaxSD/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY WAH
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2011906-b/SonyWah/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY MAX2
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2011908-b/MAX2/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY PIX HD
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2011748-b/PIXHD/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY TEN 1 HD
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2011747-b/TEN1HD/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY TEN 1
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2011739-b/TEN1SD/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY TEN 2 HD
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2020434-b/TEN2HD/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY TEN 2
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2020590-b/TEN2SD/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY TEN 3 HD
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2020591-b/TEN3HD/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY TEN 3
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2020592-b/TEN3SD/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY TEN 4 HD
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2020589-b/ten4hd/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY TEN 4
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2020437-b/ten4sd/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY TEN 5 HD
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",SONY TEN 5
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2020594-b/SONYSIXSD/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
 #EXTINF:-1 group-title="Sony Liv",BBC EARTH
 #EXTVLCOPT:network-caching=1000
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2011907-b/SonyBBCEarthHD/master.m3u8?hdnea=exp=1767789001~acl=/*~id=db7fd822715c7316bd4af653686e33ae-1767745800135~hmac=86affd5cb90da7885d0c7e303e862cdf31f491d65d550a03d3c1f0299160ae7a
 
