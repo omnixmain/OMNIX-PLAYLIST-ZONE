@@ -1,139 +1,139 @@
 import json
-import os
 import time
-import requests
+import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
+import urllib.parse
 
-def get_driver():
+def get_channels_and_cookies():
     options = Options()
+    # options.add_argument("--headless=new") # headless for background
     options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--window-size=1920,1080")
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-    return webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
+    
+    options.set_capability('goog:loggingPrefs', {'performance': 'ALL'})
 
-def get_fresh_cookies():
-    print("Launching Selenium to fetch fresh cookies...")
-    driver = get_driver()
-    cookies = {}
+    print("Launching Selenium to scrape mxonlive...")
+    driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
+    
+    base_url = "https://mxonlive.wuaze.com/toffee"
+    channels_data = []
+    
     try:
-        # Visit a video page to ensure video-specific cookies are generated if needed, 
-        # or just the home page. Toffee usually sets Edge-Cache-Cookie on global hit.
-        url = "https://toffeelive.com/"
-        print(f"Visiting {url}...")
-        driver.get(url)
+        print(f"Visiting {base_url}...")
+        driver.get(base_url)
+        time.sleep(10) # Wait for cloudflare/loading
         
-        print("Waiting for page load and cookie generation...")
-        time.sleep(10) # Give it time to load and set cookies
+        # Get Cookies/UA for M3U
+        cookies = driver.get_cookies()
+        if not cookies:
+             print("No cookies captured!")
+             cookie_str = ""
+        else:
+             cookie_str = "; ".join([f"{c['name']}={c['value']}" for c in cookies])
         
-        selenium_cookies = driver.get_cookies()
-        for cookie in selenium_cookies:
-            # We are specifically looking for Edge-Cache-Cookie but capturing all is safer
-            cookies[cookie['name']] = cookie['value']
-            if cookie['name'] == 'Edge-Cache-Cookie':
-                print(f"Found Edge-Cache-Cookie: {cookie['value'][:30]}...")
+        user_agent = driver.execute_script("return navigator.userAgent;")
+        
+        print(f"Captured Cookies: {cookie_str[:50]}...")
+        
+        # Get Channel List
+        # Elements are <a class="card channel-item" href="play.php?id=...">
+        elems = driver.find_elements(By.CSS_SELECTOR, "a.channel-item")
+        print(f"Found {len(elems)} channels in list.")
+        
+        pending_channels = []
+        for el in elems:
+            try:
+                name = el.find_element(By.CLASS_NAME, "card-title").text.strip()
+                link = el.get_attribute("href") # Absolute URL
+                try:
+                    logo_el = el.find_element(By.TAG_NAME, "img")
+                    logo = logo_el.get_attribute("src")
+                except:
+                    logo = ""
+                
+                pending_channels.append({
+                    "name": name,
+                    "play_url": link,
+                    "logo": logo
+                })
+            except Exception as e:
+                print(f"Error parsing listing item: {e}")
+
+        print(f"Scraping stream URLs for {len(pending_channels)} channels...")
+        
+        # Limit to 5 for testing if needed, but user wants all. 
+        # But for correctness, let's do all.
+        for i, ch in enumerate(pending_channels):
+            try:
+                print(f"[{i+1}/{len(pending_channels)}] Processing {ch['name']}...")
+                driver.get(ch['play_url'])
+                time.sleep(6) # Wait for stream load
+                
+                logs = driver.get_log('performance')
+                stream_url = None
+                
+                # Check logs for M3U8 or stream.php
+                for entry in logs:
+                    message = json.loads(entry['message'])['message']
+                    if message['method'] == 'Network.requestWillBeSent':
+                        req = message['params']['request']
+                        url = req['url']
+                        if ('stream.php' in url and 'play=true' in url) or '.m3u8' in url:
+                             if 'mxonlive' in url:
+                                 stream_url = url
+                                 break
+                
+                if stream_url:
+                    ch['stream_url'] = stream_url
+                    print(f"  -> Found: {stream_url}")
+                else:
+                    print(f"  -> No stream found.")
+                    
+            except Exception as e:
+                print(f"Error scraping channel {ch['name']}: {e}")
+                
+        # Filter valid
+        channels_data = [c for c in pending_channels if 'stream_url' in c]
         
     except Exception as e:
-        print(f"Error fetching cookies: {e}")
+        print(f"Global Error: {e}")
     finally:
         driver.quit()
-    return cookies
+        
+    return channels_data, cookie_str, user_agent
 
-def fetch_channels():
-    # Source URL from Gtajisan/Toffee-channel-bypass
-    # We use this primarily for the static channel info (Logo, Name, M3U8 slug)
-    json_url = "https://raw.githubusercontent.com/Gtajisan/Toffee-channel-bypass/main/toffee_channel_data.json"
-    print(f"Fetching channel list template from {json_url}...")
+def generate_m3u(channels, cookie_str, user_agent):
+    print(f"Generating info for {len(channels)} channels...")
     
-    try:
-        response = requests.get(json_url, timeout=15)
-        response.raise_for_status()
-        data = response.json()
-        return data.get("channels", [])
-    except Exception as e:
-        print(f"Error fetching channel list: {e}")
-        return []
-
-def generate_m3u(channels, cookies):
-    if not channels:
-        print("No channels to write.")
-        return
-
-    # Construct the Cookie header string
-    # Format: CookieName=CookieValue; NextCookie=Value
-    cookie_str = "; ".join([f"{k}={v}" for k, v in cookies.items()])
+    playlist_path = os.path.join(os.getcwd(), "playlist", "toffee.m3u")
+    os.makedirs(os.path.dirname(playlist_path), exist_ok=True)
     
-    # We specifically need the Edge-Cache-Cookie for the headers usually.
-    # If the JSON headers had it, we will OVERRIDE it.
-    
-    print(f"Generating playlist with {len(channels)} channels...")
-
-    # Determine paths
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    # Assuming standard structure: scripts/.. -> root -> playlist/
-    project_root = os.path.dirname(script_dir) 
-    # If script_dir is root/scripts, dirname is root.
-    # Check if we are aiming for 'playlist' folder in project root
-    playlist_dir = os.path.join(project_root, "playlist")
-    
-    os.makedirs(playlist_dir, exist_ok=True)
-    output_path = os.path.join(playlist_dir, "toffee.m3u")
-
-    with open(output_path, "w", encoding="utf-8") as f:
+    with open(playlist_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         
-        for channel in channels:
-            name = channel.get("name", "Unknown")
-            link = channel.get("link", "")
-            logo = channel.get("logo", "")
-            category = channel.get("category_name", "Popular TV Channels")
+        for ch in channels:
+            url = ch['stream_url']
+            name = ch['name']
+            logo = ch['logo']
             
-            if not link:
-                continue
-
-            # Original headers from JSON (might contain static User-Agent we want to keep)
-            headers = channel.get("headers", {})
-            user_agent = headers.get("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-            
-            # Write EXTINF
-            f.write(f'#EXTINF:-1 group-title="{category}" tvg-logo="{logo}",{name}\n')
-            
-            # Write Headers
+            f.write(f'#EXTINF:-1 group-title="Toffee" tvg-logo="{logo}",{name}\n')
             f.write(f'#EXTVLCOPT:http-user-agent={user_agent}\n')
+            f.write(f'#EXTVLCOPT:http-cookie={cookie_str}\n')
+            f.write(f'#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/\n')
+            f.write(f'{url}\n')
             
-            # Inject FRESH cookie
-            if cookie_str:
-                f.write(f'#EXTVLCOPT:http-cookie={cookie_str}\n')
-            
-            # Keep other critical headers if they exist and are static
-            # client-api-header seems static or long-lived in the JSON, but it might also be rotated.
-            # For now, we trust the JSON's client-api-header or ignore if missing. 
-            # The Edge-Cache-Cookie is the usual timestamped one.
-            for key, value in headers.items():
-                k_lower = key.lower()
-                if k_lower not in ["user-agent", "cookie", "host"]:
-                     f.write(f'#EXTVLCOPT:http-header-{key}={value}\n')
-
-            f.write(f'{link}\n')
-
-    print(f"Playlist saved to {output_path}")
-
-def main():
-    # 1. Get Fresh Channels Template
-    channels = fetch_channels()
-    
-    # 2. Get Fresh Cookies via Selenium
-    cookies = get_fresh_cookies()
-    
-    # 3. Generate M3U
-    if channels and cookies:
-        generate_m3u(channels, cookies)
-    else:
-        print("Failed to get channels or cookies. Check errors above.")
+    print(f"Playlist saved to {playlist_path}")
 
 if __name__ == "__main__":
-    main()
+    channels, cookie, ua = get_channels_and_cookies()
+    if channels:
+        generate_m3u(channels, cookie, ua)
+    else:
+        print("No channels extracted.")
