@@ -1,17 +1,24 @@
 import requests
+try:
+    from curl_cffi import requests as crequests
+except ImportError:
+    print("curl_cffi not found, falling back to requests (may fail)")
+    crequests = requests
+
 import re
 import time
 import sys
+import base64
 from urllib.parse import urljoin
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import socket
 
 
 
-BASE_URL = "http://xown.site/web/ayna"
+BASE_URL = "https://n.shopnojaal.top/ayna/"
 # Match href that contains play.php
 LINK_PATTERN = r'<a[^>]+href=["\']([^"\']*play\.php\?id=[^"\']+)["\'][^>]*>(.*?)</a>'
-VIDEO_SRC_PATTERN = r'var\s+videoSrc\s*=\s*"([^"]+)"'
+VIDEO_SRC_PATTERN = r'var\s+streamUrl\s*=\s*atob\("([^"]+)"\)'
 LOGO_PATTERN = r'<img[^>]+src=["\']([^"\']+)["\'][^>]*>'
 
 def log(msg):
@@ -20,40 +27,37 @@ def log(msg):
 
 def process_channel(args):
     """
-    Worker function to process a single channel using curl.
+    Worker function to process a single channel using curl_cffi.
     args is a tuple: (base_url, url, name, logo_url)
     """
     base_url, url, name, logo_url = args
     full_url = urljoin(base_url, url)
     
     try:
-        curl_cmd = 'curl.exe' if sys.platform == 'win32' else 'curl'
-        # Reduced timeout for individual channels
-        result = subprocess.run(
-            [curl_cmd, '-s', '-L', '--retry', '2', '-H', 'User-Agent: Mozilla/5.0', '--max-time', '15', full_url],
-            capture_output=True,
-            text=True,
-            encoding='utf-8',
-            errors='ignore'
-        )
+        # Use simple get with retry logic if possible or just timeout
+        # impersonate="chrome" handles the TLS fingerprint
+        play_resp = crequests.get(full_url, impersonate="chrome", timeout=15)
         
-        if result.returncode != 0:
-            # log(f"[{name}] Failed curl: {result.returncode}") # optional debug
+        if play_resp.status_code != 200:
+            # log(f"[{name}] Failed: Status {play_resp.status_code}")
             return None
         
-        play_resp_text = result.stdout
+        play_resp_text = play_resp.text
         
         # Extract video source
         match = re.search(VIDEO_SRC_PATTERN, play_resp_text)
         if match:
-            video_src = match.group(1)
-            return {
-                "name": name,
-                "logo": logo_url,
-                "url": video_src
-            }
-        # else:
-            # log(f"[{name}] Failed: No video src.") 
+            b64_src = match.group(1)
+            try:
+                # Decode Base64
+                video_src = base64.b64decode(b64_src).decode('utf-8')
+                return {
+                    "name": name,
+                    "logo": logo_url,
+                    "url": video_src
+                }
+            except Exception as e:
+                log(f"[{name}] Failed to decode base64: {e}") 
     except Exception as e:
         log(f"Error processing {name}: {e}")
         pass
@@ -68,32 +72,15 @@ def main():
         'Connection': 'keep-alive',
     }
     
-    session = requests.Session()
-    session.headers.update(headers)
-    
-    from requests.adapters import HTTPAdapter
-    from urllib3.util.retry import Retry
-    
-    retries = Retry(total=5, backoff_factor=1, status_forcelist=[500, 502, 503, 504])
-    session.mount('http://', HTTPAdapter(max_retries=retries))
-    
-    import subprocess
+    # Use curl_cffi for main page too
     try:
-        # Use curl to fetch the main page
-        curl_cmd = 'curl.exe' if sys.platform == 'win32' else 'curl'
-        result = subprocess.run(
-            [curl_cmd, '-s', '-L', '--retry', '3', '-H', 'User-Agent: Mozilla/5.0', BASE_URL],
-            capture_output=True,
-            text=True,
-            encoding='utf-8',
-            errors='ignore' # ignore encoding errors
-        )
-        if result.returncode != 0:
-            log(f"Failed to fetch main page with curl. RC: {result.returncode}, Stderr: {result.stderr}, Stdout: {result.stdout}")
+        response = crequests.get(BASE_URL, impersonate="chrome", timeout=30)
+        if response.status_code != 200:
+            log(f"Failed to fetch main page: Status {response.status_code}")
             return
-        response_text = result.stdout
+        response_text = response.text
     except Exception as e:
-        log(f"Failed to run curl: {e}")
+        log(f"Failed to fetch main page: {e}")
         return
 
     # Find all channel links and names
@@ -113,7 +100,13 @@ def main():
             logo_url = urljoin(BASE_URL, raw_logo)
 
         # Clean Name
-        clean_name = re.sub(r'<[^>]+>', '', name_html).strip()
+        name_match = re.search(r'<h6[^>]*class=["\']channel-name["\'][^>]*>(.*?)</h6>', name_html, re.IGNORECASE)
+        if name_match:
+            clean_name = name_match.group(1).strip()
+        else:
+            clean_name = re.sub(r'<[^>]+>', '', name_html).strip() # Fallback
+        
+        clean_name = re.sub(r'\s+', ' ', clean_name)
         full_url = urljoin(BASE_URL, url)
         
         if full_url not in seen_urls:
