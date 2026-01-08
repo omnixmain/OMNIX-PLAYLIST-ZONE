@@ -4,14 +4,17 @@ import sys
 
 url = "https://hotstarlive.delta-cloud.workers.dev/?token=a13d9c-4b782a-6c90fd-9a1b84"
 output_file = "playlist/hotstar-jio.m3u"
-user_agent = "Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0"
+# Switching to Android-like User-Agent as Browser UA triggers YouTube redirect
+user_agent = "okhttp/3.12.1" 
 
 def fetch_playlist():
     print(f"Fetching URL: {url}")
+    print(f"User-Agent: {user_agent}")
     
     session = requests.Session()
     session.headers.update({
         'User-Agent': user_agent,
+        'X-Requested-With': 'com.live.sktechtv', # Often required for these workers
         'cache-control': 'no-cache, no-store',
     })
     
@@ -52,15 +55,9 @@ def main():
             f.write(content)
         print(f"Saved playlist to {output_file}")
     else:
-        # Check if file exists to determine if we should fail hard or just warn
-        if os.path.exists(output_file):
-            print("Could not update playlist. Keeping existing file.")
-            # Even if we keep existing, we might want to signal warning, but for now allow it.
-            # But if the user WANTS to know it failed, we should probably fail.
-            sys.exit(1) # CHANGED: Fail so user knows update missed.
-        else:
-            print("Could not fetch playlist and no existing file found.")
-            sys.exit(1) 
+        # Fail hard so the workflow shows red
+        print("Could not fetch playlist. Exiting with error.")
+        sys.exit(1)
             
 if __name__ == "__main__":
     main()
