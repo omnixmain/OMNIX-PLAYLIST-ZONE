@@ -17,10 +17,8 @@ jobs:
       run: mkdir -p playlist
 
     - name: Fetch file from hosting
-      env:
-        FILE_URL: ${{ secrets.JCINEMA_FILE_URL }}
       run: |
-        curl -o playlist/jcinema.m3u $FILE_URL
+        curl -o playlist/jcinema.m3u https://raw.githubusercontent.com/alex8875/m3u/main/jcinema.m3u
 
     - name: Commit and push changes
       env:
