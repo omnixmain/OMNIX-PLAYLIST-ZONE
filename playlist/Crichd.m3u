@@ -2,7 +2,7 @@
 #=================================
 # Developed By: OMNIX EMPIER
 # IPTV Telegram Channels: https://t.me/omnix_Empire
-# Last Updated: 2026-01-09 03:59 AM (BD Time)
+# Last Updated: 2026-01-09 04:43 AM (BD Time)
 # Disclaimer:
 # This tool does NOT host any content.
 # It aggregates publicly available data for informational purposes only.
@@ -77,9 +77,6 @@ https://crichd.workspace-sultanarabi161.workers.dev/live/star1in.m3u8
 #EXTINF:-1 tvg-id="Star Sports 1 Hindi" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1-by-xfireflix.png" group-title="Sports", Star Sports 1 Hindi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/starhindi.m3u8
-#EXTINF:-1 tvg-id="Super Football" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/34-by-xfireflix.png" group-title="Sports", Super Football
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/superfotball.m3u8
 #EXTINF:-1 tvg-id="TNT 1" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png" group-title="Sports", TNT 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/bbtsp1.m3u8
