@@ -1,0 +1,34 @@
+name: DreamTV Update
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Run extraction script
+      run: python scripts/dreamtv.py
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'GitHub Action'
+        git config --global user.email 'action@github.com'
+        git add playlist/dreamtv.m3u
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update DreamTV playlist" && git push)
