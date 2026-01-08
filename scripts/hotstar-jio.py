@@ -4,26 +4,33 @@ import sys
 
 url = "https://hotstarlive.delta-cloud.workers.dev/?token=a13d9c-4b782a-6c90fd-9a1b84"
 output_file = "playlist/hotstar-jio.m3u"
-# Switching to Android-like User-Agent as Browser UA triggers YouTube redirect
-user_agent = "okhttp/3.12.1" 
+
+# List of agents to try
+user_agents = [
+    "okhttp/3.12.1", 
+    "Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0",
+    "Mozilla/5.0 (Linux; Android 10; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
+]
 
 def fetch_playlist():
     print(f"Fetching URL: {url}")
-    print(f"User-Agent: {user_agent}")
     
     session = requests.Session()
-    session.headers.update({
-        'User-Agent': user_agent,
-        'X-Requested-With': 'com.live.sktechtv', # Often required for these workers
-        'cache-control': 'no-cache, no-store',
-    })
     
-    # Retry strategy
-    retries = 3
-    for i in range(retries):
+    for attempt, agent in enumerate(user_agents):
+        print(f"\n--- Attempt {attempt+1} with User-Agent: {agent} ---")
+        
         try:
-            print(f"Attempt {i+1} of {retries}...")
-            response = session.get(url, timeout=20)
+            headers = {
+                'User-Agent': agent,
+                'X-Requested-With': 'com.live.sktechtv' if 'okhttp' in agent else 'XMLHttpRequest', 
+                'cache-control': 'no-cache, no-store',
+                'Accept': '*/*',
+                'Accept-Language': 'en-US,en;q=0.9',
+                'Connection': 'keep-alive'
+            }
+            
+            response = session.get(url, headers=headers, timeout=20)
             print(f"Status: {response.status_code}")
             
             if response.status_code == 200:
@@ -33,15 +40,14 @@ def fetch_playlist():
                     return content
                 else:
                     print("Response received properly but does not seem to be M3U content.")
-                    print(f"Content preview: {content[:200]}")
+                    print(f"Preview: {content[:100]}...")
             else:
                  print(f"Failed with status code: {response.status_code}")
-                 print(f"Response: {response.text[:200]}")
 
         except requests.RequestException as e:
-            print(f"Network error on attempt {i+1}: {e}")
-        
-    print("All retry attempts failed.")
+            print(f"Network error: {e}")
+            
+    print("\nAll User-Agents failed.")
     return None
 
 def main():
@@ -55,8 +61,12 @@ def main():
             f.write(content)
         print(f"Saved playlist to {output_file}")
     else:
+        # Check if file exists to determine if we should fail hard or just warn
+        if os.path.exists(output_file):
+            print("Could not update playlist. Keeping existing file.")
+        
         # Fail hard so the workflow shows red
-        print("Could not fetch playlist. Exiting with error.")
+        print("Required playlist could not be fetched. Exiting with error.")
         sys.exit(1)
             
 if __name__ == "__main__":
