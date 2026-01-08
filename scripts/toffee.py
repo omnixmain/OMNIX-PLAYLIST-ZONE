@@ -7,6 +7,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 import urllib.parse
+import requests
 
 def get_channels_and_cookies():
     options = Options()
@@ -91,8 +92,30 @@ def get_channels_and_cookies():
                                  break
                 
                 if stream_url:
+                    print(f"  -> Found Master URL: {stream_url}")
+                    
+                    # Extract Secondary/Variant URL
+                    try:
+                        session = requests.Session()
+                        for cookie in driver.get_cookies():
+                            session.cookies.set(cookie['name'], cookie['value'])
+                        
+                        ua = driver.execute_script("return navigator.userAgent;")
+                        session.headers.update({'User-Agent': ua})
+                        
+                        response = session.get(stream_url)
+                        if response.status_code == 200:
+                            lines = response.text.splitlines()
+                            for line in lines:
+                                if line.strip().startswith("http") or (line.strip().endswith(".m3u8") and not line.strip().startswith("#")):
+                                    # It's a variant stream
+                                    stream_url = line.strip()
+                                    print(f"  -> Resolved Secondary URL: {stream_url}")
+                                    break
+                    except Exception as parse_err:
+                        print(f"  -> formatting error: {parse_err}")
+
                     ch['stream_url'] = stream_url
-                    print(f"  -> Found: {stream_url}")
                 else:
                     print(f"  -> No stream found.")
                     
