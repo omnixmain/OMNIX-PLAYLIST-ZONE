@@ -7,8 +7,8 @@ output_file = "playlist/hotstar-jio.m3u"
 
 # List of agents to try
 user_agents = [
+    "Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0", # Working UA
     "okhttp/3.12.1", 
-    "Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0",
     "Mozilla/5.0 (Linux; Android 10; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
 ]
 
@@ -23,11 +23,8 @@ def fetch_playlist():
         try:
             headers = {
                 'User-Agent': agent,
-                'X-Requested-With': 'com.live.sktechtv' if 'okhttp' in agent else 'XMLHttpRequest', 
                 'cache-control': 'no-cache, no-store',
-                'Accept': '*/*',
-                'Accept-Language': 'en-US,en;q=0.9',
-                'Connection': 'keep-alive'
+                # 'X-Requested-With': 'com.live.sktechtv' if 'okhttp' in agent else 'XMLHttpRequest', 
             }
             
             response = session.get(url, headers=headers, timeout=20)
