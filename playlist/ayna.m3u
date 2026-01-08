@@ -1,398 +1,398 @@
 #EXTM3U
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/dbc585f70a60b9855b6e13a8ce4cb6f4",T Sports HD
-https://tvsen7.aynascope.net/tsports-hd/index.m3u8?e=1767899989&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=52747f16290ac88b4b3a0f781d526a1f
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/94a778ec3219f7eb54bdf1ee07a95788",Willow TV
-https://tvsen5.aynascope.net/willowhd/index.m3u8?e=1767899989&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=c13eed0402bf6433a7181c3aa9189a77
+https://tvsen5.aynascope.net/willowhd/index.m3u8?e=1767903413&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=86f746353bfd84114afa5b00c7e2adb6
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/9d9d7cbfba5a8ceea648bbd963ad1014",PTV Sports
+https://tvsen5.aynascope.net/PtvSports/index.m3u8?e=1767903413&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3c7aa523d4d9b4bdb3d678b144dfe9c3
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/64de30d2df9b2a888cb73f17614a9a8b",A sports
+https://tvsen6.aynascope.net/asports/index.m3u8?e=1767903413&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=1c50e7c141b51759dcc0fdf708af579b
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/cd6a179dd03654904796600ed00665aa",FANCODE
 https://bd-mc-fdlive.fancode.com/mumbai/138295_english_hls_35bd7ab90585502_1adfreeta-di_h264/index.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/64de30d2df9b2a888cb73f17614a9a8b",A sports
-https://tvsen6.aynascope.net/asports/index.m3u8?e=1767899989&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=a568a73bb3605555e5a7a06899f86a50
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/9d9d7cbfba5a8ceea648bbd963ad1014",PTV Sports
-https://tvsen5.aynascope.net/PtvSports/index.m3u8?e=1767899989&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3cdad9bdbd90a97482cf2ac009af1049
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/b0befd2d80789976ef317aeb5ef935b9",PSN 1 Sports
-https://cdn4.skygo.mn/live/disk1/SPSPrime/HLSv3-FTA/SPSPrime.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/bcfc4d063ae30626ae0ffe998c74c272",PSN 4 Sports
-https://cdn4.skygo.mn/live/disk1/SPSFight/HLSv3-FTA/SPSFight.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/dbc585f70a60b9855b6e13a8ce4cb6f4",T Sports HD
+https://tvsen7.aynascope.net/tsports-hd/index.m3u8?e=1767903413&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=dc8743c43722f0d0916d7c029364478c
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/a6a66023b1ce294c3d0e8ebf256fa5f7",PSN 2 Sports
 https://cdn4.skygo.mn/live/disk1/SPSPlay/HLSv3-FTA/SPSPlay.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/b0befd2d80789976ef317aeb5ef935b9",PSN 1 Sports
+https://cdn4.skygo.mn/live/disk1/SPSPrime/HLSv3-FTA/SPSPrime.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/fa186d6d9b9ba9cb2403531b1fcdc08b",Dubai Sports 1
 https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/3c3b41f4c5f83f82011b90203c813508",PSN 5 Sports
 https://cdn4.skygo.mn/live/disk1/SPSPlus/HLSv3-FTA/SPSPlus.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/bcfc4d063ae30626ae0ffe998c74c272",PSN 4 Sports
+https://cdn4.skygo.mn/live/disk1/SPSFight/HLSv3-FTA/SPSFight.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/da4282cd107cc3d40efadae488b187e5",Fox Sports 2
+https://tvsen7.aynascope.net/foxsports2/index.m3u8?e=1767903414&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=fb333c41de96c557f100eaf6b46eec16
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/04d612228fedede6da010e5b163d5ac6",Fox Sports 1
+https://tvsen7.aynascope.net/foxsports1/index.m3u8?e=1767903414&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=8b0a570942d0833e8203a1c715d1ec2b
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/01629278d370141d5f1ae8dbdc97907e",Dubai Sports 2
 https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/833148a9228c3a12ef0effc8f265cf1f",Dubai Sports 3
 https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/748d28752dcf95740561f1ac39e15fc3",Sports First TV
 https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/da4282cd107cc3d40efadae488b187e5",Fox Sports 2
-https://tvsen7.aynascope.net/foxsports2/index.m3u8?e=1767899991&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=0dc65b090d58106445bffc6635986a77
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/04d612228fedede6da010e5b163d5ac6",Fox Sports 1
-https://tvsen7.aynascope.net/foxsports1/index.m3u8?e=1767899991&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=2050b7329b065f649e14fe72a3d82b14
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/0a241a80bf51d2c3b3722531706ce086",NBC Sports
-https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/04a56bc13c4c486ad4a4d82a1e00fd73",Bein Sports
 http://fl1.moveonjoy.com/BEIN_SPORTS/index.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/1f08174ace89c73d3d4d8b72dd4601a4",Sharjah Sports TV
 https://svs.itworkscdn.net/smc4sportslive/smc4tv.smil/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/0a241a80bf51d2c3b3722531706ce086",NBC Sports
+https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/1aa37e387ed56a1260b285558eec7c46",Sports Grid
-https://tvsen6.aynascope.net/SportsGrid/index.m3u8?e=1767899991&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=d01f93bb82e1afc16e3288e939d3f6a5
+https://tvsen6.aynascope.net/SportsGrid/index.m3u8?e=1767903415&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=48269004511079bfc0da35a653f4901c
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/59fe7ff434fed04ecec29b4d737ebc95",TSN 1
+https://tvsen7.aynascope.net/tsn1/index.m3u8?e=1767903416&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=364992ba59f3270f0356ba713344ae1e
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/495e1816602db61aa4c2a348a257bd0a",Goal TV
+https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/4a49a25eebddb4b8ad8e59298dd2040c",Abu Dhabi Sports 1
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_1/abudhabi_sports_1_hls_nd/index.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/e2f09b3c7415180f248438ef9688846a",Abu Dhabi Sports 2
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/abudhabi_sports_2/abudhabi_sports_2_hls_nd/index.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/59fe7ff434fed04ecec29b4d737ebc95",TSN 1
-https://tvsen7.aynascope.net/tsn1/index.m3u8?e=1767899992&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=ab798259e536d740e7edbd28def92021
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/495e1816602db61aa4c2a348a257bd0a",Goal TV
-https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/17642cb60c2af7fc36ca1e08cc54fdae",TSN 2
-https://tvsen7.aynascope.net/tsn2/index.m3u8?e=1767899992&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=6bf80af471193a6ce9220e2c0b0460ef
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/1cb10107a47db353e35ad78d3160eda7",TSN 3
-https://tvsen7.aynascope.net/tsn3/index.m3u8?e=1767899992&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=058bc23a59dd1280882a4782c74cea17
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/e1749cf3040f11c63e722c941f213927",Xtrem Sports
-https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/1a580ee2636a0c4761e623bc131ba7a6",WOF 1
-https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
+https://tvsen7.aynascope.net/tsn2/index.m3u8?e=1767903416&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=596490bd0ed724e7ee9145bccc164950
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/334c56d6cedd424b0642ec83f05bc381",Sports TV
 https://live.sportstv.com.tr/hls/low/sportstv.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/79f1ee920d6931a767ae0030e1c7c12b",NFL Network
-https://tvsen6.aynascope.net/nfl/index.m3u8?e=1767899993&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=dbca78ba7983d91d311096199d244cbb
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/5128cd32518d5a9ba7a37e21947fd8fd",Talk Sport
-https://tvsen6.aynascope.net/talkSPORT/index.m3u8?e=1767899993&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=8d11a900a4c2cbed4d2a33765f7c4b8c
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/e1749cf3040f11c63e722c941f213927",Xtrem Sports
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/1cb10107a47db353e35ad78d3160eda7",TSN 3
+https://tvsen7.aynascope.net/tsn3/index.m3u8?e=1767903416&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=87d1ca040f50c670cdf5678ae2aa29c5
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/edb73991516696dfd53efbd32d80ca58",Golf Channel
-https://tvsen6.aynascope.net/golfchannel/index.m3u8?e=1767899993&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=9fe7a0d1461c37d108fe8e982f2bd067
+https://tvsen6.aynascope.net/golfchannel/index.m3u8?e=1767903416&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=06da2661ad349425ec6d5829a7980e9f
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/79f1ee920d6931a767ae0030e1c7c12b",NFL Network
+https://tvsen6.aynascope.net/nfl/index.m3u8?e=1767903417&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=f18924ee07cb11fd154de3c2b489ff8c
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/1a580ee2636a0c4761e623bc131ba7a6",WOF 1
+https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/b54495ee3cdd53ddaa19d1f98120f488",KTV Sport Plus
 https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/66bdaa21aba96de6d32a3515715f7502",Marquee Sports Network
-https://tvsen6.aynascope.net/MarqueeSportsNetwork/index.m3u8?e=1767899993&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=cd85f89fdd2cc074637c079862d77016
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/39174e32d4f8d29a95c881637fe1ecdb",More Then Sports TV
-https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+https://tvsen6.aynascope.net/MarqueeSportsNetwork/index.m3u8?e=1767903417&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3e5027844002be7ec5a1ee0d9665be38
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/5128cd32518d5a9ba7a37e21947fd8fd",Talk Sport
+https://tvsen6.aynascope.net/talkSPORT/index.m3u8?e=1767903417&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=0d95dfcdc9be7bb2f968b1305393a296
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/188500190395c4de0e506d518925dcc4",DD Sports
 https://cdn-6.pishow.tv/live/13/master.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/39174e32d4f8d29a95c881637fe1ecdb",More Then Sports TV
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/c96957383c33f1948e34fdcc07fbc29f",Star Sports Select 1
-https://tvsen6.aynascope.net/spsel1/index.m3u8?e=1767899994&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=844aacad3e22a891e3bf0a5019518db9
+https://tvsen6.aynascope.net/spsel1/index.m3u8?e=1767903417&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=4cbe4a77be67e03ae95ac0d77cadf3fa
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/16ee3a1243424dfe8f4341a90afbd46e",Star Sports Select 2 HD
-https://tvsen7.aynascope.net/ssps2hd/index.m3u8?e=1767899994&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=659cf2b74ed1fdee1daadbd0a2c33edc
+https://tvsen7.aynascope.net/ssps2hd/index.m3u8?e=1767903417&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=f1113c699a3506c10eabc604acb0fedd
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/64fb82ecdef7d8b182c944c639c4f8b7",Star Sports 1 HD
-https://tvsen5.aynascope.net/c9EpzZ6fQBJ3/index.m3u8?e=1767899994&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=27b1e852c49053e2a7b8d7f038303e77
+https://tvsen5.aynascope.net/c9EpzZ6fQBJ3/index.m3u8?e=1767903418&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=72e7bdf86ff690a0ff7a80abb82c61ac
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/daeac3b0e17bfabd911bd5dc63c69aa8",STAR SPORTS 2 HD
-https://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8?e=1767899994&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=2c627a07d58db842588d5ca1c8cebf6a
+https://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8?e=1767903418&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=e777478181bf5d4ee5006b78c929d2d1
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/f55bea3263be1af187fe1122e4f44142",Bahrain Sports 1
 https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/4429e88eac56b0c7c7274ce36db967d8",Bahrain Sports 2
-https://tvsen6.aynascope.net/BahrainSports2/index.m3u8?e=1767899994&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=4d3cc596f16bf01c5d1ed1959438efe6
+https://tvsen6.aynascope.net/BahrainSports2/index.m3u8?e=1767903418&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3a94e1415da4b7176c188e32084a4b47
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/33f87783637fc95fdb8837ba9344c9e9",Oman Sports TV
 https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/98963a3064053f0f01bdf9186c86c432",Motor Sports TV
-https://25dee28f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vdG9yc3BvcnR0di0xX0hMUw/playlist.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/076d49c9e09651ec0f1e1eee338e4a19",4 Sports
 https://pepsi.abntv.live/hls/4spstream.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/06f5b193bfa4d31310ee934eb3c2222e",speed sports 1
-https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/3f1f920559925d7504151bceb69c3d19",Persiana Sports
-https://spstr.abntv.live/hls/psstream.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/fede32688e783945fed0473f3b0daf23",Sports Fishing TV
-https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/ce9f61273938b15fd5372f1071ecfec5",Rta sports
-https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/index.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/c30429bafb0fb4f457efec501cb9f0e8",Dubai Sports
-https://dmisdracta.cdn.mgmlcdn.com/events/smil:events.stream.smil/chunklist.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/b46df1959322aa48d270a6b163234c76",Espn
-https://tvsen5.aynascope.net/espn/index.m3u8?e=1767899995&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=1c080006f7e7bd412e97399739dd06a1
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/f61b7578d7596a0cd3a1e226dec4454a",Dubai One
 https://dminnvllta.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/chunklist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/3f1f920559925d7504151bceb69c3d19",Persiana Sports
+https://spstr.abntv.live/hls/psstream.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/98963a3064053f0f01bdf9186c86c432",Motor Sports TV
+https://25dee28f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vdG9yc3BvcnR0di0xX0hMUw/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/ce9f61273938b15fd5372f1071ecfec5",Rta sports
+https://rtatv.akamaized.net/Content/HLS/Live/channel(RTA3)/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/b46df1959322aa48d270a6b163234c76",Espn
+https://tvsen5.aynascope.net/espn/index.m3u8?e=1767903419&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=367059f903be79f484dbd522c87c1856
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/fede32688e783945fed0473f3b0daf23",Sports Fishing TV
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/c30429bafb0fb4f457efec501cb9f0e8",Dubai Sports
+https://dmisdracta.cdn.mgmlcdn.com/events/smil:events.stream.smil/chunklist.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/030ec528e912afb9a2ec3b4c5167a928",Bleav Football
 https://linear-493.frequency.stream/dist/glewedtv/493/hls/master/playlist.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/7d20b575edc4e4b5276faa8c246e72a4",Cricket Gold
-https://tvsen6.aynascope.net/CricketGold/index.m3u8?e=1767899995&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=11784d4bbac4c8c577d9636978e5b5e8
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/06f5b193bfa4d31310ee934eb3c2222e",speed sports 1
+https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/0b6e5ad3267e5a5897abbe8f3be7b78a",BT Sports 2
-https://tvsen6.aynascope.net/btSport2/index.m3u8?e=1767899996&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=04aa0ddd25f69e7678ae0365708a1a03
+https://tvsen6.aynascope.net/btSport2/index.m3u8?e=1767903419&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=1860e7abc111693aa2d55f2188d6c6b7
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/7d20b575edc4e4b5276faa8c246e72a4",Cricket Gold
+https://tvsen6.aynascope.net/CricketGold/index.m3u8?e=1767903419&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=f11854bf0043279aa3944aaf95899267
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/a3d1a4112bc7c6ee337871b58449542c",TNT Sport 1
-https://tvsen6.aynascope.net/btSport1/index.m3u8?e=1767899996&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=c10e3fca2b03ec792ad17e45fad8f859
+https://tvsen6.aynascope.net/btSport1/index.m3u8?e=1767903419&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=265113b7ef4d75992e9edf71487dbb32
+#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/a5b72812fcfb7bbe4fcdcd455824db7e",Tsport 7
+https://tvsen6.aynascope.net/tsport7/index.m3u8?e=1767903420&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=753aeb8fd605a55a7a7916786114b32d
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/07decb298043de2944e444a03bc2bcbc",Geo Super HD
 http://116.90.120.149:8000/play/a021/index.m3u8
-#EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/a5b72812fcfb7bbe4fcdcd455824db7e",Tsport 7
-https://tvsen6.aynascope.net/tsport7/index.m3u8?e=1767899996&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=0338454623ca9dd3ce5dc08c8441908f
+#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/aac6488b68844e5756ab46eb79659de8",Jamuna TV
+https://tvsen6.aynascope.net/jamunatv/index.m3u8?e=1767903420&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=c6f99c51d0e496ce56d6e60fff6caca7
 #EXTINF:-1 group-title="Sports" tvg-logo="https://s3.aynaott.com/storage/370762bb5582389fb52469931cdcd357",Pro Sports International
 https://proshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/35ae3e7750a053925a0a1732e219dc7a",BTV News
-https://tvsen6.aynascope.net/BTVNews/index.m3u8?e=1767899996&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=8d18954c99a78782de19e777297134d3
-#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/ece71c1163a377fbe2d93f9d28c34f60",Somoy News TV
-https://tvsen6.aynascope.net/somoytv/index.m3u8?e=1767899996&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=fd109f897166bfda711723c3e418c794
+https://tvsen6.aynascope.net/BTVNews/index.m3u8?e=1767903420&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=f601f006e8e549820830bc4fbb9c81fa
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/d91767995b2f2a54852c92bbbc20daa7",Ekattor TV
-https://tvsen6.aynascope.net/ekattorbdtv/index.m3u8?e=1767899997&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=7567528d452addbeac608386dd16b9d9
+https://tvsen6.aynascope.net/ekattorbdtv/index.m3u8?e=1767903420&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=373337c6897f97a87cfb927445d491a0
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/7c002f22c02096b0d1ba833ae9ea6d5b",News 24 BD
-https://tvsen6.aynascope.net/news24/index.m3u8?e=1767899997&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3a584ff120a20761c30b62359c56c827
-#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/aac6488b68844e5756ab46eb79659de8",Jamuna TV
-https://tvsen6.aynascope.net/jamunatv/index.m3u8?e=1767899997&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=bc97d8947e54cb036b806a794f9fb2c5
+https://tvsen6.aynascope.net/news24/index.m3u8?e=1767903420&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=e4fd1fdf014158e698456c1381d316d3
+#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/ece71c1163a377fbe2d93f9d28c34f60",Somoy News TV
+https://tvsen6.aynascope.net/somoytv/index.m3u8?e=1767903420&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=66c522b0d73c669f2df84f811d3d561b
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/129b0d0a02566999a0c164cd7d506e55",Channel 24
-https://tvsen6.aynascope.net/channel24/index.m3u8?e=1767899997&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=33dd24392532a435d1a5e2ace681783d
+https://tvsen6.aynascope.net/channel24/index.m3u8?e=1767903420&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=dc0c8101d189974cef6fbece4dcc19bc
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/2c5a73ac3f9772a9cb2d18df1b152545",DBC News
-https://tvsen6.aynascope.net/dbcnews/index.m3u8?e=1767899997&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=114c2e4cc0ef1f3779ed3fd816bb500b
+https://tvsen6.aynascope.net/dbcnews/index.m3u8?e=1767903420&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=a8efc7cbfdeda7fbf1d54f42c8fa1ec3
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/6653326503fcade746d87881d5c99697",Independent TV
-https://tvsen6.aynascope.net/independenttv/index.m3u8?e=1767899997&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=20df3845243a839d5a42eb08aae2a218
-#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/7a20437e5660324c20cf8251ccb7a697",BBC News
-https://tvsen6.aynascope.net/bbcnews/index.m3u8?e=1767899997&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=53c191998c6402ffab5c4295c6ac56f1
+https://tvsen6.aynascope.net/independenttv/index.m3u8?e=1767903421&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=a17ab31cd3330fb012ddc37ac2791346
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/e0b6da4715f468eb39591911a0597546",CNN
-https://tvsen6.aynascope.net/cnn/index.m3u8?e=1767899997&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=06c6399255f21009c3ff02c8f2963850
-#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/0ce159bdea29fce7e3e85d12bc8a10c5",DW News
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
+https://tvsen6.aynascope.net/cnn/index.m3u8?e=1767903421&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=1824deabf25ff08ce5e6f6dc6669045a
+#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/7a20437e5660324c20cf8251ccb7a697",BBC News
+https://tvsen6.aynascope.net/bbcnews/index.m3u8?e=1767903421&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=b2fdbd77e2ff2e8587bdb9aa944cb65f
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/5d707a103f48d8f9f1634f1b70e2ecdf",AlJazeera
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/0ce159bdea29fce7e3e85d12bc8a10c5",DW News
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/253dcc8b5951160d6aa26bc5ac65ddb8",Bloomberg TV
-https://tvsen6.aynascope.net/bloombergtv/index.m3u8?e=1767899998&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=eee7d992a57c1fc72f8732f44ad092ba
+https://tvsen6.aynascope.net/bloombergtv/index.m3u8?e=1767903421&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5e7413ba17305793ca47a224b13c811f
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/16a213d06e7362d97cb6085e70c9b5a2",CNBC TV
-https://tvsen6.aynascope.net/cnbc/index.m3u8?e=1767899998&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=fd7ccf35273d7046585a760686d32a19
+https://tvsen6.aynascope.net/cnbc/index.m3u8?e=1767903421&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=ee717657d05531d83165b9d9c383ffca
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/9f391e512f41bec54b163b83667da453",CP 24
-https://tvsen6.aynascope.net/cp24/index.m3u8?e=1767899998&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=20955eab5bc2869c92638de6b91e8012
+https://tvsen6.aynascope.net/cp24/index.m3u8?e=1767903421&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=b960d9a859d11912d63510d0add3e950
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/9a9ca715640d3dc227a0a74750ab17f2",MSNBC News
-https://tvsen6.aynascope.net/msnbc/index.m3u8?e=1767899998&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=592a298eef793a3ef7bc16e7bca873c1
+https://tvsen6.aynascope.net/msnbc/index.m3u8?e=1767903421&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=f2d5909b8b2e53242909a3a58139568d
+#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/065af1ce1aa68d9d96c27050a8125413",ABC News
+https://tvsen6.aynascope.net/AbcNews/index.m3u8?e=1767903421&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=d551759c539d6d019fbfb9f58b574ac6
+#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/67ec5601a4ce880899953322b536a783",VTV USA
+https://tvsen7.aynascope.net/vtvusa/index.m3u8?e=1767903422&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=eddd9d614667d44b379b77d44450789f
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/b28173a251bda1357f9884ca7eef7b89",ABC 7 Bay
 https://content.uplynk.com/channel/ext/4413701bf5a1488db55b767f8ae9d4fa/kgo_24x7_news.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/69d8281f965475f3293a3e30de8c0ccb",Sky News
-https://tvsen5.aynascope.net/skynews/index.m3u8?e=1767899998&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3f6703bed048c351cb562d494e21a677
-#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/67ec5601a4ce880899953322b536a783",VTV USA
-https://tvsen7.aynascope.net/vtvusa/index.m3u8?e=1767899999&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5ee1a8d58a9b512780e2386edd2a3f2e
+https://tvsen5.aynascope.net/skynews/index.m3u8?e=1767903422&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=48184199dae6ee62c11f3d3c1df6742b
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/90258e6758834a12979d27097bee04a7",LIFE TIME
-https://tvsen7.aynascope.net/lifetime/index.m3u8?e=1767899999&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=fd1b3d2f9f0d7288eb0a0994dbae2145
+https://tvsen7.aynascope.net/lifetime/index.m3u8?e=1767903422&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=1e32b7bd479e235b0af57b01529e3977
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/4eaf83274ee309489b535852b1780ad2",BEK TV News
 https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEeast.smil/playlist.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/d969a37a7e1bbd49449ae092d34f0549",NHK World
-https://tvsen6.aynascope.net/nhkworld/index.m3u8?e=1767899999&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=330b953ce2ce31725ce1f920ef1fa8c7
-#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/065af1ce1aa68d9d96c27050a8125413",ABC News
-https://tvsen6.aynascope.net/AbcNews/index.m3u8?e=1767899999&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=9eaf0420e64595bda49ae150b5d0b005
-#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/18fb4fcb519d5df8323e48c1d58f5ae7",Fox News
-https://tvsen6.aynascope.net/foxnews/index.m3u8?e=1767899999&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=403451d0181b2b3e03dd6489a97b4b1f
-#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/4f6486854be670f7458ab60d0402ee42",Fox 5
-https://tvsen6.aynascope.net/fox5/index.m3u8?e=1767899999&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=806efef77fa179a2dd09a4fc83dead82
+https://tvsen6.aynascope.net/nhkworld/index.m3u8?e=1767903422&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=d7fe8f82dab3a115635d8a9b6f098e56
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/20e4602dd584784607e5eff3963cdde6",Fox business
-https://tvsen6.aynascope.net/foxbusiness/index.m3u8?e=1767899999&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=c47be456df7c4a9c0161129ace58549f
+https://tvsen6.aynascope.net/foxbusiness/index.m3u8?e=1767903422&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3da5e78465847036f929f0ea24589dc9
+#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/4f6486854be670f7458ab60d0402ee42",Fox 5
+https://tvsen6.aynascope.net/fox5/index.m3u8?e=1767903422&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=65d2d8cf922fbbe0fa69860d3b9ca2df
+#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/18fb4fcb519d5df8323e48c1d58f5ae7",Fox News
+https://tvsen6.aynascope.net/foxnews/index.m3u8?e=1767903422&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=cfb249a3fa1280b0f8952965c3530006
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/f63d4aad95532175f7f44be439f74111",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/6dd20ecde19ea3f6b6cf6c040701973e",Fox Weather
+https://247wlive.foxweather.com/stream/index.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/9882913a8d68aa99c0501b64749d6320",ABN
 https://mediaserver.abnvideos.com/streams/abnurdu.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/671cfb22f8d0362ae01403b6e748f2e2",Wion
 https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/6dd20ecde19ea3f6b6cf6c040701973e",Fox Weather
-https://247wlive.foxweather.com/stream/index.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/67e08c23033802b4443baf81d1b048bf",WEATHER CHANNEL
-https://tvsen6.aynascope.net/TheWeatherChannel/index.m3u8?e=1767900000&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=eea5b7d4601f404763b37b9951564fb9
-#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/21992f5e8529a9d2a94b6edf917dbd8f",AccuWeather
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
+https://tvsen6.aynascope.net/TheWeatherChannel/index.m3u8?e=1767903423&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=938e99c17ecd43bc2cdd3f84347a2c6b
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/78b7ab973209ec06346cf8acfd8544cd",Sky News Weather
 https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
+#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/21992f5e8529a9d2a94b6edf917dbd8f",AccuWeather
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/b0bdea4df810e2d46f689cbb6c990c91",Weather SPY
 https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/111bfd01fb43770e925ca9cf16663f56",TIME TV USA
-https://tvsen7.aynascope.net/timetv/index.m3u8?e=1767900001&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=6a22beee17d9606114857ba966e3c295
+https://tvsen7.aynascope.net/timetv/index.m3u8?e=1767903423&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=fd0d2a4ec31efedac46fd3431b19c64c
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/201491b7327fffb27d78f800dd9f42d2",Iran Press
 https://live.presstv.ir/hls/presstv_5_482/index.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/fd587fd6f8a11005910212b669d04e99",Dubai TV
-https://dmieigthvllta.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/chunklist.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/6f17785db48e7b5fb68b7d441ad3ad10",Awaaz India
 http://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
+#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/fd587fd6f8a11005910212b669d04e99",Dubai TV
+https://dmieigthvllta.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/chunklist.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/b6d9c515205186e7f23afb0b1ccba232",News India 24x7
-https://tvsen5.aynascope.net/NewsIndia24x7/index.m3u8?e=1767900001&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=d88314a29d12725cf0838c88d3c476db
+https://tvsen5.aynascope.net/NewsIndia24x7/index.m3u8?e=1767903424&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=c10ffdf70680d96e5133bb24fba4a630
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/b5ac48b419add1992d235f7adc884889",TV9 Bharatvarsh
-https://tvsen7.aynascope.net/TV9Bharatvarsh/index.m3u8?e=1767900001&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=c2d87d149063f40f854646484eb34eff
+https://tvsen7.aynascope.net/TV9Bharatvarsh/index.m3u8?e=1767903424&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=abc437b79613b52c5ce59ccfb27ae241
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/d04287478c2aa26265b600174318992d",Bharat Samachar
-https://tvsen7.aynascope.net/BharatSamachar/index.m3u8?e=1767900001&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=a09ae687972946f018090ce3dbd72b76
+https://tvsen7.aynascope.net/BharatSamachar/index.m3u8?e=1767903424&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=f2f1bfe47dee061226aba28612babaa6
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/947715e0a22f16ac21805073ce6eb0b6",Republic TV Bharat
-https://tvsen6.aynascope.net/RepublicTVBharat/index.m3u8?e=1767900001&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=bcb258b80a5cd617aae858df379404fa
+https://tvsen6.aynascope.net/RepublicTVBharat/index.m3u8?e=1767903424&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=ec6e583b820ceeca798c4378cd7b2388
+#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/d3943796d7fe5962ca5385b656682b1a",Hindi Khabar
+https://tvsen7.aynascope.net/HindiKhabar/index.m3u8?e=1767903424&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5b57e3e98cf883166c67692f915ee493
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/49b496bca6d7c67d53431e9238f83397",India Today
 https://feeds.intoday.in/hltapps/api/master.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/c643b3f7d7f79ad3913b5d2037f13a88",News 1 India
-https://tvsen6.aynascope.net/News1India/index.m3u8?e=1767900002&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=a0469afb07b2e43412c8e279ddbca0f0
+https://tvsen6.aynascope.net/News1India/index.m3u8?e=1767903424&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=61a59d0cb036f35a7eff11eab7121433
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/80e4113d034ad20bcbea341dcb4ae27e",Sadhna Prime News
-https://tvsen6.aynascope.net/SadhnaPrimeNews/index.m3u8?e=1767900002&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=e623d82301f6c71ab35b0c3d9c10167d
+https://tvsen6.aynascope.net/SadhnaPrimeNews/index.m3u8?e=1767903424&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3bf56eb3d22bc6b5ca421e46db78f098
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/09817ae293eb16b79015ce66c48accbd",Hadi TV
 https://live.ishiacloud.com/haditv.co.uk/haditv1.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/d3943796d7fe5962ca5385b656682b1a",Hindi Khabar
-https://tvsen7.aynascope.net/HindiKhabar/index.m3u8?e=1767900002&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=6fb1c59aace65e115da27dd2d5f739f7
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/1001f1d96d63da3ced733a843613b6e0",News Nation
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/4ec06dcab54cbbf5b204f797555e6b31",ANB News
-https://tvsen6.aynascope.net/ANB_News/index.m3u8?e=1767900002&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=0a2ae15d74a429dfe8ce81bf93227e99
+https://tvsen6.aynascope.net/ANB_News/index.m3u8?e=1767903425&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=4c0d78fafa580279b027bc86716221dd
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/8e998f20a9cc52cb8eb1f52a5bf38204",Channel I
-https://tvsen6.aynascope.net/channeli/index.m3u8?e=1767900003&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=dfbbcea55ccc5cead0a494ea5a9ced70
+https://tvsen6.aynascope.net/channeli/index.m3u8?e=1767903425&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=2e993eaa594e74ededa30c1d139679a9
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/1a619c9b917eb35898020cd323e415a7",NTV
-https://tvsen5.aynascope.net/ntvbd/index.m3u8?e=1767900003&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5269d87af3f9d3c020ef2e1c5338401f
+https://tvsen5.aynascope.net/ntvbd/index.m3u8?e=1767903425&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=22c0e9150d5eeb24e01da541073650ce
+#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/788ab3e49b2aa6af247722762ed6e72a",Bangla Vision
+https://tvsen5.aynascope.net/banglavision/index.m3u8?e=1767903425&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=bc4abc3183c62df8cb48b980510a093c
 #EXTINF:-1 group-title="News" tvg-logo="https://s3.aynaott.com/storage/8a3c5215dc0b943dc0a80333c0ab21ce",ATN News
 https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/094587a26f2c5e4f2962104728ec8c5d",RTV
-https://tvsen5.aynascope.net/RtvHD/index.m3u8?e=1767900003&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=923c71f5b321f9ab5089ab0d0e018213
+https://tvsen5.aynascope.net/RtvHD/index.m3u8?e=1767903425&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=d5bbaa740bfd629dfbd63ff378d87c3e
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/eff41809fca04f7c1da5481e135d7913",ATN Bangla
-https://tvsen5.aynascope.net/atnbangla/index.m3u8?e=1767900003&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=ee7a1dd8b73f7fe1fd0967c251f118b5
+https://tvsen5.aynascope.net/atnbangla/index.m3u8?e=1767903425&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=ed8842d74d218d0f4eaa08dba82eb859
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/8a1af81802b0728c064c2adabcdc72c8",ETV
-https://tvsen6.aynascope.net/etv/index.m3u8?e=1767900003&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=37d4ade83ec0019fb5d4f812d9e0e87a
-#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/788ab3e49b2aa6af247722762ed6e72a",Bangla Vision
-https://tvsen5.aynascope.net/banglavision/index.m3u8?e=1767900003&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=a89c50aad68e9fe38b2f230161f48db0
+https://tvsen6.aynascope.net/etv/index.m3u8?e=1767903425&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=2ef04df51bc14beef9b724e7d4c38c9d
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/1b5cb8c7901739cd7d201a38d2ab4737",Maasranga TV
-https://tvsen5.aynascope.net/maasrangatv/index.m3u8?e=1767900003&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=6de32bf770424d176b952ac8ff8a56ec
+https://tvsen5.aynascope.net/maasrangatv/index.m3u8?e=1767903425&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=b500b22f4616e5abd93a97842dd971f9
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/76717b7a598a30815a1bdb16ecd3af6c",Deepto TV
-https://tvsen5.aynascope.net/DeeptoTVHD/index.m3u8?e=1767900004&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=06b6ccc5a97dcb49732b359a20dad6b3
+https://tvsen5.aynascope.net/DeeptoTVHD/index.m3u8?e=1767903425&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=e579e0935058dc57cec95ac2d43c7e7f
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/274c30c492e8795c8011d0129113f4bc",Ekhon TV
-https://tvsen6.aynascope.net/ekhontv/index.m3u8?e=1767900004&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=8c071099e216b5bb2fe882f1fe87197b
+https://tvsen6.aynascope.net/ekhontv/index.m3u8?e=1767903425&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=ef4f81e87a9671e5125b992afda661a4
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/f710d2ff532cb7e7b75566232c5b72d3",SA TV
-https://tvsen6.aynascope.net/satv/index.m3u8?e=1767900004&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5fcbe9e18759e0437a25f6e0a02e5289
+https://tvsen6.aynascope.net/satv/index.m3u8?e=1767903425&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=42003cc48cfe500ede9f46740d6a3a80
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/5282cec3a2e9349b750540d658cf1b6c",Asian TV
-https://tvsen6.aynascope.net/asiantv/index.m3u8?e=1767900004&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=2f53a25dd4dfab032117f2b903999379
+https://tvsen6.aynascope.net/asiantv/index.m3u8?e=1767903425&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=d8e5f69ee7b39649863651cc2679881e
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/a535fd3aae1f5dc79e9afa561cf28983",Movie Bangla
-https://tvsen7.aynascope.net/moviebangla/index.m3u8?e=1767900004&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=d5e39875d018cfbbc8a4ec271cb363bc
+https://tvsen7.aynascope.net/moviebangla/index.m3u8?e=1767903426&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=551d02597416e14c52a84a2587a41cb8
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/417a833f6d83021c99bfc3d4176610f4",Gazi TV
-https://tvsen5.aynascope.net/Ravc7gPCZpxk/index.m3u8?e=1767900004&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3ef1455e5bdaebe8b1767309c328aea3
-#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/a959f06b4fc9e1421f867b6c1601fe43",Channel 9
-https://tvsen6.aynascope.net/channel9/index.m3u8?e=1767900004&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=125dcf50795cd0a0e586a394c523f1ae
+https://tvsen5.aynascope.net/Ravc7gPCZpxk/index.m3u8?e=1767903426&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=628182907a25fe7ba35ed0bf2c3f170d
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/1678abdbf203bb77af4bbf2905a3de59",IBTV USA
-https://tvsen7.aynascope.net/ibtvusa/index.m3u8?e=1767900004&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5969502854296a53956ac3653bf4cb24
+https://tvsen7.aynascope.net/ibtvusa/index.m3u8?e=1767903426&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=d01cbf883a750af61f270308cb4e1f7f
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/b6cd78082093f534a90c9e3ba38149f2",Millennium TV
-https://tvsen7.aynascope.net/millenniumtv/index.m3u8?e=1767900005&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=7c2c0af6476311fc833baffb3beeb14d
+https://tvsen7.aynascope.net/millenniumtv/index.m3u8?e=1767903426&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=b8597614490d4b2a0a157f2a1243a50e
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/7526c6d25a1c213b413fe0647b956a8c",NTV Europe
-https://tvsen7.aynascope.net/ntveurope/index.m3u8?e=1767900005&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=eeb794c983dfd9ee4fee1259f82a8fb9
+https://tvsen7.aynascope.net/ntveurope/index.m3u8?e=1767903426&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=e254acca23c1897e7d45d3c6e974c4e1
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/51f1530c076c027e431bf18a49613f0b",Duronto TV
-https://tvsen6.aynascope.net/durontotv-live/index.m3u8?e=1767900005&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=fa5bf50239727d817e07a4a71b06392b
-#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/e33b23f7dc3d39008d672952c33069d4",Peace TV Bangla HD
-https://tvsen7.aynascope.net/PeaceTvBanglaHD/index.m3u8?e=1767900005&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=474f5900703b942dd4b73ca1a07ad9c0
-#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/e42ecfa90e3d6b15bdb7fea5ef673864",Bangla TV
-https://tvsen6.aynascope.net/banglatv/index.m3u8?e=1767900005&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=01a64f819045ef2f178fa60448cb659b
+https://tvsen6.aynascope.net/durontotv-live/index.m3u8?e=1767903426&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=6ec402634ca9655b460682065bf31da6
+#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/a959f06b4fc9e1421f867b6c1601fe43",Channel 9
+https://tvsen6.aynascope.net/channel9/index.m3u8?e=1767903426&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=1b488cd9f63d8ec4c263014182091dbf
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/813fca9bc7df9a4810efe2eb87c57039",MADANI TV
-https://tvsen7.aynascope.net/MadaniTV/index.m3u8?e=1767900005&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=a7e8e03724be3154ff4b8af1f8059a8e
+https://tvsen7.aynascope.net/MadaniTV/index.m3u8?e=1767903426&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5dbd56d7c764a7132962d9d1a1e64dc9
+#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/e42ecfa90e3d6b15bdb7fea5ef673864",Bangla TV
+https://tvsen6.aynascope.net/banglatv/index.m3u8?e=1767903427&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=b61b9bfd25510986c3ec9d0922f49493
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/d10390e5434e8cb44172257abd714beb",Desh TV
-https://tvsen6.aynascope.net/deshtv/index.m3u8?e=1767900005&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=bcda1e4b2b76725df19e47d70e95eae9
-#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/58658d4594ca1ff3c5031c9d8e3d9fc0",Boishakhi TV
-https://tvsen6.aynascope.net/boishakhitv/index.m3u8?e=1767900006&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=e81cfee21c0e0167058672435647f243
+https://tvsen6.aynascope.net/deshtv/index.m3u8?e=1767903427&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=9acb797c8fe3ebafe837d80b2e2301db
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/73082846fdc15d9f0e7268b104c55d92",Mohona TV
-https://tvsen6.aynascope.net/mohonatv/index.m3u8?e=1767900006&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=4263970b4f6169b5f94d1d8ebe5e77a8
+https://tvsen6.aynascope.net/mohonatv/index.m3u8?e=1767903427&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=9acf04d7e1061b1b6e368e471650f216
+#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/e33b23f7dc3d39008d672952c33069d4",Peace TV Bangla HD
+https://tvsen7.aynascope.net/PeaceTvBanglaHD/index.m3u8?e=1767903427&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3a6a6484bd68a72c56fbd17942b23945
+#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/58658d4594ca1ff3c5031c9d8e3d9fc0",Boishakhi TV
+https://tvsen6.aynascope.net/boishakhitv/index.m3u8?e=1767903427&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=35077c9567e6ece60afd928311bf4ad5
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/90635c3edf6e3c8dd92210b7248f1fa0",NEXUS TV
-https://tvsen6.aynascope.net/nexustv/index.m3u8?e=1767900006&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5fd1847fc1a610b7c666c6ca738ced64
+https://tvsen6.aynascope.net/nexustv/index.m3u8?e=1767903427&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=a12fb4964ed0f09d06188fa918e707b0
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/eb1964ab22fe95d4012c46198ffcf4c3",Iqra Bangla
-https://tvsen5.aynascope.net/iqrabangla/index.m3u8?e=1767900006&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=deb5f1b8285a5e2d52a674ce4fa019a0
+https://tvsen5.aynascope.net/iqrabangla/index.m3u8?e=1767903427&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=00b17f7130c7f78066ca4c9b98fffb9f
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/f23d6f82c1a16458fe0e4c6f11b8fd87",Bijoy TV
-https://tvsen6.aynascope.net/bijoytv/index.m3u8?e=1767900006&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=9ff5a525d92fd378e6d665b507a6bef7
-#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/ffd7ba9b76ad555933f94bcb7ff26b44",Global TV
-https://tvsen6.aynascope.net/globaltvhd/index.m3u8?e=1767900006&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=96d68a424572df5fe361f8456fd9d8d4
+https://tvsen6.aynascope.net/bijoytv/index.m3u8?e=1767903427&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=a6cf6170ce404227faaad956876f588d
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/c5b2c623863fbe4033d59d52ff7371ac",My TV
-https://tvsen6.aynascope.net/mytv/index.m3u8?e=1767900006&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=28aa9c9814fb469602660a5970561331
-#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/897698f593fc07974fc46881a440733d",Ananda TV
-https://tvsen6.aynascope.net/anandatv/index.m3u8?e=1767900006&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=c26e29ceec90daea438c7b7d91d66335
-#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/9b6f35f73a099b7a5885a970523c5f78",BTV NATIONAL HD
-https://tvsen6.aynascope.net/btvhd/index.m3u8?e=1767900007&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=287de1045f05af88a4f105b490ad863d
+https://tvsen6.aynascope.net/mytv/index.m3u8?e=1767903427&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=c70624bdb4181f64e7226ca81882ebdd
+#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/ffd7ba9b76ad555933f94bcb7ff26b44",Global TV
+https://tvsen6.aynascope.net/globaltvhd/index.m3u8?e=1767903427&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=879a367888927f1292cc3a62c1a5c314
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/b30147b97d86754e4b97fc2989628391",BTV World
-https://tvsen6.aynascope.net/btv_world/index.m3u8?e=1767900007&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=75226701f771669018bbe9a67b774d7d
-#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/00da8a07fb26b2fb79359ee535e4c7bc",BTV CTG
-https://tvsen6.aynascope.net/btvctg/index.m3u8?e=1767900007&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=920ed0120d11df2970e7edd93dfe0235
+https://tvsen6.aynascope.net/btv_world/index.m3u8?e=1767903428&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=988bd5652bc3997a30209a98a4ebb42b
+#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/9b6f35f73a099b7a5885a970523c5f78",BTV NATIONAL HD
+https://tvsen6.aynascope.net/btvhd/index.m3u8?e=1767903428&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=480a2da2f93298502593c7b29331a4b4
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/08773290bf83a917aebc07810f12ed49",Drama 24
 https://vods2.aynascope.net/gseriesDrama/index.m3u8
+#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/00da8a07fb26b2fb79359ee535e4c7bc",BTV CTG
+https://tvsen6.aynascope.net/btvctg/index.m3u8?e=1767903428&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=6c1153aeba9c71b696a18175c9b60d99
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/342b1a51814ed9946fe36ac4999d82a2",Channel S
-https://tvsen6.aynascope.net/channels/index.m3u8?e=1767900007&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=7c8a86ebafcc57f6263c88c5a15aae50
-#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/499219599639007120dc540bdc6e7d9d",Green TV HD
-https://tvsen6.aynascope.net/GreenTvHD/index.m3u8?e=1767900007&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=26f1a72140acdc58cb10aa7ebdf25596
+https://tvsen6.aynascope.net/channels/index.m3u8?e=1767903428&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=1c96a865dbcd14b17e1a837ed10683a0
+#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/897698f593fc07974fc46881a440733d",Ananda TV
+https://tvsen6.aynascope.net/anandatv/index.m3u8?e=1767903428&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=226231bc30674315b2920d07c8b1da14
 #EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/a89142109d049ae325fd1681b50bfffb",Cartoon Network
-https://tvsen5.aynascope.net/cartoonnetwork/index.m3u8?e=1767900007&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=2e372106ff93cb119d69505cee35f8f6
+https://tvsen5.aynascope.net/cartoonnetwork/index.m3u8?e=1767903428&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=79185dc912c5c5d7ec9fbef297ec5aa1
+#EXTINF:-1 group-title="Bangla" tvg-logo="https://s3.aynaott.com/storage/499219599639007120dc540bdc6e7d9d",Green TV HD
+https://tvsen6.aynascope.net/GreenTvHD/index.m3u8?e=1767903428&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=ebe3289df71e483b568b135305d41533
 #EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/31a070024b6516e3738baec70168f0b6",Disney JR
-https://tvsen7.aynascope.net/disneyjr/index.m3u8?e=1767900007&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=7e1b7867d7a0961aa4d2b37e2f11d4bf
-#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/a130687320f6b07db4bc3729b9d5e96e",Nicktoons
-https://tvsen5.aynascope.net/nicktoons/index.m3u8?e=1767900008&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=337581da289fab0b2a1c8c8e146d9ff2
-#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/921409bfe77e2e3d32492116bc22fa3e",Nickjr
-https://tvsen5.aynascope.net/nickjr/index.m3u8?e=1767900008&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=dc5fd30bbb3d568a241a5057884b12a0
-#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/3f7983c0bc7cacd206dd195a2eff6b10",Discovery Family
-https://tvsen5.aynascope.net/discoveryfamily/index.m3u8?e=1767900008&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=148f56d639208726133498fdde558063
+https://tvsen7.aynascope.net/disneyjr/index.m3u8?e=1767903428&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=a2fda460a931b503488a8b90ae4bf19a
 #EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/a0c74b576321da5aa33a69806401caf1",Disney Channel
-https://tvsen7.aynascope.net/disney/index.m3u8?e=1767900008&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=792ded22d5b5b1dccaa5ef67012cc37b
-#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/bb2375af2d1ff8666f2c24fbcec3c541",Nickelodeon
-https://tvsen7.aynascope.net/nicklodean/index.m3u8?e=1767900008&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=e75bdb32511e6810c8039cb6fbc6532f
-#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/ca9edd253c97a2c67fcd856f43a31702",Family JR
-https://tvsen5.aynascope.net/familyjr/index.m3u8?e=1767900008&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=8edbc03b445f0960fa857161d3c32d4f
-#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/5739277278d596533abbacc60ea694be",Teen Nick
-https://tvsen7.aynascope.net/teennick/index.m3u8?e=1767900008&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=51a8429ee26dbcfa11408e93d730d9c0
+https://tvsen7.aynascope.net/disney/index.m3u8?e=1767903428&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=13add1240d4242a792946f2484e21cbd
+#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/a130687320f6b07db4bc3729b9d5e96e",Nicktoons
+https://tvsen5.aynascope.net/nicktoons/index.m3u8?e=1767903428&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=ab2dae1c85142a1f1182405cddd867ae
+#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/3f7983c0bc7cacd206dd195a2eff6b10",Discovery Family
+https://tvsen5.aynascope.net/discoveryfamily/index.m3u8?e=1767903428&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=176ea8bd32033feed7e4c12cbc0c8021
+#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/921409bfe77e2e3d32492116bc22fa3e",Nickjr
+https://tvsen5.aynascope.net/nickjr/index.m3u8?e=1767903428&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=01cd1aacd022824b0be4e47949b969ae
 #EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/f9b945284524683f1de8beb07ded8989",Disney XD
-https://tvsen5.aynascope.net/disneyxd/index.m3u8?e=1767900008&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=00e74329e2e82c22113f04d00eeeea9f
+https://tvsen5.aynascope.net/disneyxd/index.m3u8?e=1767903428&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=b762dc7e3346c7fefa87a9f8bebf9e1d
+#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/ca9edd253c97a2c67fcd856f43a31702",Family JR
+https://tvsen5.aynascope.net/familyjr/index.m3u8?e=1767903429&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=446db927f904bd0a9c9fc52719b4b29c
 #EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/c6fde511a99e5134dbf12b77da386cb6",TVCARiB Kids &amp; Teens
 https://cdn.mycloudstream.io/hls/live/broadcast/nro19k2h/index.m3u8
+#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/5739277278d596533abbacc60ea694be",Teen Nick
+https://tvsen7.aynascope.net/teennick/index.m3u8?e=1767903429&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=20ff1c4c63d1d3b862e713ffc5578700
 #EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/91efc1ae410c11ccc4ab07f7221f0dad",TVC Arabic Kids
-https://tvsen6.aynascope.net/TVCArabicKids/index.m3u8?e=1767900009&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5bc90090a6ed27d05c493feda7f6489e
+https://tvsen6.aynascope.net/TVCArabicKids/index.m3u8?e=1767903429&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=77598bb7b1bb4a7064a74d2149b2244c
+#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/bb2375af2d1ff8666f2c24fbcec3c541",Nickelodeon
+https://tvsen7.aynascope.net/nicklodean/index.m3u8?e=1767903429&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=44ba043baade609e0be63c8f39fc1f9b
 #EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/45d94f96cdc5a444bc4969af940fe294",M NET Kids
-https://tvsen6.aynascope.net/MNetKids/index.m3u8?e=1767900009&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3055fbfdd0040b8259e1bbcd83e32a93
+https://tvsen6.aynascope.net/MNetKids/index.m3u8?e=1767903429&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=48194cafea6e0a95270a5e99d9eb8f53
+#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/61c87bda9e538dd52b3ef654e85a11ff",Forever Kids
+https://tvsen6.aynascope.net/ForeverKids/index.m3u8?e=1767903429&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=4a0f7dfb9550db60c683eb0e82aa1c5d
 #EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/bc2a021f901e4d1de4948f314536c1bf",Kids Pang TV
 https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/61c87bda9e538dd52b3ef654e85a11ff",Forever Kids
-https://tvsen6.aynascope.net/ForeverKids/index.m3u8?e=1767900009&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=f39458f67d016910226fd23fc31d2081
 #EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/6712a3c8a28689cfda4148faf095fa67",Dios Te Ve Kids
 https://s.emisoras.tv:8081/diostevekids/index.m3u8
-#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/76e36f75bf11c815a76c5622d627c814",3ABN Kids
-https://tvsen6.aynascope.net/3abnkids/index.m3u8?e=1767900009&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=f0d1081504e24d76847ac1f6a3fb6aa4
 #EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/d9b8deaf735ee0954260c7b3b61f508d",Moonbug Kids
-https://tvsen6.aynascope.net/MoonbugKids/index.m3u8?e=1767900009&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=9b46b31efe4355de2e9985a563f07c0d
-#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/a6d7d9729aafd5055bfd5356b6fa8eef",SKY CINEMA ANIMATION
-https://tvsen7.aynascope.net/skycinemanimation/index.m3u8?e=1767900009&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=6850ad60ca1bc1b788a5a616a8976326
+https://tvsen6.aynascope.net/MoonbugKids/index.m3u8?e=1767903429&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=a8fe096d4fa96d6385e9c8da6bca1d7b
+#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/76e36f75bf11c815a76c5622d627c814",3ABN Kids
+https://tvsen6.aynascope.net/3abnkids/index.m3u8?e=1767903430&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=9c7381fac92a05ad6715ee45a8596756
 #EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/24f86d03093467c8b9fa0e17f72c4e06",Kids TV
 http://origin5.mediacdn.ru/live/kidstv/index.m3u8
-#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/8ab8956c9d9128f39ef21487a38f47a3",Sony TEN 2
-https://tvsen3.aynascope.net/HsatAP9H/index.m3u8
-#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/5d052254516639955d06182690d3fda2",9X Tashan
-https://tvsen6.aynascope.net/9X_Tashan/index.m3u8?e=1767900010&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=23dfbae6e290630380ce5962564576a1
-#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/d2d8f00a60dc64dad6c0181cd86f7869",9x Jalwa
-https://tvsen6.aynascope.net/9xjalwa/index.m3u8?e=1767900010&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=6ad8d5b4f976f71e63c313835f6592b9
+#EXTINF:-1 group-title="Kids" tvg-logo="https://s3.aynaott.com/storage/a6d7d9729aafd5055bfd5356b6fa8eef",SKY CINEMA ANIMATION
+https://tvsen7.aynascope.net/skycinemanimation/index.m3u8?e=1767903430&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=ec9eadd0716886f09232be4d785148ad
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/09e356a3181cc613cf5680619d50a5f5",Network 10
-https://tvsen6.aynascope.net/Network10/index.m3u8?e=1767900010&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=c2f97a71a2eec8f373ca74c9a390c736
+https://tvsen6.aynascope.net/Network10/index.m3u8?e=1767903430&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5718085b03bd412378fbcf32aa7e43a3
+#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/5d052254516639955d06182690d3fda2",9X Tashan
+https://tvsen6.aynascope.net/9X_Tashan/index.m3u8?e=1767903430&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5ada94ddcb95a250ff6ab236e1d26d78
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/20c3a2638df99ece9eb12aabfc03a8c3",Music India
 https://cdn-2.pishow.tv/live/226/master.m3u8
+#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/d2d8f00a60dc64dad6c0181cd86f7869",9x Jalwa
+https://tvsen6.aynascope.net/9xjalwa/index.m3u8?e=1767903430&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=bce84d4077811505a1fe690d33b21c54
+#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/8ab8956c9d9128f39ef21487a38f47a3",Sony TEN 2
+https://tvsen3.aynascope.net/HsatAP9H/index.m3u8
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/ec0191729a03669fda8ba55c7ba1d4f2",Mastiii Music
-https://tvsen6.aynascope.net/mastimusic/index.m3u8?e=1767900010&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=dd2dbc20640e612e8615acb5776289e6
+https://tvsen6.aynascope.net/mastimusic/index.m3u8?e=1767903430&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=b59c142830309cd1233c655ec5fb68db
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/7e67b75dd21f29985a544f21f8f5a8e0",9x Jhakaas
-https://tvsen6.aynascope.net/9X_Jhakaas/index.m3u8?e=1767900011&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=16eaa5f47a90e29408f447f8edc93e61
+https://tvsen6.aynascope.net/9X_Jhakaas/index.m3u8?e=1767903431&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=7bc3619cd9f1659bd1d6d6332f72c5a2
+#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/8fb5a75cdb00b465703c4952f4eaaac6",9XM
+https://tvsen6.aynascope.net/9xm/index.m3u8?e=1767903431&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=a573123a4d7b9d151b8c375c85aaf85a
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/75f6b460a3b05eb2614b04ab013710dc",B4u Music
 https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8
-#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/8fb5a75cdb00b465703c4952f4eaaac6",9XM
-https://tvsen6.aynascope.net/9xm/index.m3u8?e=1767900011&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=74b90b0c547ce7e7aadd6bca8e8b2c6d
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/9d0cda929d2a459842a85cce47442776",Goldmines
-https://tvsen6.aynascope.net/Goldmines/index.m3u8?e=1767900011&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=35264da12c7fc8f321abba289f03d7f8
+https://tvsen6.aynascope.net/Goldmines/index.m3u8?e=1767903431&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=d6505a8cc82af17df4ee313ef01885b2
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/f8d9220406fa9ae79006914639f52e9b",Goldmines Movies
-https://tvsen6.aynascope.net/GoldminesMovies/index.m3u8?e=1767900011&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=afb27a06145c8958737f17e245bc1086
+https://tvsen6.aynascope.net/GoldminesMovies/index.m3u8?e=1767903431&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=1710eb37f7b8e2a9d8630e18c609b6fb
+#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/67b12df982bbb07b6a5af35d691dbb54",Dangal 2
+https://tvsen6.aynascope.net/Dangal2/index.m3u8?e=1767903431&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5a171cbd501f09a05cd7590d857aa49a
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/e92e9e2fb70909f3dd30a8d89e644119",Goldmines Bollywood
 https://tvsen6.aynaott.com/GoldminesBollywood/index.m3u8
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/cb1c3e153b951760fb0396cd27b8a715",Dangal
-https://tvsen6.aynascope.net/Dangal/index.m3u8?e=1767900011&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=4668908189362cd487fd14c91a161967
-#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/fbc83a10908188b587aead1bde39a8b3",Dhamaal
-https://tvsen6.aynascope.net/Dhamaal/index.m3u8?e=1767900011&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=76e142ee1f2cb41c894276fcbebf81de
-#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/67b12df982bbb07b6a5af35d691dbb54",Dangal 2
-https://tvsen6.aynascope.net/Dangal2/index.m3u8?e=1767900011&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=2f9ea1bf62cf5e56f1ab90c29f44b084
+https://tvsen6.aynascope.net/Dangal/index.m3u8?e=1767903431&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=9f4e140e7b83616b1f0b6aa335846da3
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/c63628e7301ba1eded68c0f75ab8d903",Shemaroo TV
 https://cdn-3.pishow.tv/live/230/master.m3u8
-#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/5e07d993dda4763f4c35125fb9734e72",The Q
-https://tvsen6.aynascope.net/TheQ/index.m3u8?e=1767900012&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=efa8f7539745cacf889f23c0ea059786
+#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/fbc83a10908188b587aead1bde39a8b3",Dhamaal
+https://tvsen6.aynascope.net/Dhamaal/index.m3u8?e=1767903431&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=b279d2e06f734b5d1ebbb9e0392f1870
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/99cc4db2b1e5b2a259427660646f9684",Hi Dost
-https://tvsen6.aynascope.net/HiDost/index.m3u8?e=1767900012&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=ebd358662b8af430d14cac3fc75f0c4f
-#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/c79b782d70458866537715e5ac842123",&amp; Pictures
-https://tvsen6.aynascope.net/andpictureshd/index.m3u8?e=1767900012&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=cd43ca9c471f15791e82ecc355204415
+https://tvsen6.aynascope.net/HiDost/index.m3u8?e=1767903431&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=40749a0a452b96e6df5adc53f9c3a333
+#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/5e07d993dda4763f4c35125fb9734e72",The Q
+https://tvsen6.aynascope.net/TheQ/index.m3u8?e=1767903431&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=6aa1fb81402bc8d82dd3fce7359c5148
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/2d12bf4f5dad8918427df0162d0e1184",Sony TV HD
-https://tvsen5.aynascope.net/Wfn4bVp3dLgA/index.m3u8?e=1767900012&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=282082a6e804e4c24c8abd7507e02d22
+https://tvsen5.aynascope.net/Wfn4bVp3dLgA/index.m3u8?e=1767903431&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5894f9ede5ea78a564b9956344a249ab
+#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/c79b782d70458866537715e5ac842123",&amp; Pictures
+https://tvsen6.aynascope.net/andpictureshd/index.m3u8?e=1767903431&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=c7cb12c58c2990d37edb517a4411a481
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/dfb6c20649dd691bab10b2f9d2f0e400",B4U Kadak
 https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/acfb4adc18020853437df064788dcbca",Dabangg
-https://tvsen6.aynascope.net/Dabangg/index.m3u8?e=1767900012&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=f9770f865414c59b6b06c0f754c06ddc
-#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/bb1e93cd63ca86130fe6f66393b7497b",Zoom TV
-https://live.zoomnews.info/live/Zoom_playlist.m3u8
+https://tvsen6.aynascope.net/Dabangg/index.m3u8?e=1767903432&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=289803e2502250ee4a5aa284ad089859
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/01c9cb3e1a4c90da6685700da863f0ce",Taaza TV
-https://tvsen7.aynascope.net/TaazaTV/index.m3u8?e=1767900012&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=af5cd824b1148a3807d741cfbe8315c0
+https://tvsen7.aynascope.net/TaazaTV/index.m3u8?e=1767903432&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=36ab7dd75eb2339eacea25964cbe0520
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/f4edcca7247bbb4a263a51d7ebb82282",Dhinchaak
-https://tvsen6.aynascope.net/Dhinchaak/index.m3u8?e=1767900012&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=c4b16dea70c491d8221c627c18dd62a7
+https://tvsen6.aynascope.net/Dhinchaak/index.m3u8?e=1767903432&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=364d56c4aebeb276c1e93e053c31a42f
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/3132515182ec50091b496fe515564084",Hindi Movie Classic 24
 https://vods2.aynaott.com/hindimovies/index.m3u8
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/5088d0894a79b329031d5f4669bbb0fe",B4U Movies India
 https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8
+#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/bb1e93cd63ca86130fe6f66393b7497b",Zoom TV
+https://live.zoomnews.info/live/Zoom_playlist.m3u8
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/cf6bf88febd62a03ae727788b3d52566",B4U Hitz
-https://tvsen5.aynascope.net/B4UHitz/index.m3u8?e=1767900013&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=068289b6e7e11997fcffc83b242c163f
+https://tvsen5.aynascope.net/B4UHitz/index.m3u8?e=1767903432&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=6e2f89b7782d0fd1b65ce2acc9ea8a9e
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/d63eff8864579b144c097c549ec0470a",Dhamaka Movies
-https://tvsen7.aynascope.net/DhamakaMovies/index.m3u8?e=1767900013&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=c718d8e1b6a7f22f81208424386c2d96
+https://tvsen7.aynascope.net/DhamakaMovies/index.m3u8?e=1767903432&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=be60993aa60247ce7e5982eaec11eca3
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/cb91d6750648d5fd4a51c7cb6ff9eeed",Star Plus HD
-https://tvsen7.aynascope.net/sphdbd/index.m3u8?e=1767900013&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=8611a2a4a241a4474c6c1d3617e639b1
-#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/e6bd71c6cb9dec76ca78409beeacabb7",And tv
-https://tvsen6.aynascope.net/AndTV/index.m3u8?e=1767900013&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=fde1ea0bca3e3ee4afd7530059b31629
+https://tvsen7.aynascope.net/sphdbd/index.m3u8?e=1767903432&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=84e5a9f0cb70fc9da5c035009df056a4
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/62a667c60e95b0d8e0a0c4d70275a7fc",Manoranjan Movies
-https://tvsen6.aynascope.net/ManoranjanMovies/index.m3u8?e=1767900013&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=fdddf6191411af712003781b33d9834c
+https://tvsen6.aynascope.net/ManoranjanMovies/index.m3u8?e=1767903433&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=b087a2def0c8d8a8bd799c60a4134da9
+#EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/e6bd71c6cb9dec76ca78409beeacabb7",And tv
+https://tvsen6.aynascope.net/AndTV/index.m3u8?e=1767903433&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=aa7855b8cdb423cd3008d792313f941c
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://s3.aynaott.com/storage/1a62a70103bac9999411a72b8a8b7ccc",Manoranjan TV
-https://tvsen6.aynascope.net/ManoranjanTV/index.m3u8?e=1767900014&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5102debbebf34ea0ca6ec3e32f6304b6
+https://tvsen6.aynascope.net/ManoranjanTV/index.m3u8?e=1767903433&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=e38a7038e72999e17ff8c0351d77be51
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/45a768728c7514ba59d1a0ccf806e222",TBS
 https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/7deacf82c7f75cf7aaee5e0935c3d2c8",Court TV
@@ -400,17 +400,17 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/13c04e44967d653c70eac9670b47fa5d",Adventure Earth
 https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/78bc841232179b088a10eb32564c6c49",Revolt
-https://tvsen6.aynascope.net/revolt/index.m3u8?e=1767900014&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=9569850048046698a3d585f898a1a407
+https://tvsen6.aynascope.net/revolt/index.m3u8?e=1767903433&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=fabe92eaae1b5abaddb7124ab58e2de8
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/14a329b450239b9a4beaa4953c33367b",CMAC TV
 https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-2/live.m3u8
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/9c1532f532f291a6b5d6d9b5faf041ce",TV ONE
-https://tvsen5.aynascope.net/tvone/index.m3u8?e=1767900014&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=50183216d2b77a42bc7805120cc56482
+https://tvsen5.aynascope.net/tvone/index.m3u8?e=1767903433&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=faf7a1a393d272481bf2ee24a04ed30c
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/a23f256ae7f1322fc7a6ab663410064b",Hallmark Movies
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/628e685ba3811100070551a8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c291886-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=58dbb587-5d0d-412d-ae10-107ee9caac5a
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/f59de29ce5a130a96023442694a2c58c",ASPARK TV
-https://tvsen6.aynascope.net/aspark/index.m3u8?e=1767900014&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=901e1d212928d179d039473d9ffa5895
+https://tvsen6.aynascope.net/aspark/index.m3u8?e=1767903434&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=b3301fd0fa957884f4e57bdb13a6f4f8
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/319020b844885cbabcd34e3f2f84d283",CGTN Docu
-https://tvsen6.aynascope.net/cgtnDocumentary/index.m3u8?e=1767900015&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=8414b6b6cd01055366e200c478337979
+https://tvsen6.aynascope.net/cgtnDocumentary/index.m3u8?e=1767903434&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=697971aaaa4b05af5164b23532c146f6
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/f24e50516ccf6b3e94a4ca749ccb3533",Persiana Korea
 https://korhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/1e7dc35fdb26ce3aca17b41fae1aa56f",World War TV
@@ -418,7 +418,7 @@ https://aenetworks-worldwartv-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/bf29f05ce8cd71bc14dd5db02fc632fd",World Muzzik
 https://muzzik-live.morescreens.com/mts-5/playlist.m3u8
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/56d2c21362152b678998094f1c670dd5",AXS
-https://tvsen6.aynascope.net/axs/index.m3u8?e=1767900015&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=69383b14dc05b65d8ab2230cffc5d5b3
+https://tvsen6.aynascope.net/axs/index.m3u8?e=1767903434&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=7f74fdfde9257cd2773a75fafbc6421f
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/b35e9c1bcde3e6876892a22f91a9c4b5",InTravel
 https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/c4f27e64c99b50629e7021b99ac9387a",Power Turk
@@ -429,126 +429,126 @@ https://streams2.sofast.tv/sofastplayout/32eb332e-f644-46e5-ad91-e55ad80d14f7_0_
 https://streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/be9b48d87dcd7711cac19c17d8e01b27",Persiana Travel
 https://ptravelhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/a7f87f1e71905ee14429ed26abd29b2a",Travel Channel
-https://tvsen6.aynascope.net/travelxp/index.m3u8?e=1767900016&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=9c96f05637f30fa21c1997660769b954
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/a676d2f5ddf6e5f978b3d51876dceecf",Travel XP
 https://27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_TravelXP/playlist.m3u8
+#EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/a7f87f1e71905ee14429ed26abd29b2a",Travel Channel
+https://tvsen6.aynascope.net/travelxp/index.m3u8?e=1767903434&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=047fe6f1bd20220ce309b0139244cdbc
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/baef6dd41c3ee6fabbb59bb8403cc1eb",Action Hollywood Movies
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/4d343b446b1e7164bb7239bbe822a570",Movie Sphere
 https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/4aabe2bad793305adec08094f30af6b7",Ekin Turk
-https://tvsen6.aynascope.net/EkinTurk/index.m3u8?e=1767900016&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3c064fc0bcd34579d901967d68807472
+https://tvsen6.aynascope.net/EkinTurk/index.m3u8?e=1767903435&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5bc328c39ca906278d956306e126705f
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/1767a29ab2a18975e84cc9aee178681d",Dream Turk
-https://tvsen6.aynascope.net/DreamTurk/index.m3u8?e=1767900016&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=921d4c669fbeb076ab3bfddd2238ee6b
+https://tvsen6.aynascope.net/DreamTurk/index.m3u8?e=1767903435&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=9febaf592bdf83597bb1d0c32bfc6f2c
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/c0bfcdb40393eb5824907adaaa63a653",MTV
-https://tvsen6.aynascope.net/mtv/index.m3u8?e=1767900016&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=f167bd12a963f04f4b6d44d04af0bbdc
+https://tvsen6.aynascope.net/mtv/index.m3u8?e=1767903435&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=20709947b4e5915995a51d0f6c1bd767
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/597c839e577e81813e44812cedc50892",Wild TV
 https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476.m3u8
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/f581d433008a3c1767023347190f01cf",Afroturk TV
 https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/5522b7ef736d7f4e7f80ac6325dce821",AMC TV
-https://tvsen6.aynascope.net/amc/index.m3u8?e=1767900017&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=2a5bc95732f17d1b52e12ac1ce633561
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/2dce8297266bbc9c235c27119f914e1b",Nat Geo TV
-https://tvsen6.aynascope.net/natgeo/index.m3u8?e=1767900017&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=d3ab4f3ee37d39dee55701f6b74c8ca4
-#EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/d3f1746d033e2c46deca83fd5e54b08b",Discovery Turbo
-https://tvsen6.aynascope.net/discovery_turbo/index.m3u8?e=1767900017&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=4f9339fd5da3bfa71fe8ea069168946e
+https://tvsen6.aynascope.net/natgeo/index.m3u8?e=1767903435&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=303f59b0b75e43f0f76c96144c7677ed
+#EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/5522b7ef736d7f4e7f80ac6325dce821",AMC TV
+https://tvsen6.aynascope.net/amc/index.m3u8?e=1767903435&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=cf3411b10fb2ecc2f5e3c95d31821251
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/99526d9269f86250d6bb6cb625cd8275",Discovery HD
-https://tvsen6.aynascope.net/discovery_hd/index.m3u8?e=1767900017&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=cfae920cc18cb776b7c1951734ddbfaa
+https://tvsen6.aynascope.net/discovery_hd/index.m3u8?e=1767903435&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=627c663098c28ef88147b42b93acf7f8
+#EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/d3f1746d033e2c46deca83fd5e54b08b",Discovery Turbo
+https://tvsen6.aynascope.net/discovery_turbo/index.m3u8?e=1767903435&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=355f9a6d8c98f8c1734cfd985a42c3bd
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/530b47c088522c355a93788fd80fbb1b",Discovery Science
-https://tvsen6.aynascope.net/discovery_science/index.m3u8?e=1767900017&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=311ed834a61189c14c92a7d798e87e5a
+https://tvsen6.aynascope.net/discovery_science/index.m3u8?e=1767903435&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=0afdb930bc9b0b918f4f9e99a1b1341a
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/18d95033c5d53fc3b159141a842fdeac",Animal Planet HD
-https://tvsen6.aynascope.net/animal_planet_hd/index.m3u8?e=1767900017&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=1759f5c6ffa340a7fde4c56cda8bc3db
+https://tvsen6.aynascope.net/animal_planet_hd/index.m3u8?e=1767903436&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3f74a86c45bdd7f5721415d2d369a806
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/4a1291716680b5c095d33e106337bb04",HBO
-https://tvsen5.aynascope.net/hbo/index.m3u8?e=1767900018&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=97cd69f27245f57da7ec3d6138cf2fbd
+https://tvsen5.aynascope.net/hbo/index.m3u8?e=1767903436&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=2f68125dec823c9e436d989381a9052a
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/b64c028d8c0895ed81f3201d5979f7ba",HBO 2
-https://tvsen7.aynascope.net/hbo2/index.m3u8?e=1767900018&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=df870de1af372a1aadbb121854c8e76e
+https://tvsen7.aynascope.net/hbo2/index.m3u8?e=1767903436&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=73917a4e444b41be5397a57d71fc0c68
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/c0b0c986890a8c88c3566d93e18cada6",EPIX TV
-https://tvsen7.aynascope.net/epix/index.m3u8?e=1767900018&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=9d3583888fae310e437ee5414d88d616
+https://tvsen7.aynascope.net/epix/index.m3u8?e=1767903436&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=915af6a8b2168c365d0fcc9da8e99389
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/be15ed692e22ad4b7dcb9d7251ce32a6",HGTV
-https://tvsen7.aynascope.net/hgtv/index.m3u8?e=1767900018&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=4095f9f8816ad3e2151757c8489688d4
+https://tvsen7.aynascope.net/hgtv/index.m3u8?e=1767903436&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=52594ec2637778e5b07f95ab44181e89
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/22af43810a37af9a151f1e0a23adde63",Rakuten Movies
   https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/72ea808c9221d980cb79623ce3c5e820",History
-https://tvsen5.aynascope.net/historyen/index.m3u8?e=1767900018&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=d1e04b838653de4c8a068bab397d7b06
+https://tvsen5.aynascope.net/historyen/index.m3u8?e=1767903436&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3346af6a3c56b8bfb6c05f8e1f56ef33
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/41536a676b99c1996efbccd8f65df42b",CBS TV
-https://tvsen7.aynascope.net/cbs/index.m3u8?e=1767900018&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=f1ddb2d02f6a13e3f89ff17d59315bd0
+https://tvsen7.aynascope.net/cbs/index.m3u8?e=1767903436&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=071a64f8120789603eae852a973df40a
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/376b8483457b06dbc5b7b7b327a21ac6",USA TV
-https://tvsen6.aynascope.net/usa/index.m3u8?e=1767900018&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=d993e07c21083736e658f5fef4be4e9a
+https://tvsen6.aynascope.net/usa/index.m3u8?e=1767903436&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=886a6c4ce9f0c0314039b6d0c285d39a
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/f403cc315ca6269c5fcbf1875c95d329",FX TV
-https://tvsen7.aynascope.net/fx/index.m3u8?e=1767900018&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=eed3850085f1d40ff5435c3e44a40ff0
-#EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/294b72dc2ca7b74ab3312059728cab22",pix 11
-https://tvsen6.aynascope.net/pix11/index.m3u8?e=1767900018&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=782bbc57acf0cf670dc5bd126c95ea54
+https://tvsen7.aynascope.net/fx/index.m3u8?e=1767903436&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=8fa4442eae1ffd5250d8bd534c19cad2
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/d79d89851faee0823a1f2bed1a96e84d",YTV
-https://tvsen6.aynascope.net/ytv/index.m3u8?e=1767900019&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=2a1fbc9a8c42fc7f7d1b493fc7c1ca55
+https://tvsen6.aynascope.net/ytv/index.m3u8?e=1767903437&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=24bad7c4941efa44864bf1d31de64629
+#EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/294b72dc2ca7b74ab3312059728cab22",pix 11
+https://tvsen6.aynascope.net/pix11/index.m3u8?e=1767903437&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=9bc6ecfd96c0dbae411c43c9b123bf0a
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/7604a2c87620363fce86b73731b8035d",BRAVO
-https://tvsen7.aynascope.net/bravo/index.m3u8?e=1767900019&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=62e8cfa07f9ac6d025037e7b312a8f43
+https://tvsen7.aynascope.net/bravo/index.m3u8?e=1767903437&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5f9cf1dce974a62d55f5fdb584cbde49
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/bf9792dc04cace6a25407b6304a35046",COOKING TV
-https://tvsen7.aynascope.net/cooking/index.m3u8?e=1767900019&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3b47eb0fa15fb18c2076b416cf6f0bb2
+https://tvsen7.aynascope.net/cooking/index.m3u8?e=1767903437&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=39962dfd9707df9c9048dcf62e49c0b4
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/ba3c9fa1144bc65322f8ae3a1bb69cc9",TLC HD
-https://tvsen6.aynascope.net/tlc_hd/index.m3u8?e=1767900019&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=92628d6a27b6270ec405ac934ccc89b0
+https://tvsen6.aynascope.net/tlc_hd/index.m3u8?e=1767903437&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=882572e61f57d70e4878b4722759714b
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/211d55de947bdf03f5c18b7e30e0d98b",COMEDY CENTRAL
-https://tvsen7.aynascope.net/comedycentral/index.m3u8?e=1767900019&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=860c94b3a43e7b958e0eb00dba020996
-#EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/ac4e2fb2e4eccd7417e5cc5b5a733369",LAFF TV
-https://tvsen7.aynascope.net/laff/index.m3u8?e=1767900019&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=5aa369775d65a292441fba792f3cb79d
+https://tvsen7.aynascope.net/comedycentral/index.m3u8?e=1767903437&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=331dd9b2f4b2a6f6d52b0997cc9d430a
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/582675c375dfa47c2d66e6639fcd2eac",Food Network
-https://tvsen6.aynascope.net/foodnetwork/index.m3u8?e=1767900019&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=a07f901ee3433cf80d168deb983ddb12
+https://tvsen6.aynascope.net/foodnetwork/index.m3u8?e=1767903437&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=be7a4dd23bd196b4c23692f57ee1cf75
+#EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/ac4e2fb2e4eccd7417e5cc5b5a733369",LAFF TV
+https://tvsen7.aynascope.net/laff/index.m3u8?e=1767903437&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=2a253dc80c4c896e359fd974b72deb2f
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/addd5f3c52326489e02df9aa14bb4ea5",SYFY TV
-https://tvsen7.aynascope.net/syfy/index.m3u8?e=1767900019&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3dd49cb5ace9553339f051e5e32a0c72
+https://tvsen7.aynascope.net/syfy/index.m3u8?e=1767903437&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=49cac5dd9d0e9d8ce9e34519c6cd9afe
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/f1fbcbc6cd325f5324eabb3bc733584e",RDS Social TV
-https://tvsen6.aynascope.net/RDSSocialTV/index.m3u8?e=1767900019&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=de32d697dd5bf5cabc79a235014e48a4
+https://tvsen6.aynascope.net/RDSSocialTV/index.m3u8?e=1767903437&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=caa18dfcb48412a0abbbfa6bcb57a6b5
 #EXTINF:-1 group-title="English" tvg-logo="https://s3.aynaott.com/storage/73820738ff3902737f987eb34612b26d",OAN
 https://a-cdn.klowdtv.com/live1/oan_720p/playlist.m3u8
 #EXTINF:-1 group-title="Religious" tvg-logo="https://s3.aynaott.com/storage/30a09b00515134c1fb1af96892a878a2",Al-Zahar TV Turkic
-https://tvsen6.aynascope.net/AlZaharTVTurkic/index.m3u8?e=1767900020&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=2dfcc3a81044053ecae6852bcc9affa6
+https://tvsen6.aynascope.net/AlZaharTVTurkic/index.m3u8?e=1767903437&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=1a741fc19b8d109814a6454d171370ae
 #EXTINF:-1 group-title="Religious" tvg-logo="https://s3.aynaott.com/storage/5b8848e0ec2d5cd133fadef42317dec5",TAQBEER
-https://tvsen7.aynascope.net/takbeer/index.m3u8?e=1767900020&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=bb670ad08b6165a0de327b1027b6d263
+https://tvsen7.aynascope.net/takbeer/index.m3u8?e=1767903437&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=ec44311690e43a56fa0a0358d18bae2f
 #EXTINF:-1 group-title="Religious" tvg-logo="https://s3.aynaott.com/storage/09d759c7bb93fa3fb76014c8936201ce",Eman Channel
-https://tvsen6.aynascope.net/eman/index.m3u8?e=1767900020&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=f8ceac2f0ceeba07de8ec83c13616a33
+https://tvsen6.aynascope.net/eman/index.m3u8?e=1767903438&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=a31f6802f4bfd57e2a1236c872c5c839
 #EXTINF:-1 group-title="Religious" tvg-logo="https://s3.aynaott.com/storage/66ac3ae1e56001353b69bb5f63ebcc6e",Deen TV
-https://tvsen7.aynascope.net/deen/index.m3u8?e=1767900020&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=4ae20c22cffc579a6b2d8710d5d93076
+https://tvsen7.aynascope.net/deen/index.m3u8?e=1767903438&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=8ace868a0f89c9fa9322be99b8c8bb83
 #EXTINF:-1 group-title="Religious" tvg-logo="https://s3.aynaott.com/storage/3458d0d9097a8283a94a13374bcbf5c7",Channel Win
 https://cdn-4.pishow.tv/live/229/master.m3u8
 #EXTINF:-1 group-title="Religious" tvg-logo="https://s3.aynaott.com/storage/cccbc9a19bb14504beacff550f47d014",Peace TV
-https://tvsen5.aynascope.net/peacetv/index.m3u8?e=1767900020&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=53c95483f19ff69417d5ef2f8f0a7b7d
+https://tvsen5.aynascope.net/peacetv/index.m3u8?e=1767903438&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=606da464a4ba6bfc9b865fb67191e17c
 #EXTINF:-1 group-title="Religious" tvg-logo="https://s3.aynaott.com/storage/5442b2655aca6398b26ba539f396565a",Peace TV Urdu HD
-https://tvsen6.aynascope.net/PeaceTVUrduHD/index.m3u8?e=1767900020&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=b603b539a601a74d0037b1921ea53017
+https://tvsen6.aynascope.net/PeaceTVUrduHD/index.m3u8?e=1767903438&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=039fa3bd5f69652e7f5c9382f5030347
 #EXTINF:-1 group-title="Religious" tvg-logo="https://s3.aynaott.com/storage/f00eda9194eb13e8ef1d1387889173bf",RTV Islam
 https://protokolldns.xyz/rtvislamweb554/index.m3u8
 #EXTINF:-1 group-title="Religious" tvg-logo="https://s3.aynaott.com/storage/5e74c3498e10b3cd2dadfe676681d387",Islam TV
-https://tvsen6.aynascope.net/islam/index.m3u8?e=1767900020&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=c7afb4cb323007c094016e9b07998cd0
+https://tvsen6.aynascope.net/islam/index.m3u8?e=1767903438&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=887f1178e1217f48339705d094e91504
 #EXTINF:-1 group-title="Weather" tvg-logo="https://s3.aynaott.com/storage/1b9208802bbf0cc01f1e8319b0ec633d",Discover Pikstan
 https://livecdn.live247stream.com/discoverpakistan/web/playlist.m3u8
-#EXTINF:-1 group-title="Music" tvg-logo="https://s3.aynaott.com/storage/370815c239b8b274264792c6da50a639",Dhoom Music Bangla
-https://tvsen6.aynascope.net/dhoom/index.m3u8?e=1767900021&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=e903bd3f34a8884b774601ccbe1351aa
 #EXTINF:-1 group-title="Music" tvg-logo="https://s3.aynaott.com/storage/80424ce0682e14e7d51e28de33d5f380",Sangeet Bangla
 https://cdn-4.pishow.tv/live/1143/master.m3u8
+#EXTINF:-1 group-title="Music" tvg-logo="https://s3.aynaott.com/storage/370815c239b8b274264792c6da50a639",Dhoom Music Bangla
+https://tvsen6.aynascope.net/dhoom/index.m3u8?e=1767903438&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=b6592e86c027ab4d23403b964a431cd5
 #EXTINF:-1 group-title="Urdhu" tvg-logo="https://s3.aynaott.com/storage/e0d54d73e6b9cf211cd760650467e596",Geo ENT
 https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Arabic" tvg-logo="https://s3.aynaott.com/storage/9b96b0e288c855d226ed2e769efbe19c",4 Afganistan
 https://4afghls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/04a8e0917184b617f74b85f98a8cf983",Aakaash Bangla TV
-https://tvsen5.aynascope.net/Wm9Lv2RjZGT6/index.m3u8?e=1767900021&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=41659b2867552b9bee5d37a7109fb225
+https://tvsen5.aynascope.net/Wm9Lv2RjZGT6/index.m3u8?e=1767903439&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=ab9d4ba889fde4eca404df91c37fdee0
+#EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/f4cdc5974a02f63c833146ad8856fb3b",Rupshi Bangla
+https://tvsen6.aynascope.net/RupshiBangla/index.m3u8?e=1767903439&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=2b05362d53f2df60339290b70cccb19b
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/d90eb718a6674494d2dac28e1d96bf44",Khushboo
 https://cdn-4.pishow.tv/live/1473/master.m3u8
-#EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/f4cdc5974a02f63c833146ad8856fb3b",Rupshi Bangla
-https://tvsen6.aynascope.net/RupshiBangla/index.m3u8?e=1767900022&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=58f3eef24dc1c31e01874c7edb9c7635
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/18cb20e8e53eb27249c62d3aedf51241",Republic Bangla
-https://tvsen5.aynascope.net/R_Bangla/index.m3u8?e=1767900022&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=f0ef18e7fde7536a1e50b01d5bd793f8
+https://tvsen5.aynascope.net/R_Bangla/index.m3u8?e=1767903439&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3e17a1c1c6d588eb793a7718686b7f27
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/7b93f6be496c9fd25769b09970180c4c",TV9 Bangla
 https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/fea79ac5193dd9fb80aa1996f2adc1e2",Zee 24 Ghanta
-https://tvsen6.aynascope.net/zee24/index.m3u8?e=1767900022&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=b7552efbe86c86585f12864b0967ba87
-#EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/e7d8cff366343b850d04a655c6fbf2ff",Assam Talks
-https://tvsen7.aynascope.net/AssamTalks/index.m3u8?e=1767900022&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=89feedf4ffdd126f5cf0f0dfa25ce606
+https://tvsen6.aynascope.net/zee24/index.m3u8?e=1767903439&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=0bf96c2497c26e3809c5f76cca040895
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/c355110e9cbebd89649a95f0f0fd77da",kolkata TV
-https://tvsen6.aynascope.net/kolkatatv/index.m3u8?e=1767900022&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=e2c0512e758fc0a4962fd5436db907a7
+https://tvsen6.aynascope.net/kolkatatv/index.m3u8?e=1767903439&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=03c55a4bc334cc6406629cb06076f0e0
+#EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/e7d8cff366343b850d04a655c6fbf2ff",Assam Talks
+https://tvsen7.aynascope.net/AssamTalks/index.m3u8?e=1767903439&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=450da263a5674fceb09f2fd52b48115a
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/9531f970bb7abf30ac2a48f40838c3a1",R Plus
-https://tvsen6.aynascope.net/Rplus/index.m3u8?e=1767900022&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=795c3a92e2008cbb247a37227d35bdee
+https://tvsen6.aynascope.net/Rplus/index.m3u8?e=1767903439&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=361c70aa306733917398c02e0f9e3cb1
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/5a7f80e9417b452051a0e75db768e796",R Plus Gold
-https://tvsen6.aynascope.net/RplusGold/index.m3u8?e=1767900022&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=4cdd35698b8a86c0c64960bb082f4dbf
+https://tvsen6.aynascope.net/RplusGold/index.m3u8?e=1767903439&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=3c96d3c48b07aa1250a9712462bcdd8f
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/b051fa53014fff26dabf744955969810",News Time Bangla
-https://tvsen6.aynascope.net/NewsTime/index.m3u8?e=1767900022&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=7491b5b7ae07340353a67bb8ac6d69a2
+https://tvsen6.aynascope.net/NewsTime/index.m3u8?e=1767903440&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=a59d516ff2fe0fcae952c5a06067ca82
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/296b530024a470f52313692636810e04",Rongeen TV
 https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/e5117c508d18adf0a3f2475eb1fd5a9d",DD Bangla
@@ -556,11 +556,11 @@ https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91e
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/2b00567c538d392c8050124f0064c4a1",Enter 10 Bangla
  https://live-bangla.akamaized.net/liveabr/playlist.m3u8
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/0cb865748deefd42e69fd9a221cf38ee",Zee Bangla International
-https://tvsen5.aynascope.net/PNEb3v2q6GBk/index.m3u8?e=1767900023&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=43582af7091ce99a2da55f7e0ef9c2b9
+https://tvsen5.aynascope.net/PNEb3v2q6GBk/index.m3u8?e=1767903440&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=ea956ae1b77c6702f86f9905452a9b26
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/890de862bcd876c54da7f3c0a3af0515",Star Jalsha HD
-https://tvsen7.aynascope.net/sjhdbd/index.m3u8?e=1767900023&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=d94384a08e04cee8f27955898240e070
+https://tvsen7.aynascope.net/sjhdbd/index.m3u8?e=1767903440&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=1646480054180df5964eb37747a11dfc
 #EXTINF:-1 group-title="Indian Bangla" tvg-logo="https://s3.aynaott.com/storage/1f25888b68626ed736acf35824905916",Zee Bangla Sonar
-https://tvsen6.aynascope.net/ZeeBanglaCinema/index.m3u8?e=1767900023&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=070d94d1a8313887b9c2831fc9f1aa26
+https://tvsen6.aynascope.net/ZeeBanglaCinema/index.m3u8?e=1767903440&u=af86ae3e-e545-4562-9d47-82c5c1447743&token=91b4c41deba8cc271e49e29cda657edd
 #EXTINF:-1 group-title="Radio" tvg-logo="https://s3.aynaott.com/storage/d51be74cd5c23e19cb7e8c81029c2af9",Spice FM
 https://stream.spicefmbd.com/stream.m3u8
 #EXTINF:-1 group-title="Radio" tvg-logo="https://s3.aynaott.com/storage/13e3353730d4ec9243de82bf735ee2c5",Radio Bhumi 92.80 FM
