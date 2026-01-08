@@ -55,10 +55,12 @@ def main():
         # Check if file exists to determine if we should fail hard or just warn
         if os.path.exists(output_file):
             print("Could not update playlist. Keeping existing file.")
+            # Even if we keep existing, we might want to signal warning, but for now allow it.
+            # But if the user WANTS to know it failed, we should probably fail.
+            sys.exit(1) # CHANGED: Fail so user knows update missed.
         else:
             print("Could not fetch playlist and no existing file found.")
-            # If we want the workflow to fail when file is created, we should exit non-zero
-            # sys.exit(1) 
+            sys.exit(1) 
             
 if __name__ == "__main__":
     main()
