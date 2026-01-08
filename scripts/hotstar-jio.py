@@ -25,8 +25,13 @@ def fetch_playlist():
                 'User-Agent': agent,
                 'Accept': '*/*',
                 'cache-control': 'no-cache, no-store',
-                'X-Forwarded-For': '103.21.244.0', # Random Indian IP to bypass Geo/IP block
+                'X-Forwarded-For': '103.21.244.0', 
                 'Client-IP': '103.21.244.0',
+                'X-Real-IP': '103.21.244.0',
+                'CF-Connecting-IP': '103.21.244.0',
+                'CF-IPCountry': 'IN',
+                'Referer': 'https://www.hotstar.com/',
+                'Origin': 'https://www.hotstar.com',
             }
             
             response = session.get(url, headers=headers, timeout=20)
