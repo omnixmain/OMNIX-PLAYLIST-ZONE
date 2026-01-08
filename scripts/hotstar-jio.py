@@ -25,10 +25,13 @@ def fetch_playlist():
                 'User-Agent': agent,
                 'Accept': '*/*',
                 'cache-control': 'no-cache, no-store',
+                'X-Forwarded-For': '103.21.244.0', # Random Indian IP to bypass Geo/IP block
+                'Client-IP': '103.21.244.0',
             }
             
             response = session.get(url, headers=headers, timeout=20)
             print(f"Status: {response.status_code}")
+            print(f"Final URL: {response.url}")
             
             if response.status_code == 200:
                 content = response.text
@@ -37,6 +40,8 @@ def fetch_playlist():
                     return content
                 else:
                     print("Response received properly but does not seem to be M3U content.")
+                    if "youtube" in response.url:
+                        print("Redirected to YouTube! The worker is blocking this IP.")
                     print(f"Preview: {content[:100]}...")
             else:
                  print(f"Failed with status code: {response.status_code}")

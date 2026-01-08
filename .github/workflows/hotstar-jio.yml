@@ -26,6 +26,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
         
+    - name: Debug - Curl Request
+      run: |
+        curl -v -L -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0" \
+             -H "cache-control: no-cache, no-store" \
+             "https://hotstarlive.delta-cloud.workers.dev/?token=a13d9c-4b782a-6c90fd-9a1b84"
+        
     - name: Run extraction script
       run: python scripts/hotstar-jio.py
       
