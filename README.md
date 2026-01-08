@@ -3,7 +3,7 @@
 **OWNED BY:** OMNIX EMPIRE
 
 📢 **OMNIX EMPIRE – Official Website**
-🔗 [https://omnixmain.github.io/OMNIX-EMPIRE/](https://omnixmain.github.io/OMNIX-EMPIRE/)
+🔗 [![Official Website](https://img.shields.io/badge/Official_Website-Visit_Now-FF0000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://omnixmain.github.io/OMNIX-EMPIRE/)
 
 *Download all official OMNIX apps safely from our official website.*
 
@@ -19,7 +19,7 @@ We manage and own all projects associated with OMNIX EMPIRE, including apps and 
 *   Provide server data for IPTV, M3U, JSON, and more.
 
 **Example Work:**
-*   Fancode & Sonyliv Live Event: [https://omnixmain.github.io/OMNIX-Fancode-Live-BD](https://omnixmain.github.io/OMNIX-Fancode-Live-BD)
+*   Fancode & Sonyliv Live Event: [![Live Event](https://img.shields.io/badge/Live_Event-Watch_Now-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://omnixmain.github.io/OMNIX-Fancode-Live-BD)
 
 > **⚠️ DISCLAIMER / LEGAL NOTICE:**
 > All work here is owned by OMNIX EMPIRE.
@@ -33,29 +33,29 @@ Here is the complete list of our official channels. Join them to stay updated!
 
 ### 1. OMNIX EMPIRE (HQ)
 *   **Work:** Main Hub, Official Updates & Announcements
-*   **Join Link:** [https://t.me/omnix_Empire](https://t.me/omnix_Empire)
+*   **Join Link:** [![Join OMNIX EMPIRE](https://img.shields.io/badge/Join_OMNIX_EMPIRE-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/omnix_Empire)
 
 ### 2. OMNIX OTT
 *   **Work:** Direct Movie Files, Latest Web Series & App Updates
-*   **Join Link:** [https://t.me/omnix_ott](https://t.me/omnix_ott)
+*   **Join Link:** [![Join OMNIX OTT](https://img.shields.io/badge/Join_OMNIX_OTT-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/omnix_ott)
 
 ### 3. Omnix CineWorld
 *   **Work:** Movie Reviews & Download Links
-*   **Join Link:** [https://t.me/+ATsbVIXsATczNDk1](https://t.me/+ATsbVIXsATczNDk1)
+*   **Join Link:** [![Join Omnix CineWorld](https://img.shields.io/badge/Join_Omnix_CineWorld-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+ATsbVIXsATczNDk1)
 
 ### 4. OMNIX ADULTS (18+)
 *   **Work:** Private Direct Drive & Exclusive Content
-*   **Join Link:** [https://t.me/+vAocHIblVIBhZDc9](https://t.me/+vAocHIblVIBhZDc9)
+*   **Join Link:** [![Join OMNIX ADULTS](https://img.shields.io/badge/Join_OMNIX_ADULTS-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+vAocHIblVIBhZDc9)
 
 ### 5. OMNIX MATURITY ZONE (18+)
 *   **Work:** Uncut Web Series & Special Shows
-*   **Join Link:** [https://t.me/+ip-E1so88EFiYTY1](https://t.me/+ip-E1so88EFiYTY1)
+*   **Join Link:** [![Join OMNIX MATURITY ZONE](https://img.shields.io/badge/Join_OMNIX_MATURITY_ZONE-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+ip-E1so88EFiYTY1)
 
 ---
 
 ### 🔰 JOIN OFFICIAL IPTV CHANNEL 🔰
 👉 **OMNIX IPTV ZONE** 👈
-🔗 [https://t.me/+Nd25rHxNVFZiNzQ1](https://t.me/+Nd25rHxNVFZiNzQ1)
+🔗 [![Join OMNIX IPTV ZONE](https://img.shields.io/badge/Join_OMNIX_IPTV_ZONE-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+Nd25rHxNVFZiNzQ1)
 
 **Work:** Direct IPTV, M3U, JSON, IPTV Apps, Web Site, All TV Server Data
 
@@ -72,7 +72,7 @@ Join our network for the best premium content:
 🔞 Exclusive 18+ Content
 📱 Premium Apps & Tools
 
-🔗 **JOIN MAIN CHANNEL:** [https://t.me/omnix_Empire](https://t.me/omnix_Empire)
+🔗 **JOIN MAIN CHANNEL:** [![Join OMNIX EMPIRE](https://img.shields.io/badge/Join_OMNIX_EMPIRE-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/omnix_Empire)
 
 **Don't miss out! Join the revolution today.**
 
