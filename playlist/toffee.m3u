@@ -1,311 +1,226 @@
 #EXTM3U
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com//TSK2e5oBEef-9-uVH5vw/posters/5cc6444f-88c9-4a08-a934-39588cec6040.png",IND vs SA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
 https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=uUgieKThiNfGJmvMRN&chunks=21cd6b35e9e6f01df4ab2be5ea76e1e9b552eb6f4f96b4bff98d678460d773fb
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/w_640,q_75,f_webp/WHrpv5oBcqxnFHJBa-I5/posters/92f0b998-8603-495b-88c5-7348ae3a9d80.png",q_75,f_webp/WHrpv5oBcqxnFHJBa-I5/posters/92f0b998-8603-495b-88c5-7348ae3a9d80.png" group-title="Sports", Bangladesh Tri Nation's Cup
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=uUgieKThiNfGJmvMRN&segment=485f8894ddc993cd2be854315b7710e7a5ccb7eba9a6c606480a0758b637ef0d
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=uUgieKThiNfGJmvMRN&segment=485f8894ddc993cd2be854315b7710e7033643e2c34c08beda00cf0d47729d81
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com//MXnGgJkBcqxnFHJBILyR/posters/12612af0-8093-458f-b2d5-42e2f0276624.png",BFL | Live 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
 https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=swDVOX1uX74x7itgSx&segment=3ee69eb3bf30578a31e7a54ffe4fe960bffa076e057b8ec66a7c2da493aed8be
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com//MXnGgJkBcqxnFHJBILyR/posters/12612af0-8093-458f-b2d5-42e2f0276624.png",BFL | Live 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=MED0NjFjyZuK3118oo&segment=df85c91e2df492f56693680014f9e70feeaf4579833589f9484b374915aabc91
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=MED0NjFjyZuK3118oo&segment=3ee69eb3bf30578a31e7a54ffe4fe9602ccf80b646d52085f7523fcf644c2a79
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com//LnlKhJkBcqxnFHJBU8GM/posters/74e6a7bb-f850-4ec5-991f-7a882b04db37.png",BFL | Live 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=D9EOzUFjjEcrOHXqoM&segment=3ee69eb3bf30578a31e7a54ffe4fe9600b941dfb09aad84d9653e2123cce4a8a
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=D9EOzUFjjEcrOHXqoM&segment=df85c91e2df492f56693680014f9e70fa07e5f690cbd3d504f39d09b9944902e
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/PnZefJcBcqxnFHJBoxca/posters/14699162-6ec8-4a94-a572-2795c6ddd329.png",w_300,q_85/PnZefJcBcqxnFHJBoxca/posters/14699162-6ec8-4a94-a572-2795c6ddd329.png" group-title="Sports", ICC Test Championship Highlights
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=S2S7clKcGzWrnXtdV4&segment=df85c91e2df492f56693680014f9e70f68ff6796c75c8df360cb23161164e2f4
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/4388/logo/240x240/mobile_logo_422191001674119624.png",Euro Sport HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=B2qWe1cOWjDVYAhpiR&segment=0ecdc57b0e08bfb98c234836fb642cabce6d2175465c2deb78984d0b688a824050fc305662875a258725539d6493dd7d
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/603/logo/240x240/mobile_logo_237244001666780563.png",SONY SPORTS TEN 1 HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=8yradhCZRM6o8LXpH6&segment=e1de8e7f0b5dca13111c11a7c9dde525eaae6f012e63a716c255f90015fc39c30e486d7c63f6e8169212017c82caef91
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/604/logo/240x240/mobile_logo_093449001666780976.png",SONY SPORTS TEN 2 HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=TxyxtSzqVo04L96iQl&segment=7c795db5fa20724170353d90526d4f2d266df4380f81bb1b95b8d47909c0f8d378a03a49b2bb6e1fe2e4bd28682523b7
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/606/logo/240x240/mobile_logo_689539001672145843.png",SONY SPORTS TEN 5 HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=FNgoGmWFtMgqr3g3QL&segment=7c795db5fa20724170353d90526d4f2d2638e3fcd1bd6cfa517e9575a5f27e5f759bbc3d9b7991befc32bf4384557a55
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/301891/logo/240x240/mobile_logo_578686001735197654.png",SONY TEN Cricket
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=LXBEesQtfLjYivA5fL&segment=7c795db5fa20724170353d90526d4f2d91783f16bacfed061939c911e7fed58a3854c2fd899d8ba67ba66e73faea0e02
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com//f_webp,w_1600,q_75/Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png",w_1600,q_75/Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png" group-title="News", Somoy TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=xEy212C3qN1T8GKaqM&segment=6a2ad6cc01aa7cd13f9851c18b5dddb8d40ee6225db149b1b16de72bf084e3f4e3591dc2a20ab82306378786914e7978
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/w_320,q_75,f_webp/NCLx35oBEef-9-uVh-Dg/posters/af9773c7-7971-41a2-9b78-121fcb240c48.png",q_75,f_webp/NCLx35oBEef-9-uVh-Dg/posters/af9773c7-7971-41a2-9b78-121fcb240c48.png" group-title="News", ATN News
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=hZw9DyRWr8a5EL89tV&chunks=4449963c72cb850cd8d3e86171fb847954ef6f30104c2be294b465dba2e8f4fd144e5f332d948cf98b50bec88da348387c3e2a8f55849ee6503d3c87f8fa3d130917d5ca0a489f419589200b651701e4c000c562adf978b527a3f32483724391
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/w_320,q_75,f_webp/o3v235oBcqxnFHJBkAdC/posters/159af631-796d-4342-a2a7-c272f32bcd32.png",q_75,f_webp/o3v235oBcqxnFHJBkAdC/posters/159af631-796d-4342-a2a7-c272f32bcd32.png" group-title="News", Ekhon TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=N34fl2VoFUx9J7YScv&chunks=88456d07380a20fa29844ade5d340f81d04b743ecefb3ba0182e9d5b3a0ae435cff4d3934d6dcfd3c15a697346aceecccd7e7f62c0d75e480cf2e1337578a6eb1e6e3bbf598a644cdbe4934b4c15e8240f66cbb1c2f88c83c3f67558b3000ab9
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/w_320,q_75,f_webp/WyPuDJsBEef-9-uVUA_z/posters/ea20055c-a824-443c-8083-ce8e2da8b922.png",q_75,f_webp/WyPuDJsBEef-9-uVUA_z/posters/ea20055c-a824-443c-8083-ce8e2da8b922.png" group-title="News", Channel S
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=bnQYZxwQdP9h3KgRXd&chunks=a369099f95dd96858ba276ad46871e90d85e629ee3eec7ce71e8451b89b0bec309510ff7f744c87c2e6aa98eb8a20d21a58577241a326367db72c457cb3caedfcf6d503f43be77473fc47f00fb03a1680b624aa80b9954cb17dcca12d46211db
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/0y_tDJsBNnOkwJLWNrdE/posters/2ff058e1-630f-4657-8dc6-b677e65642c5.png",Global TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=bnQYZxwQdP9h3KgRXd&segment=cf98f009a34da01135fe12a54e6cc16b95f46f02bca384a0dee537cb07755308a284ffc70abc30e2ad4f4eadcf3665ea
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com//PiL635oBEef-9-uV2uCe/posters/36f380e0-6c71-4b27-a73b-2afb3ce7e982.png",Jamuna TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=X6pdJkMAMIKhfQ68bu&segment=fde88a55650afab1f80073a1e975cf663c67849083eeb93b48cac90d02b59c17ecd03eebc27441b593145f141cc18641
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/w_320,q_75,f_webp/PS_La5oBNnOkwJLWLRN_/posters/e8c444fd-ee3b-4bf3-bb0a-f969bc295f82.png",q_75,f_webp/PS_La5oBNnOkwJLWLRN_/posters/e8c444fd-ee3b-4bf3-bb0a-f969bc295f82.png" group-title="News", Ekattor TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=IQvShXGz3lyhtDxl6T&segment=6e32ad10d45407b7997bc76a57276bdf0fb9f23cacc6fee07691392e7d2fde2a0de3094d773b8fc122fcca5e3b4a9d84
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/333/logo/240x240/mobile_logo_146607001735536058.png",CNN VIP
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=cnwr34myd6aTncuezH&chunks=fc219f259064ee42f2c650584a605d47b5634dab3c3a080546222124adac82f0c0578d3e62f4c7589451ef4e7497d96f550b360ec4d3b8888eebda169ffcc3ed9a029f66de4482263bc370022e7529b3
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com//qnv835oBcqxnFHJBuQcB/posters/348dfac3-c1e0-485d-a72b-3d282c9e2c73.png",Channel i
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=cnwr34myd6aTncuezH&segment=f3cae501ce9b97bd39c408caf6d1e2813d4f3f3a592fc472783752069b198450
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com//NCLx35oBEef-9-uVh-Dg/posters/af9773c7-7971-41a2-9b78-121fcb240c48.png",ATN Bangla
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=RHQ7TTe2E7Mbsczg3c&chunks=ae6cc0733e9c474819bdf285450c306ecfa0db84160f30a505d4a411b5572912d4506bb384d75c1de550fb682adedab4a80814dcf6fe893c9236c66e18721a1c81e1632eedf3a01d0fa7d619b2e80fb0784e4cb8d0501a99d10a02f213d9b4f0
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ES55-JQBv9knK3AHNDWC/posters/13411be9-62b9-4a99-a062-b6e91dfb1099.webp",w_300,q_85/ES55-JQBv9knK3AHNDWC/posters/13411be9-62b9-4a99-a062-b6e91dfb1099.webp" group-title="Entertainment", Sony SAB SD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=geEoVFf9IzU92kuPQZ&chunks=181999b13ab8e996de65c5f990644bde5a99cd5b5860acfa60fb19d820a25187da27cb6ff3bfcab78349df9dbaf7f04e5d58fe611169703ef2c64a0964fdbc8713ddbab1723a703e45298c36c58d38df2c4b47200738c009ba81e0b48fc34606
-#EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/w_320,q_75,f_webp/DNMXs5UBm1RY_In7IJ72/posters/5638c4e8-36ba-4e8e-848e-233183b3ec17.png",q_75,f_webp/DNMXs5UBm1RY_In7IJ72/posters/5638c4e8-36ba-4e8e-848e-233183b3ec17.png" group-title="Entertainment", Toffee Dramas
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
-#EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=geEoVFf9IzU92kuPQZ&segment=210c0ba7cab8b3300e21eef6fbace29665cb62f6b85891cfa9d5106c9d311070843388364c72bf81798f566e220ac6f9
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=S2S7clKcGzWrnXtdV4&segment=3ee69eb3bf30578a31e7a54ffe4fe960aa9b887329459710dbb2180a852c840c
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/7x0Jd5YBEef-9-uVv_Gy/posters/f630a176-73cc-48d7-94cf-69ba0d201b36.png",w_300,q_85/7x0Jd5YBEef-9-uVv_Gy/posters/f630a176-73cc-48d7-94cf-69ba0d201b36.png" group-title="Entertainment", Zee Anmol
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=cDDhREFJqxKlnLx4fF&segment=a4d7b79afd5866fb680ba8076a11213005385212a850401224405f89de8d4852582f4cc76e0f3f6317bd07dc9131ee5a
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=B2qWe1cOWjDVYAhpiR&segment=0ecdc57b0e08bfb98c234836fb642cab812764ccecd9e74ac81f8eb5dd529adf04b9f201a940a9c6fe6e5ebd0b1fb588
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ltPQX5UBm1RY_In7b3F1/posters/f81d0cc9-c00e-4839-951a-b754e0e6c58f.png",w_300,q_85/ltPQX5UBm1RY_In7b3F1/posters/f81d0cc9-c00e-4839-951a-b754e0e6c58f.png" group-title="Entertainment", Zee TV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
 https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=XedvVdnOBxBHw2rxV5&chunks=7547da8eeaa1a36f349aa59c9f729a9066c8c43b313187cff5af9575faccd3ec3facc5700fb4c166646bbe51086333f735a5806ceb852afa2e4eed0495478210527aab573326ce102fec2c9dc18bef01517e70c3978f08a2223124a7e3bd97ed
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/U3QEd5YBcqxnFHJBpYzc/posters/3442d493-0c71-44b9-b12f-8e600d5eab91.png",w_300,q_85/U3QEd5YBcqxnFHJBpYzc/posters/3442d493-0c71-44b9-b12f-8e600d5eab91.png" group-title="Entertainment", Zee Cafe
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=XedvVdnOBxBHw2rxV5&segment=1a3b159d3b3aab077334c30cbf12ad5be14daec929b9588fefb62ddffa14bea6c4ca91e3cbbb51b3586af371d210c4f3
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=exBHTW3krfRxVyUS87&chunks=046355aaac06025b096bec83e29337a696ea76491282a6d04a410fc89ab1f1e81a31aa2df5caf9b1860c1a1f9ff8b4beaf94651f3cde5ce03ae46b1121f1daedac9f04f09902597ea91caaf9c60b156fc082eea114a5236b277c2769f4617718
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/5cwRnZUBtpl-Sbt7wWrN/posters/28335dab-169c-49b6-8d10-ef697f940307.png",w_300,q_85/5cwRnZUBtpl-Sbt7wWrN/posters/28335dab-169c-49b6-8d10-ef697f940307.png" group-title="Entertainment", &TV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=exBHTW3krfRxVyUS87&segment=dd64f5a845c0757f8a7d3b1d05cdab74eb1ec65d3b95ecc7b2b7363211add89aabb00df8273b22b7474427be4d9d0493
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=dHlSOSFXVC4tZUMRUL&chunks=164742e1c5eff93b7ba5a2de9222c4ad92bdc7b94c376f7ad27cdd19d7c313cf69d9c1c1d2e28e67ab0bad30427ebc0212e00c461131b96f7ad2a3985b6e6557affc3bbf4e793c4f640ee98e4990e07ca39bf04986d5419e0745174d62946eda70f82f6121fd03fa02fe156dc2b8423e
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/kK2aX5UBrjBfS2_RBcKf/posters/16e111ed-2335-4391-9618-f840e4c4a6a2.png",w_300,q_85/kK2aX5UBrjBfS2_RBcKf/posters/16e111ed-2335-4391-9618-f840e4c4a6a2.png" group-title="Entertainment", Zee Bangla
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
 https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=CowXUjfcmE0Jc30mRk&chunks=723ac7f57b0cf4bcdc12b4dcf5fbf3700ab565751d4a85c4fc2f56457f831f4839b9495aaf329b97dba8b36c373fe4dd07b7d0e6a72c86412ce1e3472a7ef7a5382144a45efda9122c601cfd996c38b71e50f925a2d43299b26aafc9f50cfab5
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/303937/logo/240x240/mobile_logo_880134001738072763.png",Hum TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=CowXUjfcmE0Jc30mRk&segment=b7d1c845763a9f6847abb0d32cb9e21a560cd88d233b53c04fc56755053c15803bf24add71e93207e8222b4f45e697a1
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=CowXUjfcmE0Jc30mRk&segment=b7d1c845763a9f6847abb0d32cb9e21aa99adaa122087fbf6ccb156562204fbe49fd17d4bc5c9e125ad59be6176692a6
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/303948/logo/240x240/mobile_logo_350939001738236112.png",Hum Sitarey
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=KlbABGchXfQBZbNbMe&segment=2eb044d85431562c8f47105ff0c715e838267b13c07d6a089f4ccd123360c2d9a464a0a80741b0bf9a15b26bfded444e
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=KlbABGchXfQBZbNbMe&segment=2eb044d85431562c8f47105ff0c715e8d841b595515c440ac994dfce96ee96e9fa0e3d2e33c49cc9efe2383008227057
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/343/logo/240x240/mobile_logo_496322001666780228.png",Sony Aat VIP
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=UixEp70j7DLyGwpAGn&segment=fb1a68af003be061b02ccc3a41c38f8bdc2a0704e39fbe3973fa119664d6ee5a6cad53ea90d003504dc3e7957507ba16
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=UixEp70j7DLyGwpAGn&segment=fb1a68af003be061b02ccc3a41c38f8b4b823044635d353fbbd5cffc32e3c20c9fe7d73c1fed3031e37378a0bbc2348e
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/602/logo/240x240/mobile_logo_495351001666780441.png",SONY ENTERTAINMENT TELEVISION HD VIP
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=Zffvji8FFa41ui0OG9&segment=d9532a755878a09cd3c80b4fb0ec47e76b50bc745988afdba3e88ca51746366a6e7991016e295614a4f8bae4cb355b9f
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=Zffvji8FFa41ui0OG9&segment=d9532a755878a09cd3c80b4fb0ec47e7db750abf3e00f7f06876d2c624171139f31f008cf94f6a3dc94f0882f8b0c9a8
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/57/logo/240x240/mobile_logo_149299001666780350.png",SONY ENTERTAINMENT TELEVISION
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=tnfkGXzmfcjEkZGJF9&segment=86be8576b27d0799bd6a91d38da4b61bed424ed7de2fb09e7d2099cace5ce07a3b22209db9cc75513aa47948c8317be2
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=xkgzHA5enqqtqCoFEP&chunks=945be9be209fc005a6723fc225a7438fbc71716e5ae449e4fc642936298c8ccfad4081f9746a3b0ad21ffbd35bcd2e91c58bfb5d41d49c42b105b685bc266785ff908a750400082f203cb35aab8368268c6aa8e8e4dcf563664abe59c68d1bf192cf2b61cace3d1f90229f2379df8b55e192914608a07ff9e2ded610c2ca3435
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Ay52-JQBv9knK3AHFDWt/posters/00afb30b-3c19-4c4c-abd8-891db94e4767.webp",w_300,q_85/Ay52-JQBv9knK3AHFDWt/posters/00afb30b-3c19-4c4c-abd8-891db94e4767.webp" group-title="Movies", Sony MAX
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=xkgzHA5enqqtqCoFEP&segment=251b2313b479e146bc158b4e7bb4f0dcfd9a168ea7102204cd9c38b7ed9fc2f30ae2203eac10d3807d4a60f2ac002228
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=xkgzHA5enqqtqCoFEP&segment=251b2313b479e146bc158b4e7bb4f0dcfd9a168ea7102204cd9c38b7ed9fc2f331f6a99927fb5728aaca4a8ff2c7238d
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Ly6C-JQBv9knK3AHOjXt/posters/252e64ca-8d99-46e7-a951-e10c1703c11d.webp",w_300,q_85/Ly6C-JQBv9knK3AHOjXt/posters/252e64ca-8d99-46e7-a951-e10c1703c11d.webp" group-title="Movies", Sony PIX HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=4uyddNeJhATsBrZXew&segment=14af4564fbe3fa66170b58a764c928b164e0c447479249b69f59aa14edfb3665ff19b0ad48c1b3c3854e04289e33cb13
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=4uyddNeJhATsBrZXew&segment=14af4564fbe3fa66170b58a764c928b126de81e02105a596e0772c1354762c6547f6cfb591d29bb19e80b99c39092da5
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Ii5_-JQBv9knK3AHLDV3/posters/d961cc87-81b6-4b30-8414-8c0af2774818.webp",w_300,q_85/Ii5_-JQBv9knK3AHLDV3/posters/d961cc87-81b6-4b30-8414-8c0af2774818.webp" group-title="Movies", Sony MAX 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=FwWsyfnZJfUd3tmiAY&segment=b7c65f908c63e698ad8a2563c111781fa8ea43ffa23f8e38a3a774ee9c1bc0be2ae7e8a1d6b5072dc96b8fc56c9dadfe
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=FwWsyfnZJfUd3tmiAY&segment=b7c65f908c63e698ad8a2563c111781fbcf1ebe796d145a15f07bf0d68712484e77d83d6e084fc24e97e1976a263ebac
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Ai51-JQBv9knK3AH_jWs/posters/663e52a6-1a9f-4458-b4aa-7c03d84972f1.webp",w_300,q_85/Ai51-JQBv9knK3AH_jWs/posters/663e52a6-1a9f-4458-b4aa-7c03d84972f1.webp" group-title="Movies", Sony MAX HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=lx3vJyamuDGsefNng3&segment=d3a13e21842ab1f4bb855c5bcb796f74d551d4c054a02b2ee7b9b97e8e3656ff3132743496fe17f06858f57565e4fb37
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=lx3vJyamuDGsefNng3&segment=d3a13e21842ab1f4bb855c5bcb796f7438d64325c8961f1e8ce923ba84216d90e38b9a8756ac280de0a0d4d96a13c8ed
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/w_320,q_75,f_webp/b60Ss5UBrjBfS2_RJPb8/posters/2e5b8ff3-9deb-4040-947e-4ce6a4674ef0.png",q_75,f_webp/b60Ss5UBrjBfS2_RJPb8/posters/2e5b8ff3-9deb-4040-947e-4ce6a4674ef0.png" group-title="Movies", Toffee Movies
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=3CF8m1Bm7hqfFKYK96&segment=cbc0a1ee0e50bb2a575b8205774e89b0dcd198d967d0d22bd40b869efe433a41c6e3abb178c79bf721b07085c8518938
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=gatrRdpoNVqyocEfHY&chunks=676d0722957141d28d3346a5d9d68e9c6f160e531858e4e26813fd6ceb0abd1f9799bf68c6965f113d63cb167010b454c5fe89dec48291eb369c3cb06adafe4dedf4112c7ea9b991cb2633a389ff9879fac5598a761f4eec59dd40c5f9dcb920
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Pc3RD5YBtpl-Sbt7doxr/posters/d0f337ab-a7e6-4eed-bc7b-7d51fdc70a0f.png",w_300,q_85/Pc3RD5YBtpl-Sbt7doxr/posters/d0f337ab-a7e6-4eed-bc7b-7d51fdc70a0f.png" group-title="Movies", Zee Action
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=gatrRdpoNVqyocEfHY&segment=47b4e1969a838a929c29b1d774bb0d907861eb8856c6e9caaf7de59f1e7e259adb91dc51b97cfe510bee44ef0306df2d
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=gatrRdpoNVqyocEfHY&segment=47b4e1969a838a929c29b1d774bb0d90a138e6f2aa1da68d7087eb7efadfb97b81e913fd49d10db40c13a174ea54ebc8
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/-C7MX5UBv9knK3AHdKOi/posters/1f43be2f-f8d9-4a0c-b0cb-971a18a6771c.png",w_300,q_85/-C7MX5UBv9knK3AHdKOi/posters/1f43be2f-f8d9-4a0c-b0cb-971a18a6771c.png" group-title="Movies", Zee Bangla Cinema
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=r34EfeJ1LwCwUkKcF1&segment=8f4f468d83fbb03fe8f9fb1acb4c6f8acb2bb316fbdebc96e6f6dcd0273d3dcd76662564a4087a8ee0bd53e59128d81e
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=gS0juQdsYemH1P6bTY&chunks=723ac7f57b0cf4bcdc12b4dcf5fbf370a688d2119df29704379331154cdfd8ca385589a2414f987c94409abc69a252a23d75dca06ede7725e6c96126277d3c55d31fa1e486e504d2a5f0ff5a8f05f0ccb997eb9d365fa895430e0daa489b902b9f8298fe5e8f79b50788b084b5a6fcd2
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/5y7HX5UBv9knK3AHs6Nk/posters/794fd415-1b0a-49b5-b91b-2f62ba6cd759.png",w_300,q_85/5y7HX5UBv9knK3AHs6Nk/posters/794fd415-1b0a-49b5-b91b-2f62ba6cd759.png" group-title="Movies", Zee Cinema HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=gS0juQdsYemH1P6bTY&segment=b7d1c845763a9f6847abb0d32cb9e21a4d55fbada78bead6c66a0590eb9798949d367a529e671878eecf5d67131a0a94
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=LtcUfN79dIOm4ZicCM&chunks=6c2e6a1e90423a2d7072db87e2a2be50074794c05b1fe493bc887279bb5d603d7219ced71e1ed526b673e7918d055f04d96f2eb47cb85621216934668e98208b2c702fbc64979c063027db8579baff59625170fd8a26c07260560ed5219cdb8fde87f8d7ba3c37655a5cdfa8a01bf46c
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/OnSlPJYBcqxnFHJB6lFX/posters/4818f95a-c64a-490f-b310-a49aec026d71.png",w_300,q_85/OnSlPJYBcqxnFHJB6lFX/posters/4818f95a-c64a-490f-b310-a49aec026d71.png" group-title="Movies", Zee Bollywood
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=LtcUfN79dIOm4ZicCM&segment=99858533cfa638cf0e6dc622c21d5c7753e767f6982c2d1d9c7e08ff0571675fbdebd32569bff257153f205c119ad8cf
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=JhqC0ncpcwkRhWKbg5&chunks=810d46702315d441be3f9f0bb3d6d5e04aa1c229f05a5b6f58cbdb750585111403abb4bf0d6b6c042c80d2348baf6a7f31ca7a8a6111f481f03fdaa837ad8aa2e27122fdeb8df346acfc2ec9089c6efdb7f49303d190f4494090cac5de59443486def15c7a62b18c22c34ca5c359c176
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/QMwWnZUBtpl-Sbt7S2sx/posters/f2e6acfd-0031-4ca4-b954-c014a0c99058.png",w_300,q_85/QMwWnZUBtpl-Sbt7S2sx/posters/f2e6acfd-0031-4ca4-b954-c014a0c99058.png" group-title="Movies", & Pictures HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=JhqC0ncpcwkRhWKbg5&segment=814e64b1886f3f95f7417edd66ae948c716a580a67fc2d20d5d1054a0830e31bf5b115b5a35b1796c4ad63647bafb7fa
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=GbY4Y5MktRkUIU2YkT&chunks=9191db239a29a4a2c2c0d5a6dc8fcb8fc8efb6c4fcf7dd3f28ce7997fa738fb08951ac1e8fe13ae2d50cc145815b0971b9e3cde8d375061f7b15968130663fa206669e51801ed2421d1e8b93da436d76499830e442d5262013dae6bcbe7e1aca256229087bde441408a83aab1b06c0fc
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/366/logo/240x240/mobile_logo_702115001663003759.png",B4U Movies VIP
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=qZKbQThBRfj1XkWFOt&chunks=346a2717c176ba482d89a1ebdf629d9d06dcac1f144c8e7704ee4708f79b04b2b54d33c8d07358abb1addd9eddcdf4b35bd11b04be9194c47bf35ea6e49bd111a75acbf00e79071d13079b32466c7e3ef3f691d7111adc3df60f6a4d2213b21a
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=GbY4Y5MktRkUIU2YkT&segment=20bc7a526d38311ed85568e6696e42daefb6ff9b6319b824187176c265df638aaa1f1225f41ef9267cc58996361e269a
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/KS6x-JQBv9knK3AHwDZy/posters/6594d216-aaca-4eee-b6f5-bbc6b80feb15.webp",w_300,q_85/KS6x-JQBv9knK3AHwDZy/posters/6594d216-aaca-4eee-b6f5-bbc6b80feb15.webp" group-title="Infotainment", Discovery
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=qZKbQThBRfj1XkWFOt&segment=7742eddd1fb38a3e7e48957bed86c24a3034fd1634d6dbfc9f64594f876e4e4deca083cd8756eaad70b0c0c7fb12adee
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=UxwQw614OTg00S84mm&chunks=0bfe34388b69e9d5fa643623e85c94028f5cbbb8befd13a84e60e8b9a0999573bdf0e826134afeaa37bdf9344a46de876b0ad55ae26aa07921e601a9ac4133e4885e26e33aa6ca9c79e17a973d423169d44999d391c381d89574fbec2dfbd9f9
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/MC6C-JQBv9knK3AHUzUT/posters/a8c32fd3-2ba7-437c-85ac-de2f1b2fa6ca.webp",w_300,q_85/MC6C-JQBv9knK3AHUzUT/posters/a8c32fd3-2ba7-437c-85ac-de2f1b2fa6ca.webp" group-title="Infotainment", Sony BBC Earth HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=UxwQw614OTg00S84mm&segment=0fac6468ebe24e0a5c5798a947235b694b8393a1c2b7ee2bd32b2ba7990da8d2cd747065af57267130afde7f3a3657b9
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=UxwQw614OTg00S84mm&segment=0fac6468ebe24e0a5c5798a947235b69df134b17efc67bad4ed5e488d9c56b1f2c85bd357088b2a2c5c93b022d0c67cc
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/608/logo/240x240/mobile_logo_648826001673178929.png",TLC HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=yQ1Mp0ktb0tFanN2rb&segment=7f7db87f2696f6230eb0bd1b2185563dd4a711da05588b2fee2bedab3bc96e49ad465412d4fbcc702d5e786e3740a976
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=yQ1Mp0ktb0tFanN2rb&segment=7f7db87f2696f6230eb0bd1b2185563dd4a711da05588b2fee2bedab3bc96e49f674897f4c36a365462d1afcef251b6d
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/358/logo/240x240/mobile_logo_048875001673178985.png",TLC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=xdvEIf8gId7bCDaJgw&segment=98a339b5d872a428b6c25afb0f7f312f70fe826191d97c9cdaf1ae781961b1dcc6fda5ec175d6e0dd3e95e9435ecffbf
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=PTSHxIQ6FfHbKXB2EM&chunks=c4e220ad596209e8eb32e0ab0e1b559a45df0dd0909cc565fe8d687ec16536edf2ace7cc460ae84ea292d3cbbc3804573653e72eac0fd6f5fd83c76392e582c08b8a0544d0de3aeaaf6a3d4b25474418
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/359/logo/240x240/mobile_logo_835681001673175607.png",Animal Planet
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=PTSHxIQ6FfHbKXB2EM&segment=8a7e1b546511ffe1fe72f58ae1c4a37b4698a9074e9821bd8a81583c7f4a3892716a2b11b9c675e41c66bf41efcf41f8
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=PTSHxIQ6FfHbKXB2EM&segment=8a7e1b546511ffe1fe72f58ae1c4a37b38b399b3be00a6aac4732a90a0563f467345356d2130fd0cdb317dbfa7795d2f
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/18096/logo/240x240/mobile_logo_032001001673194753.png",Animal Planet HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=QAxiq7ovZTvtfKmCkm&segment=ee95c4fff2b11d59955ff5942845ad406539c91af7fa17f594286101cee7d0bd06a3decc1e7ee815f0e1ceac4a1c6a90
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=QAxiq7ovZTvtfKmCkm&segment=ee95c4fff2b11d59955ff5942845ad406539c91af7fa17f594286101cee7d0bd099005a5d8ad20e5d11e5e0ca4a734b1
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/18093/logo/240x240/mobile_logo_868363001673181438.png",Discovery HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=EueA9Tw45u9bbZaWiT&segment=ee95c4fff2b11d59955ff5942845ad40cbface9098cbec720357fbebe870ea1c744af45063ee2f73f10831defdc9d9d4
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=PQVDEP2tGgm9iEtfz8&chunks=0bfe34388b69e9d5fa643623e85c9402ad85ca4be01e29d48c18ed850208925d8c8ddb8dcb59ede744ca47bc0d41f82123fce530bf27d17179a40d0162f50fec29e321cdf25f6e7b1684101ac31b32560bea0a3fd1cd52a8adc58013d616733a
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/378/logo/240x240/mobile_logo_604754001673177502.png",Discovery Science
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=PQVDEP2tGgm9iEtfz8&segment=0fac6468ebe24e0a5c5798a947235b69d245693b061a8a31dd8d6e8d5d3bf0b6d05127c9be0f85c5ec2a660c8b8e2ee3
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&id=csTbFKmnQhLd2KQcd8&e=.m3u8
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/379/logo/240x240/mobile_logo_775127001673177876.png",Discovery Turbo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=csTbFKmnQhLd2KQcd8&segment=0fac6468ebe24e0a5c5798a947235b69ce27ca897f8e220708521a11edb16e434627c78263357ed820bf0a540d45fb6f
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=csTbFKmnQhLd2KQcd8&segment=0fac6468ebe24e0a5c5798a947235b69ce27ca897f8e220708521a11edb16e43c856589e7ee3e3c3c58421073a4c00ff
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/18094/logo/240x240/mobile_logo_154805001673178308.png",Investigation Discovery HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=2Z4u9liEjMfcXIMSRq&segment=0fac6468ebe24e0a5c5798a947235b697b19be08f698fba1d2ef0b54e4e649c4e86e4c26953caae9831bd9f7792188be
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=2Z4u9liEjMfcXIMSRq&segment=0fac6468ebe24e0a5c5798a947235b697b19be08f698fba1d2ef0b54e4e649c4e748f9cbe8298784a082a5065b465584
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/IC5_-JQBv9knK3AHFDXh/posters/36df4012-80f2-4a98-9970-3b663f62093f.webp",w_300,q_85/IC5_-JQBv9knK3AHFDXh/posters/36df4012-80f2-4a98-9970-3b663f62093f.webp" group-title="Kids", Sony YAY
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=CutWPmSYKnudyZCvM5&segment=97817317ed18a1e53e8139df1e74a2b34dbd77fb840fc60216e0e165e908914ef7950051984e010d58772072da012855e528b1fdd5c920e87699cefe62f6d318
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=CutWPmSYKnudyZCvM5&segment=97817317ed18a1e53e8139df1e74a2b34dbd77fb840fc60216e0e165e908914e35284882a6f5c2b94c5427a7ac6daa750f719ab304b7acedd1f4c3a62837d90d
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/26942/logo/240x240/mobile_logo_443429001678950505.png",Cartoon Network HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=j080lfXdwHlaq45zm7&segment=39a5d6823e17d7f8795d5f0956dc1d95030958905966901c7d50c7ca44dfbd54d244ec6fbc57dee539d9c4a3b7961157
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=j080lfXdwHlaq45zm7&segment=39a5d6823e17d7f8795d5f0956dc1d9507a7537c5907ca107eb6644a6b25d30bfd2fb9cf158b72df66a92f9889db4505
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/27232/logo/240x240/mobile_logo_320294001679201065.png",Cartoon Network
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=oBaEA0jRNouSrzVEqi&segment=ddef43b9ccf045aa97356cff4dbcad8af59785db163122f51b10a6d4aaaf24abdb37b941fae85e4c3656c21d90ba338f
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=paTwyZsjWoaKvmDha1&chunks=5bea0cf3e87e37958921fc314ab51cb4360109312c2edeb45015cfa3edf04b7a858e5626382e0bb2cfdc816c0044e0f0dd5cde083266ab3c436ec78fc7d48dd91a244784155ac524d8aca0caf1b885d9f531b1dfca2fbe946c40d3faab42b89472a22eaf6af0bc8114d974d6a2ef89f346f47ce6cd6fe190480e944d3dd1ea31
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/27159/logo/240x240/mobile_logo_740957001679201029.png",Pogo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=paTwyZsjWoaKvmDha1&segment=ddef43b9ccf045aa97356cff4dbcad8a4d8a1cb13f06c28c93c760d11bccaa6132f30f6338faec0a90ae5b733b99fda3
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=paTwyZsjWoaKvmDha1&segment=ddef43b9ccf045aa97356cff4dbcad8a4d8a1cb13f06c28c93c760d11bccaa61af1cfb31809f67eaf014ff392cf75ff8
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/611/logo/240x240/mobile_logo_430542001673177743.png",Discovery Kids
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=wj07Wdqd8S6DgZwlNe&segment=7a17c643ff2600f65151a126782b85531bf7938d623a7538066571f540f97934276fef3bf514d26b78f575820d8a60e8
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=wj07Wdqd8S6DgZwlNe&segment=7a17c643ff2600f65151a126782b8553021ccf5b74af9cec5c4af0bd6493328c936d8546a825324dc639a096e5d55918
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/DK8dd5YBrjBfS2_Ru22e/posters/a89a1e2e-677c-4a8a-9a66-dff5e0b921c8.png",w_300,q_85/DK8dd5YBrjBfS2_Ru22e/posters/a89a1e2e-677c-4a8a-9a66-dff5e0b921c8.png" group-title="Music", Zing
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=2Nq9nPGlXRaeXzLGKb&segment=0fac6468ebe24e0a5c5798a947235b69a7e65273c3a0695495a6754d464dc8712d46ec092592fd77b516b22404957d55
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=2Nq9nPGlXRaeXzLGKb&segment=0fac6468ebe24e0a5c5798a947235b694199ab4b0b312d67d94f5da6d06fe8af1e43708914b2f95fa64d164a5f204f03
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/367/logo/115x115/mobile_logo_886909001563629905.png",B4U Music VIP
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=MsDgPfAGTAsOAiVnSD&segment=57aa527b5f26995ad8bdbd8a582f1f204aed7822dcf5f0e588a341d77c22e86d43fe35e04e75154e0a320dc385f8bb90
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=0PRWzY4cMMFQKUybMd&chunks=23c26f02caa0de6d08101f84b6fd07a1e6d332fdebc6cce54d2d87bb7cd680844c45d12a4b7f1b3a33fabe63872b977a6b33464008c85ab822b847d693ec47c64e319ff5da6800d1f3fd411aaa587854662135d9275d3c57e94a2e801a286cf9
 #EXTINF:-1 group-title="Toffee" tvg-logo="https://images.toffeelive.com/images/program/303947/logo/240x240/mobile_logo_203789001738235600.png",Hum Masala
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-cookie=PHPSESSID=f263483be13f039e8ab7c3a6135cefc3; __test=02c91cdfb728345c126b1d8fbe984dcd
+#EXTVLCOPT:http-cookie=pp_main_a2722409cc59c77721b2a511e160c7e9=1; PHPSESSID=6ee7662c28760c7117b33a6d605dcbaf; __test=02c91cdfb728345c126b1d8fbe984dcd
 #EXTVLCOPT:http-referrer=https://mxonlive.wuaze.com/
-https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=0PRWzY4cMMFQKUybMd&segment=a4cf02c9312570490c02a8bd74d471d191b45b5520c6a21ae568baab8fad315b023f64c84fcfe0dcc63a13b2414ad24f
+https://mxonlive.wuaze.com/toffee/stream.php?play=true&cid=auhovOR2Odoc5I3Xhh&chunks=83f054c6e64854cd4a9c8f188e6c0ad478889da1b947e991595c45f15bd389bfb9e8232a9c96d79f144a4414a3efa1e8a1745ae6d5f0e85b583d484f915420e682d813c3e175648ed3fecf4e9d27f8c6d2b843f9c12171c683dd8eaf216568bd
