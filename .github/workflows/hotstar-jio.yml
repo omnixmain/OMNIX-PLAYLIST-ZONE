@@ -5,6 +5,9 @@ on:
     - cron: '0 */6 * * *' # Run every 6 hours
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-playlist:
     runs-on: ubuntu-latest

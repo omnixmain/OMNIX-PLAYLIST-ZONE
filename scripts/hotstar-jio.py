@@ -23,8 +23,8 @@ def fetch_playlist():
         try:
             headers = {
                 'User-Agent': agent,
+                'Accept': '*/*',
                 'cache-control': 'no-cache, no-store',
-                # 'X-Requested-With': 'com.live.sktechtv' if 'okhttp' in agent else 'XMLHttpRequest', 
             }
             
             response = session.get(url, headers=headers, timeout=20)
