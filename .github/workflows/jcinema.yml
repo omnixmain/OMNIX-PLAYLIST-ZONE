@@ -1,4 +1,4 @@
-name: Update adult_omnix.m3u
+name: Update jcinema.m3u
 
 on:
   workflow_dispatch:
@@ -18,7 +18,7 @@ jobs:
 
     - name: Fetch file from hosting
       run: |
-        curl -o playlist/adult_omnix.m3u https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/Movies/Private/Movies.m3u
+        curl -o playlist/jcinema.m3u https://raw.githubusercontent.com/alex8875/m3u/main/jcinema.m3u
 
     - name: Commit and push changes
       env:
@@ -26,7 +26,7 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add playlist/adult_omnix.m3u
-        git commit -m "Update adult_omnix.m3u file" || echo "No changes to commit"
+        git add playlist/jcinema.m3u
+        git commit -m "Update jcinema.m3u file"
         git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
         git push origin HEAD:main
