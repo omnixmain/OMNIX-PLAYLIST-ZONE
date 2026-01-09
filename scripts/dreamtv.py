@@ -2,8 +2,21 @@ import requests
 import os
 
 def fetch_and_filter_m3u():
-    url = "http://dreamtv22.info:25461/get.php?username=319006301129&password=417198287244&type=m3u_plus"
-    output_file = os.path.join("playlist", "dreamtv.m3u")
+    # URL to fetch the M3U data
+    url = "http://esproookttm.top:8080/get.php?username=es6561755618020302&password=d83304ab7c56&type=m3u_plus&output=ts"
+    
+    # Determine the directory where this script is located
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    # Go one level up to find the playlist directory (assuming scripts/ is a sibling of playlist/)
+    project_root = os.path.dirname(script_dir)
+    playlist_dir = os.path.join(project_root, "playlist")
+    
+    # Ensure playlist directory exists
+    os.makedirs(playlist_dir, exist_ok=True)
+    
+    output_file = os.path.join(playlist_dir, "dreamtv.m3u")
+    
+    print(f"Fetching data from: {url}")
     
     try:
         response = requests.get(url, timeout=30)
@@ -12,33 +25,36 @@ def fetch_and_filter_m3u():
         lines = response.text.splitlines()
         filtered_lines = ["#EXTM3U"]
         
-        # Simple parser: check pairs of lines (or chunks)
-        # Usually #EXTINF is followed by URL
-        
-        # We process line by line. If we find #EXTINF, we hold it. 
-        # If the next non-empty/non-comment line is a URL ending in .ts, we keep both.
+        print(f"Downloaded {len(lines)} lines. Parsing...")
         
         i = 0
+        channel_count = 0
+        
         while i < len(lines):
             line = lines[i].strip()
+            
             if line.startswith("#EXTINF"):
                 extinf_line = line
-                # Look ahead for URL
+                # Look for the URL in following lines
                 j = i + 1
                 url_line = None
+                
                 while j < len(lines):
-                    temp_line = lines[j].strip()
-                    if temp_line and not temp_line.startswith("#"):
-                        url_line = temp_line
+                    next_line = lines[j].strip()
+                    if next_line and not next_line.startswith("#"):
+                        url_line = next_line
                         break
-                    if temp_line.startswith("#EXTINF"): # Found another EXTINF before URL, abort previous
+                    elif next_line.startswith("#EXTINF"):
+                        # Found another channel marker before a URL, abort previous
                         break
                     j += 1
                 
-                if url_line and url_line.endswith(".ts"):
+                # If we found a URL, add both lines
+                if url_line:
                     filtered_lines.append(extinf_line)
                     filtered_lines.append(url_line)
-                    i = j # Advance to the line after URL
+                    channel_count += 1
+                    i = j # Move index to the URL line, loop will increment to next
                 else:
                     i += 1
             else:
@@ -47,10 +63,13 @@ def fetch_and_filter_m3u():
         with open(output_file, "w", encoding="utf-8") as f:
             f.write("\n".join(filtered_lines))
             
-        print(f"Successfully created {output_file} with {len(filtered_lines)//2} channels.")
+        print(f"Successfully created: {output_file}")
+        print(f"Total Live TV channels extracted: {channel_count}")
         
+    except requests.exceptions.RequestException as e:
+        print(f"Network error fetching M3U: {e}")
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"An unexpected error occurred: {e}")
 
 if __name__ == "__main__":
     fetch_and_filter_m3u()
