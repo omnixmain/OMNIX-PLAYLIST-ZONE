@@ -2,43 +2,28 @@
 #=================================
 # Developed By: OMNIX EMPIER
 # IPTV Telegram Channels: https://t.me/omnix_Empire
-# Last Updated: 2026-01-10 03:58 PM (BD Time)
-# TV channel counts :- 29
+# Last Updated: 2026-01-10 04:24 PM (BD Time)
+# TV channel counts :- 16
 # Disclaimer:
 # This tool does NOT host any content.
 # It aggregates publicly available data for informational purposes only.
 # For any issues or concerns, please contact the developer.
 #==================================  
-#EXTINF:-1 tvg-id="A Sports HD" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/12-by-xfireflix.png" group-title="Sports", A Sports HD
+#EXTINF:-1 tvg-id="LaLiGA" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/19-by-xfireflix.png" group-title="Sports", LaLiGA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/asportshd.m3u8
-#EXTINF:-1 tvg-id="PTV Sports" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/20-by-xfireflix.png" group-title="Sports", PTV Sports
+https://crichd.workspace-sultanarabi161.workers.dev/live/laligauk.m3u8
+#EXTINF:-1 tvg-id="Premier Sports 1" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/31-by-xfireflix.png" group-title="Sports", Premier Sports 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/ptvpk.m3u8
+https://crichd.workspace-sultanarabi161.workers.dev/live/premieruk.m3u8
 #EXTINF:-1 tvg-id="Sky Cinema" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/skycinema.png" group-title="Sports", Sky Cinema
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/skysme.m3u8
-#EXTINF:-1 tvg-id="Sky Sport 6 Nz" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png" group-title="Sports", Sky Sport 6 Nz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/sky6nz.m3u8
 #EXTINF:-1 tvg-id="Sky Sport Nz 1" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png" group-title="Sports", Sky Sport Nz 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/sky1nz.m3u8
 #EXTINF:-1 tvg-id="Sky Sport Nz 2" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png" group-title="Sports", Sky Sport Nz 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/sky2nz.m3u8
-#EXTINF:-1 tvg-id="Sky Sport Nz 3" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png" group-title="Sports", Sky Sport Nz 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/sky3nz.m3u8
-#EXTINF:-1 tvg-id="Sky Sport Nz 4" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png" group-title="Sports", Sky Sport Nz 4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/sky4nz.m3u8
-#EXTINF:-1 tvg-id="Sky Sport Nz 5" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png" group-title="Sports", Sky Sport Nz 5
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/sky5nz.m3u8
-#EXTINF:-1 tvg-id="Sky Sport Nz 7" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png" group-title="Sports", Sky Sport Nz 7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/sky7nz.m3u8
 #EXTINF:-1 tvg-id="Sky Sport Nz 8" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png" group-title="Sports", Sky Sport Nz 8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/sky8nz.m3u8
@@ -48,9 +33,6 @@ https://crichd.workspace-sultanarabi161.workers.dev/live/sky9nz.m3u8
 #EXTINF:-1 tvg-id="Sky Sports Action" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745007829332.png" group-title="Sports", Sky Sports Action
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/skysact.m3u8
-#EXTINF:-1 tvg-id="Sky Sports Cricket" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png" group-title="Sports", Sky Sports Cricket
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/skyscric.m3u8
 #EXTINF:-1 tvg-id="Sky Sports F1" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008468637.png" group-title="Sports", Sky Sports F1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/skysfor1.m3u8
@@ -60,24 +42,12 @@ https://crichd.workspace-sultanarabi161.workers.dev/live/skysfott.m3u8
 #EXTINF:-1 tvg-id="Sky Sports Golf" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008055327.png" group-title="Sports", Sky Sports Golf
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/skysgol.m3u8
-#EXTINF:-1 tvg-id="Sky Sports Main Event" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/18-by-xfireflix.png" group-title="Sports", Sky Sports Main Event
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/skysme.m3u8
 #EXTINF:-1 tvg-id="Sky Sports Plus" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008347584.png" group-title="Sports", Sky Sports Plus
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/skysare.m3u8
 #EXTINF:-1 tvg-id="Sky Sports Premier League" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/43-by-xfireflix.png" group-title="Sports", Sky Sports Premier League
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/skysprem.m3u8
-#EXTINF:-1 tvg-id="Star Sports 1" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/16-by-xfireflix.png" group-title="Sports", Star Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/star1in.m3u8
-#EXTINF:-1 tvg-id="Star Sports 1 Hindi" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1-by-xfireflix.png" group-title="Sports", Star Sports 1 Hindi
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/starhindi.m3u8
-#EXTINF:-1 tvg-id="TNT 1" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png" group-title="Sports", TNT 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/bbtsp1.m3u8
 #EXTINF:-1 tvg-id="TNT 2" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png" group-title="Sports", TNT 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/bbtsp2.m3u8
@@ -87,12 +57,3 @@ https://crichd.workspace-sultanarabi161.workers.dev/live/bbtsp3.m3u8
 #EXTINF:-1 tvg-id="TNT 4" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png" group-title="Sports", TNT 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/bbtespn.m3u8
-#EXTINF:-1 tvg-id="Ten Sports" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/10-by-xfireflix.png" group-title="Sports", Ten Sports
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/tenspk.m3u8
-#EXTINF:-1 tvg-id="Willow HD" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/38-by-xfireflix.png" group-title="Sports", Willow HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/willowusa.m3u8
-#EXTINF:-1 tvg-id="Willow HD 2" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/8-by-xfireflix.png" group-title="Sports", Willow HD 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/willowextra.m3u8
