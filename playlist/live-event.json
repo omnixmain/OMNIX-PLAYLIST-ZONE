@@ -1,7 +1,7 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-10 21:21:52",
-  "total_matches": 56,
+  "last_updated": "2026-01-10 21:39:45",
+  "total_matches": 55,
   "matches": [
     {
       "category": "Football",
@@ -139,116 +139,6 @@
         "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139249_english_hls_27b9a905d037471_1ta-di_h264/index.m3u8",
         "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139249_english_hls_27b9a905d037471_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "https://dai.google.com/linear/hls/event/g3wZar94QF6zPHYeiUBGgQ/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Football",
-      "title": "Egypt Vs Ivory Coast",
-      "tournament": "Africa Cup of Nations 2025-26",
-      "match_id": 138390,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "11 January 2026 12:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Egypt-vs-Ivory-Coast_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138390_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Egypt-vs-Ivory-Coast_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Egypt-vs-Ivory-Coast_fc-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Afcon-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Egypt-vs-Ivory-Coast_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Egypt-vs-Ivory-Coast_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138390_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Egypt",
-          "shortName": "EGY",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-EGYP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#b99530",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 3,
-            "goals": [
-              {
-                "id": "265",
-                "shortName": "M Salah",
-                "isOwnGoal": false,
-                "goalTime": "52'"
-              },
-              {
-                "id": "175112",
-                "shortName": "R Rabia",
-                "isOwnGoal": false,
-                "goalTime": "32'"
-              },
-              {
-                "id": "72564",
-                "shortName": "O Marmoush",
-                "isOwnGoal": false,
-                "goalTime": "4'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Ivory Coast",
-          "shortName": "IVC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-IVR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e07d15",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 2,
-            "goals": [
-              {
-                "id": "162871",
-                "shortName": "G Doue",
-                "isOwnGoal": false,
-                "goalTime": "73'"
-              },
-              {
-                "id": "28368",
-                "shortName": "Ahmed",
-                "isOwnGoal": false,
-                "goalTime": "40'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138390_english_hls_9fe78d79a136280_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138390_english_hls_9fe78d79a136280_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/138390_english_hls_9fe78d79a136280_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/jmWOWkiWS--FmFk3meeF4Q/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -1329,73 +1219,6 @@
     },
     {
       "category": "Football",
-      "title": "Thailand U23 Vs Iraq U23",
-      "tournament": "AFC U23 Asian Cup, 2026",
-      "match_id": 139266,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "11 January 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139266_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-U23-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139266_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Thailand U23",
-          "shortName": "THA-U23",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/THL-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#948faa",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Iraq U23",
-          "shortName": "IRQ-U23",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/IRQ-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e36e79",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Football",
       "title": "Fc Barcelona Vs Real Madrid",
       "tournament": "SuperCopa 2026",
       "match_id": 138959,
@@ -1509,6 +1332,140 @@
           },
           "isWinner": null,
           "color": "#221469",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Football",
+      "title": "Thailand U23 Vs Iraq U23",
+      "tournament": "AFC U23 Asian Cup, 2026",
+      "match_id": 139266,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 January 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139266_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-U23-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139266_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Thailand U23",
+          "shortName": "THA-U23",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/THL-FT1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#948faa",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Iraq U23",
+          "shortName": "IRQ-U23",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/IRQ-FT1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#e36e79",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Cricket",
+      "title": "Otago Volts Vs Auckland Aces",
+      "tournament": "Super Smash, 2025-26",
+      "match_id": 138747,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "12 January 2026 08:55 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_fc-web_1766641251086.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138747_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_fc-web_1766641251086.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_fc-web_1766641251086.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138747_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Otago Volts",
+          "shortName": "OV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VOLT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#e0cc38",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Auckland Aces",
+          "shortName": "AA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ACE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0A129E",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1643,73 +1600,6 @@
           },
           "isWinner": null,
           "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Cricket",
-      "title": "Otago Volts Vs Auckland Aces",
-      "tournament": "Super Smash, 2025-26",
-      "match_id": 138747,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "12 January 2026 08:55 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_fc-web_1766641251086.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138747_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_fc-web_1766641251086.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_fc-web_1766641251086.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138747_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Otago Volts",
-          "shortName": "OV",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VOLT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e0cc38",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Auckland Aces",
-          "shortName": "AA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ACE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0A129E",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2633,22 +2523,79 @@
       "source": "Fancode"
     },
     {
+      "category": "Football",
+      "title": "Sevilla Fc Vs Rc Celta",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131013,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 January 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131013_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131013_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Sevilla FC",
+          "shortName": "SEV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SVI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#daa335",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "RC Celta",
+          "shortName": "CEV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b1d4f5",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
       "match_id": "1090499182_ENG",
       "title": "Charlton vs Chelsea - Round 3 - 11 Jan 2026 [ENG]",
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013167/1767949166351145_FA_CUP_26_RD3_Charlton-vs-Chelsea_9jan_Landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768123060~acl=/*~id=01340650017468611950689759887747~hmac=bdc515c30638b1933838e6c22d69f668167269d124fe5bd82e3a5d754230e5e1"
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": "1090499221_ENG",
-      "title": "Round 2 - Hankook Mexico City E-Prix - Final Race - 11 Jan 2026 [ENG]",
-      "status": "LIVE",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013178/1767968640671941_ABB_FIA_FormulaE_WC2526_Round_2_Hankook_Mexico_City_EPRIX_final_Race_9jan_landscape_thumb.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768123060~acl=/*~id=01340650017468611950689759887747~hmac=bdc515c30638b1933838e6c22d69f668167269d124fe5bd82e3a5d754230e5e1"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768124277~acl=/*~id=94413529323498754463753281316273~hmac=b15320e16b308762a756f49b07efe2be3c4cfe47fff68b278b3107f043fdb6d8"
       },
       "source": "SonyLIV"
     },
