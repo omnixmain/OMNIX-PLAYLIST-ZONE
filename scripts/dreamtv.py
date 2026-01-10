@@ -60,8 +60,6 @@ def fetch_and_filter_m3u():
                     i += 1
             else:
                 i += 1
-                
-                i += 1
         
         # Calculate BD Time (UTC + 6)
         utc_now = datetime.datetime.utcnow()
