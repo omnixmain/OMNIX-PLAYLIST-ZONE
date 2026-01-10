@@ -1,6 +1,6 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-10 18:59:04",
+  "last_updated": "2026-01-10 19:22:55",
   "total_matches": 62,
   "matches": [
     {
@@ -93,7 +93,7 @@
       "title": "Egypt Vs Ivory Coast",
       "tournament": "Africa Cup of Nations 2025-26",
       "match_id": 138390,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "11 January 2026 12:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -119,7 +119,17 @@
           "color": "#b99530",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "72564",
+                "shortName": "O Marmoush",
+                "isOwnGoal": false,
+                "goalTime": "4'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -138,7 +148,10 @@
           "color": "#e07d15",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -426,6 +439,73 @@
       "source": "Fancode"
     },
     {
+      "category": "Football",
+      "title": "Valencia Cf Vs Elche Cf",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131014,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 January 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131014_5427_VAL_ELC_fc-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131014_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131014_5427_VAL_ELC_fc-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131014_5427_VAL_ELC_fc-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131014_5427_VAL_ELC_fc-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131014_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Valencia CF",
+          "shortName": "VAL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VAL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#4F7DE5",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Elche CF",
+          "shortName": "ELC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/ELC-FT1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#253611",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
       "category": "Cricket",
       "title": "Noakhali Express Vs Dhaka Capitals",
       "tournament": "Bangladesh Premier League, 2025-26",
@@ -561,33 +641,33 @@
     },
     {
       "category": "Football",
-      "title": "Valencia Cf Vs Elche Cf",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131014,
+      "title": "Racing Club Vs Real Zaragoza",
+      "tournament": "LALIGA Hypermotion 2025-26",
+      "match_id": 139249,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
       "startTime": "11 January 2026 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131014_5427_VAL_ELC_fc-Web.png",
+      "image": "https://images.fancode.com/aig/match/v1/139249_CASACARDS_APP.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131014_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131014_5427_VAL_ELC_fc-Web.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139249_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1/139249_CASACARDS_APP.png",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131014_5427_VAL_ELC_fc-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131014_5427_VAL_ELC_fc-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131014_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/139249_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/139249_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139249_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Valencia CF",
-          "shortName": "VAL",
+          "name": "Racing Club",
+          "shortName": "RAC",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VAL@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RAC@2x.png"
           },
           "isWinner": null,
-          "color": "#4F7DE5",
+          "color": "#33E0FF",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -600,13 +680,13 @@
           }
         },
         {
-          "name": "Elche CF",
-          "shortName": "ELC",
+          "name": "Real Zaragoza",
+          "shortName": "RZ",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/ELC-FT1@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ZAR@2x.png"
           },
           "isWinner": null,
-          "color": "#253611",
+          "color": "#88070C",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -942,73 +1022,6 @@
           },
           "isWinner": null,
           "color": "#FBCCD1",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Football",
-      "title": "Racing Club Vs Real Zaragoza",
-      "tournament": "LALIGA Hypermotion 2025-26",
-      "match_id": 139249,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "11 January 2026 01:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1/139249_CASACARDS_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139249_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1/139249_CASACARDS_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/139249_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/139249_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139249_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Racing Club",
-          "shortName": "RAC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RAC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#33E0FF",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Real Zaragoza",
-          "shortName": "RZ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ZAR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#88070C",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2607,7 +2620,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983336654263_facup26_RD3_Tottenham_vs_Aston_Villa_9jan_eng_Landscape_thumb_re1.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768114528~acl=/*~id=38463244791947830883258906330866~hmac=4dc661ba628790c7b4ed3c08b8937e36081348bc8d6f23b0615a236ca5ea7c23"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768115752~acl=/*~id=64496278182826095842244297570818~hmac=4fcbb311e02c5b969601139963594bc3f25bf7c291cbe1e70cb35bdad16d4344"
       },
       "source": "SonyLIV"
     },
@@ -2617,7 +2630,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983336654263_facup26_RD3_Tottenham_vs_Aston_Villa_9jan_eng_Landscape_thumb_re1.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768114528~acl=/*~id=38463244791947830883258906330866~hmac=4dc661ba628790c7b4ed3c08b8937e36081348bc8d6f23b0615a236ca5ea7c23"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768115752~acl=/*~id=64496278182826095842244297570818~hmac=4fcbb311e02c5b969601139963594bc3f25bf7c291cbe1e70cb35bdad16d4344"
       },
       "source": "SonyLIV"
     },
@@ -2627,7 +2640,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983336654263_facup26_RD3_Tottenham_vs_Aston_Villa_9jan_eng_Landscape_thumb_re1.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768114528~acl=/*~id=38463244791947830883258906330866~hmac=4dc661ba628790c7b4ed3c08b8937e36081348bc8d6f23b0615a236ca5ea7c23"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768115752~acl=/*~id=64496278182826095842244297570818~hmac=4fcbb311e02c5b969601139963594bc3f25bf7c291cbe1e70cb35bdad16d4344"
       },
       "source": "SonyLIV"
     },
@@ -2637,7 +2650,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983336654263_facup26_RD3_Tottenham_vs_Aston_Villa_9jan_eng_Landscape_thumb_re1.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768114528~acl=/*~id=38463244791947830883258906330866~hmac=4dc661ba628790c7b4ed3c08b8937e36081348bc8d6f23b0615a236ca5ea7c23"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768115752~acl=/*~id=64496278182826095842244297570818~hmac=4fcbb311e02c5b969601139963594bc3f25bf7c291cbe1e70cb35bdad16d4344"
       },
       "source": "SonyLIV"
     },
@@ -2647,7 +2660,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013116/1767860238140351_Bundesliga_MD16_Bayer-Leverkusen-vs-VfB-Stuttgart_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768114528~acl=/*~id=38463244791947830883258906330866~hmac=4dc661ba628790c7b4ed3c08b8937e36081348bc8d6f23b0615a236ca5ea7c23"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768115752~acl=/*~id=64496278182826095842244297570818~hmac=4fcbb311e02c5b969601139963594bc3f25bf7c291cbe1e70cb35bdad16d4344"
       },
       "source": "SonyLIV"
     },
@@ -2657,7 +2670,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013178/1767968640671941_ABB_FIA_FormulaE_WC2526_Round_2_Hankook_Mexico_City_EPRIX_final_Race_9jan_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768114528~acl=/*~id=38463244791947830883258906330866~hmac=4dc661ba628790c7b4ed3c08b8937e36081348bc8d6f23b0615a236ca5ea7c23"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768115752~acl=/*~id=64496278182826095842244297570818~hmac=4fcbb311e02c5b969601139963594bc3f25bf7c291cbe1e70cb35bdad16d4344"
       },
       "source": "SonyLIV"
     },
