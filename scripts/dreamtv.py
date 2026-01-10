@@ -1,5 +1,6 @@
 import requests
 import os
+import datetime
 
 def fetch_and_filter_m3u():
     # URL to fetch the M3U data
@@ -23,7 +24,7 @@ def fetch_and_filter_m3u():
         response.raise_for_status()
         
         lines = response.text.splitlines()
-        filtered_lines = ["#EXTM3U"]
+        filtered_lines = []
         
         print(f"Downloaded {len(lines)} lines. Parsing...")
         
@@ -60,7 +61,28 @@ def fetch_and_filter_m3u():
             else:
                 i += 1
                 
+                i += 1
+        
+        # Calculate BD Time (UTC + 6)
+        utc_now = datetime.datetime.utcnow()
+        bd_time = utc_now + datetime.timedelta(hours=6)
+        formatted_time = bd_time.strftime("%Y-%m-%d %I:%M %p")
+
+        m3u_header = f"""#EXTM3U
+#=================================
+# Developed By: OMNIX EMPIER
+# IPTV Telegram Channels: https://t.me/omnix_Empire
+# Last Updated: {formatted_time} (BD Time)
+# TV channel counts :- {channel_count}
+# Disclaimer:
+# This tool does NOT host any content.
+# It aggregates publicly available data for informational purposes only.
+# For any issues or concerns, please contact the developer.
+#==================================  
+"""
+        
         with open(output_file, "w", encoding="utf-8") as f:
+            f.write(m3u_header)
             f.write("\n".join(filtered_lines))
             
         print(f"Successfully created: {output_file}")

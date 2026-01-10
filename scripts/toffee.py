@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 import urllib.parse
 import requests
+import datetime
 
 def get_channels_and_cookies():
     options = Options()
@@ -139,7 +140,24 @@ def generate_m3u(channels, cookie_str, user_agent):
     os.makedirs(os.path.dirname(playlist_path), exist_ok=True)
     
     with open(playlist_path, "w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
+        # Calculate BD Time (UTC + 6)
+        utc_now = datetime.datetime.utcnow()
+        bd_time = utc_now + datetime.timedelta(hours=6)
+        formatted_time = bd_time.strftime("%Y-%m-%d %I:%M %p")
+
+        m3u_header = f"""#EXTM3U
+#=================================
+# Developed By: OMNIX EMPIER
+# IPTV Telegram Channels: https://t.me/omnix_Empire
+# Last Updated: {formatted_time} (BD Time)
+# TV channel counts :- {len(channels)}
+# Disclaimer:
+# This tool does NOT host any content.
+# It aggregates publicly available data for informational purposes only.
+# For any issues or concerns, please contact the developer.
+#==================================  
+"""
+        f.write(m3u_header)
         
         for ch in channels:
             url = ch['stream_url']

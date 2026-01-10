@@ -1,6 +1,7 @@
 import requests
 import os
 import sys
+import datetime
 
 url = "https://hotstarlive.delta-cloud.workers.dev/?token=a13d9c-4b782a-6c90fd-9a1b84"
 output_file = "playlist/hotstar-jio.m3u"
@@ -55,7 +56,32 @@ def main():
 
     if content:
         with open(output_file, "w", encoding="utf-8") as f:
-            f.write(content)
+            # Calculate BD Time (UTC + 6)
+            utc_now = datetime.datetime.utcnow()
+            bd_time = utc_now + datetime.timedelta(hours=6)
+            formatted_time = bd_time.strftime("%Y-%m-%d %I:%M %p")
+            
+            lines = content.splitlines()
+            channel_count = sum(1 for line in lines if line.strip().startswith("#EXTINF"))
+            
+            # Remove existing #EXTM3U or header lines if simple
+            if lines and lines[0].startswith("#EXTM3U"):
+                lines.pop(0)
+
+            m3u_header = f"""#EXTM3U
+#=================================
+# Developed By: OMNIX EMPIER
+# IPTV Telegram Channels: https://t.me/omnix_Empire
+# Last Updated: {formatted_time} (BD Time)
+# TV channel counts :- {channel_count}
+# Disclaimer:
+# This tool does NOT host any content.
+# It aggregates publicly available data for informational purposes only.
+# For any issues or concerns, please contact the developer.
+#==================================  
+"""
+            f.write(m3u_header)
+            f.write("\n".join(lines))
         print(f"Saved playlist to {output_file}")
     else:
         # Check if file exists to determine if we should fail hard or just warn

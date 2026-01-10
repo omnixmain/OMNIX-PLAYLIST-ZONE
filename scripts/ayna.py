@@ -12,7 +12,7 @@ import base64
 from urllib.parse import urljoin
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import socket
-
+import datetime
 
 
 BASE_URL = "https://n.shopnojaal.top/ayna/"
@@ -129,7 +129,26 @@ def main():
         log(response.text[:500])
         return
     
-    m3u_content = ["#EXTM3U"]
+    m3u_content = []
+    
+    # Calculate BD Time (UTC + 6)
+    utc_now = datetime.datetime.utcnow()
+    bd_time = utc_now + datetime.timedelta(hours=6)
+    formatted_time = bd_time.strftime("%Y-%m-%d %I:%M %p")
+
+    m3u_header = f"""#EXTM3U
+#=================================
+# Developed By: OMNIX EMPIER
+# IPTV Telegram Channels: https://t.me/omnix_Empire
+# Last Updated: {formatted_time} (BD Time)
+# TV channel counts :- {len(results)}
+# Disclaimer:
+# This tool does NOT host any content.
+# It aggregates publicly available data for informational purposes only.
+# For any issues or concerns, please contact the developer.
+#==================================  """
+
+    m3u_content.append(m3u_header)
     
     
     work_items = []

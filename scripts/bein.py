@@ -1,4 +1,5 @@
 import os
+import datetime
 
 def filter_bein_channels():
     input_file = os.path.join("playlist", "dreamtv.m3u")
@@ -9,10 +10,9 @@ def filter_bein_channels():
         return
 
     try:
-        with open(input_file, "r", encoding="utf-8") as f:
-            lines = f.readlines()
+        lines = f.readlines()
             
-        filtered_lines = ["#EXTM3U\n"]
+        filtered_lines = []
         
         i = 0
         while i < len(lines):
@@ -44,7 +44,30 @@ def filter_bein_channels():
             else:
                 i += 1
                 
+                i += 1
+        
+        # Calculate BD Time (UTC + 6)
+        utc_now = datetime.datetime.utcnow()
+        bd_time = utc_now + datetime.timedelta(hours=6)
+        formatted_time = bd_time.strftime("%Y-%m-%d %I:%M %p")
+        
+        count = len(filtered_lines) // 2
+
+        m3u_header = f"""#EXTM3U
+#=================================
+# Developed By: OMNIX EMPIER
+# IPTV Telegram Channels: https://t.me/omnix_Empire
+# Last Updated: {formatted_time} (BD Time)
+# TV channel counts :- {count}
+# Disclaimer:
+# This tool does NOT host any content.
+# It aggregates publicly available data for informational purposes only.
+# For any issues or concerns, please contact the developer.
+#==================================  
+"""
+        
         with open(output_file, "w", encoding="utf-8") as f:
+            f.write(m3u_header)
             f.writelines(filtered_lines)
             
         print(f"Successfully created {output_file} with {len(filtered_lines)//2} channels.")

@@ -137,11 +137,12 @@ def generate_m3u(channels):
 # Developed By: OMNIX EMPIER
 # IPTV Telegram Channels: https://t.me/omnix_Empire
 # Last Updated: {formatted_time} (BD Time)
+# TV channel counts :- {len(channels)}
 # Disclaimer:
 # This tool does NOT host any content.
 # It aggregates publicly available data for informational purposes only.
 # For any issues or concerns, please contact the developer.
-#=================================="""
+#==================================  """
         
         f.write(m3u_header + '\n')
         # f.write(f'#EXTINF:-1, Updated: {current_time}\n') # Removing old updated line to avoid dupes

@@ -93,11 +93,12 @@ def fetch_and_refresh():
 # Developed By: OMNIX EMPIER
 # IPTV Telegram Channels: https://t.me/omnix_Empire
 # Last Updated: {formatted_time} (BD Time)
+# TV channel counts :- {len(valid_channels)}
 # Disclaimer:
 # This tool does NOT host any content.
 # It aggregates publicly available data for informational purposes only.
 # For any issues or concerns, please contact the developer.
-#=================================="""
+#==================================  """
         
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(m3u_header + "\n")
