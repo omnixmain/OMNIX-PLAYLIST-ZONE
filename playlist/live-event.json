@@ -1,6 +1,6 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-10 23:36:37",
+  "last_updated": "2026-01-10 23:48:31",
   "total_matches": 55,
   "matches": [
     {
@@ -8,7 +8,7 @@
       "title": "Wellington Blaze Vs Northern Brave Women",
       "tournament": "Women's Super Smash, 2025-26",
       "match_id": 138778,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "11 January 2026 05:10 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -34,9 +34,9 @@
           "color": "#dcdcdc",
           "cricketScore": [
             {
-              "runs": 0,
-              "overs": "0",
-              "balls": "0",
+              "runs": 3,
+              "overs": "0.3",
+              "balls": "3",
               "status": "IN_PROGRESS",
               "wickets": 0
             }
@@ -849,7 +849,7 @@
           },
           "isWinner": null,
           "color": "#FFD433",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -868,7 +868,7 @@
           },
           "isWinner": null,
           "color": "#221469",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -2600,7 +2600,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012842/1767188578192275_SuperSmash2526_womens_Wellington-Blaze-vs-Northern-Brave_31dec_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768130951~acl=/*~id=56463213183607275593651236180443~hmac=10e94fc5d51fe92f7dd22189244b190107dba92d8b6f8bfc29a9f8c7a6223b2a"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768131558~acl=/*~id=21187044909650146782535646698633~hmac=25422e2399e84cb6c51d9bd4b6e83c1bf3256146891c804e86cbc2ce1eb10a2b"
       },
       "source": "SonyLIV"
     },
