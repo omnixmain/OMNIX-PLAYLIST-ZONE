@@ -68,6 +68,33 @@ def fetch_and_generate_m3u():
                     else:
                         logo = raw_src
 
+                # url is like: https://player.xfireflixbd.workers.dev/?fire=https://crichd2.xfireflixbd.workers.dev/?v=skysme
+                # We need to extract the 'fire' param value
+                if "fire=" in stream_url:
+                    try:
+                        # Split by fire= and take the part after it
+                        # Assuming it might be the last param or followed by others
+                        # But in the examples it looks like the main payload
+                        extracted_url = stream_url.split("fire=")[1]
+                        
+                        # Use urllib to handle potential additional params parsing if needed, 
+                        # but simple split might work if it's the last one. 
+                        # Let's decode it just in case it's encoded, usually browsers handle it but for safety:
+                        # extracted_url = urllib.parse.unquote(extracted_url) 
+                        # (The previous debug showed it wasn't strictly urlencoded in the href string but let's be safe)
+                        
+                        # The stream needs headers to play
+                        ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+                        referer = "https://player.xfireflixbd.workers.dev/"
+                        origin = "https://player.xfireflixbd.workers.dev"
+                        
+                        # KODI / IPTV standard for headers
+                        final_url = f"{extracted_url}|User-Agent={ua}&Referer={referer}&Origin={origin}"
+                        stream_url = final_url
+                    except Exception as e:
+                        print(f"Error parsing clean URL for {name}: {e}")
+                        # Fallback to original if parsing fails
+
                 # validation: ensure stream_url is actually a url
                 if "http" in stream_url:
                     channels.append({
