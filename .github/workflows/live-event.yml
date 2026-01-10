@@ -32,4 +32,3 @@ jobs:
         git config --global user.email 'action@github.com'
         git add playlist/live-event.json playlist/live-event.m3u
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update live event data" && git push)
-
