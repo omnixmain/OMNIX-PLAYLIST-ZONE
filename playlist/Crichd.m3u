@@ -2,8 +2,8 @@
 #=================================
 # Developed By: OMNIX EMPIER
 # IPTV Telegram Channels: https://t.me/omnix_Empire
-# Last Updated: 2026-01-10 05:59 PM (BD Time)
-# TV channel counts :- 30
+# Last Updated: 2026-01-10 08:20 PM (BD Time)
+# TV channel counts :- 28
 # Disclaimer:
 # This tool does NOT host any content.
 # It aggregates publicly available data for informational purposes only.
@@ -12,9 +12,6 @@
 #EXTINF:-1 tvg-id="A Sports HD" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/12-by-xfireflix.png" group-title="Sports", A Sports HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/asportshd.m3u8
-#EXTINF:-1 tvg-id="LaLiGA" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/19-by-xfireflix.png" group-title="Sports", LaLiGA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/laligauk.m3u8
 #EXTINF:-1 tvg-id="PTV Sports" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/20-by-xfireflix.png" group-title="Sports", PTV Sports
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/ptvpk.m3u8
@@ -87,9 +84,6 @@ https://crichd.workspace-sultanarabi161.workers.dev/live/bbtsp2.m3u8
 #EXTINF:-1 tvg-id="TNT 3" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png" group-title="Sports", TNT 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/bbtsp3.m3u8
-#EXTINF:-1 tvg-id="TNT 4" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png" group-title="Sports", TNT 4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/bbtespn.m3u8
 #EXTINF:-1 tvg-id="Ten Sports" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/10-by-xfireflix.png" group-title="Sports", Ten Sports
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/tenspk.m3u8
