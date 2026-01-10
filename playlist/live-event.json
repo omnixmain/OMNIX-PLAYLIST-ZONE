@@ -1,7 +1,7 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-10 20:46:05",
-  "total_matches": 42,
+  "last_updated": "2026-01-10 20:56:38",
+  "total_matches": 56,
   "matches": [
     {
       "category": "Football",
@@ -2631,6 +2631,146 @@
         "Primary_Playback_URL": null
       },
       "source": "Fancode"
+    },
+    {
+      "match_id": "1090499182_ENG",
+      "title": "Charlton vs Chelsea - Round 3 - 11 Jan 2026 [ENG]",
+      "status": "LIVE",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013167/1767949166351145_FA_CUP_26_RD3_Charlton-vs-Chelsea_9jan_Landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768121234~acl=/*~id=68801894756819307224165546277788~hmac=b0395446fa864a46b64bbb188c22c08610f1081adf9282e84f9c33d379ca3feb"
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": "1090499221_ENG",
+      "title": "Round 2 - Hankook Mexico City E-Prix - Final Race - 11 Jan 2026 [ENG]",
+      "status": "LIVE",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013178/1767968640671941_ABB_FIA_FormulaE_WC2526_Round_2_Hankook_Mexico_City_EPRIX_final_Race_9jan_landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768121234~acl=/*~id=68801894756819307224165546277788~hmac=b0395446fa864a46b64bbb188c22c08610f1081adf9282e84f9c33d379ca3feb"
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090498875,
+      "title": "Upcoming - Pakistan Tour of Sri Lanka 2026",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013031/1767698477715522_SLvsPAK26_3t20i_tonight_6jan_landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499127,
+      "title": "Upcoming - Emirates FA Cup - 11 Jan 2026",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013094/176780627517580_PROMO_FA_CUP_11_JAN_COMBO_30_SEC_HOR_DATED_APP_Landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090498827,
+      "title": "Upcoming - Australian Open 2026",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013035/1767702253991538_AO25_9dec_dated_Landscape_thumb_re1.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090498545,
+      "title": "Upcoming - Iconic Sports Sizzlers",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012709/1766658044515568_New_years_new_action_non_stop_sports_landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499083,
+      "title": "Upcoming - Emirates FA Cup - Portsmouth vs Arsenal",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013071/1767778722855928_FAcup26_Portsmouth_vs_Arsenal_6jan_tonight_landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499081,
+      "title": "Upcoming - Emirates FA Cup - Manchester United vs Brighton & Hove Albion",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013045/1767710830080257_FAcup26_Man_Utd_vs_Brighton_and_Hove_Albion_6jan_tonight_landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499082,
+      "title": "Upcoming - Emirates FA Cup - Liverpool vs Barnsley",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013071/1767778522343928_FAcup26_Liverpool_vs_Barnsley_6jan_dated_landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499079,
+      "title": "Upcoming - Emirates FA Cup - Round 3",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013076/1767785016471119_FA_CUP_3rdRD_Landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090496895,
+      "title": "Upcoming - Australian Open 2026",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012914/1767431793855494_Australian-Open-2026-Promo-Thumbs_landscape.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499128,
+      "title": "Upcoming - Bayern Munich vs VfL Wolfsburg",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013094/176780623994080_PROMO_BUNDESLIGA_BAYERN_VS_WOLFSBURG_30_SEC_HOR_DATED_APP_Landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090498669,
+      "title": "Upcoming - United Cup 2026",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012875/1767348595666431_SL_UNITED_CUP_ddt_landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499230,
+      "title": "Upcoming - Emirates FA Cup - Round 3",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013163/1767950286474880_FA-CUP_Round-3-promo_landscape.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
     },
     {
       "match_id": "1540040039",
