@@ -1,96 +1,8 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-11 15:56:01",
-  "total_matches": 46,
+  "last_updated": "2026-01-11 16:27:17",
+  "total_matches": 60,
   "matches": [
-    {
-      "category": "Cricket",
-      "title": "Noakhali Express Vs Dhaka Capitals",
-      "tournament": "Bangladesh Premier League, 2025-26",
-      "match_id": 138939,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "11 January 2026 05:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138939_5808_NOE_DC_fc-web_1766733054389.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138939_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138939_5808_NOE_DC_fc-web_1766733054389.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138939_5808_NOE_DC_fc-web_1766733054389.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/BPL-T20.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138939_5808_NOE_DC_fc-web_1766733054389.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138939_5808_NOE_DC_fc-App_1767706252202.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138939_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Noakhali Express",
-          "shortName": "NOE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NOE@2x.png"
-          },
-          "isWinner": true,
-          "color": "#2BA6BD",
-          "cricketScore": [
-            {
-              "runs": 184,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 7
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Dhaka Capitals",
-          "shortName": "DC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DHC@2x.png"
-          },
-          "isWinner": false,
-          "color": "#CFAE1C",
-          "cricketScore": [
-            {
-              "runs": 143,
-              "overs": "18.2",
-              "balls": "110",
-              "status": "IN_PROGRESS",
-              "wickets": 10
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138939_english_hls_6f7a40840186485_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138939_english_hls_6f7a40840186485_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/138939_english_hls_6f7a40840186485_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/kE-KIho3TUmGwqZDmW6VYQ/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      },
-      "source": "Fancode"
-    },
     {
       "category": "Cricket",
       "title": "Sri Lanka Vs Pakistan",
@@ -122,11 +34,11 @@
           "color": "#164fad",
           "cricketScore": [
             {
-              "runs": 0,
-              "overs": "0",
-              "balls": "0",
+              "runs": 65,
+              "overs": "6.3",
+              "balls": "39",
               "status": "IN_PROGRESS",
-              "wickets": 0
+              "wickets": 3
             }
           ],
           "kabaddiScore": null,
@@ -307,70 +219,6 @@
         "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/131015_english_hls_27d76e09c376425_1ta-di_h264/index.m3u8",
         "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/131015_english_hls_27d76e09c376425_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Football",
-      "title": "Thailand U23 Vs Iraq U23",
-      "tournament": "AFC U23 Asian Cup, 2026",
-      "match_id": 139266,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "11 January 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139266_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-U23-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139266_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Thailand U23",
-          "shortName": "THA-U23",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/THL-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#948faa",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        },
-        {
-          "name": "Iraq U23",
-          "shortName": "IRQ-U23",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/IRQ-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e36e79",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/139266_english_hls_73633f62bb88096_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139266_english_hls_73633f62bb88096_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139266_english_hls_73633f62bb88096_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/21ontNEdTn-vy-i48fil7g/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -981,73 +829,6 @@
       "source": "Fancode"
     },
     {
-      "category": "Tennis",
-      "title": "Atp 250   Asb Classic",
-      "tournament": "ATP 250 - Auckland Open",
-      "match_id": 139536,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "12 January 2026 04:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139536_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139536_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "ATP 250 - ASB Classic",
-          "shortName": "ATP 250 - ASB Classic",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Auckland",
-          "shortName": "Auckland",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
       "category": "Football",
       "title": "Jordan U23 Vs Kyrgyz Republic U23",
       "tournament": "AFC U23 Asian Cup, 2026",
@@ -1183,6 +964,73 @@
     },
     {
       "category": "Tennis",
+      "title": "Atp 250   Asb Classic",
+      "tournament": "ATP 250 - Auckland Open",
+      "match_id": 139536,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "12 January 2026 04:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139536_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139536_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "ATP 250 - ASB Classic",
+          "shortName": "ATP 250 - ASB Classic",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Auckland",
+          "shortName": "Auckland",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Tennis",
       "title": "Centre Court   Day 1",
       "tournament": "ATP 250 - Adelaide International",
       "match_id": 139532,
@@ -1296,6 +1144,73 @@
           },
           "isWinner": null,
           "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Football",
+      "title": "Sevilla Fc Vs Rc Celta",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131013,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 January 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131013_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131013_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Sevilla FC",
+          "shortName": "SEV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SVI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#daa335",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "RC Celta",
+          "shortName": "CEV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b1d4f5",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1565,35 +1480,43 @@
       "source": "Fancode"
     },
     {
-      "category": "Football",
-      "title": "Sevilla Fc Vs Rc Celta",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131013,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 01:30 AM",
+      "category": "Cricket",
+      "title": "Noakhali Express Vs Dhaka Capitals",
+      "tournament": "Bangladesh Premier League, 2025-26",
+      "match_id": 138939,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "11 January 2026 05:30 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138939_5808_NOE_DC_fc-web_1766733054389.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131013_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138939_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138939_5808_NOE_DC_fc-web_1766733054389.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131013_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/BPL-T20.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138939_5808_NOE_DC_fc-web_1766733054389.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138939_5808_NOE_DC_fc-App_1767706252202.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138939_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Sevilla FC",
-          "shortName": "SEV",
+          "name": "Noakhali Express",
+          "shortName": "NOE",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SVI@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NOE@2x.png"
           },
-          "isWinner": null,
-          "color": "#daa335",
-          "cricketScore": null,
+          "isWinner": true,
+          "color": "#2BA6BD",
+          "cricketScore": [
+            {
+              "runs": 184,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 7
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1605,21 +1528,29 @@
           }
         },
         {
-          "name": "RC Celta",
-          "shortName": "CEV",
+          "name": "Dhaka Capitals",
+          "shortName": "DC",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DHC@2x.png"
           },
-          "isWinner": null,
-          "color": "#b1d4f5",
-          "cricketScore": null,
+          "isWinner": false,
+          "color": "#CFAE1C",
+          "cricketScore": [
+            {
+              "runs": 143,
+              "overs": "18.2",
+              "balls": "110",
+              "status": "IN_PROGRESS",
+              "wickets": 10
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -2637,6 +2568,213 @@
       "source": "Fancode"
     },
     {
+      "category": "Football",
+      "title": "Newcastle United Vs Manchester City",
+      "tournament": "Carabao Cup 2025-2026",
+      "match_id": 139211,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "14 January 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139211_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139211_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Newcastle United",
+          "shortName": "NEW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NEW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#d15f6a",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Manchester City",
+          "shortName": "MCI",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MANC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#539fd7",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "match_id": "1090499186_ENG",
+      "title": "Manchester United vs Brighton & Hove Albion - Round 3 - 11 Jan 2026 [ENG]",
+      "status": "LIVE",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983539075263_FA_CUP_26_RD3_Man-United-vs-Brighton_9jan_eng_landscape_thumb_re1.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768191733~acl=/*~id=54429371180833002758136199356897~hmac=9e2e3c106e9c89e63947b5417986e4a06149994aa2fcb3efd806a330e1aa5e25"
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": "1090499186_HIN",
+      "title": "Manchester United vs Brighton & Hove Albion - Round 3 - 11 Jan 2026 [HIN]",
+      "status": "LIVE",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983539075263_FA_CUP_26_RD3_Man-United-vs-Brighton_9jan_eng_landscape_thumb_re1.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768191733~acl=/*~id=54429371180833002758136199356897~hmac=9e2e3c106e9c89e63947b5417986e4a06149994aa2fcb3efd806a330e1aa5e25"
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": "1090499186_TAM",
+      "title": "Manchester United vs Brighton & Hove Albion - Round 3 - 11 Jan 2026 [TAM]",
+      "status": "LIVE",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983539075263_FA_CUP_26_RD3_Man-United-vs-Brighton_9jan_eng_landscape_thumb_re1.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768191733~acl=/*~id=54429371180833002758136199356897~hmac=9e2e3c106e9c89e63947b5417986e4a06149994aa2fcb3efd806a330e1aa5e25"
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": "1090499186_TEL",
+      "title": "Manchester United vs Brighton & Hove Albion - Round 3 - 11 Jan 2026 [TEL]",
+      "status": "LIVE",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983539075263_FA_CUP_26_RD3_Man-United-vs-Brighton_9jan_eng_landscape_thumb_re1.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768191733~acl=/*~id=54429371180833002758136199356897~hmac=9e2e3c106e9c89e63947b5417986e4a06149994aa2fcb3efd806a330e1aa5e25"
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": "1090499226_ENG",
+      "title": "3rd T20I - 11 Jan 2026 [ENG]",
+      "status": "LIVE",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013032/1767698953696649_SLvsPAK26_3t20i_6jan_landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1768191733~acl=/*~id=54429371180833002758136199356897~hmac=9e2e3c106e9c89e63947b5417986e4a06149994aa2fcb3efd806a330e1aa5e25"
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": "1090499309_ENG",
+      "title": "Bayern Munich vs VfL Wolfsburg - MD 16 - 11 Jan 2026 [ENG]",
+      "status": "LIVE",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013116/1767865953725351_Bundesliga_MD16_Bayern-Munich-vs-VfL-Wolfsburg_landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768191733~acl=/*~id=54429371180833002758136199356897~hmac=9e2e3c106e9c89e63947b5417986e4a06149994aa2fcb3efd806a330e1aa5e25"
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": "1090499185_ENG",
+      "title": "West Ham United vs Queens Park Rangers - Round 3 - 11 Jan 2026 [ENG]",
+      "status": "LIVE",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013167/1767951041188145_FA_CUP_26_RD3_West-Ham-Utd-vs-Queens-Park-Rangers_9jan_Landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768191733~acl=/*~id=54429371180833002758136199356897~hmac=9e2e3c106e9c89e63947b5417986e4a06149994aa2fcb3efd806a330e1aa5e25"
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": "1090499307_ENG",
+      "title": "Borussia M'gladbach vs FC Augsburg - MD 16 - 11 Jan 2026 [ENG]",
+      "status": "LIVE",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013116/1767865726779351_Bundesliga_MD16_Borussia-Mgladbach-vs-FC-Augsburg_landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768191733~acl=/*~id=54429371180833002758136199356897~hmac=9e2e3c106e9c89e63947b5417986e4a06149994aa2fcb3efd806a330e1aa5e25"
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499082,
+      "title": "Upcoming - Emirates FA Cup - Liverpool vs Barnsley",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013071/1767778522343928_FAcup26_Liverpool_vs_Barnsley_6jan_dated_landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090498827,
+      "title": "Upcoming - Australian Open 2026",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013035/1767702253991538_AO25_9dec_dated_Landscape_thumb_re1.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090498545,
+      "title": "Upcoming - Iconic Sports Sizzlers",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012709/1766658044515568_New_years_new_action_non_stop_sports_landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090496895,
+      "title": "Upcoming - Australian Open 2026",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012914/1767431793855494_Australian-Open-2026-Promo-Thumbs_landscape.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499079,
+      "title": "Upcoming - Emirates FA Cup - Round 3",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013076/1767785016471119_FA_CUP_3rdRD_Landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499230,
+      "title": "Upcoming - Emirates FA Cup - Round 3",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013163/1767950286474880_FA-CUP_Round-3-promo_landscape.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
       "match_id": "1540059580",
       "title": "India vs New Zealand: 1st ODI",
       "status": "LIVE",
@@ -2667,22 +2805,22 @@
       "source": "JioHotstar"
     },
     {
-      "match_id": "1540058739",
-      "title": "Sunrisers Eastern Cape vs Durban's Super Giants",
-      "status": "LIVE",
-      "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/7198/1768050767198-h",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://www.hotstar.com/in/sports/cricket/sunrisers-eastern-cape-vs-durbans-super-giants/1540058739/video/live/watch"
-      },
-      "source": "JioHotstar"
-    },
-    {
       "match_id": "1540040039",
       "title": "Star Sports Cricket Classics",
       "status": "LIVE",
       "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/5745/1750779565745-h",
       "STREAMING_CDN": {
         "Primary_Playback_URL": "https://www.hotstar.com/in/clip/star-sports-cricket-classics/1540040039/watch"
+      },
+      "source": "JioHotstar"
+    },
+    {
+      "match_id": "1540058739",
+      "title": "Sunrisers Eastern Cape vs Durban's Super Giants",
+      "status": "LIVE",
+      "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/7198/1768050767198-h",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://www.hotstar.com/in/sports/cricket/sunrisers-eastern-cape-vs-durbans-super-giants/1540058739/video/live/watch"
       },
       "source": "JioHotstar"
     },
