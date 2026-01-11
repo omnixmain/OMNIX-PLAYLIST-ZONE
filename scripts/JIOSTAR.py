@@ -3,24 +3,18 @@
 # Robust playlist fetcher:
 # 1) Try multiple User-Agents with requests
 # 2) If response not M3U, save debug HTML and run Playwright to capture .m3u/.m3u8 network requests
-# 3) Save playlist to playlist/JIOSTAR.m3u (and response-debug.html for debugging)
+# 3) Save playlist to playlist.m3u (and response-debug.html for debugging)
 
 import os
 import re
 import sys
 import time
 import requests
-
 from pathlib import Path
 
-# Configuration
-# Allow environment variables to override, but default to the known working values for this repo
 TOKEN = os.environ.get("HOTSTAR_TOKEN")
 URL_ENV = os.environ.get("HOTSTAR_URL")
-# Preserving the original token/URL as fallback
-DEFAULT_URL = "https://hotstar-live-event.alpha-circuit.workers.dev/?token=a13d9c-4b782a-6c90fd-9a1b84"
-
-OUT_PLAYLIST = "playlist/JIOSTAR.m3u"
+OUT_PLAYLIST = "playlist.m3u"
 DEBUG_HTML = "response-debug.html"
 
 USER_AGENTS = [
@@ -41,23 +35,20 @@ def build_url():
         return URL_ENV
     if TOKEN:
         return f"https://hotstarlive.delta-cloud.workers.dev/?token={TOKEN}"
-    
-    # Fallback to the known default if no env vars are set
-    print(f"[config] Using default hardcoded URL as no HOTSTAR_TOKEN/URL env var found.")
-    return DEFAULT_URL
+    print("ERROR: No HOTSTAR_TOKEN or HOTSTAR_URL provided. Set HOTSTAR_URL env or HOTSTAR_TOKEN secret.", file=sys.stderr)
+    sys.exit(2)
 
 def looks_like_m3u(text, content_type):
     if not text:
         return False
-    # Check for common M3U markers
+    # first chunk check
     if "EXTM3U" in text[:1024].upper():
         return True
     if content_type:
         ct = content_type.lower()
         if "mpegurl" in ct or "application/x-mpegurl" in ct or "audio/x-mpegurl" in ct:
             return True
-    # also check for .m3u8 fragment (some servers return short content)
-    if ".m3u8" in text[:2048]:
+    if ".m3u8" in text[:2048] or ".m3u" in text[:2048]:
         return True
     return False
 
@@ -75,7 +66,6 @@ def try_requests_fetch(url, timeout=15):
             if looks_like_m3u(snippet, ct):
                 print("[requests] Looks like M3U; saving.")
                 return r.text
-            # else continue trying other UAs
         except Exception as e:
             print(f"[requests] Exception with UA={ua}: {e}")
         time.sleep(0.3)
@@ -93,10 +83,6 @@ def save_debug_response(resp):
         print(f"[debug] Failed to write debug file: {e}")
 
 def playwright_fallback(url, timeout_ms=30000):
-    """
-    Uses Playwright to open the page and capture responses whose URL or content-type
-    indicate an m3u/m3u8. Returns the bytes of the first playlist found and its URL.
-    """
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
@@ -106,16 +92,14 @@ def playwright_fallback(url, timeout_ms=30000):
     candidates = []
 
     with sync_playwright() as p:
-        # Launch with some args to allow running in container environments if needed
-        browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-setuid-sandbox"])
-        context = browser.new_context(user_agent=USER_AGENTS[3]) # Use Chrome UA
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context()
         page = context.new_page()
 
         def on_response(response):
             try:
                 urlr = response.url
                 ct = response.headers.get("content-type", "") or ""
-                # quick heuristic
                 if ".m3u" in urlr.lower() or "mpegurl" in ct.lower() or "application/x-mpegurl" in ct.lower() or "audio/x-mpegurl" in ct.lower():
                     print(f"[playwright] Candidate response URL={urlr} CT={ct}")
                     try:
@@ -134,31 +118,25 @@ def playwright_fallback(url, timeout_ms=30000):
         except Exception as e:
             print(f"[playwright] page.goto exception (continuing): {e}")
 
-        # wait a bit for late requests
         time.sleep(2)
 
-        # If we already captured candidates, return first valid
         if candidates:
             urlr, body, ct = candidates[0]
             print(f"[playwright] Found playlist via network: {urlr} (CT={ct})")
             browser.close()
             return body, urlr
 
-        # If not found in responses, scan page content for .m3u/.m3u8 urls
         content = page.content()
         browser_captured = context.cookies()
         browser.close()
 
-    # regex find URLs that end with .m3u or .m3u8 or contain m3u8 query
     url_pattern = re.compile(r"""https?://[^\s"'<>]+(?:\.m3u8?|m3u8?[^"'<>]*)""", re.IGNORECASE)
     found = url_pattern.findall(content)
     if found:
         candidate_url = found[0]
         print(f"[playwright-fallback] Found playlist URL in page content: {candidate_url}")
-        # try to download with requests, using cookies if possible
         try:
             cookies = {}
-            # If playwright provided cookies earlier, use them
             for c in browser_captured:
                 cookies[c['name']] = c['value']
         except Exception:
@@ -180,30 +158,22 @@ def playwright_fallback(url, timeout_ms=30000):
     return None, None
 
 def main():
-    # Ensure output dir exists
-    os.makedirs(os.path.dirname(OUT_PLAYLIST), exist_ok=True)
-    
     url = build_url()
     print(f"[main] Fetching URL: {url}")
 
     resp_or_obj = try_requests_fetch(url)
-    # If resp_or_obj is a text (str) that indicates success:
     if isinstance(resp_or_obj, str):
         Path(OUT_PLAYLIST).write_text(resp_or_obj, encoding="utf-8")
         print(f"[main] Playlist saved to {OUT_PLAYLIST}")
         sys.exit(0)
 
-    # Otherwise resp_or_obj likely a Response object or None
     if resp_or_obj is not None:
         save_debug_response(resp_or_obj)
 
-    print("[main] Requests approach failed. Trying Playwright fallback...")
-    # Playwright fallback: try capturing actual playlist request
     body, found_url = playwright_fallback(url)
     if body:
-        # body may be bytes or str
         if isinstance(body, str):
-            (Path(OUT_PLAYLIST)).write_text(body, encoding="utf-8")
+            Path(OUT_PLAYLIST).write_text(body, encoding="utf-8")
             print(f"[main] Playlist saved to {OUT_PLAYLIST} (text)")
         else:
             with open(OUT_PLAYLIST, "wb") as f:
