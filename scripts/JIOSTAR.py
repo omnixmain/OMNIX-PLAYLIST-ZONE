@@ -3,7 +3,7 @@ import os
 import sys
 import datetime
 
-url = "https://hotstarlive.delta-cloud.workers.dev/?token=a13d9c-4b782a-6c90fd-9a1b84"
+url = "https://hotstarlive.delta-cloud.workers.dev/?token=240bb9-374e2e-3c13f0-4a7xz5"
 output_file = "playlist/JIOSTAR.m3u"
 
 # List of agents to try
