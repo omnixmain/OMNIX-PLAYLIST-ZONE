@@ -1,6 +1,6 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-11 23:37:15",
+  "last_updated": "2026-01-11 23:49:22",
   "total_matches": 49,
   "matches": [
     {
@@ -34,9 +34,9 @@
           "color": "#221469",
           "cricketScore": [
             {
-              "runs": 0,
-              "overs": "0",
-              "balls": "0",
+              "runs": 8,
+              "overs": "0.4",
+              "balls": "4",
               "status": "IN_PROGRESS",
               "wickets": 0
             }
@@ -2653,7 +2653,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767249223977898_SuperSmash2526_womens_Otago-Sparks-vs-Auckland-Hearts_1jan_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768217291~acl=/*~id=30686443551171728302598790219836~hmac=e5e29b32e27992f4bd71586d9808a1feef149cbddc4bb035ded5085bdcfb2430"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768218507~acl=/*~id=52555692953064458308566317674057~hmac=8fd605c896c79d9d6f31093b9eb7af3c6a68a22faf898a445e9ce22ab3ff4760"
       },
       "source": "SonyLIV"
     },
