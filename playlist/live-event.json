@@ -1,6 +1,6 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-11 17:55:22",
+  "last_updated": "2026-01-11 18:30:00",
   "total_matches": 58,
   "matches": [
     {
@@ -30,7 +30,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#164fad",
           "cricketScore": [
             {
@@ -57,15 +57,15 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#559830",
           "cricketScore": [
             {
-              "runs": 114,
-              "overs": "8.4",
-              "balls": "52",
+              "runs": 146,
+              "overs": "12",
+              "balls": "72",
               "status": "IN_PROGRESS",
-              "wickets": 4
+              "wickets": 8
             }
           ],
           "kabaddiScore": null,
@@ -87,6 +87,78 @@
         "dai_google_cdn": "https://dai.google.com/linear/hls/event/HynNobMPSu6nQCgpxsK0lQ/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-PAKvsSL/master.m3u8?hdnea=exp=1768177801~acl=/*~id=919275a26dd865ef13f978d4d8c164ef-1768134600179~hmac=2077ebce97982453b15dc4b790690045587f00c0d66c14960df056695f2cf44b",
+        "language": "ENGLISH"
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Football",
+      "title": "Fc Barcelona Vs Real Madrid",
+      "tournament": "SuperCopa 2026",
+      "match_id": 138959,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "12 January 2026 12:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/SuperCopa-ELCLaSICO_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138959_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/SuperCopa-ELCLaSICO_fc-web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/SuperCopa-ELCLaSICO_fc-web.jpg",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/12/RFEF_Supercopa-De-Espana-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/SuperCopa-ELCLaSICO_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/SuperCopa-ELCLaSICO_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138959_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "FC Barcelona",
+          "shortName": "BAR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fee64e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Real Madrid",
+          "shortName": "RM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/RM-FT2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ffdf50",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138959_english_hls_7f18fa356218568_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138959_english_hls_7f18fa356218568_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/138959_english_hls_7f18fa356218568_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/tQIPxvFcQaiOahHi4qCwUA/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
         "language": "ENGLISH"
       },
       "source": "Fancode"
@@ -341,73 +413,6 @@
           "isWinner": null,
           "color": "#CFAE1C",
           "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Football",
-      "title": "Fc Barcelona Vs Real Madrid",
-      "tournament": "SuperCopa 2026",
-      "match_id": 138959,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "12 January 2026 12:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/SuperCopa-ELCLaSICO_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138959_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/SuperCopa-ELCLaSICO_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/12/RFEF_Supercopa-De-Espana-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/SuperCopa-ELCLaSICO_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/SuperCopa-ELCLaSICO_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138959_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "FC Barcelona",
-          "shortName": "BAR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
-          },
-          "isWinner": null,
-          "color": "#fee64e",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Real Madrid",
-          "shortName": "RM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/RM-FT2@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ffdf50",
-          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1098,6 +1103,73 @@
     },
     {
       "category": "Cricket",
+      "title": "Central Hinds Vs Northern Brave Women",
+      "tournament": "Women's Super Smash, 2025-26",
+      "match_id": 138780,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 January 2026 06:40 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138780_5801_CH-W_NB-W_fc-web_1766596522104.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138780_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138780_5801_CH-W_NB-W_fc-web_1766596522104.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138780_5801_CH-W_NB-W_fc-web_1766596522104.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138780_5801_CH-W_NB-W_fc-app_1766596319024.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138780_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Central Hinds",
+          "shortName": "CH-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CHIW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#14693C",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Northern Brave Women",
+          "shortName": "NB-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NB-W-CR1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#bcbcbc",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Cricket",
       "title": "Wellington Blaze Vs Northern Brave Women",
       "tournament": "Women's Super Smash, 2025-26",
       "match_id": 138778,
@@ -1417,73 +1489,6 @@
           "status": {
             "cricket": {
               "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Cricket",
-      "title": "Central Hinds Vs Northern Brave Women",
-      "tournament": "Women's Super Smash, 2025-26",
-      "match_id": 138780,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 06:40 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138780_5801_CH-W_NB-W_fc-web_1766596522104.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138780_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138780_5801_CH-W_NB-W_fc-web_1766596522104.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138780_5801_CH-W_NB-W_fc-web_1766596522104.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138780_5801_CH-W_NB-W_fc-app_1766596319024.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138780_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Central Hinds",
-          "shortName": "CH-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CHIW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#14693C",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Northern Brave Women",
-          "shortName": "NB-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NB-W-CR1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#bcbcbc",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
             }
           }
         }
@@ -2640,7 +2645,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983539075263_FA_CUP_26_RD3_Man-United-vs-Brighton_9jan_eng_landscape_thumb_re1.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768197226~acl=/*~id=28992982616817543424165658398622~hmac=e64033717e4154776541a5d768963478d4d54b0d8b91976e60ca776e2c5ca859"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768199061~acl=/*~id=22793666436455381545352545617263~hmac=19bbeb8d342528bc3e6eed84bbbd2cb858ae1b5f5bf743124bf8c8cadda04c6e"
       },
       "source": "SonyLIV"
     },
@@ -2650,7 +2655,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983539075263_FA_CUP_26_RD3_Man-United-vs-Brighton_9jan_eng_landscape_thumb_re1.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768197226~acl=/*~id=28992982616817543424165658398622~hmac=e64033717e4154776541a5d768963478d4d54b0d8b91976e60ca776e2c5ca859"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768199061~acl=/*~id=22793666436455381545352545617263~hmac=19bbeb8d342528bc3e6eed84bbbd2cb858ae1b5f5bf743124bf8c8cadda04c6e"
       },
       "source": "SonyLIV"
     },
@@ -2660,7 +2665,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983539075263_FA_CUP_26_RD3_Man-United-vs-Brighton_9jan_eng_landscape_thumb_re1.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768197226~acl=/*~id=28992982616817543424165658398622~hmac=e64033717e4154776541a5d768963478d4d54b0d8b91976e60ca776e2c5ca859"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768199061~acl=/*~id=22793666436455381545352545617263~hmac=19bbeb8d342528bc3e6eed84bbbd2cb858ae1b5f5bf743124bf8c8cadda04c6e"
       },
       "source": "SonyLIV"
     },
@@ -2670,7 +2675,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983539075263_FA_CUP_26_RD3_Man-United-vs-Brighton_9jan_eng_landscape_thumb_re1.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768197226~acl=/*~id=28992982616817543424165658398622~hmac=e64033717e4154776541a5d768963478d4d54b0d8b91976e60ca776e2c5ca859"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768199061~acl=/*~id=22793666436455381545352545617263~hmac=19bbeb8d342528bc3e6eed84bbbd2cb858ae1b5f5bf743124bf8c8cadda04c6e"
       },
       "source": "SonyLIV"
     },
@@ -2680,7 +2685,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013032/1767698953696649_SLvsPAK26_3t20i_6jan_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1768197226~acl=/*~id=28992982616817543424165658398622~hmac=e64033717e4154776541a5d768963478d4d54b0d8b91976e60ca776e2c5ca859"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1768199061~acl=/*~id=22793666436455381545352545617263~hmac=19bbeb8d342528bc3e6eed84bbbd2cb858ae1b5f5bf743124bf8c8cadda04c6e"
       },
       "source": "SonyLIV"
     },
@@ -2690,7 +2695,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013116/1767865953725351_Bundesliga_MD16_Bayern-Munich-vs-VfL-Wolfsburg_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768197226~acl=/*~id=28992982616817543424165658398622~hmac=e64033717e4154776541a5d768963478d4d54b0d8b91976e60ca776e2c5ca859"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768199061~acl=/*~id=22793666436455381545352545617263~hmac=19bbeb8d342528bc3e6eed84bbbd2cb858ae1b5f5bf743124bf8c8cadda04c6e"
       },
       "source": "SonyLIV"
     },
@@ -2700,7 +2705,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013116/1767865726779351_Bundesliga_MD16_Borussia-Mgladbach-vs-FC-Augsburg_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768197226~acl=/*~id=28992982616817543424165658398622~hmac=e64033717e4154776541a5d768963478d4d54b0d8b91976e60ca776e2c5ca859"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768199061~acl=/*~id=22793666436455381545352545617263~hmac=19bbeb8d342528bc3e6eed84bbbd2cb858ae1b5f5bf743124bf8c8cadda04c6e"
       },
       "source": "SonyLIV"
     },
