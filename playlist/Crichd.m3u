@@ -2,8 +2,8 @@
 #=================================
 # Developed By: OMNIX EMPIER
 # IPTV Telegram Channels: https://t.me/omnix_Empire
-# Last Updated: 2026-01-11 02:29 PM (BD Time)
-# TV channel counts :- 30
+# Last Updated: 2026-01-11 03:26 PM (BD Time)
+# TV channel counts :- 29
 # Disclaimer:
 # This tool does NOT host any content.
 # It aggregates publicly available data for informational purposes only.
@@ -54,9 +54,6 @@ https://crichd.workspace-sultanarabi161.workers.dev/live/skysact.m3u8
 #EXTINF:-1 tvg-id="Sky Sports Cricket" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png" group-title="Sports", Sky Sports Cricket
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/skyscric.m3u8
-#EXTINF:-1 tvg-id="Sky Sports F1" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008468637.png" group-title="Sports", Sky Sports F1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://crichd.workspace-sultanarabi161.workers.dev/live/skysfor1.m3u8
 #EXTINF:-1 tvg-id="Sky Sports Football" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/44-by-xfireflix.png" group-title="Sports", Sky Sports Football
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://crichd.workspace-sultanarabi161.workers.dev/live/skysfott.m3u8
