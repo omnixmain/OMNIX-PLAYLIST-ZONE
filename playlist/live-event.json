@@ -1,7 +1,7 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-11 07:57:54",
-  "total_matches": 56,
+  "last_updated": "2026-01-11 08:35:45",
+  "total_matches": 57,
   "matches": [
     {
       "category": "Cricket",
@@ -34,11 +34,11 @@
           "color": "#42b7e8",
           "cricketScore": [
             {
-              "runs": 72,
-              "overs": "11.1",
-              "balls": "67",
+              "runs": 155,
+              "overs": "18.3",
+              "balls": "111",
               "status": "IN_PROGRESS",
-              "wickets": 2
+              "wickets": 3
             }
           ],
           "kabaddiScore": null,
@@ -77,70 +77,6 @@
         "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138938_english_hls_f09af0d11f77311_1ta-di_h264/index.m3u8",
         "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/138938_english_hls_f09af0d11f77311_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "https://dai.google.com/linear/hls/event/BDXXEgUXREegCKEZPHVqvQ/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Football",
-      "title": "Melbourne City Vs Newcastle Jets",
-      "tournament": "A League 2025-26",
-      "match_id": 138824,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "11 January 2026 11:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138824_5802_MLC_NJ_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138824_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138824_5802_MLC_NJ_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138824_5802_MLC_NJ_fc-web.jpg",
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/A-League_Men-and-Women_Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138824_5802_MLC_NJ_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138824_5802_MLC_NJ_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138824_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Melbourne City",
-          "shortName": "MLC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MLCA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#72b4e7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        },
-        {
-          "name": "Newcastle Jets",
-          "shortName": "NJ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NJA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0a5a8c",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138824_english_hls_97d46b4ea769591_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138824_english_hls_97d46b4ea769591_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/138824_english_hls_97d46b4ea769591_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/K9iX280WQ9SedQGD4qWivg/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -1566,89 +1502,6 @@
     },
     {
       "category": "Cricket",
-      "title": "Canterbury Vs Auckland Aces",
-      "tournament": "Super Smash, 2025-26",
-      "match_id": 138745,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "10 January 2026 10:25 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138745_5800_CTB_AA_fc-web_1766641251005.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138745_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138745_5800_CTB_AA_fc-web_1766641251005.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138745_5800_CTB_AA_fc-web_1766641251005.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138745_5800_CTB_AA_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138745_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Canterbury",
-          "shortName": "CTB",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KING@2x.png"
-          },
-          "isWinner": true,
-          "color": "#DE3018",
-          "cricketScore": [
-            {
-              "runs": 216,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 6
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Auckland Aces",
-          "shortName": "AA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ACE@2x.png"
-          },
-          "isWinner": false,
-          "color": "#0A129E",
-          "cricketScore": [
-            {
-              "runs": 199,
-              "overs": "20",
-              "balls": "120",
-              "status": "IN_PROGRESS",
-              "wickets": 4
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Cricket",
       "title": "Wellington Blaze Vs Northern Brave Women",
       "tournament": "Women's Super Smash, 2025-26",
       "match_id": 138778,
@@ -2618,12 +2471,146 @@
       "source": "Fancode"
     },
     {
+      "category": "Cricket",
+      "title": "Swami Vivekanand Vs Rizvi",
+      "tournament": "Giles Shield 2026",
+      "match_id": 139667,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 January 2026 09:45 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139667_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139667_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Swami Vivekanand",
+          "shortName": "SWV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#B8142D",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Rizvi",
+          "shortName": "RIZ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#80081C",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Cricket",
+      "title": "Oman Development Team Vs Renaissance Challengers",
+      "tournament": "Oman Super League T20, 2026",
+      "match_id": 139578,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 January 2026 04:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139578_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139578_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Oman Development Team",
+          "shortName": "ODT",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR3@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Renaissance Challengers",
+          "shortName": "RNC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RNC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#bb4335",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
       "match_id": "1090499229_ENG",
       "title": "Switzerland vs Poland - Final - 11 Jan 2026 [ENG]",
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013204/1768038113639649_UC26_Final_Switzerland-vs-Poland_10jan_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768161222~acl=/*~id=87337957087895599380759343672852~hmac=45ccdc06139a6d436794309ea2f3b53bd187a6b5e73cf90b1de15fe3a79c15dc"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768163655~acl=/*~id=05012931554866635424751763981333~hmac=2502f137225111fcde4b89b7ed0117b44a0c12450b4f295ef82120ba00de9815"
       },
       "source": "SonyLIV"
     },
@@ -2744,6 +2731,16 @@
       "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/9809/1768059549809-h",
       "STREAMING_CDN": {
         "Primary_Playback_URL": "https://www.hotstar.com/in/sports/cricket/india-vs-new-zealand-1st-odi/1540059580/video/live/watch"
+      },
+      "source": "JioHotstar"
+    },
+    {
+      "match_id": "1540058956",
+      "title": "Adelaide Strikers vs Perth Scorchers",
+      "status": "LIVE",
+      "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/6681/1768048806681-h",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://www.hotstar.com/in/sports/cricket/adelaide-strikers-vs-perth-scorchers/1540058956/video/live/watch"
       },
       "source": "JioHotstar"
     },
