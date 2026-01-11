@@ -1,16 +1,15 @@
 import os
 import datetime
+import requests
 
 def filter_bein_channels():
-    input_file = os.path.join("playlist", "dreamtv.m3u")
+    m3u_url = "https://raw.githubusercontent.com/omnixmain/OMNIX-PLAYLIST-ZONE/refs/heads/main/playlist/omni_v5on.m3u"
     output_file = os.path.join("playlist", "BEIN.m3u")
     
-    if not os.path.exists(input_file):
-        print(f"Error: {input_file} not found.")
-        return
-
     try:
-        lines = f.readlines()
+        response = requests.get(m3u_url)
+        response.raise_for_status() # Check for HTTP errors
+        lines = response.text.splitlines()
             
         filtered_lines = []
         
@@ -34,16 +33,14 @@ def filter_bein_channels():
                         j += 1
                     
                     if url_line:
-                        filtered_lines.append(extinf_line)
-                        filtered_lines.append(url_line)
+                        filtered_lines.append(extinf_line + "\n") # Ensure newline
+                        filtered_lines.append(url_line + "\n") # Ensure newline
                         i = j # Advance
                     else:
                         i += 1
                 else:
                     i += 1
             else:
-                i += 1
-                
                 i += 1
         
         # Calculate BD Time (UTC + 6)
