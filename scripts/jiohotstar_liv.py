@@ -4,7 +4,7 @@ import datetime
 import sys
 
 # Configuration
-URL = "https://hotstar-live-event.alpha-circuit.workers.dev/?token=a13d9c-4b782a-6c90fd-9a1b84"
+URL = "https://hotstarlive.delta-cloud.workers.dev/?token=240bb9-374e2e-3c13f0-4a7xz5"
 OUTPUT_FILE = "playlist/jiohotstar_liv.m3u"
 
 # List of agents to try
