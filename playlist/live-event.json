@@ -1,6 +1,6 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-11 05:47:49",
+  "last_updated": "2026-01-11 05:58:37",
   "total_matches": 57,
   "matches": [
     {
@@ -61,9 +61,9 @@
           "color": "#bcbcbc",
           "cricketScore": [
             {
-              "runs": 98,
-              "overs": "6.4",
-              "balls": "40",
+              "runs": 117,
+              "overs": "8.2",
+              "balls": "50",
               "status": "IN_PROGRESS",
               "wickets": 0
             }
@@ -2605,7 +2605,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012842/1767188814441275_SuperSmash2526_mens_Wellington-Firebirds-vs-Northern-Brave_31dec_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768153453~acl=/*~id=01969334855860868322393612982705~hmac=d0408516eb1e4c2278915ed33551d7e7b60e8a02a3ec410a075c8ac2c9137174"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768154062~acl=/*~id=68836689939910633586306558884097~hmac=b2e2d36c86c8d3dd2cf89e01ddeafa496bf7681e11d17433fb84edef78227a3d"
       },
       "source": "SonyLIV"
     },
