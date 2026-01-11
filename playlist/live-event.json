@@ -1,7 +1,7 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-11 15:40:51",
-  "total_matches": 59,
+  "last_updated": "2026-01-11 15:56:01",
+  "total_matches": 46,
   "matches": [
     {
       "category": "Cricket",
@@ -30,7 +30,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NOE@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#2BA6BD",
           "cricketScore": [
             {
@@ -57,15 +57,15 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DHC@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#CFAE1C",
           "cricketScore": [
             {
-              "runs": 130,
-              "overs": "17.1",
-              "balls": "103",
+              "runs": 143,
+              "overs": "18.2",
+              "balls": "110",
               "status": "IN_PROGRESS",
-              "wickets": 9
+              "wickets": 10
             }
           ],
           "kabaddiScore": null,
@@ -120,14 +120,22 @@
           },
           "isWinner": null,
           "color": "#164fad",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
@@ -2627,136 +2635,6 @@
         "Primary_Playback_URL": null
       },
       "source": "Fancode"
-    },
-    {
-      "match_id": "1090499184_ENG",
-      "title": "Portsmouth vs Arsenal - Round 3 - 11 Jan 2026 [ENG]",
-      "status": "LIVE",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013167/1767950129267145_FA_CUP_26_RD3_Portsmouth-vs-Arsenal_9jan_Landscape_thumb.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768188675~acl=/*~id=39436094870895528646510372110288~hmac=ed5ee5f8759bc857972795bdc6bfe7bb31d08aed321b7ca34b5be19581deef45"
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": "1090499226_ENG",
-      "title": "3rd T20I - 11 Jan 2026 [ENG]",
-      "status": "LIVE",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013032/1767698953696649_SLvsPAK26_3t20i_6jan_landscape_thumb.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1768188675~acl=/*~id=39436094870895528646510372110288~hmac=ed5ee5f8759bc857972795bdc6bfe7bb31d08aed321b7ca34b5be19581deef45"
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": "1090499185_ENG",
-      "title": "West Ham United vs Queens Park Rangers - Round 3 - 11 Jan 2026 [ENG]",
-      "status": "LIVE",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013167/1767951041188145_FA_CUP_26_RD3_West-Ham-Utd-vs-Queens-Park-Rangers_9jan_Landscape_thumb.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768188675~acl=/*~id=39436094870895528646510372110288~hmac=ed5ee5f8759bc857972795bdc6bfe7bb31d08aed321b7ca34b5be19581deef45"
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": "1090499307_ENG",
-      "title": "Borussia M'gladbach vs FC Augsburg - MD 16 - 11 Jan 2026 [ENG]",
-      "status": "LIVE",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013116/1767865726779351_Bundesliga_MD16_Borussia-Mgladbach-vs-FC-Augsburg_landscape_thumb.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768188675~acl=/*~id=39436094870895528646510372110288~hmac=ed5ee5f8759bc857972795bdc6bfe7bb31d08aed321b7ca34b5be19581deef45"
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": 1090499081,
-      "title": "Upcoming - Emirates FA Cup - Manchester United vs Brighton & Hove Albion",
-      "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013045/1767710830080257_FAcup26_Man_Utd_vs_Brighton_and_Hove_Albion_6jan_tonight_landscape_thumb.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": ""
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": 1090499082,
-      "title": "Upcoming - Emirates FA Cup - Liverpool vs Barnsley",
-      "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013071/1767778522343928_FAcup26_Liverpool_vs_Barnsley_6jan_dated_landscape_thumb.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": ""
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": 1090498827,
-      "title": "Upcoming - Australian Open 2026",
-      "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013035/1767702253991538_AO25_9dec_dated_Landscape_thumb_re1.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": ""
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": 1090498545,
-      "title": "Upcoming - Iconic Sports Sizzlers",
-      "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012709/1766658044515568_New_years_new_action_non_stop_sports_landscape_thumb.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": ""
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": 1090499128,
-      "title": "Upcoming - Bayern Munich vs VfL Wolfsburg",
-      "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013094/176780623994080_PROMO_BUNDESLIGA_BAYERN_VS_WOLFSBURG_30_SEC_HOR_DATED_APP_Landscape_thumb.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": ""
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": 1090496895,
-      "title": "Upcoming - Australian Open 2026",
-      "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012914/1767431793855494_Australian-Open-2026-Promo-Thumbs_landscape.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": ""
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": 1090499079,
-      "title": "Upcoming - Emirates FA Cup - Round 3",
-      "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013076/1767785016471119_FA_CUP_3rdRD_Landscape_thumb.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": ""
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": 1090499230,
-      "title": "Upcoming - Emirates FA Cup - Round 3",
-      "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013163/1767950286474880_FA-CUP_Round-3-promo_landscape.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": ""
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": 1090499127,
-      "title": "Upcoming - Emirates FA Cup - 11 Jan 2026",
-      "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013094/176780627517580_PROMO_FA_CUP_11_JAN_COMBO_30_SEC_HOR_DATED_APP_Landscape_thumb.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": ""
-      },
-      "source": "SonyLIV"
     },
     {
       "match_id": "1540059580",
