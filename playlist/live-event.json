@@ -1,7 +1,7 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-11 22:40:23",
-  "total_matches": 42,
+  "last_updated": "2026-01-11 22:55:24",
+  "total_matches": 48,
   "matches": [
     {
       "category": "Tennis",
@@ -2633,6 +2633,66 @@
         "Primary_Playback_URL": null
       },
       "source": "Fancode"
+    },
+    {
+      "match_id": 1090499082,
+      "title": "Upcoming - Emirates FA Cup - Liverpool vs Barnsley",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013071/1767778570632928_FAcup26_Liverpool_vs_Barnsley_6jan_tonight_landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090498827,
+      "title": "Upcoming - Australian Open 2026",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013035/1767702253991538_AO25_9dec_dated_Landscape_thumb_re1.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090498545,
+      "title": "Upcoming - Iconic Sports Sizzlers",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012709/1766658044515568_New_years_new_action_non_stop_sports_landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090496895,
+      "title": "Upcoming - Australian Open 2026",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012914/1767431793855494_Australian-Open-2026-Promo-Thumbs_landscape.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499079,
+      "title": "Upcoming - Emirates FA Cup - Round 3",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013076/1767785016471119_FA_CUP_3rdRD_Landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499230,
+      "title": "Upcoming - Emirates FA Cup - Round 3",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013163/1767950286474880_FA-CUP_Round-3-promo_landscape.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
     },
     {
       "match_id": "1540040039",
