@@ -2,57 +2,115 @@
 #=================================
 # Developed By: OMNIX EMPIER
 # IPTV Telegram Channels: https://t.me/omnix_Empire
-# Last Updated: 2026-01-11 05:52 PM (BD Time)
-# TV channel counts :- 23
+# Last Updated: 2026-01-12 02:44 AM (BD Time)
+# TV channel counts :- 21
 # Disclaimer:
 # This tool does NOT host any content.
 # It aggregates publicly available data for informational purposes only.
 # For any issues or concerns, please contact the developer.
 #==================================  
-#DATE: Sunday, 11 January 2026 at 03:30:19 pm
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="Hindi", HIN | India vs New Zealand: 1st ODI
-https://lokiverse.pages.dev/LIVE/FREEMIUM/1540059580/HIN/4K/index.m3u8|cookie=CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovLypsaXZlLWNmLmNkbi5ob3RzdGFyLmNvbS9jbWFmL2xpdmUvMjAyNDcxMy9pbmFsbG93LWluZHZzbnotMjAyNi9oaW4vMTU0MDA1OTU4MC8xNW1pbmR2cm0wMTc0ZGI5ZmNmNzc3OTRhOWRhZDFlZWQ0MDExMGZlZmJkMTFqYW51YXJ5MjAyNi8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY4MjExODA1fX19XX0_;CloudFront-Signature=CVqIiCgg7lx8c493l2maSaM962dCv--zIpm6iFZBxb6~d5Q5vQyV6ucjEvyu6wn4yAsUaDy~7fwUgZHxTaUX3jm0K7uLx8WqEKl1YZrDKYf9xNinF-mKN~z~rsgT0PkopYKd0oCuvBA3KblQLtNOokjn5pG8Zwk2xCkVTvhGj3fWvzi03~QjdVOoMRRL4PcpivKttq~qfa3YxOccZtmHJsInz3SatlwpDbUhij-yslKrMji4I58e5QZB3VeDwnWPPKjqQoRkaLQZZ1i~QsvnfOnLzOlmvFJXwDQam1J3hd-jLfWMA2KgBytp4A7OWrwELj86Xahj9cyhYCJbI0~w9w__;&User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="Telugu", TEL | India vs New Zealand: 1st ODI
-https://lokiverse.pages.dev/LIVE/FREEMIUM/1540059580/TEL/4K/index.m3u8|cookie=CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovLypsaXZlLWNmLmNkbi5ob3RzdGFyLmNvbS9obHMvbGl2ZS8yMDA0MjA4L2luYWxsb3ctaW5kdnNuei0yMDI2L3RlbC8xNTQwMDU5NTgwLzE1bWluZHZybTAxNzRkYjlmY2Y3Nzc5NGE5ZGFkMWVlZDQwMTEwZmVmYmQxMWphbnVhcnkyMDI2LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NjgyMTE4Mzh9fX1dfQ__;CloudFront-Signature=RhJ0vmV-e9a~5n-iM3oAz447g4zl00ZPUpPV~ycf9m8tx-iLhSXQRrsj-GVIJ4JIp1PdtDHkYUjrzhYvSclVvqUhBLx4RF5hgfW0T4eecKFAS8EbsR9j6EERc0FKET0bU9WWWOAkhxBoitu6WEKwnICQaBbjkfsl0qPKHeVpB9~Qbijhl87i~8f6VGCO1NIFnPBB8qFNH92aMOkp2uyNRLjva4rk1MGwOUy~ekW5JnxZV89GjjBF5bdKRIMYqqTLGiKUpp1~Om-1J~T7tTBEilZT2zkOkoUP4be593ce3Dfy3OWQf4NTHBkYAwQ8RWSMuCQqkgFG2AKzAmYEwqM4wQ__;&User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="Tamil", TAM | India vs New Zealand: 1st ODI
-https://lokiverse.pages.dev/LIVE/FREEMIUM/1540059580/TAM/4K/index.m3u8|cookie=CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovLypsaXZlLWNmLmNkbi5ob3RzdGFyLmNvbS9obHMvbGl2ZS8yMDI3MTIyL2luYWxsb3ctaW5kdnNuei0yMDI2L3RhbS8xNTQwMDU5NTgwLzE1bWluZHZybTAxNzRkYjlmY2Y3Nzc5NGE5ZGFkMWVlZDQwMTEwZmVmYmQxMWphbnVhcnkyMDI2LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NjgyMTE4NDN9fX1dfQ__;CloudFront-Signature=MROhf5tZQevRe1mDa28esBIDxw7n5GwPBbeWFQCE8C8cV~qxHPFfX0GwVHGMA1OngInTnR7pBYrSjWRzHXs3Kj3ecmSroH0xR~rVsbtenaYJ4hmyxqpDkfdoirKDlxk2ABQxGIjs5EDtA69VOxipAK39~mX3z3k70Cr~YPzQ4GVmVlEUdGM~TSbERX2as1ey5cb1R1d3gYkKEZ9SMMdFz4fdY3eQRF1fxBK08GQ8tvifLeGorvIRx-1B-PsF6zrlGuI-BZOTHdTl~Z3hXj4Y2evyxUHNDepJGuYBdhvwJJVjtONF6cBBaETWAC~AAIWdWPRQrLw-XVRXiMUoYpYnwg__;&User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="English", ENG | India vs New Zealand: 1st ODI
-https://lokiverse.pages.dev/LIVE/FREEMIUM/1540059580/ENG/4K/index.m3u8|cookie=CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovLypsaXZlLWNmLmNkbi5ob3RzdGFyLmNvbS9jbWFmL2xpdmUvMjAyNDM0NS9pbmFsbG93LWluZHZzbnotMjAyNi9lbmcvMTU0MDA1OTU4MC8xNW1pbmR2cm0wMTc0ZGI5ZmNmNzc3OTRhOWRhZDFlZWQ0MDExMGZlZmJkMTFqYW51YXJ5MjAyNi8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzY4MjExODQ2fX19XX0_;CloudFront-Signature=ietrU5TCuD9tspVU983gh1VZJG59rkyUru06H4gjv4i6~jzDxIWEjof2rZ7FXhHRpKlChnda4It58qBjDF-4r2kbL-4FnDXVk6-uyG~2iEt-2uwMLNqJbmL5A7VGnRjUzGIkPzBLjc-woPn6Oomhu-CYluI9FwcFu9nUEVRWVt4UIXpQsjnpsmX3JEkGdk8zGUiORxWbdm~ibY5Z8dhhCBYjcngAiKTLM7fnK8OBviIS68AeNC~NNvgtVi31lufyjUoehn2Zcllc~VIOCVtB5jWWbLfr7JeyQ7iTdigF8GYMFEsGuvipuEyBx8smveke88ypHryD0YiQlHPr5Qxv2A__;&User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="Kannada", KAN | India vs New Zealand: 1st ODI
-https://lokiverse.pages.dev/LIVE/FREEMIUM/1540059580/KAN/4K/index.m3u8|cookie=CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovLypsaXZlLWNmLmNkbi5ob3RzdGFyLmNvbS9obHMvbGl2ZS8yMDA0MjEwL2luYWxsb3ctaW5kdnNuei0yMDI2L2thbi8xNTQwMDU5NTgwLzE1bWluZHZybTAxNzRkYjlmY2Y3Nzc5NGE5ZGFkMWVlZDQwMTEwZmVmYmQxMWphbnVhcnkyMDI2LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NjgyMTE4MjF9fX1dfQ__;CloudFront-Signature=G4eYYDZU3uEOuW26vLWaBPrh63OjJJb0c282t0SukglpXIzhEiF4ar7Q-F3OgJnQ2fL2M8AU6I2Do0SBzLJgQqxUjeZaVmhobtPrUnucOJ5~1yKCmG0dfiX-iNUyKL3wMygmna~VHxKu~UbZeEvs5kUYY1Ur1oRbdxov~ual4N93rYIg6ckanR16burnhsHQyu~0NcTVKAOEjim5xBwA-uZ59GNpSfkqyTmuPyNjPbe5JChdxFBbYWVs17fNM592oPa3Jp9~0arNCuzz1dKNu70BURVgPQQCt5Qg95v1d-QEEqXyNW-rDrtq046O9LzThhajYJ4KYerviGEmaDrjBw__;&User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="Bengali", BEN | India vs New Zealand: 1st ODI
-https://lokiverse.pages.dev/LIVE/FREEMIUM/1540059580/BEN/4K/index.m3u8|cookie=CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovLypsaXZlLWNmLmNkbi5ob3RzdGFyLmNvbS9obHMvbGl2ZS8yMDA0MjEyL2luYWxsb3ctaW5kdnNuei0yMDI2L2Jlbi8xNTQwMDU5NTgwLzE1bWluZHZybTAxNzRkYjlmY2Y3Nzc5NGE5ZGFkMWVlZDQwMTEwZmVmYmQxMWphbnVhcnkyMDI2LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NjgyMTE5MTV9fX1dfQ__;CloudFront-Signature=BSOEXFL8ofdsxrXWGJFk6qk0QbGs3ws4n5MF~2Ky682FqeMSfgHZaYH10j4ZCxTndy~rqCvAw8h9CbaP7t6hTXO24EyQY5520y5d5436i0XKlHoG05AZWXX-wXP8MlvZzakUFlrMKt~1j9Ec9NmUmi~SVYrElDLFaMCExKFvHOOZ1-uHyq4N7EwFI6mrcXFzXZM2PEyowajxhB7ZOVfS~OKkm8bpoX8XV~jvjaMx4nm8VjdTiigNTzqSn8pJcueiT7ucGCbN~UWPpWeMaQcX9dAN0wLtKqg5dkHJ9lQu1YB-VsB~IvR7KX8dUhmiEWJ0lU4Q7r8UJI~46-PICj2DOw__;&User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="Bhojpuri", BIH | India vs New Zealand: 1st ODI
-https://lokiverse.pages.dev/LIVE/FREEMIUM/1540059580/BIH/4K/index.m3u8|cookie=CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovLypsaXZlLWNmLmNkbi5ob3RzdGFyLmNvbS9obHMvbGl2ZS8yMDA0MjE2L2luYWxsb3ctaW5kdnNuei0yMDI2L2JpaC8xNTQwMDU5NTgwLzE1bWluZHZybTAxNzRkYjlmY2Y3Nzc5NGE5ZGFkMWVlZDQwMTEwZmVmYmQxMWphbnVhcnkyMDI2LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NjgyMTE4NTl9fX1dfQ__;CloudFront-Signature=izVhuCsYgkMVmfDHl6Ks2V0r-5yYjobgl19vx76bd6LjL2WoHwdnhrDqz6t1MBgt7HzskJOJTbJY8JcaSL8PFzudVzInACHfAJku9saZEKZX1AwjpbWIMmfl6RW4uLwVdBBBHGgHT5UgbtEMaMkkcDAxfkQ8pIxEtOUL6rKjDTSMWzddnItfX6iGsheDhNB9zlSzHdWg0htX1ZVO4d7Munf6iNlUFod3KXUcLni6VZy2PuTy0NJnQ8VxzcAd2yJoEXJZhZB0pXd0sPK20Fg1-6DP5B83Z4KoDQd2CB557l0uPKYVhNxdSqGJvEwVb6dOVqQ9TBaPDDQoIXPWG437Bw__;&User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="Haryanvi", HAR | India vs New Zealand: 1st ODI
-https://lokiverse.pages.dev/LIVE/FREEMIUM/1540059580/HAR/4K/index.m3u8|cookie=CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovLypsaXZlLWNmLmNkbi5ob3RzdGFyLmNvbS9obHMvbGl2ZS8yMDA0MjE3L2luYWxsb3ctaW5kdnNuei0yMDI2L2hhci8xNTQwMDU5NTgwLzE1bWluZHZybTAxNzRkYjlmY2Y3Nzc5NGE5ZGFkMWVlZDQwMTEwZmVmYmQxMWphbnVhcnkyMDI2LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NjgyMTE4Mjd9fX1dfQ__;CloudFront-Signature=a1uvvOS0vgdUGsmf0jbaavGI4cMullJdjKj5ajla4N6mMUxdFQxbKxZafBsYN2~pxm~luaJr9K7nOIu2YJoLNpkA1zfQ33an6cfEPSAdZ8UBGWvxb~5~X~TBcxiIphllcWVx1EkjGIqzzGChCwg~eXJBdqRC0tUjQT2hw0Ke-71Ed3fVUB35z52uqOC8jGVa34L7DXd8uZJ3sJ0CFcu0pdlEf2LWUDwWRtkiU8a~PYN77SRUQ6k8Kpn8GM96TMBlhghNN1LgYOCYgcuXnXSkmLKKJc8tu~FpSEN4cXxLFNE47Mo2RPusKHITPUE9AviFxQbD0zUbj0G3YMOix0dDOg__;&User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="HindiVertical", HIN_VLC | India vs New Zealand: 1st ODI
-https://fallback-bpk.pages.dev/DOWN.mp4|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="EnglishVertical", ENG_VLC | India vs New Zealand: 1st ODI
-https://fallback-bpk.pages.dev/DOWN.mp4|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="Birdseye", MC_BIRD | India vs New Zealand: 1st ODI
-https://fallback-bpk.pages.dev/DOWN.mp4|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="HeroCam", MC_HERO | India vs New Zealand: 1st ODI
-https://fallback-bpk.pages.dev/DOWN.mp4|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="BatterCamVertical", MC_BATTER_VLC | India vs New Zealand: 1st ODI
-https://fallback-bpk.pages.dev/DOWN.mp4|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="StumpCam", MC_STUMP | India vs New Zealand: 1st ODI
-https://fallback-bpk.pages.dev/DOWN.mp4|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="BatterCam", MC_BATTER | India vs New Zealand: 1st ODI
-https://fallback-bpk.pages.dev/DOWN.mp4|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="StumpCamVertical", MC_STUMP_VLC | India vs New Zealand: 1st ODI
-https://fallback-bpk.pages.dev/DOWN.mp4|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059580" tvg-name="India vs New Zealand: 1st ODI" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/9809/1768059549809-h" tvg-lang="HeroCamVertical", MC_HERO_VLC | India vs New Zealand: 1st ODI
-https://fallback-bpk.pages.dev/DOWN.mp4|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540058956" tvg-name="Adelaide Strikers vs Perth Scorchers" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/6681/1768048806681-h" tvg-lang="English", ENG | Adelaide Strikers vs Perth Scorchers
-https://fallback-bpk.pages.dev/DOWN.mp4|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540040039" tvg-name="Star Sports Cricket Classics" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/5745/1750779565745-h" tvg-lang="Hindi", HIN | Star Sports Cricket Classics
-https://fallback-bpk.pages.dev/DOWN.mp4|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540059439" tvg-name="BWF Malaysia Open: Finals" group-title="Badminton" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/6728/1768080656728-h" tvg-lang="English", ENG | BWF Malaysia Open: Finals
-https://fallback-bpk.pages.dev/DOWN.mp4|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540045533" tvg-name="Follow The Blues" group-title="Football" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/1441/1762934631441-h" tvg-lang="Hindi", HIN | Follow The Blues
-https://fallback-bpk.pages.dev/DOWN.mp4|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540044879" tvg-name="TATA IPL TV" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/2214/1750777602214-h" tvg-lang="Hindi", HIN | TATA IPL TV
-https://fallback-bpk.pages.dev/DOWN.mp4|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
-#EXTINF:-1 tvg-id="1540044897" tvg-name="T20s TV" group-title="Cricket" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/3639/1756796893639-h" tvg-lang="Hindi", HIN | T20s TV
-https://fallback-bpk.pages.dev/DOWN.mp4|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)
+#DATE: Sunday, 11 January 2026 at 09:52:19 pm
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000017
+#EXTINF:-1 tvg-id="StarPlus" tvg-name="StarPlus" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7415/567415-h",StarPlus
+https://livetv.hotstar.com/mp1/gec-india-1540057045/a73567ab8abd4680bc8206dd0c625cb0/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=%2f*~id=a028a434ce93f986c875a2e9616e2387~data=hdntl~hmac=145e3f9c7a93dc76b3e0e96b8b04e4d4e4507bddef76085a2fb2be87172c6230&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000031
+#EXTINF:-1 tvg-id="Star Bharat" tvg-name="Star Bharat" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7406/567406-h",Star Bharat
+https://livetv.hotstar.com/mp2/gec-india-1540057051/aa1fac3acfc244b4bbed73575a4a42da/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=%2f*~id=a028a434ce93f986c875a2e9616e2387~data=hdntl~hmac=145e3f9c7a93dc76b3e0e96b8b04e4d4e4507bddef76085a2fb2be87172c6230&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000020
+#EXTINF:-1 tvg-id="Star Utsav" tvg-name="Star Utsav" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7407/567407-h",Star Utsav
+https://livetv.hotstar.com/mp1/gec-india-1540057078/6a9d9dbd5cd84dd3ba89856288c589b3/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=%2f*~id=a028a434ce93f986c875a2e9616e2387~data=hdntl~hmac=145e3f9c7a93dc76b3e0e96b8b04e4d4e4507bddef76085a2fb2be87172c6230&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000006
+#EXTINF:-1 tvg-id="Star Pravah" tvg-name="Star Pravah" group-title="Entertainment" tvg-language="Marathi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5868/595868-h",Star Pravah
+https://livetv.hotstar.com/mp2/gec-india-1540057063/03a27d0f3ce347f0a3b4af1f6e62d4cc/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=%2f*~id=a028a434ce93f986c875a2e9616e2387~data=hdntl~hmac=145e3f9c7a93dc76b3e0e96b8b04e4d4e4507bddef76085a2fb2be87172c6230&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000040
+#EXTINF:-1 tvg-id="Star Gold" tvg-name="Star Gold" group-title="Movies" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7403/567403-h",Star Gold
+https://livetv.hotstar.com/mp2/gec-india-1540057030/0bbcb34798fd454a81c3502fb652911e/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=%2f*~id=a028a434ce93f986c875a2e9616e2387~data=hdntl~hmac=145e3f9c7a93dc76b3e0e96b8b04e4d4e4507bddef76085a2fb2be87172c6230&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000025
+#EXTINF:-1 tvg-id="Star Sports Hindi 1" tvg-name="Star Sports Hindi 1" group-title="Sports" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7433/567433-h",Star Sports Hindi 1
+https://livetv-push.hotstar.com/dash/live/2002466/sshindiwv/master.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=*sshindi*~id=5d32fb6a31a62485c9bb14ffb231ff65~data=hdntl~hmac=3143e27bda11fa06c5f2c0eae5a4833f8e78baf20dc512fcf6f1c5663bb69538&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000035
+#EXTINF:-1 tvg-id="Star Sports 1" tvg-name="Star Sports 1" group-title="Sports" tvg-language="English" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7430/567430-h",Star Sports 1
+https://livetv-push.hotstar.com/dash/live/2002464/sshd1livetvwv/master.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=*sshd1livetv*~id=8c1f66c1307a984bf7ff92237e5fa2b3~data=hdntl~hmac=ee99e172a13eb001344734d5b83200f9116e18fd15a7c89cab1344f2e74b94d5&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000039
+#EXTINF:-1 tvg-id="Jalsha Movies" tvg-name="Jalsha Movies" group-title="Movies" tvg-language="Bangla" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7404/567404-h",Jalsha Movies
+https://livetv.hotstar.com/mp2/gec-india-1540057027/39127b380adb405e8de434e10e20c3a6/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=%2f*~id=a028a434ce93f986c875a2e9616e2387~data=hdntl~hmac=145e3f9c7a93dc76b3e0e96b8b04e4d4e4507bddef76085a2fb2be87172c6230&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000014
+#EXTINF:-1 tvg-id="Star Jalsha" tvg-name="Star Jalsha" group-title="Entertainment" tvg-language="Bangla" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7419/567419-h",Star Jalsha
+https://livetv.hotstar.com/mp1/gec-india-1540057072/61b6b96b069d42f9821b6ed85b51388e/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=%2f*~id=a028a434ce93f986c875a2e9616e2387~data=hdntl~hmac=145e3f9c7a93dc76b3e0e96b8b04e4d4e4507bddef76085a2fb2be87172c6230&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000016
+#EXTINF:-1 tvg-id="Star Maa" tvg-name="Star Maa" group-title="Entertainment" tvg-language="Telugu" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7418/567418-h",Star Maa
+https://livetv.hotstar.com/mp2/gec-india-1540057087/136d113eec07474e8836d7dc3dd0533b/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=%2f*~id=a028a434ce93f986c875a2e9616e2387~data=hdntl~hmac=145e3f9c7a93dc76b3e0e96b8b04e4d4e4507bddef76085a2fb2be87172c6230&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000008
+#EXTINF:-1 tvg-id="Star Maa Movies" tvg-name="Star Maa Movies" group-title="Movies" tvg-language="Telugu" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7421/567421-h",Star Maa Movies
+https://livetv.hotstar.com/mp1/gec-india-1540057036/9b002b1b2a3748b7a80a8512aef0bb8d/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=%2f*~id=a028a434ce93f986c875a2e9616e2387~data=hdntl~hmac=145e3f9c7a93dc76b3e0e96b8b04e4d4e4507bddef76085a2fb2be87172c6230&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000019
+#EXTINF:-1 tvg-id="Maa Gold" tvg-name="Maa Gold" group-title="Entertainment" tvg-language="Telugu" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7408/567408-h",Maa Gold
+https://livetv.hotstar.com/mp1/gec-india-1540057033/9680ef02a23e4d05a7d6afab10805ec4/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=%2f*~id=a028a434ce93f986c875a2e9616e2387~data=hdntl~hmac=145e3f9c7a93dc76b3e0e96b8b04e4d4e4507bddef76085a2fb2be87172c6230&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000018
+#EXTINF:-1 tvg-id="Star Vijay" tvg-name="Star Vijay" group-title="Entertainment" tvg-language="Tamil" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7409/567409-h",Star Vijay
+https://livetv.hotstar.com/mp1/gec-india-1540057060/15ef978ea9f449a2a8c97f7c05e618c5/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=%2f*~id=a028a434ce93f986c875a2e9616e2387~data=hdntl~hmac=145e3f9c7a93dc76b3e0e96b8b04e4d4e4507bddef76085a2fb2be87172c6230&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000043
+#EXTINF:-1 tvg-id="Star Suvarna Plus" tvg-name="Star Suvarna Plus" group-title="Entertainment" tvg-language="Kannada" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7399/567399-h",Star Suvarna Plus
+https://livetv.hotstar.com/mp2/gec-india-1540057081/5c13f17d142c4963a1c7bd54fcd421d5/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=%2f*~id=a028a434ce93f986c875a2e9616e2387~data=hdntl~hmac=145e3f9c7a93dc76b3e0e96b8b04e4d4e4507bddef76085a2fb2be87172c6230&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000002
+#EXTINF:-1 tvg-id="Star Suvarna" tvg-name="Star Suvarna" group-title="Entertainment" tvg-language="Kannada" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7429/567429-h",Star Suvarna
+https://livetv.hotstar.com/mp1/gec-india-1540057075/57ae0b6fa2b64281984574d406f9a696/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=%2f*~id=a028a434ce93f986c875a2e9616e2387~data=hdntl~hmac=145e3f9c7a93dc76b3e0e96b8b04e4d4e4507bddef76085a2fb2be87172c6230&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000042
+#EXTINF:-1 tvg-id="Asianet Movies" tvg-name="Asianet Movies" group-title="Movies" tvg-language="Malayalam" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7400/567400-h",Asianet Movies
+https://livetv.hotstar.com/mp1/gec-india-1540057039/96454b89b9cd49df822108b6975a1a60/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=%2f*~id=a028a434ce93f986c875a2e9616e2387~data=hdntl~hmac=145e3f9c7a93dc76b3e0e96b8b04e4d4e4507bddef76085a2fb2be87172c6230&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000012
+#EXTINF:-1 tvg-id="Asianet" tvg-name="Asianet" group-title="Entertainment" tvg-language="Malayalam" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7420/567420-h",Asianet
+https://livetv.hotstar.com/mp2/gec-india-1540057084/6569043a1d874fb49fc2cf2f273fe097/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=%2f*~id=a028a434ce93f986c875a2e9616e2387~data=hdntl~hmac=145e3f9c7a93dc76b3e0e96b8b04e4d4e4507bddef76085a2fb2be87172c6230&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000004
+#EXTINF:-1 tvg-id="Asianet Plus" tvg-name="Asianet Plus" group-title="Entertainment" tvg-language="Malayalam" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7424/567424-h",Asianet Plus
+https://livetv.hotstar.com/mp1/gec-india-1540057042/65edc0359d4b49f7a42d06d4dfe8457b/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233843~acl=%2f*~id=a028a434ce93f986c875a2e9616e2387~data=hdntl~hmac=145e3f9c7a93dc76b3e0e96b8b04e4d4e4507bddef76085a2fb2be87172c6230&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000033
+#EXTINF:-1 tvg-id="Star Sports 2" tvg-name="Star Sports 2" group-title="Sports" tvg-language="English" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7432/567432-h",Star Sports 2
+https://livetv-push.hotstar.com/dash/live/2002465/sshd2livetvwv/master.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233844~acl=*sshd2livetv*~id=718248615207462e60f135bbb17f796e~data=hdntl~hmac=b20458fcef9866b2366a1e3904ecfeca600129e927130dc241129bb5c057aa1d&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000034
+#EXTINF:-1 tvg-id="Star Sports Select HD1" tvg-name="Star Sports Select HD1" group-title="Sports" tvg-language="English" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7435/567435-h",Star Sports Select HD1
+https://livetv-push.hotstar.com/dash/live/2002470/ssselecthd1wv/master.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233844~acl=*ssselecthd1*~id=e4377f3f180c7cfb79b6e2508a9b7cb0~data=hdntl~hmac=f6fb75398762156bb8d75689a5293ba2e3eadf983ee9f26a113f45de7cd2ba9e&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000024
+#EXTINF:-1 tvg-id="Star Sports Select HD2" tvg-name="Star Sports Select HD2" group-title="Sports" tvg-language="English" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7437/567437-h",Star Sports Select HD2
+https://livetv-push.hotstar.com/dash/live/2002471/ssselecthd2wv/master.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233844~acl=*ssselecthd2*~id=8595ca14a5600b04b4061efe876231c2~data=hdntl~hmac=faefdafe318358e0d0da0564cded654f5f6894a0b21e1be9a3b685585633f2e4&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
