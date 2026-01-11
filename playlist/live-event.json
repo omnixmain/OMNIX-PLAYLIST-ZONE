@@ -1,6 +1,6 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-11 19:55:55",
+  "last_updated": "2026-01-11 20:25:32",
   "total_matches": 49,
   "matches": [
     {
@@ -35,8 +35,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "1888",
+                "shortName": "R Lewandowski",
+                "isOwnGoal": false,
+                "goalTime": "45'"
+              },
               {
                 "id": "58585",
                 "shortName": "R Belloli",
@@ -64,8 +70,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "186365",
+                "shortName": "G Garcia",
+                "isOwnGoal": false,
+                "goalTime": "45'"
+              },
               {
                 "id": "33753",
                 "shortName": "V Junior",
