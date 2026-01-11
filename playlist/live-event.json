@@ -1,6 +1,6 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-11 13:47:06",
+  "last_updated": "2026-01-11 13:57:15",
   "total_matches": 58,
   "matches": [
     {
@@ -443,8 +443,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "69238",
+                "shortName": "I Palazon",
+                "isOwnGoal": false,
+                "goalTime": "42'"
+              },
               {
                 "id": "65156",
                 "shortName": "J Sebastian",
@@ -561,6 +567,70 @@
         "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139250_english_hls_d566f65c8e38359_1ta-di_h264/index.m3u8",
         "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139250_english_hls_d566f65c8e38359_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "https://dai.google.com/linear/hls/event/mC8EKCKLSTad1o_f0mYu_A/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Football",
+      "title": "Thailand U23 Vs Iraq U23",
+      "tournament": "AFC U23 Asian Cup, 2026",
+      "match_id": 139266,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "11 January 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139266_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-U23-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139266_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Thailand U23",
+          "shortName": "THA-U23",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/THL-FT1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#948faa",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Iraq U23",
+          "shortName": "IRQ-U23",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/IRQ-FT1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#e36e79",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/139266_english_hls_73633f62bb88096_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139266_english_hls_73633f62bb88096_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139266_english_hls_73633f62bb88096_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/21ontNEdTn-vy-i48fil7g/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -832,78 +902,6 @@
       "STREAMING_CDN": {
         "language": "BLOODY_SWEET",
         "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Football",
-      "title": "Thailand U23 Vs Iraq U23",
-      "tournament": "AFC U23 Asian Cup, 2026",
-      "match_id": 139266,
-      "status": "NOT_STARTED",
-      "streamingStatus": "STARTED",
-      "startTime": "11 January 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139266_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-U23-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139266_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Thailand U23",
-          "shortName": "THA-U23",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/THL-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#948faa",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Iraq U23",
-          "shortName": "IRQ-U23",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/IRQ-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e36e79",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/139266_english_hls_73633f62bb88096_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139266_english_hls_73633f62bb88096_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139266_english_hls_73633f62bb88096_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/21ontNEdTn-vy-i48fil7g/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
       },
       "source": "Fancode"
     },
@@ -2636,7 +2634,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013167/1767950129267145_FA_CUP_26_RD3_Portsmouth-vs-Arsenal_9jan_Landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768181958~acl=/*~id=21030960313389371063025325792399~hmac=1f078ad9791659e1ab9a93837c8ec25ecbecb3879b232c384348e5c1144c0199"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768182568~acl=/*~id=08913903433013911802955169578065~hmac=a9ebbe22ab0d228450adc5db1bdb15f04b32bc7afa73b7c47dcdce76a9a78da6"
       },
       "source": "SonyLIV"
     },
@@ -2646,7 +2644,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013032/1767698953696649_SLvsPAK26_3t20i_6jan_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1768181958~acl=/*~id=21030960313389371063025325792399~hmac=1f078ad9791659e1ab9a93837c8ec25ecbecb3879b232c384348e5c1144c0199"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1768182568~acl=/*~id=08913903433013911802955169578065~hmac=a9ebbe22ab0d228450adc5db1bdb15f04b32bc7afa73b7c47dcdce76a9a78da6"
       },
       "source": "SonyLIV"
     },
@@ -2656,7 +2654,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013167/1767949530498145_FA_CUP_26_RD3_Derby-County-vs-Leeds-Utd_9jan_Landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768181958~acl=/*~id=21030960313389371063025325792399~hmac=1f078ad9791659e1ab9a93837c8ec25ecbecb3879b232c384348e5c1144c0199"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768182568~acl=/*~id=08913903433013911802955169578065~hmac=a9ebbe22ab0d228450adc5db1bdb15f04b32bc7afa73b7c47dcdce76a9a78da6"
       },
       "source": "SonyLIV"
     },
