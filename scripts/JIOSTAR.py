@@ -3,7 +3,7 @@ import os
 import sys
 import datetime
 
-url = "https://hotstarlive.delta-cloud.workers.dev/?token=a13d9c-4b782a-6c90fd-9a1b84"
+url = "https://hotstarlive.delta-cloud.workers.dev/?token=240bb9-374e2e-3c13f0-4a7xz5"
 output_file = "playlist/JIOSTAR.m3u"
 
 # List of agents to try
@@ -25,7 +25,10 @@ def fetch_playlist():
             headers = {
                 'User-Agent': agent,
                 'Accept': '*/*',
+                'Accept-Language': 'en-US,en;q=0.9',
+                'Connection': 'keep-alive',
                 'cache-control': 'no-cache, no-store',
+                'Referer': 'https://hotstar.com/',
             }
             
             response = session.get(url, headers=headers, timeout=20)
@@ -38,7 +41,7 @@ def fetch_playlist():
                     return content
                 else:
                     print("Response received properly but does not seem to be M3U content.")
-                    print(f"Preview: {content[:100]}...")
+                    print(f"Debug - Content Preview: {content[:500]}") # Print first 500 chars to identify what we are getting
             else:
                  print(f"Failed with status code: {response.status_code}")
 
