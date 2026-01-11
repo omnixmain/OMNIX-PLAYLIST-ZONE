@@ -1,10 +1,11 @@
 import requests
 import os
-import sys
 import datetime
+import sys
 
-url = "https://hotstarlive.delta-cloud.workers.dev/?token=a13d9c-4b782a-6c90fd-9a1b84"
-output_file = "playlist/hotstar-jio.m3u"
+# Configuration
+URL = "https://hotstar-live-event.alpha-circuit.workers.dev/?token=a13d9c-4b782a-6c90fd-9a1b84"
+OUTPUT_FILE = "playlist/jiohotstar_liv.m3u"
 
 # List of agents to try
 user_agents = [
@@ -14,7 +15,7 @@ user_agents = [
 ]
 
 def fetch_playlist():
-    print(f"Fetching URL: {url}")
+    print(f"Fetching URL: {URL}")
     
     session = requests.Session()
     
@@ -28,7 +29,7 @@ def fetch_playlist():
                 'cache-control': 'no-cache, no-store',
             }
             
-            response = session.get(url, headers=headers, timeout=20)
+            response = session.get(URL, headers=headers, timeout=20)
             print(f"Status: {response.status_code}")
             
             if response.status_code == 200:
@@ -38,7 +39,7 @@ def fetch_playlist():
                     return content
                 else:
                     print("Response received properly but does not seem to be M3U content.")
-                    print(f"Preview: {content[:100]}...")
+                    # print(f"Preview: {content[:100]}...") # Debug preview
             else:
                  print(f"Failed with status code: {response.status_code}")
 
@@ -51,11 +52,11 @@ def fetch_playlist():
 def main():
     content = fetch_playlist()
     
-    # Ensure directory exists regardless of success, to avoid path errors
-    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    # Ensure directory exists
+    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
     if content:
-        with open(output_file, "w", encoding="utf-8") as f:
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             # Calculate BD Time (UTC + 6)
             utc_now = datetime.datetime.utcnow()
             bd_time = utc_now + datetime.timedelta(hours=6)
@@ -64,7 +65,7 @@ def main():
             lines = content.splitlines()
             channel_count = sum(1 for line in lines if line.strip().startswith("#EXTINF"))
             
-            # Remove existing #EXTM3U or header lines if simple
+            # Remove existing #EXTM3U if present
             if lines and lines[0].startswith("#EXTM3U"):
                 lines.pop(0)
 
@@ -82,15 +83,11 @@ def main():
 """
             f.write(m3u_header)
             f.write("\n".join(lines))
-        print(f"Saved playlist to {output_file}")
+        print(f"Saved playlist to {OUTPUT_FILE}")
     else:
-        # Check if file exists to determine if we should fail hard or just warn
-        if os.path.exists(output_file):
-            print("Could not update playlist. Keeping existing file.")
-        
-        # Fail hard so the workflow shows red
-        print("Required playlist could not be fetched. Exiting with error.")
-        sys.exit(1)
-            
+        print("Failed to fetch content.")
+        if not os.path.exists(OUTPUT_FILE):
+             sys.exit(1)
+
 if __name__ == "__main__":
     main()

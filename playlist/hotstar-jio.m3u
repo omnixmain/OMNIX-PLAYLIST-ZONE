@@ -1,107 +1,111 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz"
-#DATE: Thursday, 8 January 2026 at 11:49:08 pm
+#DATE: Sunday, 11 January 2026 at 05:58:00 am
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#EXTINF:-1 tvg-id="Hotstar Live" tvg-name="Hotstar Live" group-title="Sports" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7433/567433-h",Hotstar Live (Freemium 1080p)
+https://abndnxiaaaaaaaamllzi25iotzrmf.live-cf.cdn.hotstar.com/hls/live/2024725/inallow-indvsnz-2026/hin/1540059580/15mindvrm0174db9fcf77794a9dad1eed40110fefbd11january2026/master_ap_1080_6.m3u8|User-agent=Hotstar;in.startv.hotstar/25.12.22.4.12134 (Android/5.1.1)&Cookie=CloudFront-Key-Pair-Id=APKAJC3ILMJXG4AINKJA; CloudFront-Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoikjovlypsaXZlLWWmLmNkbi5ob3RzdGFyLmNvbS9obHMubGl2ZS8yMDI0NzI1L2luYWxsb3ctaW5kdnQuei0yMDI2L2hpbi8xNTQwMDU5NTgwLzElbWluZHZybTAxNzRkYjlmY2Y3Nzc5NGE52GFkMWVI2DQwMTEwZmVmYmQxMWphbnVhcnkyMDI2LyoiLCJDb25kaXRpb24iOnsiRGFOZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NjgyMDA4OEQifX1dfQ__; CloudFront-Signature=KobosGFqHCrSpfNMVjW9udiW4phIqTT6z~06BnOYYebbXAcCHjfJQUhLQ3yPjJfhbEqYCumGltA9bmtLBkJRFKeN9oGm~qOLCpx5dBtnUVJmuLPFi2u3ikLjWqU3iKSi7pPhnrLBg0MTGHjh5COPWzmTyKljgIY9QTvhVrAppCAZPP94hM26NoFQyU2p4~sATYpnz6k~Ur2n2Sfzw-kUYkKNzPLPmAeVpfpIM5Az6-xsbixfPi~ibxAQ6CTbxpUnWVs~57Ni10YKsXJ7QftcvXAy-v2WsOhSWxiDA9gcgbeVkXnqyveDkuMBmitszbOCoU3h0inN1XF~gkpWQm5QYw__
+
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000017
 #EXTINF:-1 tvg-id="StarPlus" tvg-name="StarPlus" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7415/567415-h",StarPlus
-https://livetv.hotstar.com/mp1/gec-india-1540057045/a73567ab8abd4680bc8206dd0c625cb0/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=%2f*~id=c4300859f924094b0401a1e08f7b5304~data=hdntl~hmac=3d6c6751233883f08016cf71e7bc6eadb90fbf6d26f93e0b755d025a2d2e3c16&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv.hotstar.com/mp1/gec-india-1540057045/a73567ab8abd4680bc8206dd0c625cb0/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=%2f*~id=b061d13e2025fee8dd15de5bfc5521ae~data=hdntl~hmac=01e4fc69370eece6d376423d39aaf5d72a26be1d8d36b891b26ea540f02a143a&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000031
 #EXTINF:-1 tvg-id="Star Bharat" tvg-name="Star Bharat" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7406/567406-h",Star Bharat
-https://livetv.hotstar.com/mp2/gec-india-1540057051/aa1fac3acfc244b4bbed73575a4a42da/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=%2f*~id=c4300859f924094b0401a1e08f7b5304~data=hdntl~hmac=3d6c6751233883f08016cf71e7bc6eadb90fbf6d26f93e0b755d025a2d2e3c16&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv.hotstar.com/mp2/gec-india-1540057051/aa1fac3acfc244b4bbed73575a4a42da/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=%2f*~id=b061d13e2025fee8dd15de5bfc5521ae~data=hdntl~hmac=01e4fc69370eece6d376423d39aaf5d72a26be1d8d36b891b26ea540f02a143a&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000020
 #EXTINF:-1 tvg-id="Star Utsav" tvg-name="Star Utsav" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7407/567407-h",Star Utsav
-https://livetv.hotstar.com/mp1/gec-india-1540057078/6a9d9dbd5cd84dd3ba89856288c589b3/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=%2f*~id=c4300859f924094b0401a1e08f7b5304~data=hdntl~hmac=3d6c6751233883f08016cf71e7bc6eadb90fbf6d26f93e0b755d025a2d2e3c16&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv.hotstar.com/mp1/gec-india-1540057078/6a9d9dbd5cd84dd3ba89856288c589b3/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=%2f*~id=b061d13e2025fee8dd15de5bfc5521ae~data=hdntl~hmac=01e4fc69370eece6d376423d39aaf5d72a26be1d8d36b891b26ea540f02a143a&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000006
 #EXTINF:-1 tvg-id="Star Pravah" tvg-name="Star Pravah" group-title="Entertainment" tvg-language="Marathi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5868/595868-h",Star Pravah
-https://livetv.hotstar.com/mp2/gec-india-1540057063/03a27d0f3ce347f0a3b4af1f6e62d4cc/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=%2f*~id=c4300859f924094b0401a1e08f7b5304~data=hdntl~hmac=3d6c6751233883f08016cf71e7bc6eadb90fbf6d26f93e0b755d025a2d2e3c16&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv.hotstar.com/mp2/gec-india-1540057063/03a27d0f3ce347f0a3b4af1f6e62d4cc/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=%2f*~id=b061d13e2025fee8dd15de5bfc5521ae~data=hdntl~hmac=01e4fc69370eece6d376423d39aaf5d72a26be1d8d36b891b26ea540f02a143a&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000040
 #EXTINF:-1 tvg-id="Star Gold" tvg-name="Star Gold" group-title="Movies" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7403/567403-h",Star Gold
-https://livetv.hotstar.com/mp2/gec-india-1540057030/0bbcb34798fd454a81c3502fb652911e/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=%2f*~id=c4300859f924094b0401a1e08f7b5304~data=hdntl~hmac=3d6c6751233883f08016cf71e7bc6eadb90fbf6d26f93e0b755d025a2d2e3c16&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv.hotstar.com/mp2/gec-india-1540057030/0bbcb34798fd454a81c3502fb652911e/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=%2f*~id=b061d13e2025fee8dd15de5bfc5521ae~data=hdntl~hmac=01e4fc69370eece6d376423d39aaf5d72a26be1d8d36b891b26ea540f02a143a&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000025
 #EXTINF:-1 tvg-id="Star Sports Hindi 1" tvg-name="Star Sports Hindi 1" group-title="Sports" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7433/567433-h",Star Sports Hindi 1
-https://livetv-push.hotstar.com/dash/live/2002466/sshindiwv/master.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=*sshindi*~id=47141556aa6d6823383694c9c31fcc77~data=hdntl~hmac=1b4ff781a6fbaeb36d2b82b8f35a12a6089261889d1544b58eabff566ca6891d&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv-push.hotstar.com/dash/live/2002466/sshindiwv/master.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=*sshindi*~id=10a3eb1c52fc8400646dd6aea3d38779~data=hdntl~hmac=189c2a3a9be0a0664f9f11ee0e426207da478780dc439d79214537e82cac5f98&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000035
 #EXTINF:-1 tvg-id="Star Sports 1" tvg-name="Star Sports 1" group-title="Sports" tvg-language="English" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7430/567430-h",Star Sports 1
-https://livetv-push.hotstar.com/dash/live/2002464/sshd1livetvwv/master.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=*sshd1livetv*~id=b67312ede6a18600393841e1ee40bd9b~data=hdntl~hmac=dd06f3443f731df2d39c335e005035f7881a966215768b0f007b23018aa96085&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv-push.hotstar.com/dash/live/2002464/sshd1livetvwv/master.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=*sshd1livetv*~id=56acf2f3f38914294a252b9c89f28237~data=hdntl~hmac=5733bc2194ab10611847529ec518fa22e435e3cd7c972e3981de5c24ed53c79c&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000039
 #EXTINF:-1 tvg-id="Jalsha Movies" tvg-name="Jalsha Movies" group-title="Movies" tvg-language="Bangla" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7404/567404-h",Jalsha Movies
-https://livetv.hotstar.com/mp2/gec-india-1540057027/39127b380adb405e8de434e10e20c3a6/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=%2f*~id=c4300859f924094b0401a1e08f7b5304~data=hdntl~hmac=3d6c6751233883f08016cf71e7bc6eadb90fbf6d26f93e0b755d025a2d2e3c16&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv.hotstar.com/mp2/gec-india-1540057027/39127b380adb405e8de434e10e20c3a6/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=%2f*~id=b061d13e2025fee8dd15de5bfc5521ae~data=hdntl~hmac=01e4fc69370eece6d376423d39aaf5d72a26be1d8d36b891b26ea540f02a143a&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000014
 #EXTINF:-1 tvg-id="Star Jalsha" tvg-name="Star Jalsha" group-title="Entertainment" tvg-language="Bangla" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7419/567419-h",Star Jalsha
-https://livetv.hotstar.com/mp1/gec-india-1540057072/61b6b96b069d42f9821b6ed85b51388e/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=%2f*~id=c4300859f924094b0401a1e08f7b5304~data=hdntl~hmac=3d6c6751233883f08016cf71e7bc6eadb90fbf6d26f93e0b755d025a2d2e3c16&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv.hotstar.com/mp1/gec-india-1540057072/61b6b96b069d42f9821b6ed85b51388e/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=%2f*~id=b061d13e2025fee8dd15de5bfc5521ae~data=hdntl~hmac=01e4fc69370eece6d376423d39aaf5d72a26be1d8d36b891b26ea540f02a143a&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000016
 #EXTINF:-1 tvg-id="Star Maa" tvg-name="Star Maa" group-title="Entertainment" tvg-language="Telugu" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7418/567418-h",Star Maa
-https://livetv.hotstar.com/mp2/gec-india-1540057087/136d113eec07474e8836d7dc3dd0533b/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=%2f*~id=c4300859f924094b0401a1e08f7b5304~data=hdntl~hmac=3d6c6751233883f08016cf71e7bc6eadb90fbf6d26f93e0b755d025a2d2e3c16&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv.hotstar.com/mp2/gec-india-1540057087/136d113eec07474e8836d7dc3dd0533b/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=%2f*~id=b061d13e2025fee8dd15de5bfc5521ae~data=hdntl~hmac=01e4fc69370eece6d376423d39aaf5d72a26be1d8d36b891b26ea540f02a143a&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000008
 #EXTINF:-1 tvg-id="Star Maa Movies" tvg-name="Star Maa Movies" group-title="Movies" tvg-language="Telugu" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7421/567421-h",Star Maa Movies
-https://livetv.hotstar.com/mp1/gec-india-1540057036/9b002b1b2a3748b7a80a8512aef0bb8d/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=%2f*~id=c4300859f924094b0401a1e08f7b5304~data=hdntl~hmac=3d6c6751233883f08016cf71e7bc6eadb90fbf6d26f93e0b755d025a2d2e3c16&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv.hotstar.com/mp1/gec-india-1540057036/9b002b1b2a3748b7a80a8512aef0bb8d/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=%2f*~id=b061d13e2025fee8dd15de5bfc5521ae~data=hdntl~hmac=01e4fc69370eece6d376423d39aaf5d72a26be1d8d36b891b26ea540f02a143a&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000019
 #EXTINF:-1 tvg-id="Maa Gold" tvg-name="Maa Gold" group-title="Entertainment" tvg-language="Telugu" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7408/567408-h",Maa Gold
-https://livetv.hotstar.com/mp1/gec-india-1540057033/9680ef02a23e4d05a7d6afab10805ec4/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=%2f*~id=c4300859f924094b0401a1e08f7b5304~data=hdntl~hmac=3d6c6751233883f08016cf71e7bc6eadb90fbf6d26f93e0b755d025a2d2e3c16&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv.hotstar.com/mp1/gec-india-1540057033/9680ef02a23e4d05a7d6afab10805ec4/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=%2f*~id=b061d13e2025fee8dd15de5bfc5521ae~data=hdntl~hmac=01e4fc69370eece6d376423d39aaf5d72a26be1d8d36b891b26ea540f02a143a&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000018
 #EXTINF:-1 tvg-id="Star Vijay" tvg-name="Star Vijay" group-title="Entertainment" tvg-language="Tamil" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7409/567409-h",Star Vijay
-https://livetv.hotstar.com/mp1/gec-india-1540057060/15ef978ea9f449a2a8c97f7c05e618c5/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=%2f*~id=c4300859f924094b0401a1e08f7b5304~data=hdntl~hmac=3d6c6751233883f08016cf71e7bc6eadb90fbf6d26f93e0b755d025a2d2e3c16&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv.hotstar.com/mp1/gec-india-1540057060/15ef978ea9f449a2a8c97f7c05e618c5/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=%2f*~id=b061d13e2025fee8dd15de5bfc5521ae~data=hdntl~hmac=01e4fc69370eece6d376423d39aaf5d72a26be1d8d36b891b26ea540f02a143a&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000043
 #EXTINF:-1 tvg-id="Star Suvarna Plus" tvg-name="Star Suvarna Plus" group-title="Entertainment" tvg-language="Kannada" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7399/567399-h",Star Suvarna Plus
-https://livetv.hotstar.com/mp2/gec-india-1540057081/5c13f17d142c4963a1c7bd54fcd421d5/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=%2f*~id=c4300859f924094b0401a1e08f7b5304~data=hdntl~hmac=3d6c6751233883f08016cf71e7bc6eadb90fbf6d26f93e0b755d025a2d2e3c16&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv.hotstar.com/mp2/gec-india-1540057081/5c13f17d142c4963a1c7bd54fcd421d5/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=%2f*~id=b061d13e2025fee8dd15de5bfc5521ae~data=hdntl~hmac=01e4fc69370eece6d376423d39aaf5d72a26be1d8d36b891b26ea540f02a143a&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000002
 #EXTINF:-1 tvg-id="Star Suvarna" tvg-name="Star Suvarna" group-title="Entertainment" tvg-language="Kannada" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7429/567429-h",Star Suvarna
-https://livetv.hotstar.com/mp1/gec-india-1540057075/57ae0b6fa2b64281984574d406f9a696/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=%2f*~id=c4300859f924094b0401a1e08f7b5304~data=hdntl~hmac=3d6c6751233883f08016cf71e7bc6eadb90fbf6d26f93e0b755d025a2d2e3c16&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv.hotstar.com/mp1/gec-india-1540057075/57ae0b6fa2b64281984574d406f9a696/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=%2f*~id=b061d13e2025fee8dd15de5bfc5521ae~data=hdntl~hmac=01e4fc69370eece6d376423d39aaf5d72a26be1d8d36b891b26ea540f02a143a&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000042
 #EXTINF:-1 tvg-id="Asianet Movies" tvg-name="Asianet Movies" group-title="Movies" tvg-language="Malayalam" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7400/567400-h",Asianet Movies
-https://livetv.hotstar.com/mp1/gec-india-1540057039/96454b89b9cd49df822108b6975a1a60/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=%2f*~id=c4300859f924094b0401a1e08f7b5304~data=hdntl~hmac=3d6c6751233883f08016cf71e7bc6eadb90fbf6d26f93e0b755d025a2d2e3c16&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv.hotstar.com/mp1/gec-india-1540057039/96454b89b9cd49df822108b6975a1a60/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=%2f*~id=b061d13e2025fee8dd15de5bfc5521ae~data=hdntl~hmac=01e4fc69370eece6d376423d39aaf5d72a26be1d8d36b891b26ea540f02a143a&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000012
 #EXTINF:-1 tvg-id="Asianet" tvg-name="Asianet" group-title="Entertainment" tvg-language="Malayalam" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7420/567420-h",Asianet
-https://livetv.hotstar.com/mp2/gec-india-1540057084/6569043a1d874fb49fc2cf2f273fe097/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=%2f*~id=c4300859f924094b0401a1e08f7b5304~data=hdntl~hmac=3d6c6751233883f08016cf71e7bc6eadb90fbf6d26f93e0b755d025a2d2e3c16&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv.hotstar.com/mp2/gec-india-1540057084/6569043a1d874fb49fc2cf2f273fe097/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=%2f*~id=b061d13e2025fee8dd15de5bfc5521ae~data=hdntl~hmac=01e4fc69370eece6d376423d39aaf5d72a26be1d8d36b891b26ea540f02a143a&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000004
 #EXTINF:-1 tvg-id="Asianet Plus" tvg-name="Asianet Plus" group-title="Entertainment" tvg-language="Malayalam" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7424/567424-h",Asianet Plus
-https://livetv.hotstar.com/mp1/gec-india-1540057042/65edc0359d4b49f7a42d06d4dfe8457b/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=%2f*~id=c4300859f924094b0401a1e08f7b5304~data=hdntl~hmac=3d6c6751233883f08016cf71e7bc6eadb90fbf6d26f93e0b755d025a2d2e3c16&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv.hotstar.com/mp1/gec-india-1540057042/65edc0359d4b49f7a42d06d4dfe8457b/index.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=%2f*~id=b061d13e2025fee8dd15de5bfc5521ae~data=hdntl~hmac=01e4fc69370eece6d376423d39aaf5d72a26be1d8d36b891b26ea540f02a143a&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000033
 #EXTINF:-1 tvg-id="Star Sports 2" tvg-name="Star Sports 2" group-title="Sports" tvg-language="English" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7432/567432-h",Star Sports 2
-https://livetv-push.hotstar.com/dash/live/2002465/sshd2livetvwv/master.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=*sshd2livetv*~id=d2649872bb41b1120a807a5ff9ed169f~data=hdntl~hmac=80231f0aa49f50e35a639ba2efce83941db4885c1f36a1bb2125d6bb583c6875&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv-push.hotstar.com/dash/live/2002465/sshd2livetvwv/master.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=*sshd2livetv*~id=f9e7051cd99fad3dbb3274be7d87bd57~data=hdntl~hmac=e47ec417b0be7f4cceedaeafb4e2d0fe5c48e51883169d06d4820cda9eb66826&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000034
 #EXTINF:-1 tvg-id="Star Sports Select HD1" tvg-name="Star Sports Select HD1" group-title="Sports" tvg-language="English" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7435/567435-h",Star Sports Select HD1
-https://livetv-push.hotstar.com/dash/live/2002470/ssselecthd1wv/master.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973923~acl=*ssselecthd1*~id=768ddc708f52aa6adeb9926122c7a32b~data=hdntl~hmac=dacb25b6b1aa6f3eafc87ca20c6d993f0b9278ece46f34de018b02bb19805a85&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+https://livetv-push.hotstar.com/dash/live/2002470/ssselecthd1wv/master.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038904~acl=*ssselecthd1*~id=7e605fae7b8f06a0961cdcca19cb62f5~data=hdntl~hmac=9ef970389bd957c9e4c8f8a22da93a901ea051592843fb4dc76ae868f7e2d3fb&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
 
 #KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-services.top/hotstar.php?id=1260000024
 #EXTINF:-1 tvg-id="Star Sports Select HD2" tvg-name="Star Sports Select HD2" group-title="Sports" tvg-language="English" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7437/567437-h",Star Sports Select HD2
-https://livetv-push.hotstar.com/dash/live/2002471/ssselecthd2wv/master.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1767973924~acl=*ssselecthd2*~id=773096f8a1ddaa3d8100d0b30834a538~data=hdntl~hmac=6ece458cd86916f8c8b845b739fba3ff481ebff7c0fc7a6b7d7125a8e889d56e&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
-
+https://livetv-push.hotstar.com/dash/live/2002471/ssselecthd2wv/master.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768038905~acl=*ssselecthd2*~id=f7112a6490595c7d3fac32316d6ab433~data=hdntl~hmac=121dfad41616867b403f4f0221d85bd85b3836d2dedc88ccaf47065fe47dc822&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
