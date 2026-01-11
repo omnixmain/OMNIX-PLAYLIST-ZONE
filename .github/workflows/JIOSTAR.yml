@@ -24,13 +24,14 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests
+        pip install requests playwright
+        playwright install chromium
         
     - name: Debug - Curl Request
       run: |
         curl -v -L -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0" \
              -H "cache-control: no-cache, no-store" \
-             "https://hotstarlive.delta-cloud.workers.dev/?token=a13d9c-4b782a-6c90fd-9a1b84"
+             "https://hotstarlive.delta-cloud.workers.dev/?token=240bb9-374e2e-3c13f0-4a7xz5"
         
     - name: Run extraction script
       run: |
