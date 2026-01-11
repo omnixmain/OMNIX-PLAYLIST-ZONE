@@ -26,7 +26,10 @@ def fetch_playlist():
             headers = {
                 'User-Agent': agent,
                 'Accept': '*/*',
+                'Accept-Language': 'en-US,en;q=0.9',
+                'Connection': 'keep-alive',
                 'cache-control': 'no-cache, no-store',
+                'Referer': 'https://hotstar.com/',
             }
             
             response = session.get(URL, headers=headers, timeout=20)
@@ -39,7 +42,7 @@ def fetch_playlist():
                     return content
                 else:
                     print("Response received properly but does not seem to be M3U content.")
-                    # print(f"Preview: {content[:100]}...") # Debug preview
+                    print(f"Debug - Content Preview: {content[:500]}") # Print first 500 chars to identify what we are getting
             else:
                  print(f"Failed with status code: {response.status_code}")
 
