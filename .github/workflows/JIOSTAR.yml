@@ -1,8 +1,8 @@
-name: Update JioHotstar Liv M3U
+name: Update JIOSTAR M3U
 
 on:
   schedule:
-    - cron: '0 */1 * * *' # Run every 1 hour
+    - cron: '0 */6 * * *' # Run every 6 hours
   workflow_dispatch:
 
 permissions:
@@ -26,18 +26,20 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
         
-    - name: Debug - List Files
-      run: ls -R
-      
-    - name: Run extraction script
+    - name: Debug - Curl Request
       run: |
-        chmod +x scripts/jiohotstar_liv.py
-        python scripts/jiohotstar_liv.py
+        curl -v -L -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0" \
+             -H "cache-control: no-cache, no-store" \
+             "https://hotstarlive.delta-cloud.workers.dev/?token=a13d9c-4b782a-6c90fd-9a1b84"
+        
+    - name: Run extraction script
+      run: python scripts/JIOSTAR.py
       
     - name: Commit and push changes
       run: |
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
-        git add playlist/jiohotstar_liv.m3u
+        git add playlist/JIOSTAR.m3u
         # Only commit if there are staged changes
-        git diff --staged --quiet || (git commit -m "Update jiohotstar_liv.m3u" && git push)
+        git diff --staged --quiet || (git commit -m "Update JIOSTAR.m3u" && git push)
+

@@ -4,7 +4,7 @@ import sys
 import datetime
 
 url = "https://hotstarlive.delta-cloud.workers.dev/?token=a13d9c-4b782a-6c90fd-9a1b84"
-output_file = "playlist/hotstar-jio.m3u"
+output_file = "playlist/JIOSTAR.m3u"
 
 # List of agents to try
 user_agents = [
