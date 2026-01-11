@@ -18,7 +18,7 @@ from pathlib import Path
 TOKEN = os.environ.get("HOTSTAR_TOKEN")
 URL_ENV = os.environ.get("HOTSTAR_URL")
 # Preserving the original token/URL as fallback
-DEFAULT_URL = "https://hotstarlive.delta-cloud.workers.dev/?token=240bb9-374e2e-3c13f0-4a7xz5"
+DEFAULT_URL = "https://hotstar-live-event.alpha-circuit.workers.dev/?token=a13d9c-4b782a-6c90fd-9a1b84"
 
 OUT_PLAYLIST = "playlist/JIOSTAR.m3u"
 DEBUG_HTML = "response-debug.html"
