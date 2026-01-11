@@ -8,10 +8,23 @@ output_file = "playlist/JIOSTAR.m3u"
 
 # List of agents to try
 user_agents = [
-    "Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0", # Working UA
+    "Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0",
+    "TiviMate/4.7.0",
+    "ExoPlayer/2.14.1",
     "okhttp/3.12.1", 
     "Mozilla/5.0 (Linux; Android 10; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36"
 ]
+
+def get_random_indian_ip():
+    import random
+    # Range for some Indian ISPs
+    ranges = [
+        (103, 211, random.randint(0, 255), random.randint(0, 255)),
+        (117, random.randint(192, 255), random.randint(0, 255), random.randint(0, 255)),
+        (49, random.randint(200, 207), random.randint(0, 255), random.randint(0, 255))
+    ]
+    parts = random.choice(ranges)
+    return ".".join(map(str, parts))
 
 def fetch_playlist():
     print(f"Fetching URL: {url}")
@@ -22,13 +35,17 @@ def fetch_playlist():
         print(f"\n--- Attempt {attempt+1} with User-Agent: {agent} ---")
         
         try:
+            fake_ip = get_random_indian_ip()
             headers = {
                 'User-Agent': agent,
                 'Accept': '*/*',
-                'Accept-Language': 'en-US,en;q=0.9',
+                'Accept-Language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
                 'Connection': 'keep-alive',
                 'cache-control': 'no-cache, no-store',
-                'Referer': 'https://hotstar.com/',
+                'Referer': 'https://www.hotstar.com/',
+                'Origin': 'https://www.hotstar.com',
+                'X-Forwarded-For': fake_ip,
+                'Client-IP': fake_ip,
             }
             
             response = session.get(url, headers=headers, timeout=20)
