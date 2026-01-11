@@ -27,7 +27,7 @@ jobs:
         pip install requests
         
     - name: Run extraction script
-      run: python scripts/jiohotstar_liv.py
+      run: scripts/jiohotstar_liv.py
       
     - name: Commit and push changes
       run: |
@@ -36,3 +36,4 @@ jobs:
         git add playlist/jiohotstar_liv.m3u
         # Only commit if there are changes
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update jiohotstar_liv.m3u" && git push)
+
