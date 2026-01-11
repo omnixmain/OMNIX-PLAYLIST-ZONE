@@ -33,7 +33,7 @@ jobs:
              "https://hotstarlive.delta-cloud.workers.dev/?token=a13d9c-4b782a-6c90fd-9a1b84"
         
     - name: Run extraction script
-      run: python scripts/hotstar-jio.py
+      run: scripts/jiohotstar_liv.py
       
     - name: Commit and push changes
       run: |
@@ -42,3 +42,4 @@ jobs:
         git add playlist/hotstar-jio.m3u
         # Only commit if there are changes
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update hotstar-jio.m3u" && git push)
+

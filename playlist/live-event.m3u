@@ -1,0 +1,23 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138938_5808_DBR_RAN_fc-web_1766733054364.jpg" group-title="Fancode",Rangpur Riders Vs Rajshahi Warriors
+https://in-mc-fdlive.fancode.com/mumbai/138938_english_hls_f09af0d11f77311_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP_Brisbane__FC-Web.jpg" group-title="Fancode",Pat Rafter Arena   Day 8
+https://in-mc-fdlive.fancode.com/mumbai/139197_english_hls_245973bb4850380_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250---Hong-Kong_2026_Web_1080_x_810.jpg" group-title="Fancode",Center Court   Day 7
+https://in-mc-fdlive.fancode.com/mumbai/139210_english_hls_ff251d6acd11194_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013204/1768038113639649_UC26_Final_Switzerland-vs-Poland_10jan_landscape_thumb.jpg" group-title="SonyLIV",Switzerland vs Poland - Final - 11 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768167316~acl=/*~id=82129317368533600242959543500177~hmac=9ffea8bec5d631a6063b5ae4ca3cfb3b51edc16f6828344919c17fc9774112c4
+#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/9809/1768059549809-h" group-title="JioHotstar",India vs New Zealand: 1st ODI
+https://www.hotstar.com/in/sports/cricket/india-vs-new-zealand-1st-odi/1540059580/video/live/watch
+#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/6681/1768048806681-h" group-title="JioHotstar",Adelaide Strikers vs Perth Scorchers
+https://www.hotstar.com/in/sports/cricket/adelaide-strikers-vs-perth-scorchers/1540058956/video/live/watch
+#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/5745/1750779565745-h" group-title="JioHotstar",Star Sports Cricket Classics
+https://www.hotstar.com/in/clip/star-sports-cricket-classics/1540040039/watch
+#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/6728/1768080656728-h" group-title="JioHotstar",BWF Malaysia Open: Finals
+https://www.hotstar.com/in/sports/badminton/bwf-malaysia-open-finals/1540059439/video/live/watch
+#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/1441/1762934631441-h" group-title="JioHotstar",Follow The Blues
+https://www.hotstar.com/in/clip/follow-the-blues/1540045533/watch
+#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/2214/1750777602214-h" group-title="JioHotstar",TATA IPL TV
+https://www.hotstar.com/in/clip/tata-ipl-tv/1540044879/watch
+#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/3639/1756796893639-h" group-title="JioHotstar",T20s TV
+https://www.hotstar.com/in/clip/t20s-tv/1540044897/watch
