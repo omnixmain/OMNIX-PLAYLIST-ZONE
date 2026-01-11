@@ -1,96 +1,8 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-11 18:30:00",
-  "total_matches": 58,
+  "last_updated": "2026-01-11 18:53:10",
+  "total_matches": 50,
   "matches": [
-    {
-      "category": "Cricket",
-      "title": "Sri Lanka Vs Pakistan",
-      "tournament": "Pakistan tour of Sri Lanka, 2026",
-      "match_id": 139217,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "11 January 2026 07:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-Tour-of-Sri-Lanka,-2026-match-card-old-.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139217_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-Tour-of-Sri-Lanka,-2026-match-card-old-.png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-Tour-of-Sri-Lanka,-2026-match-card-old-.png",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/SL-vs-PAK.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-Tour-of-Sri-Lanka,-2026-match-card-old-.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-Tour-of-Sri-Lanka,-2026-sporty-match-card-old-.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139217_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Sri Lanka",
-          "shortName": "SL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png"
-          },
-          "isWinner": true,
-          "color": "#164fad",
-          "cricketScore": [
-            {
-              "runs": 160,
-              "overs": "12",
-              "balls": "72",
-              "status": "COMPLETED",
-              "wickets": 6
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Pakistan",
-          "shortName": "PAK",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png"
-          },
-          "isWinner": false,
-          "color": "#559830",
-          "cricketScore": [
-            {
-              "runs": 146,
-              "overs": "12",
-              "balls": "72",
-              "status": "IN_PROGRESS",
-              "wickets": 8
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-PAKvsSL/master.m3u8?hdnea=exp=1768177801~acl=/*~id=919275a26dd865ef13f978d4d8c164ef-1768134600179~hmac=2077ebce97982453b15dc4b790690045587f00c0d66c14960df056695f2cf44b",
-        "fancode_cdn": "Unavailable",
-        "fancode_bd_cdn": null,
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/HynNobMPSu6nQCgpxsK0lQ/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-PAKvsSL/master.m3u8?hdnea=exp=1768177801~acl=/*~id=919275a26dd865ef13f978d4d8c164ef-1768134600179~hmac=2077ebce97982453b15dc4b790690045587f00c0d66c14960df056695f2cf44b",
-        "language": "ENGLISH"
-      },
-      "source": "Fancode"
-    },
     {
       "category": "Football",
       "title": "Fc Barcelona Vs Real Madrid",
@@ -1502,6 +1414,89 @@
     },
     {
       "category": "Cricket",
+      "title": "Sri Lanka Vs Pakistan",
+      "tournament": "Pakistan tour of Sri Lanka, 2026",
+      "match_id": 139217,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "11 January 2026 07:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-Tour-of-Sri-Lanka,-2026-match-card-old-.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139217_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-Tour-of-Sri-Lanka,-2026-match-card-old-.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/SL-vs-PAK.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-Tour-of-Sri-Lanka,-2026-match-card-old-.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Pakistan-Tour-of-Sri-Lanka,-2026-sporty-match-card-old-.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139217_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Sri Lanka",
+          "shortName": "SL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png"
+          },
+          "isWinner": true,
+          "color": "#164fad",
+          "cricketScore": [
+            {
+              "runs": 160,
+              "overs": "12",
+              "balls": "72",
+              "status": "COMPLETED",
+              "wickets": 6
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Pakistan",
+          "shortName": "PAK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png"
+          },
+          "isWinner": false,
+          "color": "#559830",
+          "cricketScore": [
+            {
+              "runs": 146,
+              "overs": "12",
+              "balls": "72",
+              "status": "IN_PROGRESS",
+              "wickets": 8
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Cricket",
       "title": "Central Stags Vs Northern Districts",
       "tournament": "Super Smash, 2025-26",
       "match_id": 138748,
@@ -2640,72 +2635,12 @@
       "source": "Fancode"
     },
     {
-      "match_id": "1090499186_ENG",
-      "title": "Manchester United vs Brighton & Hove Albion - Round 3 - 11 Jan 2026 [ENG]",
-      "status": "LIVE",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983539075263_FA_CUP_26_RD3_Man-United-vs-Brighton_9jan_eng_landscape_thumb_re1.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768199061~acl=/*~id=22793666436455381545352545617263~hmac=19bbeb8d342528bc3e6eed84bbbd2cb858ae1b5f5bf743124bf8c8cadda04c6e"
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": "1090499186_HIN",
-      "title": "Manchester United vs Brighton & Hove Albion - Round 3 - 11 Jan 2026 [HIN]",
-      "status": "LIVE",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983539075263_FA_CUP_26_RD3_Man-United-vs-Brighton_9jan_eng_landscape_thumb_re1.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768199061~acl=/*~id=22793666436455381545352545617263~hmac=19bbeb8d342528bc3e6eed84bbbd2cb858ae1b5f5bf743124bf8c8cadda04c6e"
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": "1090499186_TAM",
-      "title": "Manchester United vs Brighton & Hove Albion - Round 3 - 11 Jan 2026 [TAM]",
-      "status": "LIVE",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983539075263_FA_CUP_26_RD3_Man-United-vs-Brighton_9jan_eng_landscape_thumb_re1.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768199061~acl=/*~id=22793666436455381545352545617263~hmac=19bbeb8d342528bc3e6eed84bbbd2cb858ae1b5f5bf743124bf8c8cadda04c6e"
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": "1090499186_TEL",
-      "title": "Manchester United vs Brighton & Hove Albion - Round 3 - 11 Jan 2026 [TEL]",
-      "status": "LIVE",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983539075263_FA_CUP_26_RD3_Man-United-vs-Brighton_9jan_eng_landscape_thumb_re1.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768199061~acl=/*~id=22793666436455381545352545617263~hmac=19bbeb8d342528bc3e6eed84bbbd2cb858ae1b5f5bf743124bf8c8cadda04c6e"
-      },
-      "source": "SonyLIV"
-    },
-    {
       "match_id": "1090499226_ENG",
       "title": "3rd T20I - 11 Jan 2026 [ENG]",
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013032/1767698953696649_SLvsPAK26_3t20i_6jan_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1768199061~acl=/*~id=22793666436455381545352545617263~hmac=19bbeb8d342528bc3e6eed84bbbd2cb858ae1b5f5bf743124bf8c8cadda04c6e"
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": "1090499309_ENG",
-      "title": "Bayern Munich vs VfL Wolfsburg - MD 16 - 11 Jan 2026 [ENG]",
-      "status": "LIVE",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013116/1767865953725351_Bundesliga_MD16_Bayern-Munich-vs-VfL-Wolfsburg_landscape_thumb.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768199061~acl=/*~id=22793666436455381545352545617263~hmac=19bbeb8d342528bc3e6eed84bbbd2cb858ae1b5f5bf743124bf8c8cadda04c6e"
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": "1090499307_ENG",
-      "title": "Borussia M'gladbach vs FC Augsburg - MD 16 - 11 Jan 2026 [ENG]",
-      "status": "LIVE",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013116/1767865726779351_Bundesliga_MD16_Borussia-Mgladbach-vs-FC-Augsburg_landscape_thumb.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768199061~acl=/*~id=22793666436455381545352545617263~hmac=19bbeb8d342528bc3e6eed84bbbd2cb858ae1b5f5bf743124bf8c8cadda04c6e"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1768200283~acl=/*~id=66720094833656007653919977297209~hmac=abf1d6d0b54ab8e9bf318d356f2de40f6446476c5c308d5249b701ab809c5b96"
       },
       "source": "SonyLIV"
     },
@@ -2770,32 +2705,12 @@
       "source": "SonyLIV"
     },
     {
-      "match_id": "1540059604",
-      "title": "Delhi Capitals vs Gujarat Giants",
+      "match_id": "1540060260",
+      "title": "Buffalo Bills @ Jacksonville Jaguars",
       "status": "LIVE",
-      "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/1012/1768117461012-h",
+      "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/9105/1768059289105-h",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://www.hotstar.com/in/sports/cricket/delhi-capitals-vs-gujarat-giants/1540059604/video/live/watch"
-      },
-      "source": "JioHotstar"
-    },
-    {
-      "match_id": "1540059521",
-      "title": "Falcon Risers Hyderabad vs Bengaluru Strikers",
-      "status": "LIVE",
-      "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/8891/1768051778891-h",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://www.hotstar.com/in/sports/cricket/falcon-risers-hyderabad-vs-bengaluru-strikers/1540059521/video/live/watch"
-      },
-      "source": "JioHotstar"
-    },
-    {
-      "match_id": "1540058739",
-      "title": "Sunrisers Eastern Cape vs Durban's Super Giants",
-      "status": "LIVE",
-      "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/7198/1768050767198-h",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://www.hotstar.com/in/sports/cricket/sunrisers-eastern-cape-vs-durbans-super-giants/1540058739/video/live/watch"
+        "Primary_Playback_URL": "https://www.hotstar.com/in/sports/american-football/buffalo-bills-at-jacksonville-jaguars/1540060260/video/live/watch"
       },
       "source": "JioHotstar"
     },
