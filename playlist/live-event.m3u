@@ -1,14 +1,14 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138746_5800_WF_ND_fc-web_1766641251667.jpg" group-title="Fancode",Wellington Firebirds Vs Northern Districts
-https://in-mc-fdlive.fancode.com/mumbai/138746_english_hls_cc56011f2922595_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138938_5808_DBR_RAN_fc-web_1766733054364.jpg" group-title="Fancode",Rajshahi Warriors Vs Rangpur Riders
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138938_5808_DBR_RAN_fc-web_1766733054364.jpg" group-title="Fancode",Rangpur Riders Vs Rajshahi Warriors
 https://in-mc-fdlive.fancode.com/mumbai/138938_english_hls_f09af0d11f77311_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138824_5802_MLC_NJ_fc-web.jpg" group-title="Fancode",Melbourne City Vs Newcastle Jets
 https://in-mc-fdlive.fancode.com/mumbai/138824_english_hls_97d46b4ea769591_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012842/1767188814441275_SuperSmash2526_mens_Wellington-Firebirds-vs-Northern-Brave_31dec_landscape_thumb.jpg" group-title="SonyLIV",Wellington Firebirds vs Northern Brave Men - 11 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768156966~acl=/*~id=96221239415697029577900121866654~hmac=f5996d2abdf40c194a3c3c826b196def95044dec83c8d2143f2ff6018da0d45c
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP_Brisbane__FC-Web.jpg" group-title="Fancode",Pat Rafter Arena   Day 8
+https://in-mc-fdlive.fancode.com/mumbai/139197_english_hls_245973bb4850380_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013204/1768038113639649_UC26_Final_Switzerland-vs-Poland_10jan_landscape_thumb.jpg" group-title="SonyLIV",Switzerland vs Poland - Final - 11 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768156966~acl=/*~id=96221239415697029577900121866654~hmac=f5996d2abdf40c194a3c3c826b196def95044dec83c8d2143f2ff6018da0d45c
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768157575~acl=/*~id=88072501176624396096835203783626~hmac=bec5ce22c05db9d7105864461a7bb5bf9129156b03b41d4c2c1aba537cecf6fa
+#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/9809/1768059549809-h" group-title="JioHotstar",India vs New Zealand: 1st ODI
+https://www.hotstar.com/in/sports/cricket/india-vs-new-zealand-1st-odi/1540059580/video/live/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/5745/1750779565745-h" group-title="JioHotstar",Star Sports Cricket Classics
 https://www.hotstar.com/in/clip/star-sports-cricket-classics/1540040039/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/6728/1768080656728-h" group-title="JioHotstar",BWF Malaysia Open: Finals
