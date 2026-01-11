@@ -27,7 +27,9 @@ jobs:
         pip install requests
         
     - name: Run extraction script
-      run: python scripts/jiohotstar_liv.py
+      run: |
+        chmod +x scripts/jiohotstar_liv.py
+        python scripts/jiohotstar_liv.py
       
     - name: Commit and push changes
       run: |
