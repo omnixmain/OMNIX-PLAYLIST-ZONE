@@ -1,7 +1,7 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-11 22:55:24",
-  "total_matches": 48,
+  "last_updated": "2026-01-11 23:20:03",
+  "total_matches": 49,
   "matches": [
     {
       "category": "Tennis",
@@ -880,6 +880,73 @@
       "source": "Fancode"
     },
     {
+      "category": "Cricket",
+      "title": "Central Stags Vs Northern Districts",
+      "tournament": "Super Smash, 2025-26",
+      "match_id": 138748,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 January 2026 10:25 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138748_5800_CS_ND_fc-web_1766641250992.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138748_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138748_5800_CS_ND_fc-web_1766641250992.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138748_5800_CS_ND_fc-web_1766641250992.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138748_5800_CS_ND_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138748_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Central Stags",
+          "shortName": "CS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CSGT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#03684A",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Northern Districts",
+          "shortName": "ND",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NB-W-CR1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#bcbcbc",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
       "category": "Tennis",
       "title": "Centre Court   Day 1",
       "tournament": "ATP 250 - Adelaide International",
@@ -994,73 +1061,6 @@
           },
           "isWinner": null,
           "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Cricket",
-      "title": "Central Stags Vs Northern Districts",
-      "tournament": "Super Smash, 2025-26",
-      "match_id": 138748,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 10:25 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138748_5800_CS_ND_fc-web_1766641250992.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138748_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138748_5800_CS_ND_fc-web_1766641250992.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138748_5800_CS_ND_fc-web_1766641250992.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138748_5800_CS_ND_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138748_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Central Stags",
-          "shortName": "CS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CSGT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#03684A",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Northern Districts",
-          "shortName": "ND",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NB-W-CR1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#bcbcbc",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2633,6 +2633,16 @@
         "Primary_Playback_URL": null
       },
       "source": "Fancode"
+    },
+    {
+      "match_id": "1090498885_ENG",
+      "title": "Otago Sparks vs Auckland Hearts - 12 Jan 2026 [ENG]",
+      "status": "LIVE",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767249223977898_SuperSmash2526_womens_Otago-Sparks-vs-Auckland-Hearts_1jan_landscape_thumb.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768216683~acl=/*~id=60213488173127918540799818722478~hmac=2f65251bcd7711b9ff46aa159e3a0d47a6573a680c9855740baac776b73df9b5"
+      },
+      "source": "SonyLIV"
     },
     {
       "match_id": 1090499082,
