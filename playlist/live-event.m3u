@@ -13,16 +13,16 @@ https://in-mc-fdlive.fancode.com/mumbai/139303_english_hls_b466a7b32b36368_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/139302_english_hls_231ffbd8d186245_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131016_5427_RVL_MRC_fc-Web_1767595288796.png" group-title="Fancode",Rayo Vallecano Vs Rcd Mallorca
 https://in-mc-fdlive.fancode.com/mumbai/131016_english_hls_dba317f43c54625_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139265_5822_CHN-U23_AUS-U23_fc-web.jpg" group-title="Fancode",China Pr U23 Vs Australia U23
-https://in-mc-fdlive.fancode.com/mumbai/139265_english_hls_b35ba6e44925291_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1/139250_CASACARDS_APP.png" group-title="Fancode",Leganés Vs Real Valladolid
 https://in-mc-fdlive.fancode.com/mumbai/139250_english_hls_d566f65c8e38359_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139266_5822_THA-U23_IRQ-U23_fc-web.jpg" group-title="Fancode",Thailand U23 Vs Iraq U23
+https://in-mc-fdlive.fancode.com/mumbai/139266_english_hls_73633f62bb88096_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013167/1767950129267145_FA_CUP_26_RD3_Portsmouth-vs-Arsenal_9jan_Landscape_thumb.jpg" group-title="SonyLIV",Portsmouth vs Arsenal - Round 3 - 11 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768181958~acl=/*~id=21030960313389371063025325792399~hmac=1f078ad9791659e1ab9a93837c8ec25ecbecb3879b232c384348e5c1144c0199
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013032/1767698953696649_SLvsPAK26_3t20i_6jan_landscape_thumb.jpg" group-title="SonyLIV",3rd T20I - 11 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1768180736~acl=/*~id=17488846285144300947196624871338~hmac=046f3525d1968c1cffea16ec7e3876091a5078834f7b7eb6d69ed40c8dea0612
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013204/1768038113639649_UC26_Final_Switzerland-vs-Poland_10jan_landscape_thumb.jpg" group-title="SonyLIV",Switzerland vs Poland - Final - 11 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768180736~acl=/*~id=17488846285144300947196624871338~hmac=046f3525d1968c1cffea16ec7e3876091a5078834f7b7eb6d69ed40c8dea0612
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1768181958~acl=/*~id=21030960313389371063025325792399~hmac=1f078ad9791659e1ab9a93837c8ec25ecbecb3879b232c384348e5c1144c0199
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013167/1767949530498145_FA_CUP_26_RD3_Derby-County-vs-Leeds-Utd_9jan_Landscape_thumb.jpg" group-title="SonyLIV",Derby County vs Leeds United - Round 3 - 11 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768180736~acl=/*~id=17488846285144300947196624871338~hmac=046f3525d1968c1cffea16ec7e3876091a5078834f7b7eb6d69ed40c8dea0612
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768181958~acl=/*~id=21030960313389371063025325792399~hmac=1f078ad9791659e1ab9a93837c8ec25ecbecb3879b232c384348e5c1144c0199
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/9809/1768059549809-h" group-title="JioHotstar",India vs New Zealand: 1st ODI
 https://www.hotstar.com/in/sports/cricket/india-vs-new-zealand-1st-odi/1540059580/video/live/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/1012/1768117461012-h" group-title="JioHotstar",Delhi Capitals vs Gujarat Giants
