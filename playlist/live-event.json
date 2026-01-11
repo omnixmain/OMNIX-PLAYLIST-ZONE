@@ -1,7 +1,7 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-11 16:59:49",
-  "total_matches": 60,
+  "last_updated": "2026-01-11 17:26:15",
+  "total_matches": 58,
   "matches": [
     {
       "category": "Cricket",
@@ -34,11 +34,11 @@
           "color": "#164fad",
           "cricketScore": [
             {
-              "runs": 142,
-              "overs": "11.1",
-              "balls": "67",
-              "status": "IN_PROGRESS",
-              "wickets": 5
+              "runs": 160,
+              "overs": "12",
+              "balls": "72",
+              "status": "COMPLETED",
+              "wickets": 6
             }
           ],
           "kabaddiScore": null,
@@ -47,7 +47,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -59,14 +59,22 @@
           },
           "isWinner": null,
           "color": "#559830",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 60,
+              "overs": "3.4",
+              "balls": "22",
+              "status": "IN_PROGRESS",
+              "wickets": 2
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -88,7 +96,7 @@
       "title": "Levante Vs Rcd Espanyol",
       "tournament": "LALIGA 2025-26",
       "match_id": 131015,
-      "status": "LIVE",
+      "status": "COMPLETED",
       "streamingStatus": "STARTED",
       "startTime": "11 January 2026 08:45 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -913,6 +921,73 @@
       "source": "Fancode"
     },
     {
+      "category": "Football",
+      "title": "Sevilla Fc Vs Rc Celta",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131013,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 January 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131013_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131013_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Sevilla FC",
+          "shortName": "SEV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SVI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#daa335",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "RC Celta",
+          "shortName": "CEV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b1d4f5",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
       "category": "Tennis",
       "title": "Atp 250   Asb Classic",
       "tournament": "ATP 250 - Auckland Open",
@@ -1027,73 +1102,6 @@
           },
           "isWinner": null,
           "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Football",
-      "title": "Sevilla Fc Vs Rc Celta",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131013,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 01:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131013_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131013_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Sevilla FC",
-          "shortName": "SEV",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SVI@2x.png"
-          },
-          "isWinner": null,
-          "color": "#daa335",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "RC Celta",
-          "shortName": "CEV",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
-          },
-          "isWinner": null,
-          "color": "#b1d4f5",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2657,7 +2665,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983539075263_FA_CUP_26_RD3_Man-United-vs-Brighton_9jan_eng_landscape_thumb_re1.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768193566~acl=/*~id=51061669375209721161819460848746~hmac=9b3d2e749b9ee2c242fc7808948a2a30fbec159469908e16a134694dab9f2dec"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768195399~acl=/*~id=87848113049557923661899893446095~hmac=fc42a4800fdabf5875c56875e3fd9771bc00735eb441281dcb62d4780594d079"
       },
       "source": "SonyLIV"
     },
@@ -2667,7 +2675,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983539075263_FA_CUP_26_RD3_Man-United-vs-Brighton_9jan_eng_landscape_thumb_re1.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768193566~acl=/*~id=51061669375209721161819460848746~hmac=9b3d2e749b9ee2c242fc7808948a2a30fbec159469908e16a134694dab9f2dec"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768195399~acl=/*~id=87848113049557923661899893446095~hmac=fc42a4800fdabf5875c56875e3fd9771bc00735eb441281dcb62d4780594d079"
       },
       "source": "SonyLIV"
     },
@@ -2677,7 +2685,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983539075263_FA_CUP_26_RD3_Man-United-vs-Brighton_9jan_eng_landscape_thumb_re1.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768193566~acl=/*~id=51061669375209721161819460848746~hmac=9b3d2e749b9ee2c242fc7808948a2a30fbec159469908e16a134694dab9f2dec"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768195399~acl=/*~id=87848113049557923661899893446095~hmac=fc42a4800fdabf5875c56875e3fd9771bc00735eb441281dcb62d4780594d079"
       },
       "source": "SonyLIV"
     },
@@ -2687,7 +2695,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013192/1767983539075263_FA_CUP_26_RD3_Man-United-vs-Brighton_9jan_eng_landscape_thumb_re1.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768193566~acl=/*~id=51061669375209721161819460848746~hmac=9b3d2e749b9ee2c242fc7808948a2a30fbec159469908e16a134694dab9f2dec"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768195399~acl=/*~id=87848113049557923661899893446095~hmac=fc42a4800fdabf5875c56875e3fd9771bc00735eb441281dcb62d4780594d079"
       },
       "source": "SonyLIV"
     },
@@ -2697,7 +2705,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013032/1767698953696649_SLvsPAK26_3t20i_6jan_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1768193566~acl=/*~id=51061669375209721161819460848746~hmac=9b3d2e749b9ee2c242fc7808948a2a30fbec159469908e16a134694dab9f2dec"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1768195399~acl=/*~id=87848113049557923661899893446095~hmac=fc42a4800fdabf5875c56875e3fd9771bc00735eb441281dcb62d4780594d079"
       },
       "source": "SonyLIV"
     },
@@ -2707,17 +2715,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013116/1767865953725351_Bundesliga_MD16_Bayern-Munich-vs-VfL-Wolfsburg_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768193566~acl=/*~id=51061669375209721161819460848746~hmac=9b3d2e749b9ee2c242fc7808948a2a30fbec159469908e16a134694dab9f2dec"
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": "1090499185_ENG",
-      "title": "West Ham United vs Queens Park Rangers - Round 3 - 11 Jan 2026 [ENG]",
-      "status": "LIVE",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013167/1767951041188145_FA_CUP_26_RD3_West-Ham-Utd-vs-Queens-Park-Rangers_9jan_Landscape_thumb.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768193566~acl=/*~id=51061669375209721161819460848746~hmac=9b3d2e749b9ee2c242fc7808948a2a30fbec159469908e16a134694dab9f2dec"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768195399~acl=/*~id=87848113049557923661899893446095~hmac=fc42a4800fdabf5875c56875e3fd9771bc00735eb441281dcb62d4780594d079"
       },
       "source": "SonyLIV"
     },
@@ -2727,7 +2725,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013116/1767865726779351_Bundesliga_MD16_Borussia-Mgladbach-vs-FC-Augsburg_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768193566~acl=/*~id=51061669375209721161819460848746~hmac=9b3d2e749b9ee2c242fc7808948a2a30fbec159469908e16a134694dab9f2dec"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768195399~acl=/*~id=87848113049557923661899893446095~hmac=fc42a4800fdabf5875c56875e3fd9771bc00735eb441281dcb62d4780594d079"
       },
       "source": "SonyLIV"
     },
@@ -2802,16 +2800,6 @@
       "source": "JioHotstar"
     },
     {
-      "match_id": "1540059580",
-      "title": "India vs New Zealand: 1st ODI",
-      "status": "LIVE",
-      "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/9809/1768059549809-h",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://www.hotstar.com/in/sports/cricket/india-vs-new-zealand-1st-odi/1540059580/video/live/watch"
-      },
-      "source": "JioHotstar"
-    },
-    {
       "match_id": "1540059521",
       "title": "Falcon Risers Hyderabad vs Bengaluru Strikers",
       "status": "LIVE",
@@ -2822,22 +2810,22 @@
       "source": "JioHotstar"
     },
     {
-      "match_id": "1540040039",
-      "title": "Star Sports Cricket Classics",
-      "status": "LIVE",
-      "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/5745/1750779565745-h",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://www.hotstar.com/in/clip/star-sports-cricket-classics/1540040039/watch"
-      },
-      "source": "JioHotstar"
-    },
-    {
       "match_id": "1540058739",
       "title": "Sunrisers Eastern Cape vs Durban's Super Giants",
       "status": "LIVE",
       "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/7198/1768050767198-h",
       "STREAMING_CDN": {
         "Primary_Playback_URL": "https://www.hotstar.com/in/sports/cricket/sunrisers-eastern-cape-vs-durbans-super-giants/1540058739/video/live/watch"
+      },
+      "source": "JioHotstar"
+    },
+    {
+      "match_id": "1540040039",
+      "title": "Star Sports Cricket Classics",
+      "status": "LIVE",
+      "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/5745/1750779565745-h",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://www.hotstar.com/in/clip/star-sports-cricket-classics/1540040039/watch"
       },
       "source": "JioHotstar"
     },
