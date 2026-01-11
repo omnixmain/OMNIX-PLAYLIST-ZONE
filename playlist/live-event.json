@@ -1,6 +1,6 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-11 19:42:40",
+  "last_updated": "2026-01-11 19:55:55",
   "total_matches": 49,
   "matches": [
     {
@@ -35,8 +35,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "58585",
+                "shortName": "R Belloli",
+                "isOwnGoal": false,
+                "goalTime": "36'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -57,8 +64,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "33753",
+                "shortName": "V Junior",
+                "isOwnGoal": false,
+                "goalTime": "45'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
