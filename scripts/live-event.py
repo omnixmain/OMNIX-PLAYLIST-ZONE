@@ -284,7 +284,7 @@ def main():
 
     # Final JSON Structure - High Fidelity
     final_json = {
-        "Author": "𝕆𝕄ℕ𝕀𝕏 𝔼𝕄ℙ𝕀ℝ𝔼",
+        "Author": "OMNIX-EMPIRE",
         "name": "FanCode Live Matches API",
         "last_updated": datetime.datetime.now().strftime("%I:%M:%S %p %d-%m-%Y"),
         "headers": {
