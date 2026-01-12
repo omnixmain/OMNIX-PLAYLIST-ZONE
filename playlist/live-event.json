@@ -1,6 +1,6 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-12 04:58:05",
+  "last_updated": "2026-01-12 05:36:40",
   "total_matches": 49,
   "matches": [
     {
@@ -34,11 +34,11 @@
           "color": "#e0cc38",
           "cricketScore": [
             {
-              "runs": 153,
-              "overs": "18.5",
-              "balls": "113",
-              "status": "IN_PROGRESS",
-              "wickets": 8
+              "runs": 159,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 10
             }
           ],
           "kabaddiScore": null,
@@ -47,7 +47,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -59,14 +59,22 @@
           },
           "isWinner": null,
           "color": "#0A129E",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 32,
+              "overs": "4.2",
+              "balls": "26",
+              "status": "IN_PROGRESS",
+              "wickets": 3
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -710,15 +718,15 @@
       "streamingStatus": "NOT_STARTED",
       "startTime": "13 January 2026 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "image": "https://images.fancode.com/aig/match/v1/131013_CASACARDS_APP.png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/131013_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "APP": "https://images.fancode.com/aig/match/v1/131013_CASACARDS_APP.png",
         "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/131013_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/131013_CASACARDS_SPORTY_APP.png",
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131013_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
@@ -797,7 +805,7 @@
           },
           "isWinner": null,
           "color": "#03684A",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -816,7 +824,7 @@
           },
           "isWinner": null,
           "color": "#bcbcbc",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -970,73 +978,6 @@
       "source": "Fancode"
     },
     {
-      "category": "Cricket",
-      "title": "Swami Vivekanand Vs Rizvi",
-      "tournament": "Giles Shield 2026",
-      "match_id": 139667,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 09:45 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139667_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139667_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Swami Vivekanand",
-          "shortName": "SWV",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#B8142D",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Rizvi",
-          "shortName": "RIZ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR2@2x.png"
-          },
-          "isWinner": null,
-          "color": "#80081C",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
       "category": "Tennis",
       "title": "Show Court 1   Day 1",
       "tournament": "ATP 250 - Adelaide International",
@@ -1084,6 +1025,73 @@
           },
           "isWinner": null,
           "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Cricket",
+      "title": "Swami Vivekanand Vs Rizvi",
+      "tournament": "Giles Shield 2026",
+      "match_id": 139667,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 January 2026 09:45 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139667_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139667_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Swami Vivekanand",
+          "shortName": "SWV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#B8142D",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Rizvi",
+          "shortName": "RIZ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#80081C",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1921,73 +1929,6 @@
       "source": "Fancode"
     },
     {
-      "category": "Tennis",
-      "title": "Atp 250   Asb Classic",
-      "tournament": "ATP 250 - Auckland Open",
-      "match_id": 139537,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 03:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139537_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139537_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "ATP 250 - ASB Classic",
-          "shortName": "ATP 250 - ASB Classic",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Auckland",
-          "shortName": "Auckland",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
       "category": "Cricket",
       "title": "Ias Invincibles Vs Majees Titans",
       "tournament": "Oman Super League T20, 2026",
@@ -2035,6 +1976,73 @@
           },
           "isWinner": null,
           "color": "#d8c50f",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Tennis",
+      "title": "Atp 250   Asb Classic",
+      "tournament": "ATP 250 - Auckland Open",
+      "match_id": 139537,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 January 2026 03:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139537_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139537_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "ATP 250 - ASB Classic",
+          "shortName": "ATP 250 - ASB Classic",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Auckland",
+          "shortName": "Auckland",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2663,7 +2671,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767278965328898_SuperSmash2526_mens_Otago-Volts-vs-Auckland-Aces_1jan_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768236741~acl=/*~id=09936703817199740680735866818933~hmac=18b42220423e03ea6966a1e15aa39a6a4fdf3e24911fc05c5a89320c4d6e3b14"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768238564~acl=/*~id=77049787411588262811952949225629~hmac=1ea6b78bb6d908456b90958944e7435a51c698cbdc516a87f6cbad8268357095"
       },
       "source": "SonyLIV"
     },
