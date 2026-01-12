@@ -1,0 +1,342 @@
+[
+  {
+    "logo": "https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,dpr_1.25,h_125,w_125/https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/&XplorHD_Thumbnail_d10a0ffe-6acf-4def-9d52-a66175279857.png",
+    "name": "&flix HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a02a"
+  },
+  {
+    "logo": "https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,dpr_1.25,h_125,w_125/https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/&tvHD_Thumbnail_72f7b0e7-e24a-4f50-a457-42380b344da9.png",
+    "name": "&tv - Rs 6.00",
+    "url": "http://103.182.170.32:8888/play/a03v"
+  },
+  {
+    "logo": "https://tlgrm.re/images/animal-planet-ca.png",
+    "name": "Animal Planet - Rs 2.00",
+    "url": "http://103.182.170.32:8888/play/a049"
+  },
+  {
+    "logo": "https://www.lyngsat.com/logo/tv/bb/bbc-news-uk.png",
+    "name": "BBC News - Rs 1.50",
+    "url": "http://103.182.170.32:8888/play/a04k"
+  },
+  {
+    "logo": "https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_1.25/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Cartoon%20Network.png",
+    "name": "Cartoon Network - Rs 4.75",
+    "url": "http://103.182.170.32:8888/play/a04o"
+  },
+  {
+    "logo": "https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_1.25/https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/CartoonNetworkHD%2B_Transparent_0f60d550-21ee-49bf-b4fc-e2547e51a069.png",
+    "name": "Cartoon Network HD+ - Rs 6.00",
+    "url": "http://103.182.170.32:8888/play/a035"
+  },
+  {
+    "logo": "https://cdn.colorsbanglacinema.com/wp-content/uploads/2024/05/27112831/cbcnewlogo2024.png",
+    "name": "Colors Bangla Cinema - Rs 5.00",
+    "url": "http://103.182.170.32:8888/play/a04a"
+  },
+  {
+    "logo": "https://img-cdn.publive.online/fit-in/1280x960/filters:format(webp)/bmi/media/post_banners/6de3d39bcd6a14e4ece43cf8b631fa196df44d4c11448a8e2ce7a8f2a969edef.jpg",
+    "name": "Colors Cineplex Bollywood - Rs 0.10",
+    "url": "http://103.182.170.32:8888/play/a01o"
+  },
+  {
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Color_Cineplex_HD.png",
+    "name": "Colors Cineplex HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a04i"
+  },
+  {
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/39653c3dd5a214be8106cbf2e007bf29.png",
+    "name": "Colors HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a041"
+  },
+  {
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Discovery_kids_logo.png/250px-Discovery_kids_logo.png",
+    "name": "Discovery Kids - Rs 3.50",
+    "url": "http://103.182.170.32:8888/play/a02o"
+  },
+  {
+    "logo": "https://tlgrm.re/images/disney-channel-us.png",
+    "name": "Disney Channel - Rs 10.00",
+    "url": "http://103.182.170.32:8888/play/a04g"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Disney International HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a01y"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Disney Junior - Rs 4.00",
+    "url": "http://103.182.170.32:8888/play/a03q"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "ETV Bal Bharat - Rs 4.00",
+    "url": "http://103.182.170.32:8888/play/a022"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Hungama - Rs 2.00",
+    "url": "http://103.182.170.32:8888/play/a04b"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "MTV HD - Rs 2.00",
+    "url": "http://103.182.170.32:8888/play/a025"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Movies Now HD - Rs 14.00",
+    "url": "http://103.182.170.32:8888/play/a01n"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Nat Geo Wild HD - Rs 8.00",
+    "url": "http://103.182.170.32:8888/play/a01r"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Nick  - Rs 6.00",
+    "url": "http://103.182.170.32:8888/play/a04q"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Nick Jr. - Rs 1.00",
+    "url": "http://103.182.170.32:8888/play/a02q"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Pogo - Rs 4.75",
+    "url": "http://103.182.170.32:8888/play/a02p"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "SET HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a03t"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "SONY  TEN 3 HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a03a"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "SONY  TEN 5 HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a034"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "SONY MAX 2 - Rs 1.00",
+    "url": "http://103.182.170.32:8888/play/a02l"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "SONY MAX HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a04f"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "SONY PIX HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a027"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "SONY SAB - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a03r"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "SONY SPORTS TEN 1 - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a04j"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "SONY SPORTS TEN 3 - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a03p"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "SONY TEN 1 HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a039"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "SONY YAY! - Rs 4.00",
+    "url": "http://103.182.170.32:8888/play/a04m"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "STAR GOLD HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a02j"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "STAR Movies HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a029"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "STAR Movies Select HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a028"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "STAR PLUS - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a03o"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "STAR Plus HD - Rs 22.00",
+    "url": "http://103.182.170.32:8888/play/a03z"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Sonic - Rs 1.00",
+    "url": "http://103.182.170.32:8888/play/a02s"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Sony Sports Ten 4 HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a036"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Sports 18 - 1 HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a04p"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Sports 18 3 - Rs 4.00",
+    "url": "http://103.182.170.32:8888/play/a02i"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Star Bharat - Rs 12.00",
+    "url": "http://103.182.170.32:8888/play/a02n"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Star Bharat HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a033"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Star Gold 2 - Rs 3.00",
+    "url": "http://103.182.170.32:8888/play/a02k"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Star Gold 2 HD - Rs 5.00",
+    "url": "http://103.182.170.32:8888/play/a01z"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Star Jalsha HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a046"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Star Life HD - Rs 2.00",
+    "url": "http://103.182.170.32:8888/play/a020"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Star Pravah HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a04n"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Star Sports 1 - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a03b"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Star Sports 1 HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a040"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Star Sports 1 Hindi - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a02m"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Star Sports 1 Hindi HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a04e"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Star Sports 2 HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a03e"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Star Sports Select 1 HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a045"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Star Sports Select 2 HD - Rs 15.00",
+    "url": "http://103.182.170.32:8888/play/a047"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Sun Bangla - Free",
+    "url": "http://103.182.170.32:8888/play/a01v"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Sun Life - Rs 9.00",
+    "url": "http://103.182.170.32:8888/play/a03f"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "TEN 2 HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a026"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "TLC HD - Rs 3.00",
+    "url": "http://103.182.170.32:8888/play/a01q"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Travelxp HD - Rs 9.00",
+    "url": "http://103.182.170.32:8888/play/a01x"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Zee Bangla Cinema - Rs 10.00",
+    "url": "http://103.182.170.32:8888/play/a044"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Zee Bangla HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a048"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Zee Bollywood - Rs 3.00",
+    "url": "http://103.182.170.32:8888/play/a02r"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Zee Cafe HD - Rs 10.00",
+    "url": "http://103.182.170.32:8888/play/a01w"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Zee Classic - Rs 0.10",
+    "url": "http://103.182.170.32:8888/play/a054"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Zee TV - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a03s"
+  },
+  {
+    "logo": "www.omnix.png",
+    "name": "Zee TV HD - Rs 19.00",
+    "url": "http://103.182.170.32:8888/play/a04r"
+  }
+]
