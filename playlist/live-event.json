@@ -1,14 +1,14 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-12 11:29:16",
-  "total_matches": 51,
+  "last_updated": "2026-01-12 11:55:34",
+  "total_matches": 50,
   "matches": [
     {
       "category": "Cricket",
-      "title": "Rajshahi Warriors Vs Dhaka Capitals",
+      "title": "Dhaka Capitals Vs Rajshahi Warriors",
       "tournament": "Bangladesh Premier League, 2025-26",
       "match_id": 138933,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "12 January 2026 05:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -25,25 +25,6 @@
       },
       "teams": [
         {
-          "name": "Rajshahi Warriors",
-          "shortName": "RAW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RAW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#fdcb83",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "Dhaka Capitals",
           "shortName": "DC",
           "flag": {
@@ -51,6 +32,33 @@
           },
           "isWinner": null,
           "color": "#CFAE1C",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Rajshahi Warriors",
+          "shortName": "RAW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RAW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fdcb83",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -80,7 +88,7 @@
       "title": "Oman Development Team Vs Ias Invincibles",
       "tournament": "Oman Super League T20, 2026",
       "match_id": 139576,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "12 January 2026 04:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -102,7 +110,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR3@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
@@ -121,7 +129,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IAI@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#138bc2",
           "cricketScore": null,
           "kabaddiScore": null,
@@ -568,15 +576,15 @@
       "streamingStatus": "NOT_STARTED",
       "startTime": "12 January 2026 11:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web-(1).jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/139357_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web.jpg",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web-(1).jpg",
         "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSL-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-app.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web-(1).jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-app-(1).jpg",
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139357_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
@@ -2736,16 +2744,6 @@
       "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/5745/1750779565745-h",
       "STREAMING_CDN": {
         "Primary_Playback_URL": "https://www.hotstar.com/in/clip/star-sports-cricket-classics/1540040039/watch"
-      },
-      "source": "JioHotstar"
-    },
-    {
-      "match_id": "1540059112",
-      "title": "QF: Uttar Pradesh vs Saurashtra",
-      "status": "LIVE",
-      "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/5135/1768160945135-h",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://www.hotstar.com/in/sports/cricket/qf-uttar-pradesh-vs-saurashtra/1540059112/video/live/watch"
       },
       "source": "JioHotstar"
     },
