@@ -1,6 +1,6 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-12 07:43:10",
+  "last_updated": "2026-01-12 07:57:13",
   "total_matches": 48,
   "matches": [
     {
@@ -34,11 +34,11 @@
           "color": "#42b7e8",
           "cricketScore": [
             {
-              "runs": 46,
-              "overs": "8",
-              "balls": "48",
+              "runs": 67,
+              "overs": "10.4",
+              "balls": "64",
               "status": "IN_PROGRESS",
-              "wickets": 3
+              "wickets": 4
             }
           ],
           "kabaddiScore": null,
