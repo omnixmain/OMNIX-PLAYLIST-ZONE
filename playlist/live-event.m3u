@@ -1,9 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg" group-title="Fancode",Yalla Shabab Giants Vs Majees Titans
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg" group-title="Fancode",Yalla Shabab Giants Vs Majees Titans [Main]
 https://in-mc-fdlive.fancode.com/mumbai/139577_english_hls_c62064f93993299_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web-(1).jpg" group-title="Fancode",Al Hilal Sfc Vs Al Nassr Fc
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg" group-title="Fancode",Yalla Shabab Giants Vs Majees Titans [DAI]
+https://dai.google.com/linear/hls/event/OiefrAHNS8-AEYrqvc-N1g/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web-(1).jpg" group-title="Fancode",Al Hilal Sfc Vs Al Nassr Fc [Main]
 https://in-mc-fdlive.fancode.com/mumbai/139357_english_hls_2614494daf79038_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139268_5822_JOR-U23_KYG-U23_fc-web.jpg" group-title="Fancode",Jordan U23 Vs Kyrgyz Republic U23
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web-(1).jpg" group-title="Fancode",Al Hilal Sfc Vs Al Nassr Fc [DAI]
+https://dai.google.com/linear/hls/event/iUH_1WOgSTWkcAhpcYUhyw/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139268_5822_JOR-U23_KYG-U23_fc-web.jpg" group-title="Fancode",Jordan U23 Vs Kyrgyz Republic U23 [Main]
 https://in-mc-fdlive.fancode.com/mumbai/139268_english_hls_63b31d136a76601_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139267_5822_SU-U23_VIE-U23_fc-web.jpg" group-title="Fancode",Saudi Arabia U23 Vs Vietnam U23
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139268_5822_JOR-U23_KYG-U23_fc-web.jpg" group-title="Fancode",Jordan U23 Vs Kyrgyz Republic U23 [DAI]
+https://dai.google.com/linear/hls/event/Ow4RJYQ5RIaVSYyW7w3PAw/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139267_5822_SU-U23_VIE-U23_fc-web.jpg" group-title="Fancode",Saudi Arabia U23 Vs Vietnam U23 [Main]
 https://in-mc-fdlive.fancode.com/mumbai/139267_english_hls_e99d09524030874_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139267_5822_SU-U23_VIE-U23_fc-web.jpg" group-title="Fancode",Saudi Arabia U23 Vs Vietnam U23 [DAI]
+https://dai.google.com/linear/hls/event/WuMipmWjRaWe6OIoqG1w9w/master.m3u8
