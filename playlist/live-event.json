@@ -1,14 +1,14 @@
 {
-  "Author": "\ud835\udd46\ud835\udd44\u2115\ud835\udd40\ud835\udd4f \ud835\udd3c\ud835\udd44\u2119\ud835\udd40\u211d\ud835\udd3c",
+  "Author": "OMNIX-EMPIRE",
   "name": "FanCode Live Matches API",
-  "last_updated": "06:46:42 PM 12-01-2026",
+  "last_updated": "06:49:00 PM 12-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 48,
+  "total_matches": 50,
   "live_matches": 9,
-  "upcoming_matches": 39,
+  "upcoming_matches": 41,
   "matches": [
     {
       "category": "Football",
@@ -2630,6 +2630,44 @@
         "language": "BLOODY_SWEET",
         "Primary_Playback_URL": null
       },
+      "source": "Fancode"
+    },
+    {
+      "match_id": 139359,
+      "title": "Al-Ahli Saudi FC vs Al Taawoun (Roshn Saudi League 2025-2026)",
+      "status": "UPCOMING",
+      "streamingStatus": "NOT_STARTED",
+      "category": "Football",
+      "tournament": "Roshn Saudi League 2025-2026",
+      "startTime": "11:00:00 PM 14-01-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "src": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "image_cdn": {
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg"
+      },
+      "teams": [],
+      "STREAMING_CDN": {},
+      "source": "Fancode"
+    },
+    {
+      "match_id": 138392,
+      "title": "Nigeria vs Morocco (Africa Cup of Nations 2025-26)",
+      "status": "UPCOMING",
+      "streamingStatus": "NOT_STARTED",
+      "category": "Football",
+      "tournament": "Africa Cup of Nations 2025-26",
+      "startTime": "01:30:00 AM 15-01-2026",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Nigeria-vs-Morocco_fc-web.jpg",
+      "src": "https://www.fancode.com/skillup-uploads/cms-media/Nigeria-vs-Morocco_fc-web.jpg",
+      "image_cdn": {
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Nigeria-vs-Morocco_fc-web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Nigeria-vs-Morocco_fc-web.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Nigeria-vs-Morocco_fc-web.jpg"
+      },
+      "teams": [],
+      "STREAMING_CDN": {},
       "source": "Fancode"
     },
     {
