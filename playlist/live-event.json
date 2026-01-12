@@ -1,13 +1,13 @@
 {
   "Author": "OMNIX-EMPIRE",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:46:27 PM 12-01-2026",
+  "last_updated": "07:56:43 PM 12-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 49,
-  "live_matches": 8,
+  "total_matches": 48,
+  "live_matches": 7,
   "upcoming_matches": 41,
   "matches": [
     {
@@ -2626,28 +2626,6 @@
       "source": "Fancode"
     },
     {
-      "match_id": 139357,
-      "title": "Al Hilal SFC vs Al-Nassr FC (Roshn Saudi League 2025-2026)",
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "category": "Football",
-      "tournament": "Roshn Saudi League 2025-2026",
-      "startTime": "11:00:00 PM 12-01-2026",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web-(1).jpg",
-      "src": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web-(1).jpg",
-      "image_cdn": {
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web-(1).jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web-(1).jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web-(1).jpg"
-      },
-      "teams": [],
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/139357_english_hls_2614494daf79038_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/iUH_1WOgSTWkcAhpcYUhyw/master.m3u8"
-      },
-      "source": "Fancode"
-    },
-    {
       "match_id": "1090499187_ENG",
       "title": "Liverpool vs Barnsley - Round 3 - 13 Jan 2026 [ENG]",
       "status": "LIVE",
@@ -2664,7 +2642,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768290250~acl=/*~id=66989674138378999646090349879518~hmac=6531129c40b959b6e4aec3471a10292e3b4058a43f0c845cf10d02f75db62a64"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768290859~acl=/*~id=74611409170821289992986276712884~hmac=0fc33b524c9ba1279218fff8bb7ef649b66337d66da5139f18a0eee44f574be1"
       },
       "source": "SonyLIV"
     },
