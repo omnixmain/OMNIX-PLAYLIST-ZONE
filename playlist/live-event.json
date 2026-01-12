@@ -1,21 +1,21 @@
 {
   "Author": "OMNIX-EMPIRE",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:49:31 PM 12-01-2026",
+  "last_updated": "09:59:46 PM 12-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 42,
-  "live_matches": 2,
-  "upcoming_matches": 40,
+  "live_matches": 1,
+  "upcoming_matches": 41,
   "matches": [
     {
       "category": "Football",
       "title": "Sevilla Fc Vs Rc Celta",
       "tournament": "LALIGA 2025-26",
       "match_id": 131013,
-      "status": "LIVE",
+      "status": "COMPLETED",
       "streamingStatus": "STARTED",
       "startTime": "13 January 2026 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -64,8 +64,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "14995",
+                "shortName": "M Alonso",
+                "isOwnGoal": false,
+                "goalTime": "88'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
