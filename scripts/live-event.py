@@ -5,7 +5,7 @@ import os
 
 # Source URLs
 FANCODE_URL = "https://raw.githubusercontent.com/Jitendra-unatti/fancode/refs/heads/main/data/fancode.json"
-JIOHOTSTAR_URL = "https://raw.githubusercontent.com/DebugDyno/yo_events/refs/heads/main/jiohotstar.json"
+JIOHOTSTAR_URL = ""
 SONYLIV_URL = "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json"
 
 # Output Files
