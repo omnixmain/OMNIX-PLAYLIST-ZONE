@@ -1,6 +1,6 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-12 13:42:04",
+  "last_updated": "2026-01-12 14:03:21",
   "total_matches": 49,
   "matches": [
     {
@@ -34,11 +34,11 @@
           "color": "#CFAE1C",
           "cricketScore": [
             {
-              "runs": 128,
-              "overs": "18.4",
-              "balls": "112",
+              "runs": 131,
+              "overs": "20",
+              "balls": "120",
               "status": "IN_PROGRESS",
-              "wickets": 7
+              "wickets": 10
             }
           ],
           "kabaddiScore": null,
@@ -2678,20 +2678,20 @@
       "source": "SonyLIV"
     },
     {
-      "match_id": 1090499496,
-      "title": "Upcoming - Matchday 7 - UEFA Champions League 2025-26",
+      "match_id": 1090499497,
+      "title": "Upcoming - Pro Wrestling League 2026",
       "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013286/1768218060856467_UCL26_MD7_dated_12jan_landscape_thumb.jpg",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013289/1768220011205480_PWL26_dated_12jan_landscape_thumb.jpg",
       "STREAMING_CDN": {
         "Primary_Playback_URL": ""
       },
       "source": "SonyLIV"
     },
     {
-      "match_id": 1090499497,
-      "title": "Upcoming - Pro Wrestling League 2026",
+      "match_id": 1090499496,
+      "title": "Upcoming - Matchday 7 - UEFA Champions League 2025-26",
       "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013289/1768220011205480_PWL26_dated_12jan_landscape_thumb.jpg",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013286/1768218060856467_UCL26_MD7_dated_12jan_landscape_thumb.jpg",
       "STREAMING_CDN": {
         "Primary_Playback_URL": ""
       },
