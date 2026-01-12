@@ -6,7 +6,7 @@ import os
 # Source URLs
 FANCODE_URL_1 = "https://raw.githubusercontent.com/Jitendra-unatti/fancode/refs/heads/main/data/fancode.json"
 FANCODE_URL_2 = "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json"
-JIOHOTSTAR_URL = "https://github.com/drmlive/willow-live-events/raw/refs/heads/main/willow.json"
+JIOHOTSTAR_URL = "https://raw.githubusercontent.com/DebugDyno/yo_events/refs/heads/main/jiohotstar.json"
 SONYLIV_URL = "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json"
 
 # Output Files
@@ -23,166 +23,206 @@ def fetch_data(url, label):
         return None
 
 def normalize_fancode_1(item):
-    """Maps Fancode Source 1 item to standardized schema"""
+    """Maps Fancode Source 1 item to standardized schema favoring passthrough"""
     try:
-        match_id = str(item.get("match_id", ""))
-        title = item.get("title", "Unknown Event")
-        status = item.get("status", "LIVE")
-        image = item.get("src", "")
-        # Handle variations where src might be different keys
-        if not image:
-             image = item.get("image", "")
+        # We want to preserve as much as possible from Source 1 as it is the 'template'
+        normalized = item.copy()
+        
+        # Ensure core fields for merging
+        match_id_val = item.get("match_id")
+        normalized["match_id"] = int(match_id_val) if str(match_id_val).isdigit() else str(match_id_val)
+        
+        normalized["source"] = "Fancode"
+        
+        # Ensure STREAMING_CDN exists
+        if "STREAMING_CDN" not in normalized or not isinstance(normalized["STREAMING_CDN"], dict):
+             normalized["STREAMING_CDN"] = {}
 
-        streams = []
-        stream_url = item.get("STREAMING_CDN", {}).get("Primary_Playback_URL") or item.get("video_url")
-        if stream_url:
-             streams.append({"name": "Main", "url": stream_url})
+        # Backfill Primary_Playback_URL if missing but video_url exists
+        if not normalized["STREAMING_CDN"].get("Primary_Playback_URL") and item.get("video_url"):
+             normalized["STREAMING_CDN"]["Primary_Playback_URL"] = item.get("video_url")
 
-        return {
-            "match_id": match_id,
-            "title": title,
-            "status": status,
-            "image": image,
-            "streams": streams,
-            "source": "Fancode"
-        }
+        return normalized
     except Exception as e:
-        # print(f"Error normalizing Fancode 1 item: {e}")
         return None
 
 def normalize_fancode_2(item):
     """Maps Fancode Source 2 item to standardized schema"""
     try:
-        match_id = str(item.get("match_id", ""))
+        match_id_val = item.get("match_id")
+        match_id = int(match_id_val) if str(match_id_val).isdigit() else str(match_id_val)
+        
         title = item.get("title", "Unknown Event")
         status = item.get("status", "LIVE")
-        image = item.get("src", "")
         
-        streams = []
-        dai_url = item.get("dai_url")
+        # Image
+        image = item.get("src") or item.get("image", "")
+
+        # Construct STREAMING_CDN object 
+        streaming_cdn = {}
         adfree_url = item.get("adfree_url")
+        dai_url = item.get("dai_url")
         
         if adfree_url:
-            streams.append({"name": "Ad-Free", "url": adfree_url})
+            streaming_cdn["Primary_Playback_URL"] = adfree_url
         if dai_url:
-            streams.append({"name": "DAI", "url": dai_url})
+            streaming_cdn["dai_google_cdn"] = dai_url
             
         return {
             "match_id": match_id,
             "title": title,
             "status": status,
+            "streamingStatus": "STARTED" if status == "LIVE" else "NOT_STARTED",
+            "category": item.get("event_category", "Sports"),
+            "tournament": item.get("event_name", ""),
+            "startTime": item.get("startTime", ""),
             "image": image,
-            "streams": streams,
+            "src": image,
+            "image_cdn": {
+                "APP": image,
+                "PLAYBACK": image,
+                "BG_IMAGE": image
+            },
+            "teams": [], # Default empty list
+            "STREAMING_CDN": streaming_cdn,
             "source": "Fancode"
         }
     except Exception as e:
-        # print(f"Error normalizing Fancode 2 item: {e}")
         return None
 
 def normalize_sonyliv(item):
-    """Maps SonyLIV item to standardized schema"""
     try:
-        match_id = str(item.get("contentId", ""))
+        match_id_val = item.get("contentId", "")
+        match_id = int(match_id_val) if str(match_id_val).isdigit() else str(match_id_val)
+            
         title = item.get("match_name") or item.get("event_name", "Unknown Event")
         is_live = item.get("isLive", False)
         status = "LIVE" if is_live else "COMPLETED"
         image = item.get("src", "")
         video_url = item.get("video_url", "")
         
-        streams = []
-        if video_url:
-            streams.append({"name": "Main", "url": video_url})
-
         return {
             "match_id": match_id,
             "title": title,
             "status": status,
+            "streamingStatus": "STARTED" if is_live else "COMPLETED",
+            "category": "SonyLIV",
+            "tournament": "SonyLIV Events",
+            "startTime": "",
             "image": image,
-            "streams": streams,
+            "src": image,
+            "image_cdn": {
+                "APP": image,
+                "PLAYBACK": image,
+                "BG_IMAGE": image
+            },
+            "teams": [],
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": video_url
+            },
             "source": "SonyLIV"
         }
     except Exception as e:
-        print(f"Error normalizing SonyLIV item: {e}")
         return None
 
 def normalize_jiohotstar(item):
-    """Maps JioHotstar item to standardized schema"""
     try:
-        match_id = str(item.get("contentId", ""))
+        match_id_val = item.get("contentId", "")
+        match_id = int(match_id_val) if str(match_id_val).isdigit() else str(match_id_val)
+            
         title = item.get("title", "Unknown Event")
         status = item.get("status", "LIVE")
         image = item.get("image", "")
         watch_url = item.get("watch_url", "")
         
-        streams = []
-        if watch_url:
-            streams.append({"name": "Main", "url": watch_url})
-        
         return {
             "match_id": match_id,
             "title": title,
             "status": status,
+            "streamingStatus": "STARTED" if status == "LIVE" else "COMPLETED",
+            "category": "JioHotstar",
+            "tournament": "JioHotstar Events",
+            "startTime": "",
             "image": image,
-            "streams": streams,
+            "src": image,
+            "image_cdn": {
+                "APP": image,
+                "PLAYBACK": image,
+                "BG_IMAGE": image
+            },
+            "teams": [],
+            "STREAMING_CDN": {
+                "Primary_Playback_URL": watch_url
+            },
             "source": "JioHotstar"
         }
     except Exception as e:
-        print(f"Error normalizing JioHotstar item: {e}")
         return None
 
-def merge_fancode_events(fancode_map, new_item):
+def merge_event(fancode_map, new_item):
     match_id = new_item.get("match_id")
     if not match_id:
         return
 
-    if match_id in fancode_map:
-        existing_item = fancode_map[match_id]
-        # Merge streams
-        existing_urls = {s["url"] for s in existing_item["streams"]}
-        for new_stream in new_item["streams"]:
-            if new_stream["url"] not in existing_urls:
-                existing_item["streams"].append(new_stream)
-                existing_urls.add(new_stream["url"])
+    # Normalize key to string for lookup map, but keep value's match_id as is (int/str)
+    lookup_key = str(match_id)
+
+    if lookup_key in fancode_map:
+        existing_item = fancode_map[lookup_key]
         
-        # Update other fields if missing in existing
-        if not existing_item.get("image") and new_item.get("image"):
-            existing_item["image"] = new_item["image"]
+        # Merge STREAMING_CDN
+        existing_cdn = existing_item.get("STREAMING_CDN", {})
+        new_cdn = new_item.get("STREAMING_CDN", {})
+        
+        if new_cdn.get("Primary_Playback_URL") and not existing_cdn.get("Primary_Playback_URL"):
+            existing_cdn["Primary_Playback_URL"] = new_cdn["Primary_Playback_URL"]
+            
+        if new_cdn.get("dai_google_cdn"):
+             if not existing_cdn.get("dai_google_cdn"):
+                 existing_cdn["dai_google_cdn"] = new_cdn["dai_google_cdn"]
+        
+        # Merge other rich fields if existing is "poor" (e.g. from Source 2 which is slimmer)
+        # If existing missing teams but new has it, take it.
+        if "teams" not in existing_item and "teams" in new_item:
+            existing_item["teams"] = new_item["teams"]
+            
+        if "image_cdn" not in existing_item and "image_cdn" in new_item:
+             existing_item["image_cdn"] = new_item["image_cdn"]
+
+        existing_item["STREAMING_CDN"] = existing_cdn
+        
     else:
-        fancode_map[match_id] = new_item
+        fancode_map[lookup_key] = new_item
 
 def generate_m3u(matches):
     content = "#EXTM3U\n"
     for match in matches:
-        base_title = match.get("title", "No Title")
+        title = match.get("title", "No Title")
         image = match.get("image", "")
         source = match.get("source", "Live")
-        streams = match.get("streams", [])
         
-        for i, stream in enumerate(streams):
-            stream_name = stream.get("name", "Stream")
-            stream_url = stream.get("url")
-            
-            if not stream_url:
-                continue
-
-            # If there's only one stream, use base title. If multiple, append stream name.
-            # actually user asked to combine them so they show properly. 
-            # In M3U, separate entries are needed for valid playback in most players.
-            # We will label them clearly.
-            if len(streams) > 1:
-                display_title = f"{base_title} [{stream_name}]"
-            else:
-                display_title = base_title
-            
+        cdn = match.get("STREAMING_CDN", {})
+        primary_url = cdn.get("Primary_Playback_URL")
+        dai_url = cdn.get("dai_google_cdn")
+        
+        if primary_url:
+            suffix = " [Main]" if dai_url else ""
+            display_title = f"{title}{suffix}"
             content += f'#EXTINF:-1 tvg-logo="{image}" group-title="{source}",{display_title}\n'
-            content += f'{stream_url}\n'
+            content += f'{primary_url}\n'
+            
+        if dai_url:
+            display_title = f"{title} [DAI]"
+            content += f'#EXTINF:-1 tvg-logo="{image}" group-title="{source}",{display_title}\n'
+            content += f'{dai_url}\n'
+            
     return content
 
 def main():
-    fancode_map = {} # match_id -> event_dict
+    fancode_map = {} # str(match_id) -> event_dict
     other_matches = []
 
-    # 1. Fetch Fancode Source 1
+    # 1. Fetch Fancode Source 1 (The Template)
     fc_data_1 = fetch_data(FANCODE_URL_1, "Fancode 1")
     if fc_data_1:
         matches = []
@@ -194,7 +234,7 @@ def main():
         for m in matches:
             norm = normalize_fancode_1(m)
             if norm:
-                merge_fancode_events(fancode_map, norm)
+                merge_event(fancode_map, norm)
 
     # 2. Fetch Fancode Source 2
     fc_data_2 = fetch_data(FANCODE_URL_2, "Fancode 2")
@@ -208,24 +248,22 @@ def main():
         for m in matches:
             norm = normalize_fancode_2(m)
             if norm:
-                merge_fancode_events(fancode_map, norm)
+                merge_event(fancode_map, norm)
 
-    # 3. Fetch SonyLIV data
+    # 3. SonyLIV
     sl_data = fetch_data(SONYLIV_URL, "SonyLIV")
     if sl_data:
         sl_matches = []
-        if isinstance(sl_data, dict):
-             if "matches" in sl_data:
-                 sl_matches = sl_data["matches"]
+        if isinstance(sl_data, dict) and "matches" in sl_data:
+             sl_matches = sl_data["matches"]
         elif isinstance(sl_data, list):
             sl_matches = sl_data
-            
         for item in sl_matches:
             norm = normalize_sonyliv(item)
             if norm:
                 other_matches.append(norm)
 
-    # 4. Fetch JioHotstar data
+    # 4. JioHotstar
     jh_data = fetch_data(JIOHOTSTAR_URL, "JioHotstar")
     if jh_data:
         jh_matches = []
@@ -233,21 +271,29 @@ def main():
             jh_matches = jh_data["data"]
         elif isinstance(jh_data, list):
             jh_matches = jh_data
-            
         for item in jh_matches:
             norm = normalize_jiohotstar(item)
             if norm:
                 other_matches.append(norm)
 
-    # Combine all
-    all_fancode_matches = list(fancode_map.values())
-    final_matches = all_fancode_matches + other_matches
+    final_matches = list(fancode_map.values()) + other_matches
+    
+    # Calculate counts
+    live_count = sum(1 for m in final_matches if m.get("status") == "LIVE")
+    upcoming_count = sum(1 for m in final_matches if m.get("status") != "LIVE") # Simplified
 
-    # Final Output Structure
+    # Final JSON Structure - High Fidelity
     final_json = {
-        "name": "live-event",
-        "last_updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "Author": "𝕆𝕄ℕ𝕀𝕏 𝔼𝕄ℙ𝕀ℝ𝔼",
+        "name": "FanCode Live Matches API",
+        "last_updated": datetime.datetime.now().strftime("%I:%M:%S %p %d-%m-%Y"),
+        "headers": {
+            "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
+            "Referer": "https://fancode.com/"
+        },
         "total_matches": len(final_matches),
+        "live_matches": live_count,
+        "upcoming_matches": upcoming_count,
         "matches": final_matches
     }
 
