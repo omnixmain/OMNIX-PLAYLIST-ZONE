@@ -2,8 +2,8 @@
 #=================================
 # Developed By: OMNIX EMPIER
 # IPTV Telegram Channels: https://t.me/omnix_Empire
-# Last Updated: 2026-01-12 09:51 AM (BD Time)
-# TV channel counts :- 22
+# Last Updated: 2026-01-12 10:52 AM (BD Time)
+# TV channel counts :- 19
 # Disclaimer:
 # This tool does NOT host any content.
 # It aggregates publicly available data for informational purposes only.
@@ -95,24 +95,6 @@ https://dishmt.slivcdn.com/hls/live/2011739-b/TEN1SD/master.m3u8?hdnea=exp=17681
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 #EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
 https://dishmt.slivcdn.com/hls/live/2020434-b/TEN2HD/master.m3u8?hdnea=exp=1768199401~acl=/*~id=8c9b7a336531f542bbdbf9c094666e9b-1768156200107~hmac=782e2acd4fffdf511a64f79fba0f52617130b1cf6ae5ec990b6360611a46cf6c
-
-#EXTINF:-1 group-title="Sony Liv" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten2_HD.png",SONY TEN 2
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
-#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
-https://dishmt.slivcdn.com/hls/live/2020590-b/TEN2SD/master.m3u8?hdnea=exp=1768199401~acl=/*~id=8c9b7a336531f542bbdbf9c094666e9b-1768156200107~hmac=782e2acd4fffdf511a64f79fba0f52617130b1cf6ae5ec990b6360611a46cf6c
-
-#EXTINF:-1 group-title="Sony Liv" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten3_HD.png",SONY TEN 3 HD
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
-#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
-https://dishmt.slivcdn.com/hls/live/2020591-b/TEN3HD/master.m3u8?hdnea=exp=1768199401~acl=/*~id=8c9b7a336531f542bbdbf9c094666e9b-1768156200107~hmac=782e2acd4fffdf511a64f79fba0f52617130b1cf6ae5ec990b6360611a46cf6c
-
-#EXTINF:-1 group-title="Sony Liv" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten3_HD.png",SONY TEN 3
-#EXTVLCOPT:network-caching=1000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
-#EXTVLCOPT:http-referrer=https://allinonereborn.xyz/sony/
-https://dishmt.slivcdn.com/hls/live/2020592-b/TEN3SD/master.m3u8?hdnea=exp=1768199401~acl=/*~id=8c9b7a336531f542bbdbf9c094666e9b-1768156200107~hmac=782e2acd4fffdf511a64f79fba0f52617130b1cf6ae5ec990b6360611a46cf6c
 
 #EXTINF:-1 group-title="Sony Liv" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_4_HD_Telugu.png",SONY TEN 4 HD
 #EXTVLCOPT:network-caching=1000
