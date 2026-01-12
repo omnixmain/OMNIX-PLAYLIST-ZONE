@@ -1,6 +1,6 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-12 05:36:40",
+  "last_updated": "2026-01-12 05:56:50",
   "total_matches": 49,
   "matches": [
     {
@@ -61,9 +61,9 @@
           "color": "#0A129E",
           "cricketScore": [
             {
-              "runs": 32,
-              "overs": "4.2",
-              "balls": "26",
+              "runs": 68,
+              "overs": "10.1",
+              "balls": "61",
               "status": "IN_PROGRESS",
               "wickets": 3
             }
@@ -2671,7 +2671,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767278965328898_SuperSmash2526_mens_Otago-Volts-vs-Auckland-Aces_1jan_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768238564~acl=/*~id=77049787411588262811952949225629~hmac=1ea6b78bb6d908456b90958944e7435a51c698cbdc516a87f6cbad8268357095"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768240390~acl=/*~id=88751562962776042286524427070674~hmac=961065f2af867ff5e1bfe21a20b4df1bd1038fdab5ab7b5258f357f0d0482941"
       },
       "source": "SonyLIV"
     },
