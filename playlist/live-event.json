@@ -1,327 +1,22 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-11 20:25:32",
-  "total_matches": 49,
+  "last_updated": "2026-01-12 11:55:34",
+  "total_matches": 50,
   "matches": [
     {
-      "category": "Football",
-      "title": "Fc Barcelona Vs Real Madrid",
-      "tournament": "SuperCopa 2026",
-      "match_id": 138959,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "12 January 2026 12:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/SuperCopa-ELCLaSICO_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138959_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/SuperCopa-ELCLaSICO_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/SuperCopa-ELCLaSICO_fc-web.jpg",
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/12/RFEF_Supercopa-De-Espana-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/SuperCopa-ELCLaSICO_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/SuperCopa-ELCLaSICO_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138959_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "FC Barcelona",
-          "shortName": "BAR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/BAR-FT2@2x.png"
-          },
-          "isWinner": null,
-          "color": "#fee64e",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 2,
-            "goals": [
-              {
-                "id": "1888",
-                "shortName": "R Lewandowski",
-                "isOwnGoal": false,
-                "goalTime": "45'"
-              },
-              {
-                "id": "58585",
-                "shortName": "R Belloli",
-                "isOwnGoal": false,
-                "goalTime": "36'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Real Madrid",
-          "shortName": "RM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/RM-FT2@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ffdf50",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 2,
-            "goals": [
-              {
-                "id": "186365",
-                "shortName": "G Garcia",
-                "isOwnGoal": false,
-                "goalTime": "45'"
-              },
-              {
-                "id": "33753",
-                "shortName": "V Junior",
-                "isOwnGoal": false,
-                "goalTime": "45'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138959_english_hls_7f18fa356218568_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138959_english_hls_7f18fa356218568_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/138959_english_hls_7f18fa356218568_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/tQIPxvFcQaiOahHi4qCwUA/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      },
-      "source": "Fancode"
-    },
-    {
       "category": "Cricket",
-      "title": "Otago Sparks Vs Auckland Hearts",
-      "tournament": "Women's Super Smash, 2025-26",
-      "match_id": 138779,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "12 January 2026 05:10 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138779_5801_OS-W_AH-W_fc-web_1766596522276.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138779_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138779_5801_OS-W_AH-W_fc-web_1766596522276.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138779_5801_OS-W_AH-W_fc-web_1766596522276.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138779_5801_OS-W_AH-W_fc-app_1766596319096.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138779_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Otago Sparks",
-          "shortName": "OS-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OSW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FFD433",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Auckland Hearts",
-          "shortName": "AH-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUHW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#221469",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Cricket",
-      "title": "Otago Volts Vs Auckland Aces",
-      "tournament": "Super Smash, 2025-26",
-      "match_id": 138747,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "12 January 2026 08:55 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_fc-web_1766641251086.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138747_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_fc-web_1766641251086.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_fc-web_1766641251086.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138747_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Otago Volts",
-          "shortName": "OV",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VOLT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e0cc38",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Auckland Aces",
-          "shortName": "AA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ACE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0A129E",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Cricket",
-      "title": "Sylhet Titans Vs Rangpur Riders",
-      "tournament": "Bangladesh Premier League, 2025-26",
-      "match_id": 138932,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "12 January 2026 12:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138932_5808_SYL_RAN_fc-web_1766733054172.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138932_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138932_5808_SYL_RAN_fc-web_1766733054172.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/BPL-T20.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138932_5808_SYL_RAN_fc-web_1766733054172.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138932_5808_SYL_RAN_fc-App_1767706252268.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138932_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Sylhet Titans",
-          "shortName": "SYT",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SYT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0d7972",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Rangpur Riders",
-          "shortName": "RAN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RANG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#42b7e8",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Cricket",
-      "title": "Rajshahi Warriors Vs Dhaka Capitals",
+      "title": "Dhaka Capitals Vs Rajshahi Warriors",
       "tournament": "Bangladesh Premier League, 2025-26",
       "match_id": 138933,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
       "startTime": "12 January 2026 05:30 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/138933_5808_DBR_DC_fc-web_1766733054150.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/138933_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/138933_5808_DBR_DC_fc-web_1766733054150.jpg",
-        "PLAYBACK": null,
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138933_5808_DBR_DC_fc-web_1766733054150.jpg",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/BPL-T20.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138933_5808_DBR_DC_fc-web_1766733054150.jpg",
@@ -329,6 +24,33 @@
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138933_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
+        {
+          "name": "Dhaka Capitals",
+          "shortName": "DC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DHC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#CFAE1C",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
         {
           "name": "Rajshahi Warriors",
           "shortName": "RAW",
@@ -347,16 +69,69 @@
               "isBatting": false
             }
           }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138933_english_hls_4a3b9a1b6c39851_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138933_english_hls_4a3b9a1b6c39851_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/138933_english_hls_4a3b9a1b6c39851_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/IgAEnOF6RfKy6VFWEhCWtQ/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Cricket",
+      "title": "Oman Development Team Vs Ias Invincibles",
+      "tournament": "Oman Super League T20, 2026",
+      "match_id": 139576,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "12 January 2026 04:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139576_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139576_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Oman Development Team",
+          "shortName": "ODT",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR3@2x.png"
+          },
+          "isWinner": false,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
-          "name": "Dhaka Capitals",
-          "shortName": "DC",
+          "name": "IAS Invincibles",
+          "shortName": "IAI",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DHC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IAI@2x.png"
           },
-          "isWinner": null,
-          "color": "#CFAE1C",
-          "cricketScore": [],
+          "isWinner": false,
+          "color": "#138bc2",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -368,10 +143,159 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/139576_english_hls_97f490d78e32434_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139576_english_hls_97f490d78e32434_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139576_english_hls_97f490d78e32434_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/noEaw54xTOmDs74nRoaLqQ/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Tennis",
+      "title": "Centre Court   Day 1",
+      "tournament": "ATP 250 - Adelaide International",
+      "match_id": 139532,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "12 January 2026 09:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139532_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(1)_1767943452385.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139532_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Centre Court - Day 1",
+          "shortName": "Centre Court - Day 1",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Adelaide",
+          "shortName": "Adelaide",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/139532_english_hls_60be8400f426190_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139532_english_hls_60be8400f426190_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139532_english_hls_60be8400f426190_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/pKpHVpcWSEmSOQ2XQ4NnRQ/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Tennis",
+      "title": "Show Court 1   Day 1",
+      "tournament": "ATP 250 - Adelaide International",
+      "match_id": 139533,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "12 January 2026 12:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139533_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(1)_1767942976312.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139533_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Show Court 1 - Day 1",
+          "shortName": "Show Court 1 - Day 1",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Adelaide",
+          "shortName": "Adelaide",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/139533_english_hls_fe149482c026737_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139533_english_hls_fe149482c026737_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139533_english_hls_fe149482c026737_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/r8zOgb9JTd-Zme93fSvxIg/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
       },
       "source": "Fancode"
     },
@@ -380,10 +304,10 @@
       "title": "V N Sule Vs Dyandeep Seva Mandal",
       "tournament": "Giles Shield 2026",
       "match_id": 139666,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "12 January 2026 09:45 AM",
-      "startDate": "01 January 1970 05:30 AM",
+      "status": "LIVE",
+      "streamingStatus": "PAUSED",
+      "startTime": "12 January 2026 09:30 AM",
+      "startDate": "13 January 2026 09:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/139666_CASACARDS_PARTNER_16_9_1920_1080.png",
@@ -402,7 +326,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR1@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#B8142D",
           "cricketScore": null,
           "kabaddiScore": null,
@@ -421,7 +345,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR3@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#2b73d3",
           "cricketScore": null,
           "kabaddiScore": null,
@@ -444,34 +368,34 @@
     },
     {
       "category": "Cricket",
-      "title": "Oman Development Team Vs Ias Invincibles",
-      "tournament": "Oman Super League T20, 2026",
-      "match_id": 139576,
+      "title": "Central Hinds Vs Northern Brave Women",
+      "tournament": "Women's Super Smash, 2025-26",
+      "match_id": 138780,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "12 January 2026 04:30 PM",
+      "startTime": "13 January 2026 06:40 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138780_5801_CH-W_NB-W_fc-web_1766596522104.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139576_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138780_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138780_5801_CH-W_NB-W_fc-web_1766596522104.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139576_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138780_5801_CH-W_NB-W_fc-web_1766596522104.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138780_5801_CH-W_NB-W_fc-app_1766596319024.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138780_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Oman Development Team",
-          "shortName": "ODT",
+          "name": "Central Hinds",
+          "shortName": "CH-W",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR3@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CHIW@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
+          "color": "#14693C",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -483,14 +407,81 @@
           }
         },
         {
-          "name": "IAS Invincibles",
-          "shortName": "IAI",
+          "name": "Northern Brave Women",
+          "shortName": "NB-W",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IAI@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NB-W-CR1@2x.png"
           },
           "isWinner": null,
-          "color": "#138bc2",
-          "cricketScore": null,
+          "color": "#bcbcbc",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Cricket",
+      "title": "Central Stags Vs Northern Districts",
+      "tournament": "Super Smash, 2025-26",
+      "match_id": 138748,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 January 2026 10:25 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138748_5800_CS_ND_fc-web_1766641250992.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138748_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138748_5800_CS_ND_fc-web_1766641250992.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138748_5800_CS_ND_fc-web_1766641250992.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138748_5800_CS_ND_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138748_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Central Stags",
+          "shortName": "CS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CSGT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#03684A",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Northern Districts",
+          "shortName": "ND",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NB-W-CR1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#bcbcbc",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -585,15 +576,15 @@
       "streamingStatus": "NOT_STARTED",
       "startTime": "12 January 2026 11:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web-(1).jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/139357_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web-(1).jpg",
         "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSL-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-web-(1).jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Al-Hilal-SFC-vs-Al-Nassr-FC_fc-app-(1).jpg",
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139357_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
@@ -624,6 +615,140 @@
           },
           "isWinner": null,
           "color": "#b6b64a",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Football",
+      "title": "Sevilla Fc Vs Rc Celta",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131013,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 January 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131019_5427_GIR_OSN_fc-Web_1768202652350.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131013_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131019_5427_GIR_OSN_fc-Web_1768202652350.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131019_5427_GIR_OSN_fc-Web_1768202652350.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131019_5427_GIR_OSN_fc-App_1768202651543.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131013_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Sevilla FC",
+          "shortName": "SEV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SVI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#daa335",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "RC Celta",
+          "shortName": "CEV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b1d4f5",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Cricket",
+      "title": "Swami Vivekanand Vs Rizvi",
+      "tournament": "Giles Shield 2026",
+      "match_id": 139667,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 January 2026 09:45 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139667_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139667_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Swami Vivekanand",
+          "shortName": "SWV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#B8142D",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Rizvi",
+          "shortName": "RIZ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#80081C",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -778,34 +903,34 @@
       "source": "Fancode"
     },
     {
-      "category": "Football",
-      "title": "Sevilla Fc Vs Rc Celta",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131013,
+      "category": "Cricket",
+      "title": "Oman Development Team Vs Renaissance Challengers",
+      "tournament": "Oman Super League T20, 2026",
+      "match_id": 139578,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 01:30 AM",
+      "startTime": "13 January 2026 04:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131013_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139578_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131013_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139578_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Sevilla FC",
-          "shortName": "SEV",
+          "name": "Oman Development Team",
+          "shortName": "ODT",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SVI@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR3@2x.png"
           },
           "isWinner": null,
-          "color": "#daa335",
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -818,13 +943,13 @@
           }
         },
         {
-          "name": "RC Celta",
-          "shortName": "CEV",
+          "name": "Renaissance Challengers",
+          "shortName": "RNC",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RNC@2x.png"
           },
           "isWinner": null,
-          "color": "#b1d4f5",
+          "color": "#bb4335",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -846,33 +971,33 @@
     },
     {
       "category": "Cricket",
-      "title": "Central Hinds Vs Northern Brave Women",
-      "tournament": "Women's Super Smash, 2025-26",
-      "match_id": 138780,
+      "title": "Windward Islands Women Vs Guyana Women",
+      "tournament": "CWI T20 Blaze 2026",
+      "match_id": 139745,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 06:40 AM",
+      "startTime": "13 January 2026 07:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138780_5801_CH-W_NB-W_fc-web_1766596522104.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138780_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138780_5801_CH-W_NB-W_fc-web_1766596522104.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139745_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138780_5801_CH-W_NB-W_fc-web_1766596522104.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138780_5801_CH-W_NB-W_fc-app_1766596319024.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138780_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139745_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Central Hinds",
-          "shortName": "CH-W",
+          "name": "Windward Islands Women",
+          "shortName": "WWI-W",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CHIW@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WNII@2x.png"
           },
           "isWinner": null,
-          "color": "#14693C",
+          "color": "#6bc911",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -885,13 +1010,13 @@
           }
         },
         {
-          "name": "Northern Brave Women",
-          "shortName": "NB-W",
+          "name": "Guyana Women",
+          "shortName": "GY-W",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NB-W-CR1@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUYY@2x.png"
           },
           "isWinner": null,
-          "color": "#bcbcbc",
+          "color": "#008b4b",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -912,34 +1037,34 @@
       "source": "Fancode"
     },
     {
-      "category": "Tennis",
-      "title": "Atp 250   Asb Classic",
-      "tournament": "ATP 250 - Auckland Open",
-      "match_id": 139536,
+      "category": "Football",
+      "title": "Ir Iran U23 Vs Lebanon U23",
+      "tournament": "AFC U23 Asian Cup, 2026",
+      "match_id": 139270,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "12 January 2026 04:00 AM",
+      "startTime": "13 January 2026 05:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/139270_5822_IRN-U23_LEB-U23_fc-web.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139536_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139270_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/139270_5822_IRN-U23_LEB-U23_fc-web.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139536_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-U23-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139270_5822_IRN-U23_LEB-U23_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139270_5822_IRN-U23_LEB-U23_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139270_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "ATP 250 - ASB Classic",
-          "shortName": "ATP 250 - ASB Classic",
+          "name": "IR Iran U23",
+          "shortName": "IRN-U23",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-IRN@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
+          "color": "#e65e5e",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -952,13 +1077,13 @@
           }
         },
         {
-          "name": "Auckland",
-          "shortName": "Auckland",
+          "name": "Lebanon U23",
+          "shortName": "LEB-U23",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LEB@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
+          "color": "#fe0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -979,34 +1104,34 @@
       "source": "Fancode"
     },
     {
-      "category": "Tennis",
-      "title": "Centre Court   Day 1",
-      "tournament": "ATP 250 - Adelaide International",
-      "match_id": 139532,
+      "category": "Football",
+      "title": "Uzbekistan U23 Vs Korea Republic U23",
+      "tournament": "AFC U23 Asian Cup, 2026",
+      "match_id": 139269,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "12 January 2026 09:30 AM",
+      "startTime": "13 January 2026 05:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/139269_5822_UZB-U23_KR-U23_fc-web.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139532_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139269_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/139269_5822_UZB-U23_KR-U23_fc-web.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(1)_1767943452385.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139532_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-U23-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139269_5822_UZB-U23_KR-U23_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139269_5822_UZB-U23_KR-U23_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139269_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Centre Court - Day 1",
-          "shortName": "Centre Court - Day 1",
+          "name": "Uzbekistan U23",
+          "shortName": "UZB-U23",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/UZB-FT1@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
+          "color": "#2a83e3",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1019,13 +1144,13 @@
           }
         },
         {
-          "name": "Adelaide",
-          "shortName": "Adelaide",
+          "name": "Korea Republic U23",
+          "shortName": "KR-U23",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/KOR-FT1@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
+          "color": "#dd717a",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1047,28 +1172,95 @@
     },
     {
       "category": "Tennis",
-      "title": "Show Court 1   Day 1",
+      "title": "Show Court 1   Day 2",
       "tournament": "ATP 250 - Adelaide International",
-      "match_id": 139533,
+      "match_id": 139535,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "12 January 2026 12:00 PM",
+      "startTime": "13 January 2026 05:00 AM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139533_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139535_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
         "PLAYBACK": null,
         "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
         "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(1)_1767942976312.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139533_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139535_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Show Court 1 - Day 1",
-          "shortName": "Show Court 1 - Day 1",
+          "name": "Show Court 1 - Day 2",
+          "shortName": "Show Court 1 - Day 2",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Adelaide",
+          "shortName": "Adelaide",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Tennis",
+      "title": "Centre Court   Day 2",
+      "tournament": "ATP 250 - Adelaide International",
+      "match_id": 139534,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 January 2026 05:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139534_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(1)_1767942976312.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139534_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Centre Court - Day 2",
+          "shortName": "Centre Court - Day 2",
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
@@ -1114,42 +1306,34 @@
     },
     {
       "category": "Cricket",
-      "title": "Wellington Blaze Vs Northern Brave Women",
-      "tournament": "Women's Super Smash, 2025-26",
-      "match_id": 138778,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "11 January 2026 05:10 AM",
+      "title": "Ias Invincibles Vs Majees Titans",
+      "tournament": "Oman Super League T20, 2026",
+      "match_id": 139579,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "13 January 2026 09:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138778_5801_WB-W_NB-W_fc-web_1766596522077.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138778_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138778_5801_WB-W_NB-W_fc-web_1766596522077.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139579_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138778_5801_WB-W_NB-W_fc-web_1766596522077.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138778_5801_WB-W_NB-W_fc-app_1766596319007.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138778_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139579_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Wellington Blaze",
-          "shortName": "WB-W",
+          "name": "IAS Invincibles",
+          "shortName": "IAI",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WBLW@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IAI@2x.png"
           },
-          "isWinner": true,
-          "color": "#dcdcdc",
-          "cricketScore": [
-            {
-              "runs": 165,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 6
-            }
-          ],
+          "isWinner": null,
+          "color": "#138bc2",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1161,78 +1345,14 @@
           }
         },
         {
-          "name": "Northern Brave Women",
-          "shortName": "NB-W",
+          "name": "Majees Titans",
+          "shortName": "MAT",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NB-W-CR1@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAJ@2x.png"
           },
-          "isWinner": false,
-          "color": "#bcbcbc",
-          "cricketScore": [
-            {
-              "runs": 162,
-              "overs": "20",
-              "balls": "120",
-              "status": "IN_PROGRESS",
-              "wickets": 8
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Cricket",
-      "title": "Wellington Firebirds Vs Northern Districts",
-      "tournament": "Super Smash, 2025-26",
-      "match_id": 138746,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "11 January 2026 08:55 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138746_5800_WF_ND_fc-web_1766641251667.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138746_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138746_5800_WF_ND_fc-web_1766641251667.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138746_5800_WF_ND_fc-web_1766641251667.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138746_5800_WF_ND_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138746_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Wellington Firebirds",
-          "shortName": "WF",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-FIRE@2x.png"
-          },
-          "isWinner": false,
-          "color": "#FFD433",
-          "cricketScore": [
-            {
-              "runs": 185,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 7
-            }
-          ],
+          "isWinner": null,
+          "color": "#d8c50f",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1240,116 +1360,6 @@
           "status": {
             "cricket": {
               "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Northern Districts",
-          "shortName": "ND",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NB-W-CR1@2x.png"
-          },
-          "isWinner": true,
-          "color": "#bcbcbc",
-          "cricketScore": [
-            {
-              "runs": 189,
-              "overs": "16.2",
-              "balls": "98",
-              "status": "IN_PROGRESS",
-              "wickets": 4
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Cricket",
-      "title": "Rangpur Riders Vs Rajshahi Warriors",
-      "tournament": "Bangladesh Premier League, 2025-26",
-      "match_id": 138938,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "11 January 2026 12:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138938_5808_DBR_RAN_fc-web_1766733054364.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138938_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138938_5808_DBR_RAN_fc-web_1766733054364.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/BPL-T20.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138938_5808_DBR_RAN_fc-web_1766733054364.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138938_5808_DBR_RAN_fc-App_1767706252927.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138938_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Rangpur Riders",
-          "shortName": "RAN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RANG@2x.png"
-          },
-          "isWinner": false,
-          "color": "#42b7e8",
-          "cricketScore": [
-            {
-              "runs": 178,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 4
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Rajshahi Warriors",
-          "shortName": "RAW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RAW@2x.png"
-          },
-          "isWinner": true,
-          "color": "#fdcb83",
-          "cricketScore": [
-            {
-              "runs": 179,
-              "overs": "19.1",
-              "balls": "115",
-              "status": "IN_PROGRESS",
-              "wickets": 3
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
             }
           }
         }
@@ -1529,34 +1539,42 @@
     },
     {
       "category": "Cricket",
-      "title": "Central Stags Vs Northern Districts",
-      "tournament": "Super Smash, 2025-26",
-      "match_id": 138748,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 10:25 AM",
+      "title": "Auckland Hearts Vs Otago Sparks",
+      "tournament": "Women's Super Smash, 2025-26",
+      "match_id": 138779,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "12 January 2026 05:10 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138748_5800_CS_ND_fc-web_1766641250992.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138779_5801_OS-W_AH-W_fc-web_1766596522276.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138748_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138748_5800_CS_ND_fc-web_1766641250992.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138779_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138779_5801_OS-W_AH-W_fc-web_1766596522276.jpg",
         "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138748_5800_CS_ND_fc-web_1766641250992.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138748_5800_CS_ND_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138748_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138779_5801_OS-W_AH-W_fc-web_1766596522276.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138779_5801_OS-W_AH-W_fc-app_1766596319096.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138779_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Central Stags",
-          "shortName": "CS",
+          "name": "Auckland Hearts",
+          "shortName": "AH-W",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CSGT@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUHW@2x.png"
           },
-          "isWinner": null,
-          "color": "#03684A",
-          "cricketScore": null,
+          "isWinner": false,
+          "color": "#221469",
+          "cricketScore": [
+            {
+              "runs": 168,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 5
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1568,21 +1586,29 @@
           }
         },
         {
-          "name": "Northern Districts",
-          "shortName": "ND",
+          "name": "Otago Sparks",
+          "shortName": "OS-W",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NB-W-CR1@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OSW@2x.png"
           },
-          "isWinner": null,
-          "color": "#bcbcbc",
-          "cricketScore": null,
+          "isWinner": true,
+          "color": "#FFD433",
+          "cricketScore": [
+            {
+              "runs": 169,
+              "overs": "18.2",
+              "balls": "110",
+              "status": "IN_PROGRESS",
+              "wickets": 6
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -1596,34 +1622,42 @@
     },
     {
       "category": "Cricket",
-      "title": "Swami Vivekanand Vs Rizvi",
-      "tournament": "Giles Shield 2026",
-      "match_id": 139667,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 09:45 AM",
+      "title": "Otago Volts Vs Auckland Aces",
+      "tournament": "Super Smash, 2025-26",
+      "match_id": 138747,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "12 January 2026 08:55 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_fc-web_1766641251086.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139667_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138747_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_fc-web_1766641251086.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139667_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_fc-web_1766641251086.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138747_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Swami Vivekanand",
-          "shortName": "SWV",
+          "name": "Otago Volts",
+          "shortName": "OV",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR1@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VOLT@2x.png"
           },
-          "isWinner": null,
-          "color": "#B8142D",
-          "cricketScore": null,
+          "isWinner": false,
+          "color": "#e0cc38",
+          "cricketScore": [
+            {
+              "runs": 159,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 10
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1635,155 +1669,29 @@
           }
         },
         {
-          "name": "Rizvi",
-          "shortName": "RIZ",
+          "name": "Auckland Aces",
+          "shortName": "AA",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR2@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ACE@2x.png"
           },
-          "isWinner": null,
-          "color": "#80081C",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
+          "isWinner": true,
+          "color": "#0A129E",
+          "cricketScore": [
+            {
+              "runs": 161,
+              "overs": "18.4",
+              "balls": "112",
+              "status": "IN_PROGRESS",
+              "wickets": 5
             }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Tennis",
-      "title": "Show Court 1   Day 2",
-      "tournament": "ATP 250 - Adelaide International",
-      "match_id": 139535,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 05:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139535_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(1)_1767942976312.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139535_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Show Court 1 - Day 2",
-          "shortName": "Show Court 1 - Day 2",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Adelaide",
-          "shortName": "Adelaide",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Tennis",
-      "title": "Centre Court   Day 2",
-      "tournament": "ATP 250 - Adelaide International",
-      "match_id": 139534,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 05:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139534_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(1)_1767942976312.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139534_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Centre Court - Day 2",
-          "shortName": "Centre Court - Day 2",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Adelaide",
-          "shortName": "Adelaide",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -1797,34 +1705,42 @@
     },
     {
       "category": "Cricket",
-      "title": "Oman Development Team Vs Renaissance Challengers",
-      "tournament": "Oman Super League T20, 2026",
-      "match_id": 139578,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 04:00 PM",
+      "title": "Rangpur Riders Vs Sylhet Titans",
+      "tournament": "Bangladesh Premier League, 2025-26",
+      "match_id": 138932,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "12 January 2026 12:30 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138932_5808_SYL_RAN_fc-web_1766733054172.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139578_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138932_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138932_5808_SYL_RAN_fc-web_1766733054172.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/BPL-T20.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139578_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138932_5808_SYL_RAN_fc-web_1766733054172.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138932_5808_SYL_RAN_fc-App_1767706252268.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138932_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Oman Development Team",
-          "shortName": "ODT",
+          "name": "Rangpur Riders",
+          "shortName": "RAN",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR3@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RANG@2x.png"
           },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
+          "isWinner": false,
+          "color": "#42b7e8",
+          "cricketScore": [
+            {
+              "runs": 114,
+              "overs": "19.1",
+              "balls": "115",
+              "status": "COMPLETED",
+              "wickets": 10
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1836,21 +1752,29 @@
           }
         },
         {
-          "name": "Renaissance Challengers",
-          "shortName": "RNC",
+          "name": "Sylhet Titans",
+          "shortName": "SYT",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RNC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SYT@2x.png"
           },
-          "isWinner": null,
-          "color": "#bb4335",
-          "cricketScore": null,
+          "isWinner": true,
+          "color": "#0d7972",
+          "cricketScore": [
+            {
+              "runs": 119,
+              "overs": "17.3",
+              "balls": "105",
+              "status": "IN_PROGRESS",
+              "wickets": 4
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -1864,33 +1788,33 @@
     },
     {
       "category": "Football",
-      "title": "Ir Iran U23 Vs Lebanon U23",
-      "tournament": "AFC U23 Asian Cup, 2026",
-      "match_id": 139270,
+      "title": "Damac Vs Al Ittihad",
+      "tournament": "Roshn Saudi League 2025-2026",
+      "match_id": 139358,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 05:00 PM",
+      "startTime": "13 January 2026 11:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/139270_5822_IRN-U23_LEB-U23_fc-web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139270_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/139270_5822_IRN-U23_LEB-U23_fc-web.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139358_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-U23-Tour-Logo.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSL-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139270_5822_IRN-U23_LEB-U23_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139270_5822_IRN-U23_LEB-U23_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139270_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139358_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "IR Iran U23",
-          "shortName": "IRN-U23",
+          "name": "Damac",
+          "shortName": "DAM",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-IRN@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-DAM@2x.png"
           },
           "isWinner": null,
-          "color": "#e65e5e",
+          "color": "#82ACE0",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1903,80 +1827,13 @@
           }
         },
         {
-          "name": "Lebanon U23",
-          "shortName": "LEB-U23",
+          "name": "Al-Ittihad",
+          "shortName": "ITT",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LEB@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ITT@2x.png"
           },
           "isWinner": null,
-          "color": "#fe0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Football",
-      "title": "Uzbekistan U23 Vs Korea Republic U23",
-      "tournament": "AFC U23 Asian Cup, 2026",
-      "match_id": 139269,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 05:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/139269_5822_UZB-U23_KR-U23_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139269_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/139269_5822_UZB-U23_KR-U23_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-U23-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139269_5822_UZB-U23_KR-U23_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139269_5822_UZB-U23_KR-U23_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139269_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Uzbekistan U23",
-          "shortName": "UZB-U23",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/UZB-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#2a83e3",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Korea Republic U23",
-          "shortName": "KR-U23",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/KOR-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#dd717a",
+          "color": "#00334d",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2044,207 +1901,6 @@
           },
           "isWinner": null,
           "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Cricket",
-      "title": "Windward Islands Women Vs Guyana Women",
-      "tournament": "CWI T20 Blaze 2026",
-      "match_id": 139745,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 07:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139745_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139745_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Windward Islands Women",
-          "shortName": "WWI-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WNII@2x.png"
-          },
-          "isWinner": null,
-          "color": "#6bc911",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Guyana Women",
-          "shortName": "GY-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GUYY@2x.png"
-          },
-          "isWinner": null,
-          "color": "#008b4b",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Cricket",
-      "title": "Ias Invincibles Vs Majees Titans",
-      "tournament": "Oman Super League T20, 2026",
-      "match_id": 139579,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 09:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139579_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139579_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "IAS Invincibles",
-          "shortName": "IAI",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IAI@2x.png"
-          },
-          "isWinner": null,
-          "color": "#138bc2",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Majees Titans",
-          "shortName": "MAT",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAJ@2x.png"
-          },
-          "isWinner": null,
-          "color": "#d8c50f",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Football",
-      "title": "Damac Vs Al Ittihad",
-      "tournament": "Roshn Saudi League 2025-2026",
-      "match_id": 139358,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "13 January 2026 11:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139358_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139358_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Damac",
-          "shortName": "DAM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-DAM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#82ACE0",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Al-Ittihad",
-          "shortName": "ITT",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ITT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00334d",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2667,10 +2323,345 @@
       "source": "Fancode"
     },
     {
+      "category": "Football",
+      "title": "Real Sociedad Vs Ca Osasuna",
+      "tournament": "Copa del Rey, 2025-26",
+      "match_id": 139669,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "14 January 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139669_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/12/Copa-Del-Rey-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139669_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Real Sociedad",
+          "shortName": "RS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RSO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ae7a05",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "CA Osasuna",
+          "shortName": "OSN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-OSN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#F2DC85",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Cricket",
+      "title": "Auckland Aces Vs Canterbury",
+      "tournament": "Super Smash, 2025-26",
+      "match_id": 138749,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "14 January 2026 05:10 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138749_5800_AA_CTB_fc-web_1766641251656.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138749_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138749_5800_AA_CTB_fc-web_1766641251656.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138749_5800_AA_CTB_fc-web_1766641251656.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138749_5800_AA_CTB_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138749_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Auckland Aces",
+          "shortName": "AA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ACE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0A129E",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Canterbury",
+          "shortName": "CTB",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KING@2x.png"
+          },
+          "isWinner": null,
+          "color": "#DE3018",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Cricket",
+      "title": "Trinidad And Tobago Women Vs Barbados Women",
+      "tournament": "CWI T20 Blaze 2026",
+      "match_id": 139747,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "14 January 2026 04:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139747_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139747_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Trinidad and Tobago Women",
+          "shortName": "TT-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TNRF@2x.png"
+          },
+          "isWinner": null,
+          "color": "#F84B47",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Barbados Women",
+          "shortName": "BAR-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BARR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FFE339",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Cricket",
+      "title": "Auckland Hearts Vs Canterbury Magicians",
+      "tournament": "Women's Super Smash, 2025-26",
+      "match_id": 138781,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "14 January 2026 09:20 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138781_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-app_1766596319047.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138781_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Auckland Hearts",
+          "shortName": "AH-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUHW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#221469",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Canterbury Magicians",
+          "shortName": "CM-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAGW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#DE3018",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Tennis",
+      "title": "Show Court 1   Day 3",
+      "tournament": "ATP 250 - Adelaide International",
+      "match_id": 139565,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "14 January 2026 05:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139565_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(1)_1767943452385.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139565_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Show Court 1 - Day 3",
+          "shortName": "Show Court 1 - Day 3",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Adelaide",
+          "shortName": "Adelaide",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
       "match_id": 1090499082,
       "title": "Upcoming - Emirates FA Cup - Liverpool vs Barnsley",
       "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013071/1767778522343928_FAcup26_Liverpool_vs_Barnsley_6jan_dated_landscape_thumb.jpg",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013071/1767778570632928_FAcup26_Liverpool_vs_Barnsley_6jan_tonight_landscape_thumb.jpg",
       "STREAMING_CDN": {
         "Primary_Playback_URL": ""
       },
@@ -2697,6 +2688,26 @@
       "source": "SonyLIV"
     },
     {
+      "match_id": 1090499496,
+      "title": "Upcoming - Matchday 7 - UEFA Champions League 2025-26",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013281/176821228487333_janu_promo_landscape.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499497,
+      "title": "Upcoming - Pro Wrestling League 2026",
+      "status": "COMPLETED",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013281/176821222323833_Pro_W_L_landscape.jpg",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
       "match_id": 1090496895,
       "title": "Upcoming - Australian Open 2026",
       "status": "COMPLETED",
@@ -2707,32 +2718,22 @@
       "source": "SonyLIV"
     },
     {
-      "match_id": 1090499079,
-      "title": "Upcoming - Emirates FA Cup - Round 3",
-      "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013076/1767785016471119_FA_CUP_3rdRD_Landscape_thumb.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": ""
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": 1090499230,
-      "title": "Upcoming - Emirates FA Cup - Round 3",
-      "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013163/1767950286474880_FA-CUP_Round-3-promo_landscape.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": ""
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": "1540060260",
-      "title": "Buffalo Bills @ Jacksonville Jaguars",
+      "match_id": "1540058959",
+      "title": "Sydney Thunder vs Melbourne Renegades",
       "status": "LIVE",
-      "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/9105/1768059289105-h",
+      "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/7076/1768128377076-h",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://www.hotstar.com/in/sports/american-football/buffalo-bills-at-jacksonville-jaguars/1540060260/video/live/watch"
+        "Primary_Playback_URL": "https://www.hotstar.com/in/sports/cricket/sydney-thunder-vs-melbourne-renegades/1540058959/video/live/watch"
+      },
+      "source": "JioHotstar"
+    },
+    {
+      "match_id": "1540059109",
+      "title": "QF: Karnataka vs Mumbai",
+      "status": "LIVE",
+      "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/243/1768160340243-h",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://www.hotstar.com/in/sports/cricket/qf-karnataka-vs-mumbai/1540059109/video/live/watch"
       },
       "source": "JioHotstar"
     },
