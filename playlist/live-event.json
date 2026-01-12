@@ -1,7 +1,7 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-12 04:03:48",
-  "total_matches": 52,
+  "last_updated": "2026-01-12 04:58:05",
+  "total_matches": 49,
   "matches": [
     {
       "category": "Cricket",
@@ -34,11 +34,11 @@
           "color": "#e0cc38",
           "cricketScore": [
             {
-              "runs": 57,
-              "overs": "6.5",
-              "balls": "41",
+              "runs": 153,
+              "overs": "18.5",
+              "balls": "113",
               "status": "IN_PROGRESS",
-              "wickets": 3
+              "wickets": 8
             }
           ],
           "kabaddiScore": null,
@@ -88,10 +88,10 @@
       "title": "V N Sule Vs Dyandeep Seva Mandal",
       "tournament": "Giles Shield 2026",
       "match_id": 139666,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "12 January 2026 09:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
+      "startDate": "12 January 2026 09:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/139666_CASACARDS_PARTNER_16_9_1920_1080.png",
@@ -110,7 +110,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR1@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#B8142D",
           "cricketScore": null,
           "kabaddiScore": null,
@@ -129,7 +129,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR3@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#2b73d3",
           "cricketScore": null,
           "kabaddiScore": null,
@@ -2663,7 +2663,7 @@
       "status": "LIVE",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767278965328898_SuperSmash2526_mens_Otago-Volts-vs-Auckland-Aces_1jan_landscape_thumb.jpg",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768233697~acl=/*~id=36727030718085749650981253711636~hmac=66315415a1dbc6bfb52973f895c92fbc5f95b629529959d1684e11afbba426d6"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768236741~acl=/*~id=09936703817199740680735866818933~hmac=18b42220423e03ea6966a1e15aa39a6a4fdf3e24911fc05c5a89320c4d6e3b14"
       },
       "source": "SonyLIV"
     },
@@ -2708,26 +2708,6 @@
       "source": "SonyLIV"
     },
     {
-      "match_id": 1090499079,
-      "title": "Upcoming - Emirates FA Cup - Round 3",
-      "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013076/1767785016471119_FA_CUP_3rdRD_Landscape_thumb.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": ""
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": 1090499230,
-      "title": "Upcoming - Emirates FA Cup - Round 3",
-      "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013163/1767950286474880_FA-CUP_Round-3-promo_landscape.jpg",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": ""
-      },
-      "source": "SonyLIV"
-    },
-    {
       "match_id": "1540059112",
       "title": "QF: Uttar Pradesh vs Saurashtra",
       "status": "LIVE",
@@ -2754,16 +2734,6 @@
       "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/5745/1750779565745-h",
       "STREAMING_CDN": {
         "Primary_Playback_URL": "https://www.hotstar.com/in/clip/star-sports-cricket-classics/1540040039/watch"
-      },
-      "source": "JioHotstar"
-    },
-    {
-      "match_id": "1540060263",
-      "title": "New England Patriots @ Los Angeles Chargers",
-      "status": "LIVE",
-      "image": "https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/4773/1768136174773-h",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://www.hotstar.com/in/sports/american-football/new-england-patriots-at-los-angeles-chargers/1540060263/video/live/watch"
       },
       "source": "JioHotstar"
     },
