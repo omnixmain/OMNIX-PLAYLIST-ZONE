@@ -1,7 +1,7 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-12 17:49:48",
-  "total_matches": 43,
+  "last_updated": "2026-01-12 17:59:58",
+  "total_matches": 42,
   "matches": [
     {
       "match_id": "139577",
@@ -216,6 +216,14 @@
       "source": "Fancode"
     },
     {
+      "match_id": "138749",
+      "title": "Auckland Aces Vs Canterbury",
+      "status": "NOT_STARTED",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138749_5800_AA_CTB_fc-web_1766641251656.jpg",
+      "streams": [],
+      "source": "Fancode"
+    },
+    {
       "match_id": "139535",
       "title": "Show Court 1   Day 2",
       "status": "NOT_STARTED",
@@ -228,14 +236,6 @@
       "title": "Centre Court   Day 2",
       "status": "NOT_STARTED",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png",
-      "streams": [],
-      "source": "Fancode"
-    },
-    {
-      "match_id": "138749",
-      "title": "Auckland Aces Vs Canterbury",
-      "status": "NOT_STARTED",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138749_5800_AA_CTB_fc-web_1766641251656.jpg",
       "streams": [],
       "source": "Fancode"
     },
@@ -372,14 +372,6 @@
       "title": "Upcoming - Matchday 7 - UEFA Champions League 2025-26",
       "status": "COMPLETED",
       "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013286/1768218060856467_UCL26_MD7_dated_12jan_landscape_thumb.jpg",
-      "streams": [],
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": "1090496895",
-      "title": "Upcoming - Australian Open 2026",
-      "status": "COMPLETED",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012914/1767431793855494_Australian-Open-2026-Promo-Thumbs_landscape.jpg",
       "streams": [],
       "source": "SonyLIV"
     }
