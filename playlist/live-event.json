@@ -1,6 +1,6 @@
 {
   "name": "live-event",
-  "last_updated": "2026-01-12 08:40:04",
+  "last_updated": "2026-01-12 09:03:12",
   "total_matches": 49,
   "matches": [
     {
@@ -37,7 +37,7 @@
               "runs": 114,
               "overs": "19.1",
               "balls": "115",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 10
             }
           ],
@@ -47,7 +47,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -59,14 +59,22 @@
           },
           "isWinner": null,
           "color": "#0d7972",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 6,
+              "overs": "1.5",
+              "balls": "11",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
