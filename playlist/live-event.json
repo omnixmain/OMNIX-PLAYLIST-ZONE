@@ -1,14 +1,14 @@
 {
   "Author": "OMNIX-EMPIRE",
   "name": "FanCode Live Matches API",
-  "last_updated": "11:31:44 PM 12-01-2026",
+  "last_updated": "11:47:04 PM 12-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 43,
+  "total_matches": 47,
   "live_matches": 2,
-  "upcoming_matches": 41,
+  "upcoming_matches": 45,
   "matches": [
     {
       "category": "Tennis",
@@ -580,7 +580,7 @@
           },
           "isWinner": null,
           "color": "#0A129E",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -599,7 +599,7 @@
           },
           "isWinner": null,
           "color": "#DE3018",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -2710,6 +2710,48 @@
       "source": "SonyLIV"
     },
     {
+      "match_id": 1090499519,
+      "title": "Upcoming - Borussia Dortmund vs Werder Bremen",
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "category": "SonyLIV",
+      "tournament": "SonyLIV Events",
+      "startTime": "",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242341327608_PROMO_BUNDESLIGA_MD17_BVB_VS_SVW_landscape_thumb.jpg",
+      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242341327608_PROMO_BUNDESLIGA_MD17_BVB_VS_SVW_landscape_thumb.jpg",
+      "image_cdn": {
+        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242341327608_PROMO_BUNDESLIGA_MD17_BVB_VS_SVW_landscape_thumb.jpg",
+        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242341327608_PROMO_BUNDESLIGA_MD17_BVB_VS_SVW_landscape_thumb.jpg",
+        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242341327608_PROMO_BUNDESLIGA_MD17_BVB_VS_SVW_landscape_thumb.jpg"
+      },
+      "teams": [],
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499520,
+      "title": "Upcoming - FC Koln vs Bayern Munich",
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "category": "SonyLIV",
+      "tournament": "SonyLIV Events",
+      "startTime": "",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242316561608_PROMO_BUNDESLIGA_MD17_KOE_VS_BAY_landscape_thumb.jpg",
+      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242316561608_PROMO_BUNDESLIGA_MD17_KOE_VS_BAY_landscape_thumb.jpg",
+      "image_cdn": {
+        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242316561608_PROMO_BUNDESLIGA_MD17_KOE_VS_BAY_landscape_thumb.jpg",
+        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242316561608_PROMO_BUNDESLIGA_MD17_KOE_VS_BAY_landscape_thumb.jpg",
+        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242316561608_PROMO_BUNDESLIGA_MD17_KOE_VS_BAY_landscape_thumb.jpg"
+      },
+      "teams": [],
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
       "match_id": 1090496895,
       "title": "Upcoming - Australian Open 2026",
       "status": "COMPLETED",
@@ -2723,6 +2765,48 @@
         "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012914/1767431793855494_Australian-Open-2026-Promo-Thumbs_landscape.jpg",
         "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012914/1767431793855494_Australian-Open-2026-Promo-Thumbs_landscape.jpg",
         "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012914/1767431793855494_Australian-Open-2026-Promo-Thumbs_landscape.jpg"
+      },
+      "teams": [],
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499521,
+      "title": "Upcoming - Borussia Dortmund vs St. Pauli",
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "category": "SonyLIV",
+      "tournament": "SonyLIV Events",
+      "startTime": "",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242272062608_PROMO_BUNDESLIGA_MD18_BV_VS_STP_landscape_thumb.jpg",
+      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242272062608_PROMO_BUNDESLIGA_MD18_BV_VS_STP_landscape_thumb.jpg",
+      "image_cdn": {
+        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242272062608_PROMO_BUNDESLIGA_MD18_BV_VS_STP_landscape_thumb.jpg",
+        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242272062608_PROMO_BUNDESLIGA_MD18_BV_VS_STP_landscape_thumb.jpg",
+        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242272062608_PROMO_BUNDESLIGA_MD18_BV_VS_STP_landscape_thumb.jpg"
+      },
+      "teams": [],
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499522,
+      "title": "Upcoming - RB Leipzig vs Bayern Munich",
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "category": "SonyLIV",
+      "tournament": "SonyLIV Events",
+      "startTime": "",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242251246608_PROMO_BUNDESLIGA_MD18_RBL_VS_BAY_landscape_thumb.jpg",
+      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242251246608_PROMO_BUNDESLIGA_MD18_RBL_VS_BAY_landscape_thumb.jpg",
+      "image_cdn": {
+        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242251246608_PROMO_BUNDESLIGA_MD18_RBL_VS_BAY_landscape_thumb.jpg",
+        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242251246608_PROMO_BUNDESLIGA_MD18_RBL_VS_BAY_landscape_thumb.jpg",
+        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013309/1768242251246608_PROMO_BUNDESLIGA_MD18_RBL_VS_BAY_landscape_thumb.jpg"
       },
       "teams": [],
       "STREAMING_CDN": {
