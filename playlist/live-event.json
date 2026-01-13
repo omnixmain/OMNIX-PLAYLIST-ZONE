@@ -1,7 +1,7 @@
 {
   "Author": "OMNIX-EMPIRE",
   "name": "FanCode Live Matches API",
-  "last_updated": "08:49:02 PM 13-01-2026",
+  "last_updated": "09:00:07 PM 13-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -270,8 +270,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 2,
+            "points": 3,
             "goals": [
+              {
+                "id": "4959",
+                "shortName": "R Sobrino",
+                "isOwnGoal": false,
+                "goalTime": "41'"
+              },
               {
                 "id": "22891",
                 "shortName": "I Calero",
@@ -305,8 +311,20 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 3,
             "goals": [
+              {
+                "id": "65851",
+                "shortName": "O Sancet",
+                "isOwnGoal": false,
+                "goalTime": "45'"
+              },
+              {
+                "id": "50090",
+                "shortName": "G Guruzeta",
+                "isOwnGoal": false,
+                "goalTime": "38'"
+              },
               {
                 "id": "50090",
                 "shortName": "G Guruzeta",
@@ -2687,7 +2705,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768380346~acl=/*~id=16494141266777902665051680406534~hmac=e2a53a5495f57a3fe9160a4a5827b8df40f342c9a925fe27c6efe6cd35b4d87f"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768380956~acl=/*~id=78873484895734105643496874564201~hmac=d459ec03f8536df6ccc30171f38ade6731431a33cbfa6f9564eb0c9efb45d9e5"
       },
       "source": "SonyLIV"
     },
@@ -2708,7 +2726,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768380346~acl=/*~id=16494141266777902665051680406534~hmac=e2a53a5495f57a3fe9160a4a5827b8df40f342c9a925fe27c6efe6cd35b4d87f"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768380956~acl=/*~id=78873484895734105643496874564201~hmac=d459ec03f8536df6ccc30171f38ade6731431a33cbfa6f9564eb0c9efb45d9e5"
       },
       "source": "SonyLIV"
     },
