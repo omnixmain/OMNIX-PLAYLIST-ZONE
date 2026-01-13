@@ -7,9 +7,13 @@ https://dai.google.com/linear/hls/event/yCHFU6PQRTSFzNVuadizig/master.m3u8
 https://in-mc-fdlive.fancode.com/s3/53d0a95d-be66-44b8-b9ef-71a778a8b56e/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg" group-title="Fancode",Atp 250   Asb Classic [DAI]
 Unavailable
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png" group-title="Fancode",Show Court 1   Day 2 [Main]
+https://in-mc-fdlive.fancode.com/mumbai/139535_english_hls_ad9d8e1ce860874_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png" group-title="Fancode",Show Court 1   Day 2 [DAI]
+https://dai.google.com/linear/hls/event/MFvE-fczS7eNyNnDe76t5Q/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png" group-title="Fancode",Centre Court   Day 2 [Main]
 https://in-mc-fdlive.fancode.com/mumbai/139534_english_hls_e518ffe26d111_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png" group-title="Fancode",Centre Court   Day 2 [DAI]
 https://dai.google.com/linear/hls/event/RVF7Yb7aQ0yUOt4MMwrs5A/master.m3u8
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767248768169898_SuperSmash2526_womens_Central-Hinds-vs-Northern-Brave_1jan_landscape_thumb.jpg" group-title="SonyLIV",Central Hinds vs Northern Brave- 13 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768312750~acl=/*~id=96559084628950726868321544158990~hmac=77e5c65c0ebc9e40828acb831ac07300dfb04d6c6838cca18902adf868728aca
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768318839~acl=/*~id=39275668998655114025412114803114~hmac=e2ce47b768b0f57f88416ef68707a094ce2149d14985c93732136933995d5501
