@@ -1,14 +1,14 @@
 {
   "Author": "OMNIX-EMPIRE",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:55:35 PM 13-01-2026",
+  "last_updated": "08:27:21 PM 13-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 49,
-  "live_matches": 6,
-  "upcoming_matches": 43,
+  "live_matches": 10,
+  "upcoming_matches": 39,
   "matches": [
     {
       "category": "Cricket",
@@ -87,7 +87,7 @@
       "title": "Newcastle United Vs Manchester City",
       "tournament": "Carabao Cup 2025-2026",
       "match_id": 139211,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "14 January 2026 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -113,7 +113,10 @@
           "color": "#d15f6a",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -132,7 +135,10 @@
           "color": "#539fd7",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -159,7 +165,7 @@
       "title": "Deportivo La Coruna Vs Atletico De Madrid",
       "tournament": "Copa del Rey, 2025-26",
       "match_id": 139671,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "14 January 2026 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -185,7 +191,10 @@
           "color": "#71157B",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -204,7 +213,10 @@
           "color": "#ca2917",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -231,7 +243,7 @@
       "title": "Cultural Leonesa Vs Athletic Club",
       "tournament": "Copa del Rey, 2025-26",
       "match_id": 139670,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "14 January 2026 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -257,7 +269,17 @@
           "color": "#614800",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "22891",
+                "shortName": "I Calero",
+                "isOwnGoal": false,
+                "goalTime": "16'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -276,7 +298,10 @@
           "color": "#ff674d",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -303,7 +328,7 @@
       "title": "Real Sociedad Vs Ca Osasuna",
       "tournament": "Copa del Rey, 2025-26",
       "match_id": 139669,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "14 January 2026 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -329,7 +354,10 @@
           "color": "#ae7a05",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -348,7 +376,17 @@
           "color": "#F2DC85",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "62492",
+                "shortName": "J Moncayola",
+                "isOwnGoal": false,
+                "goalTime": "4'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -2652,7 +2690,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768377241~acl=/*~id=29035469461994220884431581710420~hmac=0a1c6caf9d8ec7a35d14b54343c5784020b3076dad42f7c2b8c490ea0de0b353"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768377879~acl=/*~id=40689926149612599771428644449938~hmac=fe96047b5aaba98be094af032dfd5d5c963978f69ebb5064d2131384a7473c1f"
       },
       "source": "SonyLIV"
     },
@@ -2673,7 +2711,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768377241~acl=/*~id=29035469461994220884431581710420~hmac=0a1c6caf9d8ec7a35d14b54343c5784020b3076dad42f7c2b8c490ea0de0b353"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768377879~acl=/*~id=40689926149612599771428644449938~hmac=fe96047b5aaba98be094af032dfd5d5c963978f69ebb5064d2131384a7473c1f"
       },
       "source": "SonyLIV"
     },
