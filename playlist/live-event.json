@@ -1,7 +1,7 @@
 {
   "Author": "OMNIX-EMPIRE",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:50:03 AM 13-01-2026",
+  "last_updated": "08:00:28 AM 13-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -68,11 +68,11 @@
           "color": "#bcbcbc",
           "cricketScore": [
             {
-              "runs": 65,
-              "overs": "8.2",
-              "balls": "50",
+              "runs": 90,
+              "overs": "11",
+              "balls": "66",
               "status": "IN_PROGRESS",
-              "wickets": 1
+              "wickets": 2
             }
           ],
           "kabaddiScore": null,
@@ -2667,7 +2667,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768333442~acl=/*~id=56118431587287774535726975027054~hmac=a53f368c386d9f72c47948875a23612eac94c2dac4fafb82bf694b9078503848"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768334052~acl=/*~id=62312297994691733899397144948150~hmac=3d06c8f2dd820bb1565cb5eae3590cbfce4723a06214e697f1c0ad27d9f1eaa6"
       },
       "source": "SonyLIV"
     },
@@ -2688,7 +2688,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768333442~acl=/*~id=56118431587287774535726975027054~hmac=a53f368c386d9f72c47948875a23612eac94c2dac4fafb82bf694b9078503848"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768334052~acl=/*~id=62312297994691733899397144948150~hmac=3d06c8f2dd820bb1565cb5eae3590cbfce4723a06214e697f1c0ad27d9f1eaa6"
       },
       "source": "SonyLIV"
     },
