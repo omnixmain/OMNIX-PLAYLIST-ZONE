@@ -1,7 +1,7 @@
 {
   "Author": "OMNIX-EMPIRE",
   "name": "FanCode Live Matches API",
-  "last_updated": "06:34:58 AM 13-01-2026",
+  "last_updated": "07:00:55 AM 13-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -861,15 +861,15 @@
       "streamingStatus": "NOT_STARTED",
       "startTime": "13 January 2026 11:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "image": "https://images.fancode.com/aig/match/v1/139358_CASACARDS_APP.png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/139358_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "APP": "https://images.fancode.com/aig/match/v1/139358_CASACARDS_APP.png",
         "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSL-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/139358_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/139358_CASACARDS_SPORTY_APP.png",
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139358_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
@@ -1523,43 +1523,35 @@
       "source": "Fancode"
     },
     {
-      "category": "Cricket",
-      "title": "Otago Volts Vs Auckland Aces",
-      "tournament": "Super Smash, 2025-26",
-      "match_id": 138747,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "12 January 2026 08:55 AM",
+      "category": "Tennis",
+      "title": "Show Court 1   Day 3",
+      "tournament": "ATP 250 - Adelaide International",
+      "match_id": 139565,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "14 January 2026 05:00 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_fc-web_1766641251086.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138747_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_fc-web_1766641251086.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139565_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_fc-web_1766641251086.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138747_5800_OV_AA_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138747_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(1)_1767943452385.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139565_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Otago Volts",
-          "shortName": "OV",
+          "name": "Show Court 1 - Day 3",
+          "shortName": "Show Court 1 - Day 3",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VOLT@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
-          "isWinner": false,
-          "color": "#e0cc38",
-          "cricketScore": [
-            {
-              "runs": 159,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 10
-            }
-          ],
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1571,29 +1563,88 @@
           }
         },
         {
-          "name": "Auckland Aces",
-          "shortName": "AA",
+          "name": "Adelaide",
+          "shortName": "Adelaide",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ACE@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
           },
-          "isWinner": true,
-          "color": "#0A129E",
-          "cricketScore": [
-            {
-              "runs": 161,
-              "overs": "18.4",
-              "balls": "112",
-              "status": "IN_PROGRESS",
-              "wickets": 5
-            }
-          ],
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Tennis",
+      "title": "Centre Court   Day 3",
+      "tournament": "ATP 250 - Adelaide International",
+      "match_id": 139564,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "14 January 2026 05:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139564_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(1)_1767943452385.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139564_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Centre Court - Day 3",
+          "shortName": "Centre Court - Day 3",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Adelaide",
+          "shortName": "Adelaide",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
             }
           }
         }
@@ -1760,140 +1811,6 @@
           "status": {
             "cricket": {
               "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Tennis",
-      "title": "Show Court 1   Day 3",
-      "tournament": "ATP 250 - Adelaide International",
-      "match_id": 139565,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "14 January 2026 05:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139565_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(1)_1767943452385.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139565_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Show Court 1 - Day 3",
-          "shortName": "Show Court 1 - Day 3",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Adelaide",
-          "shortName": "Adelaide",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Tennis",
-      "title": "Centre Court   Day 3",
-      "tournament": "ATP 250 - Adelaide International",
-      "match_id": 139564,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "14 January 2026 05:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139564_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(1)_1767943452385.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139564_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Centre Court - Day 3",
-          "shortName": "Centre Court - Day 3",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Adelaide",
-          "shortName": "Adelaide",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
             }
           }
         }
@@ -2332,15 +2249,15 @@
       "streamingStatus": "NOT_STARTED",
       "startTime": "14 January 2026 11:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "image": "https://images.fancode.com/aig/match/v1/139359_CASACARDS_APP.png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/139359_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "APP": "https://images.fancode.com/aig/match/v1/139359_CASACARDS_APP.png",
         "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSL-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/139359_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/139359_CASACARDS_SPORTY_APP.png",
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139359_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
@@ -2659,25 +2576,71 @@
       "source": "Fancode"
     },
     {
-      "match_id": "1090498893_ENG",
-      "title": "Central Stags vs Northern Brave - 13 Jan 2026 [ENG]",
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "category": "SonyLIV",
-      "tournament": "SonyLIV Events",
-      "startTime": "",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767248542948898_SuperSmash2526_mens_Central-Stags-vs-Northern-Brave_1jan_landscape_thumb.jpg",
-      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767248542948898_SuperSmash2526_mens_Central-Stags-vs-Northern-Brave_1jan_landscape_thumb.jpg",
+      "category": "Football",
+      "title": "Deportivo Alaves Vs Rayo Vallecano",
+      "tournament": "Copa del Rey, 2025-26",
+      "match_id": 139672,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "15 January 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://images.fancode.com/aig/match/v1/139672_CASACARDS_APP.png",
       "image_cdn": {
-        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767248542948898_SuperSmash2526_mens_Central-Stags-vs-Northern-Brave_1jan_landscape_thumb.jpg",
-        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767248542948898_SuperSmash2526_mens_Central-Stags-vs-Northern-Brave_1jan_landscape_thumb.jpg",
-        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767248542948898_SuperSmash2526_mens_Central-Stags-vs-Northern-Brave_1jan_landscape_thumb.jpg"
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139672_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1/139672_CASACARDS_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/12/Copa-Del-Rey-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/139672_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/139672_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139672_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
-      "teams": [],
+      "teams": [
+        {
+          "name": "Deportivo Alaves",
+          "shortName": "ALA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#537096",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Rayo Vallecano",
+          "shortName": "RVL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RAV@2x.png"
+          },
+          "isWinner": null,
+          "color": "#F77A1E",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768329183~acl=/*~id=13827634834512032518695974494058~hmac=a42b21571a45dd722ac97940c87ba3823118626be353bb878a096088a57608c0"
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
       },
-      "source": "SonyLIV"
+      "source": "Fancode"
     },
     {
       "match_id": "1090499498_ENG",
@@ -2696,7 +2659,28 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768329183~acl=/*~id=13827634834512032518695974494058~hmac=a42b21571a45dd722ac97940c87ba3823118626be353bb878a096088a57608c0"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768330399~acl=/*~id=80749546901951529692487271988357~hmac=da997b4cc4ab79593e7ab723ea38dd9aa5dfba4c2ea7e76ff5278fea52baaaa4"
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": "1090498893_ENG",
+      "title": "Central Stags vs Northern Brave - 13 Jan 2026 [ENG]",
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "category": "SonyLIV",
+      "tournament": "SonyLIV Events",
+      "startTime": "",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767248542948898_SuperSmash2526_mens_Central-Stags-vs-Northern-Brave_1jan_landscape_thumb.jpg",
+      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767248542948898_SuperSmash2526_mens_Central-Stags-vs-Northern-Brave_1jan_landscape_thumb.jpg",
+      "image_cdn": {
+        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767248542948898_SuperSmash2526_mens_Central-Stags-vs-Northern-Brave_1jan_landscape_thumb.jpg",
+        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767248542948898_SuperSmash2526_mens_Central-Stags-vs-Northern-Brave_1jan_landscape_thumb.jpg",
+        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767248542948898_SuperSmash2526_mens_Central-Stags-vs-Northern-Brave_1jan_landscape_thumb.jpg"
+      },
+      "teams": [],
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768330399~acl=/*~id=80749546901951529692487271988357~hmac=da997b4cc4ab79593e7ab723ea38dd9aa5dfba4c2ea7e76ff5278fea52baaaa4"
       },
       "source": "SonyLIV"
     },
