@@ -1,11 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg" group-title="Fancode",Swami Vivekanand Vs Rizvi [Main]
-https://in-mc-fdlive.fancode.com/mumbai/139667_english_hls_e061157e2f95075_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg" group-title="Fancode",Swami Vivekanand Vs Rizvi [DAI]
-https://dai.google.com/linear/hls/event/AGIBKB8DT5i4wztbfTNEDA/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg" group-title="Fancode",Atp 250   Asb Classic [Main]
-https://in-mc-fdlive.fancode.com/mumbai/139538_english_hls_c6f5ec0eb789572_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg" group-title="Fancode",Atp 250   Asb Classic [DAI]
-https://dai.google.com/linear/hls/event/stbSBSmaTq-JQ5U3KNHxaQ/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139274_5822_THA-U23_CHN-U23_fc-web.jpg" group-title="Fancode",Thailand U23 Vs China Pr U23 [Main]
+https://video.twimg.com/amplify_video/1869037412439261184/pl/th-SCwIUMtNo-PsU.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139274_5822_THA-U23_CHN-U23_fc-web.jpg" group-title="Fancode",Thailand U23 Vs China Pr U23 [DAI]
+Unavailable
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139273_5822_IRQ-U23_AUS-U23_fc-web.jpg" group-title="Fancode",Iraq U23 Vs Australia U23 [Main]
+https://video.twimg.com/amplify_video/1869037412439261184/pl/th-SCwIUMtNo-PsU.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139273_5822_IRQ-U23_AUS-U23_fc-web.jpg" group-title="Fancode",Iraq U23 Vs Australia U23 [DAI]
+Unavailable
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013335/1768308166694123_AO26_Opening_week_1_Point_Slam_13jan_landscape_thumb.jpg" group-title="SonyLIV",1 Point Slam - 14 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768431143~acl=/*~id=54845066147571871653759830345817~hmac=fba7aaf063f75acbc7330cb6d30e57b6a7e7f787c7c40bf71861615a9bd5354c
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768432362~acl=/*~id=88063521597581460904594950156268~hmac=6b9498e9f58bff578f3c45e88430ca77e7aab6caf8b2862785f23450730d9f72
