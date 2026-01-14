@@ -15,13 +15,11 @@ https://dai.google.com/linear/hls/event/AGIBKB8DT5i4wztbfTNEDA/master.m3u8
 https://in-mc-fdlive.fancode.com/mumbai/139538_english_hls_c6f5ec0eb789572_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg" group-title="Fancode",Atp 250   Asb Classic [DAI]
 https://dai.google.com/linear/hls/event/stbSBSmaTq-JQ5U3KNHxaQ/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png" group-title="Fancode",Show Court 1   Day 3 [Main]
-https://in-mc-fdlive.fancode.com/mumbai/139565_english_hls_a0240f661f82860_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png" group-title="Fancode",Show Court 1   Day 3 [DAI]
-https://dai.google.com/linear/hls/event/3k-3ODj0Sn6ME7BSTwfeKA/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png" group-title="Fancode",Centre Court   Day 3 [Main]
 https://in-mc-fdlive.fancode.com/mumbai/139564_english_hls_2b2cc4717a48829_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png" group-title="Fancode",Centre Court   Day 3 [DAI]
 https://dai.google.com/linear/hls/event/i_fimnfVTz6ttBrCaY-_nQ/master.m3u8
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013332/1768305435222693_AO26_Opening_week_Svitolina_vs_Anisimova_13jan_landscape_thumb.jpg" group-title="SonyLIV",Svitolina vs Anisimova - 14 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768411991~acl=/*~id=59656976229505297108612317972716~hmac=1590e19ebc15a86f82815d61c7a12cd3ee5f352d111bf56a9a7d3754d06cf72a
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012915/1767421300004881_SuperSmash2526_womens_Auckland-Hearts-vs-Canterbury-Magicians_1jan_landscape_thumb.jpg" group-title="SonyLIV",Auckland Hearts vs Canterbury Magicians - 14 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768409557~acl=/*~id=98417572861354177046124019392763~hmac=13f6e75632cce686c425e672a4da8286262020c5fd6dc818c21e6e8918474318
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768411991~acl=/*~id=59656976229505297108612317972716~hmac=1590e19ebc15a86f82815d61c7a12cd3ee5f352d111bf56a9a7d3754d06cf72a
