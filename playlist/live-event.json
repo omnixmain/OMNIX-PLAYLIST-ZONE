@@ -1,13 +1,13 @@
 {
   "Author": "\ud835\udd46\ud835\udd44\u2115\ud835\udd40\ud835\udd4f \ud835\udd3c\ud835\udd44\u2119\ud835\udd40\u211d\ud835\udd3c",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:47:08 PM 14-01-2026",
+  "last_updated": "09:57:40 PM 14-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 58,
-  "live_matches": 12,
+  "total_matches": 57,
+  "live_matches": 11,
   "upcoming_matches": 46,
   "matches": [
     {
@@ -120,8 +120,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "159040",
+                "shortName": "A Garnacho",
+                "isOwnGoal": false,
+                "goalTime": "83'"
+              },
               {
                 "id": "159040",
                 "shortName": "A Garnacho",
@@ -414,8 +420,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "185011",
+                "shortName": "C Vicente",
+                "isOwnGoal": false,
+                "goalTime": "89'"
+              },
               {
                 "id": "26110",
                 "shortName": "T Martinez",
@@ -2709,27 +2721,6 @@
         "Primary_Playback_URL": null
       },
       "source": "Fancode"
-    },
-    {
-      "match_id": "1090499542_ENG",
-      "title": "FC Koln vs Bayern Munich - MD 17 - 15 Jan 2026 [ENG]",
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "category": "SonyLIV",
-      "tournament": "SonyLIV Events",
-      "startTime": "",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013251/1768137339842648_bliga26_MD17_FC_Koln_vs_Bayern_11jan_landscape_thumb.jpg",
-      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013251/1768137339842648_bliga26_MD17_FC_Koln_vs_Bayern_11jan_landscape_thumb.jpg",
-      "image_cdn": {
-        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013251/1768137339842648_bliga26_MD17_FC_Koln_vs_Bayern_11jan_landscape_thumb.jpg",
-        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013251/1768137339842648_bliga26_MD17_FC_Koln_vs_Bayern_11jan_landscape_thumb.jpg",
-        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013251/1768137339842648_bliga26_MD17_FC_Koln_vs_Bayern_11jan_landscape_thumb.jpg"
-      },
-      "teams": [],
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768470077~acl=/*~id=76203465464963541535828000948750~hmac=aa1775ed4c1c97f812f1b09fed86ee250e2d3960b3e4bcfa98f7bf1e7e730ea3"
-      },
-      "source": "SonyLIV"
     },
     {
       "match_id": 1090498827,
