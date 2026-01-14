@@ -1,103 +1,15 @@
 {
   "Author": "OMNIX-EMPIRE",
   "name": "FanCode Live Matches API",
-  "last_updated": "06:35:01 AM 14-01-2026",
+  "last_updated": "07:00:19 AM 14-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 55,
-  "live_matches": 7,
-  "upcoming_matches": 48,
+  "total_matches": 54,
+  "live_matches": 5,
+  "upcoming_matches": 49,
   "matches": [
-    {
-      "category": "Cricket",
-      "title": "Canterbury Magicians Vs Auckland Hearts",
-      "tournament": "Women's Super Smash, 2025-26",
-      "match_id": 138781,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "14 January 2026 09:20 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138781_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-app_1766596319047.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138781_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Canterbury Magicians",
-          "shortName": "CM-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAGW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#DE3018",
-          "cricketScore": [
-            {
-              "runs": 93,
-              "overs": "18",
-              "balls": "108",
-              "status": "COMPLETED",
-              "wickets": 10
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Auckland Hearts",
-          "shortName": "AH-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUHW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#221469",
-          "cricketScore": [
-            {
-              "runs": 79,
-              "overs": "14",
-              "balls": "84",
-              "status": "IN_PROGRESS",
-              "wickets": 3
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138781_english_hls_960565f4f325901_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138781_english_hls_960565f4f325901_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/138781_english_hls_960565f4f325901_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/jOsqMZDLTZG3Hvm5eB8n8w/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      },
-      "source": "Fancode"
-    },
     {
       "category": "Cricket",
       "title": "V N Sule Vs Dyandeep Seva Mandal",
@@ -380,6 +292,94 @@
         "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139564_english_hls_2b2cc4717a48829_1ta-di_h264/index.m3u8",
         "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139564_english_hls_2b2cc4717a48829_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "https://dai.google.com/linear/hls/event/i_fimnfVTz6ttBrCaY-_nQ/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Cricket",
+      "title": "Canterbury Magicians Vs Auckland Hearts",
+      "tournament": "Women's Super Smash, 2025-26",
+      "match_id": 138781,
+      "status": "COMPLETED",
+      "streamingStatus": "STARTED",
+      "startTime": "14 January 2026 09:20 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138781_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-app_1766596319047.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138781_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Canterbury Magicians",
+          "shortName": "CM-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAGW@2x.png"
+          },
+          "isWinner": false,
+          "color": "#DE3018",
+          "cricketScore": [
+            {
+              "runs": 93,
+              "overs": "18",
+              "balls": "108",
+              "status": "COMPLETED",
+              "wickets": 10
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Auckland Hearts",
+          "shortName": "AH-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUHW@2x.png"
+          },
+          "isWinner": true,
+          "color": "#221469",
+          "cricketScore": [
+            {
+              "runs": 94,
+              "overs": "15.4",
+              "balls": "94",
+              "status": "IN_PROGRESS",
+              "wickets": 3
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138781_english_hls_960565f4f325901_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138781_english_hls_960565f4f325901_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/138781_english_hls_960565f4f325901_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/jOsqMZDLTZG3Hvm5eB8n8w/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -2646,28 +2646,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768415643~acl=/*~id=46398846369075101931115338530258~hmac=8477ada9c12abbac4a4464b9a3ab72b1ae29eaf3a116f1170fa4a407482ebdb4"
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": "1090498898_ENG",
-      "title": "Auckland Hearts vs Canterbury Magicians - 14 Jan 2026 [ENG]",
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "category": "SonyLIV",
-      "tournament": "SonyLIV Events",
-      "startTime": "",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012915/1767421300004881_SuperSmash2526_womens_Auckland-Hearts-vs-Canterbury-Magicians_1jan_landscape_thumb.jpg",
-      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012915/1767421300004881_SuperSmash2526_womens_Auckland-Hearts-vs-Canterbury-Magicians_1jan_landscape_thumb.jpg",
-      "image_cdn": {
-        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012915/1767421300004881_SuperSmash2526_womens_Auckland-Hearts-vs-Canterbury-Magicians_1jan_landscape_thumb.jpg",
-        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012915/1767421300004881_SuperSmash2526_womens_Auckland-Hearts-vs-Canterbury-Magicians_1jan_landscape_thumb.jpg",
-        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012915/1767421300004881_SuperSmash2526_womens_Auckland-Hearts-vs-Canterbury-Magicians_1jan_landscape_thumb.jpg"
-      },
-      "teams": [],
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768415643~acl=/*~id=46398846369075101931115338530258~hmac=8477ada9c12abbac4a4464b9a3ab72b1ae29eaf3a116f1170fa4a407482ebdb4"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768416860~acl=/*~id=87500926091880847586349669939554~hmac=c3cd23359bdca1af25fd89a7eccc7b4552837652d5481269445df77ae8eadfed"
       },
       "source": "SonyLIV"
     },
