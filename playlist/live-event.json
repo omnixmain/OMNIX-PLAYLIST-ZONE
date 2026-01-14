@@ -1,7 +1,7 @@
 {
   "Author": "OMNIX-EMPIRE",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:35:37 AM 14-01-2026",
+  "last_updated": "07:51:27 AM 14-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -2641,7 +2641,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768419293~acl=/*~id=40787020255003554643580879428956~hmac=dcbd459d952b8f6ea5a5e5f5baa5fea22e846f074558ce2c8ce8e55b9413badf"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768419902~acl=/*~id=27005693325108953545228344110828~hmac=e48d2f2a420235b390221f54719fdec02f3566f5441df195e5ace9ee72c87073"
       },
       "source": "SonyLIV"
     },
