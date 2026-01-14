@@ -2,7 +2,7 @@ name: Update Jstar Playlist
 
 on:
   schedule:
-    - cron: "0 */11 * * *"
+    - cron: "0 */11 * * *" # Run every 11 hours
   workflow_dispatch:
 
 jobs:

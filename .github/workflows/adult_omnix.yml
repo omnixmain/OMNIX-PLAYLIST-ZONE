@@ -3,7 +3,7 @@ name: Update adult_omnix.m3u
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */06 * * *'
+    - cron: '0 */06 * * *' # Run every 6 hours
 
 jobs:
   update-file:

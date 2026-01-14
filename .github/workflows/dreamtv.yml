@@ -2,7 +2,7 @@ name: DreamTV Update
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */6 * * *' # Run every 6 hours
   workflow_dispatch:
 
 jobs:

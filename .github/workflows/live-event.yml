@@ -2,7 +2,7 @@ name: Update Live Event Data
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/10 * * * *' # Run every 10 minutes
   workflow_dispatch:
 
 jobs:

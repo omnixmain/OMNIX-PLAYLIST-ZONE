@@ -2,7 +2,7 @@ name: Update Ayna Playlist
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/30 * * * *' # Run every 30 minutes
   workflow_dispatch:
 
 jobs:
