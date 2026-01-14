@@ -1,0 +1,11 @@
+[
+    {
+        "channel-name": "Sample Channel",
+        "group-title": "Entertainment",
+        "tvg-logo": "",
+        "tvg-id": "sample.id",
+        "mpd_url": "https://example.com/manifest.mpd",
+        "license_type": "clearkey",
+        "license_key": "aabbccddeeff00112233445566778899:11223344556677889900aabbccddeeff"
+    }
+]

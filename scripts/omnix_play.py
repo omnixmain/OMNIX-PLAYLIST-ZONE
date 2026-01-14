@@ -43,30 +43,37 @@ def fetch_token():
     return None
 
 def generate_m3u(json_path, output_path):
-    print(f"Reading data from {json_path}...")
+    # JSON URL derived from site deobfuscation
+    json_url = "https://roarzones.yecic62314.workers.dev/"
+    
+    print(f"Fetching channels from {json_url}...")
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Referer": "https://mixweb.yecic62314.workers.dev/",
+        "Origin": "https://mixweb.yecic62314.workers.dev"
+    }
+
     try:
-        with open(json_path, 'r', encoding='utf-8') as f:
-            channels = json.load(f)
-    except FileNotFoundError:
-        print(f"Error: File not found at {json_path}")
-        return
-    except json.JSONDecodeError:
-        print(f"Error: Invalid JSON at {json_path}")
-        return
+        req = urllib.request.Request(json_url, headers=headers)
+        with urllib.request.urlopen(req) as response:
+            channels = json.load(response)
+    except Exception as e:
+        print(f"Error fetching channels: {e}")
+        # Fallback to local if web fails
+        try:
+             with open(json_path, 'r', encoding='utf-8') as f:
+                channels = json.load(f)
+             print("Loaded from local backup.")
+        except:
+             print("Could not load from web or local.")
+             return
 
     # Fetch Token
     token_param_name = "__hdnea__"
     token_value = fetch_token()
     
     if token_value:
-        # Check if token_value already starts with __hdnea__=
-        if token_value.startswith("__hdnea__="):
-           # Strip the key to just get value for cleaner handling if needed, 
-           # or just append the whole thing.
-           # Let's just append the whole thing if it contains the key.
-           pass
-        else:
-           # If it's just the value "st=...", prepend key
+        if not token_value.startswith("__hdnea__="):
            token_value = f"{token_param_name}={token_value}"
     else:
         print("Warning: Generating playlist without signed tokens!")
@@ -74,7 +81,7 @@ def generate_m3u(json_path, output_path):
     print(f"Found {len(channels)} channels.")
 
     # Calculate BD Time (UTC + 6)
-    utc_now = datetime.datetime.utcnow()
+    utc_now = datetime.datetime.now(datetime.timezone.utc)
     bd_time = utc_now + datetime.timedelta(hours=6)
     formatted_time = bd_time.strftime("%Y-%m-%d %I:%M %p")
 
@@ -114,14 +121,11 @@ def generate_m3u(json_path, output_path):
             separator = "&" if "?" in final_url else "?"
             final_url = f"{final_url}{separator}{token_value}"
 
-        import urllib.parse
-        
         # Start entry
         m3u_content.append(f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" group-title="{group}",{name}')
         
         # Add DRM props if present
         if license_type == "clearkey" and license_key:
-            # User's working playlist uses "clearkey" not "org.w3.clearkey"
             m3u_content.append('#KODIPROP:inputstream.adaptive.license_type=clearkey')
             m3u_content.append(f'#KODIPROP:inputstream.adaptive.license_key={license_key}')
         
@@ -130,12 +134,11 @@ def generate_m3u(json_path, output_path):
         
         # Add Cookie tag
         if token_value:
-             # token_value is "__hdnea__=st=..."
              m3u_content.append(f'#EXTVLCOPT:http-cookie={token_value}')
 
         m3u_content.append(f'#EXTVLCOPT:http-referrer={referer}')
         
-        # Append the URL (Clean URL without pipe syntax, as requested to match working file)
+        # Append the URL
         m3u_content.append(final_url)
 
     print(f"Writing M3U to {output_path}...")
@@ -149,14 +152,10 @@ if __name__ == "__main__":
     json_file = "all_channels.json"
     m3u_file = "omnix_play.m3u"
     
-    # Determine the directory where this script resides
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    
-    # Playlist directory is one level up
     playlist_dir = os.path.join(os.path.dirname(script_dir), 'playlist')
     os.makedirs(playlist_dir, exist_ok=True)
 
-    # All channels json is now in the playlist directory
     json_full_path = os.path.join(playlist_dir, json_file)
     m3u_full_path = os.path.join(playlist_dir, m3u_file)
     
