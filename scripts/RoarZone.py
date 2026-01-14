@@ -201,8 +201,8 @@ def main():
             title_ext = f"{name} ({year})"
             if video_quality: title_ext += f" - [{video_quality}]"
             
-            # Add category to group-title in M3U for better organization in players
-            group_title = f"{category};{genre_str}" if genre_str else category
+            # Add category to group-title in M3U (Simplified)
+            group_title = category
             
             m3u_lines.append(f'#EXTINF:-1 tvg-id="{item_id}" tvg-logo="{image_url}" group-title="{group_title}",{title_ext}')
             m3u_lines.append(stream_url)
