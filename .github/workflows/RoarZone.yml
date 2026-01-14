@@ -1,0 +1,41 @@
+name: RoarZone Extraction
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */4 * * *'  # Runs every 4 hours
+
+jobs:
+  extract:
+    runs-on: windows-latest
+    permissions:
+      contents: write  # Need write permission to commit changes
+      
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          
+      - name: Install dependencies
+        run: pip install requests
+        
+      - name: Run Extraction
+        run: python scripts/RoarZone.py
+        
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add playlist/RoarZone.json playlist/RoarZone.m3u
+          git commit -m "Update RoarZone playlist data"
+          git push
+        continue-on-error: true # Don't fail if there are no changes to commit
+        
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: playlist-data
+          path: playlist/
