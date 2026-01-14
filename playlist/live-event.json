@@ -1,7 +1,7 @@
 {
   "Author": "OMNIX-EMPIRE",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:00:19 AM 14-01-2026",
+  "last_updated": "07:35:37 AM 14-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -292,94 +292,6 @@
         "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139564_english_hls_2b2cc4717a48829_1ta-di_h264/index.m3u8",
         "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139564_english_hls_2b2cc4717a48829_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "https://dai.google.com/linear/hls/event/i_fimnfVTz6ttBrCaY-_nQ/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Cricket",
-      "title": "Canterbury Magicians Vs Auckland Hearts",
-      "tournament": "Women's Super Smash, 2025-26",
-      "match_id": 138781,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "14 January 2026 09:20 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138781_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-app_1766596319047.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138781_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Canterbury Magicians",
-          "shortName": "CM-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAGW@2x.png"
-          },
-          "isWinner": false,
-          "color": "#DE3018",
-          "cricketScore": [
-            {
-              "runs": 93,
-              "overs": "18",
-              "balls": "108",
-              "status": "COMPLETED",
-              "wickets": 10
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Auckland Hearts",
-          "shortName": "AH-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUHW@2x.png"
-          },
-          "isWinner": true,
-          "color": "#221469",
-          "cricketScore": [
-            {
-              "runs": 94,
-              "overs": "15.4",
-              "balls": "94",
-              "status": "IN_PROGRESS",
-              "wickets": 3
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138781_english_hls_960565f4f325901_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138781_english_hls_960565f4f325901_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/138781_english_hls_960565f4f325901_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/jOsqMZDLTZG3Hvm5eB8n8w/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -931,15 +843,15 @@
       "streamingStatus": "NOT_STARTED",
       "startTime": "15 January 2026 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1/139672_CASACARDS_APP.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/139672_5806_ALA_RVL_FC-Web_1768374096260.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/139672_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1/139672_CASACARDS_APP.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/139672_5806_ALA_RVL_FC-Web_1768374096260.jpg",
         "PLAYBACK": null,
         "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/12/Copa-Del-Rey-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/139672_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/139672_CASACARDS_SPORTY_APP.png",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139672_5806_ALA_RVL_FC-Web_1768374096260.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/139672_5806_ALA_RVL_FC-App_1768374096266.jpg",
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139672_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
@@ -1018,7 +930,7 @@
           },
           "isWinner": null,
           "color": "#0a213a",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1037,7 +949,7 @@
           },
           "isWinner": null,
           "color": "#2BA6BD",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1470,6 +1382,89 @@
               "balls": "61",
               "status": "IN_PROGRESS",
               "wickets": 1
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Cricket",
+      "title": "Canterbury Magicians Vs Auckland Hearts",
+      "tournament": "Women's Super Smash, 2025-26",
+      "match_id": 138781,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "14 January 2026 09:20 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138781_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-web_1766596522091.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138781_5801_AH-W_CM-W_fc-app_1766596319047.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138781_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Canterbury Magicians",
+          "shortName": "CM-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAGW@2x.png"
+          },
+          "isWinner": false,
+          "color": "#DE3018",
+          "cricketScore": [
+            {
+              "runs": 93,
+              "overs": "18",
+              "balls": "108",
+              "status": "COMPLETED",
+              "wickets": 10
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Auckland Hearts",
+          "shortName": "AH-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUHW@2x.png"
+          },
+          "isWinner": true,
+          "color": "#221469",
+          "cricketScore": [
+            {
+              "runs": 94,
+              "overs": "15.4",
+              "balls": "94",
+              "status": "IN_PROGRESS",
+              "wickets": 3
             }
           ],
           "kabaddiScore": null,
@@ -2631,22 +2626,22 @@
     },
     {
       "match_id": "1090499540_ENG",
-      "title": "Svitolina vs Anisimova - 14 Jan 2026 [ENG]",
+      "title": "Kessler vs Anisimova - 14 Jan 2026 [ENG]",
       "status": "LIVE",
       "streamingStatus": "STARTED",
       "category": "SonyLIV",
       "tournament": "SonyLIV Events",
       "startTime": "",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013332/1768305435222693_AO26_Opening_week_Svitolina_vs_Anisimova_13jan_landscape_thumb.jpg",
-      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013332/1768305435222693_AO26_Opening_week_Svitolina_vs_Anisimova_13jan_landscape_thumb.jpg",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013365/1768374609959490_AO26_Kessler_V_Anisimova_rev_landscape_thumb.jpg",
+      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013365/1768374609959490_AO26_Kessler_V_Anisimova_rev_landscape_thumb.jpg",
       "image_cdn": {
-        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013332/1768305435222693_AO26_Opening_week_Svitolina_vs_Anisimova_13jan_landscape_thumb.jpg",
-        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013332/1768305435222693_AO26_Opening_week_Svitolina_vs_Anisimova_13jan_landscape_thumb.jpg",
-        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013332/1768305435222693_AO26_Opening_week_Svitolina_vs_Anisimova_13jan_landscape_thumb.jpg"
+        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013365/1768374609959490_AO26_Kessler_V_Anisimova_rev_landscape_thumb.jpg",
+        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013365/1768374609959490_AO26_Kessler_V_Anisimova_rev_landscape_thumb.jpg",
+        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013365/1768374609959490_AO26_Kessler_V_Anisimova_rev_landscape_thumb.jpg"
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768416860~acl=/*~id=87500926091880847586349669939554~hmac=c3cd23359bdca1af25fd89a7eccc7b4552837652d5481269445df77ae8eadfed"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768419293~acl=/*~id=40787020255003554643580879428956~hmac=dcbd459d952b8f6ea5a5e5f5baa5fea22e846f074558ce2c8ce8e55b9413badf"
       },
       "source": "SonyLIV"
     },
