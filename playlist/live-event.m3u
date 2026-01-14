@@ -1,21 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138933_5808_DBR_DC_fc-web_1766733054150.jpg" group-title="Fancode",Dhaka Capitals Vs Rajshahi Warriors
-https://in-mc-fdlive.fancode.com/mumbai/138933_english_hls_4a3b9a1b6c39851_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg" group-title="Fancode",Oman Development Team Vs Ias Invincibles
-https://in-mc-fdlive.fancode.com/mumbai/139576_english_hls_97f490d78e32434_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png" group-title="Fancode",Centre Court   Day 1
-https://in-mc-fdlive.fancode.com/mumbai/139532_english_hls_60be8400f426190_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767942977104.png" group-title="Fancode",Show Court 1   Day 1
-https://in-mc-fdlive.fancode.com/mumbai/139533_english_hls_fe149482c026737_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/7076/1768128377076-h" group-title="JioHotstar",Sydney Thunder vs Melbourne Renegades
-https://www.hotstar.com/in/sports/cricket/sydney-thunder-vs-melbourne-renegades/1540058959/video/live/watch
-#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/243/1768160340243-h" group-title="JioHotstar",QF: Karnataka vs Mumbai
-https://www.hotstar.com/in/sports/cricket/qf-karnataka-vs-mumbai/1540059109/video/live/watch
-#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/5745/1750779565745-h" group-title="JioHotstar",Star Sports Cricket Classics
-https://www.hotstar.com/in/clip/star-sports-cricket-classics/1540040039/watch
-#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/1441/1762934631441-h" group-title="JioHotstar",Follow The Blues
-https://www.hotstar.com/in/clip/follow-the-blues/1540045533/watch
-#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/2214/1750777602214-h" group-title="JioHotstar",TATA IPL TV
-https://www.hotstar.com/in/clip/tata-ipl-tv/1540044879/watch
-#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/3639/1756796893639-h" group-title="JioHotstar",T20s TV
-https://www.hotstar.com/in/clip/t20s-tv/1540044897/watch
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Senegal-vs-Egypt_fc-web.jpg" group-title="Fancode",Senegal Vs Egypt [Main]
+https://in-mc-fdlive.fancode.com/mumbai/138391_english_hls_468a4aabcc41921_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Senegal-vs-Egypt_fc-web.jpg" group-title="Fancode",Senegal Vs Egypt [DAI]
+https://dai.google.com/linear/hls/event/7sDgJuNARMuckhwD2-D-fA/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Al-Ahli-Saudi-vs-Al-Taawoun_Web.jpg" group-title="Fancode",Al Ahli Saudi Fc Vs Al Taawoun [Main]
+https://in-mc-fdlive.fancode.com/mumbai/139359_english_hls_7a1b5dc1bf4570_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Al-Ahli-Saudi-vs-Al-Taawoun_Web.jpg" group-title="Fancode",Al Ahli Saudi Fc Vs Al Taawoun [DAI]
+https://dai.google.com/linear/hls/event/nA4nPRFISaqJXadcMHUrVQ/master.m3u8
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013251/1768136708974648_bliga26_MD17_VfL_Wolfsburg_vs_St_Pauli_11jan_landscape_thumb.jpg" group-title="SonyLIV",VfL Wolfsburg vs St. Pauli - MD 17 - 14 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768456071~acl=/*~id=60186068578050280296569591680570~hmac=3a095bac8333dbb3ce329067b258437500b35c0e69ae42d36c72c2a4402fd659

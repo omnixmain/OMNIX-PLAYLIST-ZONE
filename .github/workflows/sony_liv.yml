@@ -2,7 +2,7 @@ name: Update Sony Liv Playlist
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Run every 30 minutes
+    - cron: '*/20 * * * *' # Run every 30 minutes
   workflow_dispatch:
 
 permissions:
@@ -36,3 +36,4 @@ jobs:
         git add playlist/sony_liv.m3u
         git commit -m "Auto-update sony_liv.m3u [$(date)]" || echo "No changes to commit"
         git push
+
