@@ -26,12 +26,12 @@ M3U_OUTPUT = "playlist/youtube.m3u"
 SEARCH_LIMIT = 20  
 MAX_WORKERS = 10   
 
-# The Official YouTube Live destination
-YOUTUBE_LIVE_DESTINATION = "https://www.youtube.com/live"
+# The "YouTube Live" Topic Channel (Best source for trending live)
+YOUTUBE_LIVE_DESTINATION = "https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig/streams"
 
 CATEGORIES = {
     # (Category Name, Type, Query/URL)
-    "Top Live": ("channel", YOUTUBE_LIVE_DESTINATION), 
+    "Trending Live": ("channel", YOUTUBE_LIVE_DESTINATION), 
     "News": ("search", "live news"),
     "Music": ("search", "live music"),
     "Gaming": ("search", "live gaming"),
