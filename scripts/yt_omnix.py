@@ -12,7 +12,8 @@ CATEGORIES = [
     "Gaming",
     "Music",
     "Program",
-    "Space"
+    "Space",
+    "Sports"
 ]
 
 # Output files
@@ -44,8 +45,8 @@ def get_live_streams(category):
     
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         try:
-            # Search for 10 entries to increase chances of finding valid ones
-            search_results = ydl.extract_info(f"ytsearch10:{query}", download=False)
+            # INCREASED: Search for 60 entries to get "big data"
+            search_results = ydl.extract_info(f"ytsearch60:{query}", download=False)
             
             if 'entries' in search_results:
                 for entry in search_results['entries']:
@@ -56,14 +57,12 @@ def get_live_streams(category):
                     if not video_url:
                         video_url = f"https://www.youtube.com/watch?v={entry.get('id')}"
                     
-                    # Add a small delay/sleep here if needed, but we are doing serial processing inside the category loop now? 
-                    # No, it's parallel categories. 
-                    
-                    # We will try to resolve. if 403, we skip.
+                    # Resolve stream info
                     stream_info = resolve_stream_info(video_url, category)
                     if stream_info:
                         results.append(stream_info)
-                        if len(results) >= 5: # Limit to 5 valid streams per category
+                        # INCREASED: Limit to 30 valid streams per category (instead of 5)
+                        if len(results) >= 30: 
                             break
                         
         except Exception as e:
@@ -71,9 +70,10 @@ def get_live_streams(category):
             
     return results
 
-def resolve_stream_info(video_url, category):
+def resolve_stream_info(video_url, category, retries=2):
     """
     Resolves the M3U8 stream URL and other details for a specific video.
+    Includes simple retry logic for robustness.
     """
     ydl_opts = {
         'quiet': True,
@@ -83,35 +83,41 @@ def resolve_stream_info(video_url, category):
         'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
     }
     
-    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        try:
-            info = ydl.extract_info(video_url, download=False)
-            
-            if not info:
-                return None
-            
-            # Check if it is actually live
-            if not info.get('is_live'):
-                return None
+    for attempt in range(retries + 1):
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            try:
+                info = ydl.extract_info(video_url, download=False)
                 
-            return {
-                "name": info.get('title', 'Unknown Title'),
-                "logo": info.get('thumbnail', ''),
-                "url": info.get('url', ''), 
-                "category": category,
-                "channel": info.get('uploader', 'Unknown Channel')
-            }
-        except Exception as e:
-            # print(f"Error resolving {video_url}: {e}")
-            return None
+                if not info:
+                    return None
+                
+                # Check if it is actually live
+                if not info.get('is_live'):
+                    return None
+                    
+                return {
+                    "name": info.get('title', 'Unknown Title'),
+                    "logo": info.get('thumbnail', ''),
+                    "url": info.get('url', ''), 
+                    "category": category,
+                    "channel": info.get('uploader', 'Unknown Channel')
+                }
+            except Exception as e:
+                if attempt == retries:
+                    # Only print on final failure to reduce noise
+                    # print(f"Error resolving {video_url} after retries: {e}")
+                    pass
+                # Backoff slightly if needed, but keeping it fast for now
+                continue
+    return None
 
 def main():
     print("Starting YouTube Live Playlist Generator...")
     all_streams = []
     
-    # Run sequentially debugging to avoid massive rate limits if that's the cause, 
-    # or reduce workers. Let's try 3 workers.
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+    # Use ThreadPoolExecutor to fetch categories in parallel
+    # Increased workers slightly to speed up since we are processing more
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
         future_to_category = {executor.submit(get_live_streams, cat): cat for cat in CATEGORIES}
         for future in concurrent.futures.as_completed(future_to_category):
             category = future_to_category[future]
@@ -124,12 +130,10 @@ def main():
     
     print(f"Total streams found: {len(all_streams)}")
     
-    if all_streams:
-        generate_m3u(all_streams)
-        generate_json(all_streams)
-        print("Done!")
-    else:
-        print("No streams found. Check network or yt-dlp status.")
+    # Always generate, even if empty, to update timestamp/show state
+    generate_m3u(all_streams)
+    generate_json(all_streams)
+    print("Done!")
 
 if __name__ == "__main__":
     main()
