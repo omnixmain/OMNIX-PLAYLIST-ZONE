@@ -34,7 +34,15 @@ def get_stream_info(entry, category):
     """
     video_id = entry.get('id')
     title = entry.get('title', 'Unknown Title')
-    url = f"https://www.youtube.com/watch?v={video_id}"
+    
+    # Robust URL determination
+    url = entry.get('url')
+    if not url:
+        if video_id:
+            url = f"https://www.youtube.com/watch?v={video_id}"
+        else:
+            # Cannot find a valid URL or ID
+            return None
     
     # Options for extracting the stream url
     ydl_opts = {
@@ -44,6 +52,11 @@ def get_stream_info(entry, category):
         'ignoreerrors': True,
         'noplaylist': True,
         'nocheckcertificate': True,
+        'extractor_args': {
+            'youtube': {
+                'player_client': ['android'],
+            }
+        },
         # Standard Browser User-Agent to avoid 403s on most IPs
         'http_headers': {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
