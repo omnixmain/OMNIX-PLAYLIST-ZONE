@@ -1,13 +1,13 @@
 {
   "Author": "\ud835\udd46\ud835\udd44\u2115\ud835\udd40\ud835\udd4f \ud835\udd3c\ud835\udd44\u2119\ud835\udd40\u211d\ud835\udd3c",
   "name": "FanCode Live Matches API",
-  "last_updated": "05:44:46 AM 15-01-2026",
+  "last_updated": "05:57:44 AM 15-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 59,
-  "live_matches": 12,
+  "total_matches": 58,
+  "live_matches": 11,
   "upcoming_matches": 47,
   "matches": [
     {
@@ -44,7 +44,7 @@
               "runs": 132,
               "overs": "16",
               "balls": "96",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 7
             }
           ],
@@ -54,7 +54,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -66,14 +66,22 @@
           },
           "isWinner": null,
           "color": "#e0cc38",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 27,
+              "overs": "2.3",
+              "balls": "15",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -2638,7 +2646,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768498607~acl=/*~id=99097409814499615434206191021069~hmac=d2273f74188c0e766b6bfec13480185e40eb248b688d015d3199cec7c493807d"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768499826~acl=/*~id=37346650784694388744698812880599~hmac=4d0e08080323f616d79f94c1164f3a04d9889fb62b69715c17fa667db1eb64b4"
       },
       "source": "SonyLIV"
     },
@@ -2659,28 +2667,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768498607~acl=/*~id=99097409814499615434206191021069~hmac=d2273f74188c0e766b6bfec13480185e40eb248b688d015d3199cec7c493807d"
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": "1090499612_ENG",
-      "title": "Qualifying - Final Round - 15 Jan 2026 [ENG]",
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "category": "SonyLIV",
-      "tournament": "SonyLIV Events",
-      "startTime": "",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013339/1768311115384502_AO26_Qualifying_Final_Round_13jan_landscape_thumb.jpg",
-      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013339/1768311115384502_AO26_Qualifying_Final_Round_13jan_landscape_thumb.jpg",
-      "image_cdn": {
-        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013339/1768311115384502_AO26_Qualifying_Final_Round_13jan_landscape_thumb.jpg",
-        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013339/1768311115384502_AO26_Qualifying_Final_Round_13jan_landscape_thumb.jpg",
-        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013339/1768311115384502_AO26_Qualifying_Final_Round_13jan_landscape_thumb.jpg"
-      },
-      "teams": [],
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768498607~acl=/*~id=99097409814499615434206191021069~hmac=d2273f74188c0e766b6bfec13480185e40eb248b688d015d3199cec7c493807d"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768499826~acl=/*~id=37346650784694388744698812880599~hmac=4d0e08080323f616d79f94c1164f3a04d9889fb62b69715c17fa667db1eb64b4"
       },
       "source": "SonyLIV"
     },
