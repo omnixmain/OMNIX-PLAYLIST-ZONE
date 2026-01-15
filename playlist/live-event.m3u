@@ -8,13 +8,15 @@ https://in-mc-fdlive.fancode.com/mumbai/139581_english_hls_a2d627457324419_1ta-d
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg" group-title="Fancode",Renaissance Challengers Vs Ias Invincibles [DAI]
 https://dai.google.com/linear/hls/event/a7EXud57R7e0ytO3LKMQ9w/master.m3u8
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013387/1768403052642345_PWL_26_Punjab-Royals-vs-UP-Dominators_14jan_landscape_thumb.jpg" group-title="SonyLIV",Punjab Royals vs UP Dominators - 15 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768533794~acl=/*~id=24751718218427770324184387355203~hmac=073ec23296b666ba79254af3ede5b8f41e21cc319d1f77721d6ff9297fd0db6e
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768535617~acl=/*~id=07915948996394054515888045313450~hmac=6d856447e29b017565a08e138019725f5cb17dad3c3752d78d8ec6e88ef2b16c
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013387/1768403052642345_PWL_26_Punjab-Royals-vs-UP-Dominators_14jan_landscape_thumb.jpg" group-title="SonyLIV",Punjab Royals vs UP Dominators - 15 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768533794~acl=/*~id=24751718218427770324184387355203~hmac=073ec23296b666ba79254af3ede5b8f41e21cc319d1f77721d6ff9297fd0db6e
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768535617~acl=/*~id=07915948996394054515888045313450~hmac=6d856447e29b017565a08e138019725f5cb17dad3c3752d78d8ec6e88ef2b16c
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/4080/1768396674080-h" group-title="JioHotstar",Mumbai Indians vs UP Warriorz
 https://www.hotstar.com/in/sports/cricket/mumbai-indians-vs-up-warriorz/1540059616/video/live/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/9367/1768398699367-h" group-title="JioHotstar",Chennai Singams vs Falcon Risers Hyderabad
 https://www.hotstar.com/in/sports/cricket/chennai-singams-vs-falcon-risers-hyderabad/1540059536/video/live/watch
+#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/6743/1768399006743-h" group-title="JioHotstar",Pretoria Capitals vs Paarl Royals
+https://www.hotstar.com/in/sports/cricket/pretoria-capitals-vs-paarl-royals/1540058751/video/live/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/5745/1750779565745-h" group-title="JioHotstar",Star Sports Cricket Classics
 https://www.hotstar.com/in/clip/star-sports-cricket-classics/1540040039/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/9492/1768418619492-h" group-title="JioHotstar",SF: Karnataka vs Vidarbha
@@ -25,5 +27,3 @@ https://www.hotstar.com/in/clip/follow-the-blues/1540045533/watch
 https://www.hotstar.com/in/sports/skating/international-skating-union-sheffield-day-2/1540054900/video/live/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/2214/1750777602214-h" group-title="JioHotstar",TATA IPL TV
 https://www.hotstar.com/in/clip/tata-ipl-tv/1540044879/watch
-#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/3639/1756796893639-h" group-title="JioHotstar",T20s TV
-https://www.hotstar.com/in/clip/t20s-tv/1540044897/watch
