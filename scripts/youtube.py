@@ -26,21 +26,20 @@ M3U_OUTPUT = "playlist/youtube.m3u"
 SEARCH_LIMIT = 20  
 MAX_WORKERS = 10   
 
-# The user-provided "YouTube Live" channel which lists current live streams
-# We use the "/streams" endpoint to get the Live tab specifically
-YOUTUBE_LIVE_CHANNEL = "https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig/streams"
+# The Official YouTube Live destination
+YOUTUBE_LIVE_DESTINATION = "https://www.youtube.com/live"
 
 CATEGORIES = {
     # (Category Name, Type, Query/URL)
-    "Trending Live": ("channel", YOUTUBE_LIVE_CHANNEL), 
-    "News": ("search", "live news 24x7"),
-    "Music": ("search", "live music radio 24/7"),
-    "Gaming": ("search", "live gaming stream"),
-    "Sports": ("search", "live sports match"),
-    "Technology": ("search", "live technology launch"),
-    "Devotional": ("search", "live darshan"),
-    "Space": ("search", "live space station earth"),
-    "Animals": ("search", "live wildlife camera"),
+    "Top Live": ("channel", YOUTUBE_LIVE_DESTINATION), 
+    "News": ("search", "live news"),
+    "Music": ("search", "live music"),
+    "Gaming": ("search", "live gaming"),
+    "Sports": ("search", "live sports"),
+    "Kids": ("search", "live cartoons for kids"),
+    "Movies": ("search", "live movies"),
+    "Tech": ("search", "live technology"),
+    "Animals": ("search", "live animals"),
 }
 
 def get_stream_info(entry, category):
