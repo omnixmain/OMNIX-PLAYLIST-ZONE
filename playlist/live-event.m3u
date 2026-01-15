@@ -1,12 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139676_5806_RAC_BAR_FC-Web_1768470725855.jpg" group-title="Fancode",Racing Club Vs Fc Barcelona [Main]
-https://in-mc-fdlive.fancode.com/mumbai/139676_english_hls_9487df73e183602_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139676_5806_RAC_BAR_FC-Web_1768470725855.jpg" group-title="Fancode",Racing Club Vs Fc Barcelona [DAI]
-https://dai.google.com/linear/hls/event/h-9_q1AZSIaFCQ4_HTIlMg/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139675_5806_BUR_VAL_FC-Web.jpg" group-title="Fancode",Burgos Vs Valencia Cf [Main]
-https://in-mc-fdlive.fancode.com/mumbai/139675_english_hls_a18e87fdd840858_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139675_5806_BUR_VAL_FC-Web.jpg" group-title="Fancode",Burgos Vs Valencia Cf [DAI]
-https://dai.google.com/linear/hls/event/B4gORrpXTReq188ij_KGrQ/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Sony-Open-In-Hawaii-web_opt2.jpg" group-title="Fancode",Featured Group   Day 1 [Main]
 https://in-mc-fdlive.fancode.com/mumbai/139776_english_hls_75ea536fd47683_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Sony-Open-In-Hawaii-web_opt2.jpg" group-title="Fancode",Featured Group   Day 1 [DAI]
@@ -15,3 +7,7 @@ https://dai.google.com/linear/hls/event/W7D5NDGJRC6mYZhZ_TIRzg/master.m3u8
 https://in-mc-fdlive.fancode.com/mumbai/139540_english_hls_8ee11e5cff66218_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ASB_Classic_fc-web.jpg" group-title="Fancode",Atp 250   Asb Classic [DAI]
 https://dai.google.com/linear/hls/event/QE9HCQrUSl6abaf3EqxO1A/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139676_5806_RAC_BAR_FC-Web_1768470725855.jpg" group-title="Fancode",Racing Club Vs Fc Barcelona [Main]
+https://in-mc-fdlive.fancode.com/mumbai/139676_english_hls_9487df73e183602_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139676_5806_RAC_BAR_FC-Web_1768470725855.jpg" group-title="Fancode",Racing Club Vs Fc Barcelona [DAI]
+https://dai.google.com/linear/hls/event/h-9_q1AZSIaFCQ4_HTIlMg/master.m3u8
