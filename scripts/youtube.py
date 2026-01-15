@@ -12,17 +12,35 @@ M3U_OUTPUT = "playlist/youtube.m3u"
 SEARCH_LIMIT = 20  
 MAX_WORKERS = 10   
 
+import yt_dlp
+import os
+import datetime
+import concurrent.futures
+import time
+
+# ==========================================
+# OMNIX EMPIRE - YOUTUBE LIVE EXTRACTOR
+# ==========================================
+
+M3U_OUTPUT = "playlist/youtube.m3u"
+SEARCH_LIMIT = 20  
+MAX_WORKERS = 10   
+
+# The user-provided "YouTube Live" channel which lists current live streams
+# We use the "/streams" endpoint to get the Live tab specifically
+YOUTUBE_LIVE_CHANNEL = "https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig/streams"
+
 CATEGORIES = {
-    "News": "live news 24x7",
-    "Music": "live music radio 24/7",
-    "Gaming": "live gaming stream",
-    "Sports": "live sports match",
-    "Live Events": "live event stream",
-    "Technology": "live technology launch",
-    "Devotional": "live darshan",
-    "Space": "live space station earth",
-    "Animals": "live wildlife camera",
-    "Entertainment": "live entertainment channel"
+    # (Category Name, Type, Query/URL)
+    "Trending Live": ("channel", YOUTUBE_LIVE_CHANNEL), 
+    "News": ("search", "live news 24x7"),
+    "Music": ("search", "live music radio 24/7"),
+    "Gaming": ("search", "live gaming stream"),
+    "Sports": ("search", "live sports match"),
+    "Technology": ("search", "live technology launch"),
+    "Devotional": ("search", "live darshan"),
+    "Space": ("search", "live space station earth"),
+    "Animals": ("search", "live wildlife camera"),
 }
 
 def get_stream_info(entry, category):
@@ -61,6 +79,7 @@ def get_stream_info(entry, category):
             if not info:
                 return None
             
+            # Key check: is_live must be True
             if not info.get('is_live'):
                 return None
             
@@ -87,19 +106,30 @@ def get_stream_info(entry, category):
     except Exception:
         return None
 
-def process_category(category, query, existing_ids):
-    print(f" > Searching: {category}...", flush=True)
+def process_source(category, source_type, source_query, existing_ids):
+    print(f" > Processing: {category}...", flush=True)
+    
+    candidates = []
     
     ydl_opts_search = {
         'quiet': True,
         'no_warnings': True,
         'ignoreerrors': True,
         'extract_flat': True,
-        'default_search': f'ytsearch{SEARCH_LIMIT}',
         'noplaylist': True,
     }
 
-    candidates = []
+    if source_type == "search":
+        ydl_opts_search['default_search'] = f'ytsearch{SEARCH_LIMIT}'
+        query = source_query
+        # Try to append " live" to ensure we get live results if not present
+        if "live" not in query.lower():
+            query += " live"
+    else:
+        # For channels, we just pass the URL
+        ydl_opts_search['playlist_items'] = f'1-{SEARCH_LIMIT}' # Limit items
+        query = source_query
+
     with yt_dlp.YoutubeDL(ydl_opts_search) as ydl:
         try:
             res = ydl.extract_info(query, download=False)
@@ -152,8 +182,8 @@ def main():
     all_streams = []
     seen_ids = set()
 
-    for cat, query in CATEGORIES.items():
-        results = process_category(cat, query, seen_ids)
+    for cat, (stype, squery) in CATEGORIES.items():
+        results = process_source(cat, stype, squery, seen_ids)
         all_streams.extend(results)
 
     os.makedirs(os.path.dirname(M3U_OUTPUT), exist_ok=True)
