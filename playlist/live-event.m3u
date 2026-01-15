@@ -3,6 +3,12 @@
 https://in-mc-fdlive.fancode.com/mumbai/139580_english_hls_fcc4945f2f2760_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg" group-title="Fancode",Yalla Shabab Giants Vs Oman Development Team [DAI]
 Unavailable
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/CWI-Women's-T20-Blaze_fc-web.jpg" group-title="Fancode",Barbados Women Vs Jamaica Women [Main]
+https://in-mc-fdlive.fancode.com/mumbai/139748_english_hls_3e659c1eb598132_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/CWI-Women's-T20-Blaze_fc-web.jpg" group-title="Fancode",Barbados Women Vs Jamaica Women [DAI]
+https://dai.google.com/linear/hls/event/D-sxufYHTnuKvYVKWQ84GA/master.m3u8
+#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/4080/1768396674080-h" group-title="JioHotstar",Mumbai Indians vs UP Warriorz
+https://www.hotstar.com/in/sports/cricket/mumbai-indians-vs-up-warriorz/1540059616/video/live/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/9457/1768418379457-h" group-title="JioHotstar",India vs USA
 https://www.hotstar.com/in/sports/cricket/india-vs-usa/1540060554/video/live/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/4458/1768396214458-h" group-title="JioHotstar",Bengaluru Strikers vs Tiigers of Kolkata
@@ -13,10 +19,6 @@ https://www.hotstar.com/in/clip/star-sports-cricket-classics/1540040039/watch
 https://www.hotstar.com/in/sports/cricket/sf-karnataka-vs-vidarbha/1540059121/video/live/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/1441/1762934631441-h" group-title="JioHotstar",Follow The Blues
 https://www.hotstar.com/in/clip/follow-the-blues/1540045533/watch
-#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/5952/1768423895952-h" group-title="JioHotstar",Tanzania vs West Indies
-https://www.hotstar.com/in/sports/cricket/tanzania-vs-west-indies/1540060917/video/live/watch
-#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/7913/1768419087913-h" group-title="JioHotstar",Zimbabwe vs Scotland
-https://www.hotstar.com/in/sports/cricket/zimbabwe-vs-scotland/1540060914/video/live/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/2214/1750777602214-h" group-title="JioHotstar",TATA IPL TV
 https://www.hotstar.com/in/clip/tata-ipl-tv/1540044879/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/3639/1756796893639-h" group-title="JioHotstar",T20s TV
