@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138750_5800_OV_WF_fc-web_1766641250975.jpg" group-title="Fancode",Wellington Firebirds Vs Otago Volts [Main]
-https://in-mc-fdlive.fancode.com/mumbai/138750_english_hls_c5f0ec436254387_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138750_5800_OV_WF_fc-web_1766641250975.jpg" group-title="Fancode",Wellington Firebirds Vs Otago Volts [DAI]
-https://dai.google.com/linear/hls/event/0zfJ3KzPQnmeZKqkWzixCA/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138934_5808_CCH_NOE_fc-web_1766733054213.jpg" group-title="Fancode",Chattogram Royals Vs Noakhali Express [Main]
 https://in-mc-fdlive.fancode.com/mumbai/138934_english_hls_62a118a79b98092_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138934_5808_CCH_NOE_fc-web_1766733054213.jpg" group-title="Fancode",Chattogram Royals Vs Noakhali Express [DAI]
@@ -24,13 +20,15 @@ https://in-mc-fdlive.fancode.com/mumbai/139566_english_hls_cbc0042fbb45031_1ta-d
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png" group-title="Fancode",Centre Court   Day 4 [DAI]
 https://dai.google.com/linear/hls/event/XsBaWklCSiKi4McfJJhMkQ/master.m3u8
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013378/1768394373358258_AO26_Djokovic_vs_Tiafoe_op_live_landscpae_thumb.jpg" group-title="SonyLIV",Novak Djokovic vs Frances Tiafoe - 15 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768503473~acl=/*~id=20698295045504861127031619175994~hmac=499cfe59372474d9c5fa64aecf174978daacaaabc71edebb9a21d6064d507237
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012916/1767337972882901_SuperSmash2526_mens_Otago-Volts-vs-Wellington-Firebirds_1jan_landscape_thumb.jpg" group-title="SonyLIV",Otago Volts vs Wellington Firebirds - 15 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768503473~acl=/*~id=20698295045504861127031619175994~hmac=499cfe59372474d9c5fa64aecf174978daacaaabc71edebb9a21d6064d507237
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013339/1768311115384502_AO26_Qualifying_Final_Round_13jan_landscape_thumb.jpg" group-title="SonyLIV",Qualifying - Final Round - 15 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768503473~acl=/*~id=20698295045504861127031619175994~hmac=499cfe59372474d9c5fa64aecf174978daacaaabc71edebb9a21d6064d507237
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768505294~acl=/*~id=27054867236086008884933910892562~hmac=c19a7b4e33994095b62c9b22c88e469a3c850aed34710a8dd0d3ad181f7eb2df
+#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/9457/1768418379457-h" group-title="JioHotstar",India vs USA
+https://www.hotstar.com/in/sports/cricket/india-vs-usa/1540060554/video/live/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/5745/1750779565745-h" group-title="JioHotstar",Star Sports Cricket Classics
 https://www.hotstar.com/in/clip/star-sports-cricket-classics/1540040039/watch
+#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/5952/1768423895952-h" group-title="JioHotstar",Tanzania vs West Indies
+https://www.hotstar.com/in/sports/cricket/tanzania-vs-west-indies/1540060917/video/live/watch
+#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/7913/1768419087913-h" group-title="JioHotstar",Zimbabwe vs Scotland
+https://www.hotstar.com/in/sports/cricket/zimbabwe-vs-scotland/1540060914/video/live/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/1441/1762934631441-h" group-title="JioHotstar",Follow The Blues
 https://www.hotstar.com/in/clip/follow-the-blues/1540045533/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/2214/1750777602214-h" group-title="JioHotstar",TATA IPL TV
