@@ -3,6 +3,10 @@
 https://in-mc-fdlive.fancode.com/mumbai/138750_english_hls_c5f0ec436254387_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138750_5800_OV_WF_fc-web_1766641250975.jpg" group-title="Fancode",Wellington Firebirds Vs Otago Volts [DAI]
 https://dai.google.com/linear/hls/event/0zfJ3KzPQnmeZKqkWzixCA/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138934_5808_CCH_NOE_fc-web_1766733054213.jpg" group-title="Fancode",Chattogram Royals Vs Noakhali Express [Main]
+https://in-mc-fdlive.fancode.com/mumbai/138934_english_hls_62a118a79b98092_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138934_5808_CCH_NOE_fc-web_1766733054213.jpg" group-title="Fancode",Chattogram Royals Vs Noakhali Express [DAI]
+https://dai.google.com/linear/hls/event/ti_dtI41Q9y0qef-hj_LcA/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg" group-title="Fancode",Swami Vivekanand Vs Rizvi [Main]
 https://in-mc-fdlive.fancode.com/mumbai/139667_english_hls_e061157e2f88573_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg" group-title="Fancode",Swami Vivekanand Vs Rizvi [DAI]
@@ -20,9 +24,11 @@ https://in-mc-fdlive.fancode.com/mumbai/139566_english_hls_cbc0042fbb45031_1ta-d
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png" group-title="Fancode",Centre Court   Day 4 [DAI]
 https://dai.google.com/linear/hls/event/XsBaWklCSiKi4McfJJhMkQ/master.m3u8
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013378/1768394373358258_AO26_Djokovic_vs_Tiafoe_op_live_landscpae_thumb.jpg" group-title="SonyLIV",Novak Djokovic vs Frances Tiafoe - 15 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768499826~acl=/*~id=37346650784694388744698812880599~hmac=4d0e08080323f616d79f94c1164f3a04d9889fb62b69715c17fa667db1eb64b4
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768501651~acl=/*~id=83472390738154359281842690885796~hmac=fbe4f4dbb763284ebe448426790f9a28571bea5f42f7e3c69634954c16da8b57
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012916/1767337972882901_SuperSmash2526_mens_Otago-Volts-vs-Wellington-Firebirds_1jan_landscape_thumb.jpg" group-title="SonyLIV",Otago Volts vs Wellington Firebirds - 15 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768499826~acl=/*~id=37346650784694388744698812880599~hmac=4d0e08080323f616d79f94c1164f3a04d9889fb62b69715c17fa667db1eb64b4
+https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768501651~acl=/*~id=83472390738154359281842690885796~hmac=fbe4f4dbb763284ebe448426790f9a28571bea5f42f7e3c69634954c16da8b57
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013339/1768311115384502_AO26_Qualifying_Final_Round_13jan_landscape_thumb.jpg" group-title="SonyLIV",Qualifying - Final Round - 15 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768501651~acl=/*~id=83472390738154359281842690885796~hmac=fbe4f4dbb763284ebe448426790f9a28571bea5f42f7e3c69634954c16da8b57
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/5745/1750779565745-h" group-title="JioHotstar",Star Sports Cricket Classics
 https://www.hotstar.com/in/clip/star-sports-cricket-classics/1540040039/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/1441/1762934631441-h" group-title="JioHotstar",Follow The Blues
