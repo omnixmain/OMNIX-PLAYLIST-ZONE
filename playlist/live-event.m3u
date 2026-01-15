@@ -15,14 +15,12 @@ https://dai.google.com/linear/hls/event/8cuQHVfVQAOg9NY4EjR_mQ/master.m3u8
 https://in-mc-fdlive.fancode.com/mumbai/139566_english_hls_cbc0042fbb45031_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png" group-title="Fancode",Centre Court   Day 4 [DAI]
 https://dai.google.com/linear/hls/event/XsBaWklCSiKi4McfJJhMkQ/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png" group-title="Fancode",Show Court 1 - Day 4 vs Adelaide (ATP 250 - Adelaide International) [Main]
-https://in-mc-fdlive.fancode.com/mumbai/139567_english_hls_a4360e563990286_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png" group-title="Fancode",Show Court 1 - Day 4 vs Adelaide (ATP 250 - Adelaide International) [DAI]
-https://dai.google.com/linear/hls/event/0XQ6230iQvezCxV7QVKJwQ/master.m3u8
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013332/1768306701711693_AO26_Opening_week_Alcaraz_vs_De_Minaur_13jan_landscape_thumb.jpg" group-title="SonyLIV",Alcaraz vs De Minaur - 15 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768506508~acl=/*~id=32515422557788729071121217771076~hmac=9dd606fa90f273a2f123ec9f881c44e4c715ee8613e880460f282f0553f414c7
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768508934~acl=/*~id=12890583486168152971787330796929~hmac=647270ba10773cd3471ed2af9f5a6fa8ecd7f38a70459ef06dddbdbd550eb1e9
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/9457/1768418379457-h" group-title="JioHotstar",India vs USA
 https://www.hotstar.com/in/sports/cricket/india-vs-usa/1540060554/video/live/watch
+#EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/9492/1768418619492-h" group-title="JioHotstar",SF: Karnataka vs Vidarbha
+https://www.hotstar.com/in/sports/cricket/sf-karnataka-vs-vidarbha/1540059121/video/live/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/5745/1750779565745-h" group-title="JioHotstar",Star Sports Cricket Classics
 https://www.hotstar.com/in/clip/star-sports-cricket-classics/1540040039/watch
 #EXTINF:-1 tvg-logo="https://img.hotstar.com/image/upload/f_auto,q_90,w_720/sources/r1/cms/prod/5952/1768423895952-h" group-title="JioHotstar",Tanzania vs West Indies
