@@ -2,7 +2,7 @@
 #=================================
 # Developed By: OMNIX EMPIER
 # IPTV Telegram Channels: https://t.me/omnix_Empire
-# Last Updated: 2026-01-16 12:43 AM (BD Time)
+# Last Updated: 2026-01-16 01:28 AM (BD Time)
 # TV channel counts :- 481
 # Disclaimer:
 # This tool does NOT host any content.
@@ -25,9 +25,9 @@ https://v5on.site/api/playlist.php?id=22842|Referer=https://v5on.site/&User-Agen
 https://v5on.site/api/playlist.php?id=28271|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="38857" tvg-name="AL KASS 8 ᴴᴰ|AR| ✪ AL KASS HD" tvg-logo="http://138.199.27.237:8080/BEIN/ALKASS/ALKASS8.png" group-title="|AR| ✪ AL KASS HD",AL KASS 8 ᴴᴰ|AR| ✪ AL KASS HD
 https://v5on.site/api/playlist.php?id=38857|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="288372" tvg-name="AU BEIN SPORTS 2 ᴴᴰ|AU| ✪ AUSTRALIA" tvg-logo="https://vectorflags.s3.amazonaws.com/flags/au-circle-01.png" group-title="|AU| ✪ AUSTRALIA",AU BEIN SPORTS 2 ᴴᴰ|AU| ✪ AUSTRALIA
+#EXTINF:-1 tvg-id="288372" tvg-name="AU BEIN SPORTS 2 ᴴᴰ|AU| ✪ AUSTRALIA" tvg-logo="https://vectorflags.s3.amazonaws.com/flags/au-circle-01.png" group-title="All",AU BEIN SPORTS 2 ᴴᴰ|AU| ✪ AUSTRALIA
 https://v5on.site/api/playlist.php?id=288372|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="288373" tvg-name="AU BEIN SPORTS 3 ᴴᴰ|AU| ✪ AUSTRALIA" tvg-logo="https://vectorflags.s3.amazonaws.com/flags/au-circle-01.png" group-title="|AU| ✪ AUSTRALIA",AU BEIN SPORTS 3 ᴴᴰ|AU| ✪ AUSTRALIA
+#EXTINF:-1 tvg-id="288373" tvg-name="AU BEIN SPORTS 3 ᴴᴰ|AU| ✪ AUSTRALIA" tvg-logo="https://vectorflags.s3.amazonaws.com/flags/au-circle-01.png" group-title="All",AU BEIN SPORTS 3 ᴴᴰ|AU| ✪ AUSTRALIA
 https://v5on.site/api/playlist.php?id=288373|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="201460" tvg-name="Alkass Radio 01|AR| ✪ SPORTS ARABIC" tvg-logo="http://138.199.27.237:8080/BEIN/ALKASS/ALKASS.png" group-title="|AR| ✪ SPORTS ARABIC",Alkass Radio 01|AR| ✪ SPORTS ARABIC
 https://v5on.site/api/playlist.php?id=201460|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -97,7 +97,7 @@ https://v5on.site/api/playlist.php?id=44445|Referer=https://v5on.site/&User-Agen
 https://v5on.site/api/playlist.php?id=35522|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="272468" tvg-name="BEIN SPORTS 1 TOD|AR| ✪ BEIN SPORT HD" tvg-logo="http://138.199.27.237:8080/BEIN/bein-sport/BEINSPORT1HD.png" group-title="|AR| ✪ BEIN SPORT HD",BEIN SPORTS 1 TOD|AR| ✪ BEIN SPORT HD
 https://v5on.site/api/playlist.php?id=272468|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="197176" tvg-name="BEIN SPORTS 1|AU| ✪ AUSTRALIA" tvg-logo="https://vectorflags.s3.amazonaws.com/flags/au-circle-01.png" group-title="|AU| ✪ AUSTRALIA",BEIN SPORTS 1|AU| ✪ AUSTRALIA
+#EXTINF:-1 tvg-id="197176" tvg-name="BEIN SPORTS 1|AU| ✪ AUSTRALIA" tvg-logo="https://vectorflags.s3.amazonaws.com/flags/au-circle-01.png" group-title="All",BEIN SPORTS 1|AU| ✪ AUSTRALIA
 https://v5on.site/api/playlist.php?id=197176|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="35523" tvg-name="BEIN SPORTS 2 4K|FR| ✪ BEIN SPORT" tvg-logo="http://138.199.27.237:8080/0tv_logo/120.png" group-title="|FR| ✪ BEIN SPORT",BEIN SPORTS 2 4K|FR| ✪ BEIN SPORT
 https://v5on.site/api/playlist.php?id=35523|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -333,15 +333,15 @@ https://v5on.site/api/playlist.php?id=492970|Referer=https://v5on.site/&User-Age
 https://v5on.site/api/playlist.php?id=492971|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="492972" tvg-name="Bein Sports 6|AR| ✪ BEIN SPORT DELAY" tvg-logo="http://138.199.27.237:8080/BEIN/BeinSports/bein-sports6.png" group-title="|AR| ✪ BEIN SPORT DELAY",Bein Sports 6|AR| ✪ BEIN SPORT DELAY
 https://v5on.site/api/playlist.php?id=492972|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="302326" tvg-name="C+ CAR| beIN SPORTS 1 ᴴᴰ|FR| ✪ CARIBBEAN" tvg-logo="http://138.199.27.237:8080/0tv_logo/119.png" group-title="|FR| ✪ CARIBBEAN",C+ CAR| beIN SPORTS 1 ᴴᴰ|FR| ✪ CARIBBEAN
+#EXTINF:-1 tvg-id="302326" tvg-name="C+ CAR| beIN SPORTS 1 ᴴᴰ|FR| ✪ CARIBBEAN" tvg-logo="http://138.199.27.237:8080/0tv_logo/119.png" group-title="All",C+ CAR| beIN SPORTS 1 ᴴᴰ|FR| ✪ CARIBBEAN
 https://v5on.site/api/playlist.php?id=302326|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="302327" tvg-name="C+ CAR| beIN SPORTS 2 ᴴᴰ|FR| ✪ CARIBBEAN" tvg-logo="http://138.199.27.237:8080/0tv_logo/120.png" group-title="|FR| ✪ CARIBBEAN",C+ CAR| beIN SPORTS 2 ᴴᴰ|FR| ✪ CARIBBEAN
+#EXTINF:-1 tvg-id="302327" tvg-name="C+ CAR| beIN SPORTS 2 ᴴᴰ|FR| ✪ CARIBBEAN" tvg-logo="http://138.199.27.237:8080/0tv_logo/120.png" group-title="All",C+ CAR| beIN SPORTS 2 ᴴᴰ|FR| ✪ CARIBBEAN
 https://v5on.site/api/playlist.php?id=302327|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="302328" tvg-name="C+ CAR| beIN SPORTS 3 ᴴᴰ|FR| ✪ CARIBBEAN" tvg-logo="http://138.199.27.237:8080/0tv_logo/5082.png" group-title="|FR| ✪ CARIBBEAN",C+ CAR| beIN SPORTS 3 ᴴᴰ|FR| ✪ CARIBBEAN
+#EXTINF:-1 tvg-id="302328" tvg-name="C+ CAR| beIN SPORTS 3 ᴴᴰ|FR| ✪ CARIBBEAN" tvg-logo="http://138.199.27.237:8080/0tv_logo/5082.png" group-title="All",C+ CAR| beIN SPORTS 3 ᴴᴰ|FR| ✪ CARIBBEAN
 https://v5on.site/api/playlist.php?id=302328|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="302329" tvg-name="C+ CAR| beIN SPORTS MAX 4 ᴴᴰ|FR| ✪ CARIBBEAN" tvg-logo="http://dmtn.tv:8080/images/a2b5Si5RUzwHv3AXDp_uX8j4GrThVAtB2fMd_64T9FyTIuh5qlVUAO2rB5TvXgXO.png" group-title="|FR| ✪ CARIBBEAN",C+ CAR| beIN SPORTS MAX 4 ᴴᴰ|FR| ✪ CARIBBEAN
+#EXTINF:-1 tvg-id="302329" tvg-name="C+ CAR| beIN SPORTS MAX 4 ᴴᴰ|FR| ✪ CARIBBEAN" tvg-logo="http://dmtn.tv:8080/images/a2b5Si5RUzwHv3AXDp_uX8j4GrThVAtB2fMd_64T9FyTIuh5qlVUAO2rB5TvXgXO.png" group-title="All",C+ CAR| beIN SPORTS MAX 4 ᴴᴰ|FR| ✪ CARIBBEAN
 https://v5on.site/api/playlist.php?id=302329|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="302330" tvg-name="C+ CAR| beIN SPORTS MAX 5 ᴴᴰ|FR| ✪ CARIBBEAN" tvg-logo="http://138.199.27.237:8080/EUROPE/FRANCE/BEINMAX5.png" group-title="|FR| ✪ CARIBBEAN",C+ CAR| beIN SPORTS MAX 5 ᴴᴰ|FR| ✪ CARIBBEAN
+#EXTINF:-1 tvg-id="302330" tvg-name="C+ CAR| beIN SPORTS MAX 5 ᴴᴰ|FR| ✪ CARIBBEAN" tvg-logo="http://138.199.27.237:8080/EUROPE/FRANCE/BEINMAX5.png" group-title="All",C+ CAR| beIN SPORTS MAX 5 ᴴᴰ|FR| ✪ CARIBBEAN
 https://v5on.site/api/playlist.php?id=302330|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="1072009" tvg-name="C+ RÉU| BEIN SPORTS 1 HD|FR| ✪ RÉUNION" tvg-logo="http://138.199.27.237:8080/FRANCE/BEINSPORTS.png" group-title="|FR| ✪ RÉUNION",C+ RÉU| BEIN SPORTS 1 HD|FR| ✪ RÉUNION
 https://v5on.site/api/playlist.php?id=1072009|Referer=https://v5on.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
