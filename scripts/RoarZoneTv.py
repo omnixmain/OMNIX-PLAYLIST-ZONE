@@ -105,10 +105,27 @@ async def main():
         )
         filename = "playlist/RoarZoneTv.m3u"
         print(f"Generating M3U playlist: {filename}")
+        # Calculate BD Time (UTC + 6)
+        import datetime
+        utc_now = datetime.datetime.utcnow()
+        bd_time = utc_now + datetime.timedelta(hours=6)
+        formatted_time = bd_time.strftime("%Y-%m-%d %I:%M %p")
+        count = len(valid_channels)
+
+        m3u_header = f"""#EXTM3U
+#=================================
+# Developed By: OMNIX EMPIER
+# IPTV Telegram Channels: https://t.me/omnix_Empire
+# Last Updated: {formatted_time} (BD Time)
+# TV channel counts :- {count}
+# Disclaimer:
+# This tool does NOT host any content.
+# It aggregates publicly available data for informational purposes only.
+# For any issues or concerns, please contact the developer.
+#==================================  
+"""
         with open(filename, "w", encoding="utf-8") as f:
-            f.write("#EXTM3U\n")
-            f.write("# Made with love by Mahamudun Nabi Siam\n")
-            f.write(f"# Generated at {time.ctime()}\n\n")
+            f.write(m3u_header)
             for channel in valid_channels:
                 name = channel["name"].replace(",", " ")
                 logo = channel["logo"]
