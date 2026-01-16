@@ -625,6 +625,8 @@ http://160.187.56.254:8096/Videos/951465/stream.mp4?static=true&api_key=99222d3d
 http://160.187.56.254:8096/Videos/931882/stream.mp4?static=true&api_key=99222d3d913b449ba8cbec5129ec7441
 #EXTINF:-1 tvg-id="954350" tvg-logo="http://160.187.56.254:8096/Items/954350/Images/Primary?maxHeight=400&maxWidth=267&quality=90" group-title="Other",Agatha Christie's Hjerson (2021)
 http://160.187.56.254:8096/Videos/954350/stream.mp4?static=true&api_key=99222d3d913b449ba8cbec5129ec7441
+#EXTINF:-1 tvg-id="1010815" tvg-logo="http://160.187.56.254:8096/Items/1010815/Images/Primary?maxHeight=400&maxWidth=267&quality=90" group-title="Other",Agatha Christie's Seven Dials (2026)
+http://160.187.56.254:8096/Videos/1010815/stream.mp4?static=true&api_key=99222d3d913b449ba8cbec5129ec7441
 #EXTINF:-1 tvg-id="942779" tvg-logo="http://160.187.56.254:8096/Items/942779/Images/Primary?maxHeight=400&maxWidth=267&quality=90" group-title="Bollywood",Agent Durga (2022) - [1080p H264]
 http://160.187.56.254:8096/Videos/942779/stream.mp4?static=true&api_key=99222d3d913b449ba8cbec5129ec7441
 #EXTINF:-1 tvg-id="936613" tvg-logo="http://160.187.56.254:8096/Items/936613/Images/Primary?maxHeight=400&maxWidth=267&quality=90" group-title="Bollywood",Agent Recon (2025) - [1080p H264]
@@ -12085,6 +12087,8 @@ http://160.187.56.254:8096/Videos/1008047/stream.mkv?static=true&api_key=99222d3
 http://160.187.56.254:8096/Videos/950460/stream.mkv?static=true&api_key=99222d3d913b449ba8cbec5129ec7441
 #EXTINF:-1 tvg-id="937424" tvg-logo="http://160.187.56.254:8096/Items/937424/Images/Primary?maxHeight=400&maxWidth=267&quality=90" group-title="Bollywood",Night Drive (2021) - [1080p H264]
 http://160.187.56.254:8096/Videos/937424/stream.mkv?static=true&api_key=99222d3d913b449ba8cbec5129ec7441
+#EXTINF:-1 tvg-id="1010814" tvg-logo="http://160.187.56.254:8096/Items/1010814/Images/Primary?maxHeight=400&maxWidth=267&quality=90" group-title="Other",The Night Manager (2016)
+http://160.187.56.254:8096/Videos/1010814/stream.mp4?static=true&api_key=99222d3d913b449ba8cbec5129ec7441
 #EXTINF:-1 tvg-id="99903" tvg-logo="http://160.187.56.254:8096/Items/99903/Images/Primary?maxHeight=400&maxWidth=267&quality=90" group-title="Other",The Night Manager (IN) (2023)
 http://160.187.56.254:8096/Videos/99903/stream.mp4?static=true&api_key=99222d3d913b449ba8cbec5129ec7441
 #EXTINF:-1 tvg-id="934425" tvg-logo="http://160.187.56.254:8096/Items/934425/Images/Primary?maxHeight=400&maxWidth=267&quality=90" group-title="Bollywood",Night of the Hunted (2023) - [1080p H264]
