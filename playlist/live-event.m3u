@@ -3,6 +3,10 @@
 https://in-mc-fdlive.fancode.com/mumbai/131029_english_hls_f292527a9822857_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131029_5427_ESL_GIR_fc-Web_1768307626387.png" group-title="Fancode",Rcd Espanyol Vs Girona Fc [DAI]
 Unavailable
+#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1/139913_CASACARDS_APP.png" group-title="Fancode",West Bromwich Albion F.c. Vs Middlesbrough F.c. [Main]
+https://in-mc-fdlive.fancode.com/mumbai/139913_english_hls_fcbebdf1a357131_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1/139913_CASACARDS_APP.png" group-title="Fancode",West Bromwich Albion F.c. Vs Middlesbrough F.c. [DAI]
+https://dai.google.com/linear/hls/event/1B_u9SiVQmikRs39vBbCAQ/master.m3u8
 #EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1/139787_CASACARDS_APP.png" group-title="Fancode",Castellón Vs Leganés [Main]
 https://in-mc-fdlive.fancode.com/mumbai/139787_english_hls_b66d45021423039_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1/139787_CASACARDS_APP.png" group-title="Fancode",Castellón Vs Leganés [DAI]
@@ -15,9 +19,5 @@ https://dai.google.com/linear/hls/event/MnjsQo4QTNeKy9TECSm3yw/master.m3u8
 https://in-mc-fdlive.fancode.com/mumbai/139778_english_hls_35c057050432718_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Sony-Open-In-Hawaii-web_opt2.jpg" group-title="Fancode",Featured Group   Day 2 [DAI]
 https://dai.google.com/linear/hls/event/fx4GIyhOTOua_ENWHRSutw/master.m3u8
-#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1/139913_CASACARDS_APP.png" group-title="Fancode",West Bromwich Albion F.c. Vs Middlesbrough F.c. [Main]
-https://in-mc-fdlive.fancode.com/mumbai/139913_english_hls_fcbebdf1a357131_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1/139913_CASACARDS_APP.png" group-title="Fancode",West Bromwich Albion F.c. Vs Middlesbrough F.c. [DAI]
-https://dai.google.com/linear/hls/event/1B_u9SiVQmikRs39vBbCAQ/master.m3u8
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013455/1768495550897550_bliga26_MD18_Werder_Bremen_vs_Eintracht_Frankfurt_15jan_landscape_thumb.jpg" group-title="SonyLIV",Werder Bremen vs Eintracht Frankfurt - MD 18 - 17 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768635851~acl=/*~id=05935974595875634337514274297606~hmac=c02ca4ccad25fa37ebc4a7810c71ec758434a7a052c9d260ee271e84ee20fe99
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768636457~acl=/*~id=57030300763347992438048875066712~hmac=9c1e16d93f67374692d68485d0ccde470a58180da7a08399cf6d54ec4d1dbf1a
