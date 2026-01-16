@@ -1,8 +1,8 @@
-name: Run Python Script
+name: RoarZone-tv Play Playlist
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 jobs:
