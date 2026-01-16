@@ -3,9 +3,11 @@
 https://in-mc-fdlive.fancode.com/mumbai/138934_english_hls_62a118a79b83261_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138934_5808_CCH_NOE_fc-web_1766733054213.jpg" group-title="Fancode",Noakhali Express Vs Chattogram Royals [DAI]
 https://dai.google.com/linear/hls/event/nHhIA53QSl-pxD6s84uRsA/master.m3u8
+#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1/139275_CASACARDS_APP.png" group-title="Fancode",Japan U23 Vs Jordan U23 [Main]
+https://india-mpv2.fancode.com/out/v1/ap-south-1/139275_english_139275/ad-h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1/139275_CASACARDS_APP.png" group-title="Fancode",Japan U23 Vs Jordan U23 [DAI]
+Unavailable
 #EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1/139385_CASACARDS_APP.png" group-title="Fancode",Perth Glory Vs Brisbane Roar [Main]
 https://in-mc-fdlive.fancode.com/mumbai/139385_english_hls_0ea117155f37264_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1/139385_CASACARDS_APP.png" group-title="Fancode",Perth Glory Vs Brisbane Roar [DAI]
 https://dai.google.com/linear/hls/event/JeC0cysaSqajAKQtOntUYw/master.m3u8
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013423/176846861552253_AO26_Redbull_Baseline_live_landscape_thumb.jpg" group-title="SonyLIV",Redbull Baseline - 16 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768604226~acl=/*~id=85649139668867345882956169272088~hmac=e1d43605eb4cb47e935f2be25242ae965d990b84407623e349633d43b6aeb1c2
