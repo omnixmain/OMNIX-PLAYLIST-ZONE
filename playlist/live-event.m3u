@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138935_5808_DBR_SYL_fc-web_1766733054259.jpg" group-title="Fancode",Rajshahi Warriors Vs Sylhet Titans [Main]
-https://in-mc-fdlive.fancode.com/mumbai/138935_english_hls_7cc186844e13537_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138935_5808_DBR_SYL_fc-web_1766733054259.jpg" group-title="Fancode",Rajshahi Warriors Vs Sylhet Titans [DAI]
-https://dai.google.com/linear/hls/event/3vbwHpI1SrC9nh70qX7QzA/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg" group-title="Fancode",Yalla Shabab Giants Vs Oman Development Team [Main]
 https://in-mc-fdlive.fancode.com/mumbai/139582_english_hls_6ece3b177a59256_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg" group-title="Fancode",Yalla Shabab Giants Vs Oman Development Team [DAI]
@@ -11,7 +7,15 @@ https://dai.google.com/linear/hls/event/iQXh9HF4Rna3d0FPv1RGOw/master.m3u8
 https://in-mc-fdlive.fancode.com/mumbai/139276_english_hls_89fca343c586276_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Vietnam-U23_vs_UAE23_fc-web.jpg" group-title="Fancode",Vietnam U23 Vs United Arab Emirates U23 [DAI]
 https://dai.google.com/linear/hls/event/FTvEwDNVRb6GaHoe83czCQ/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Sony-Open-In-Hawaii-web_opt2.jpg" group-title="Fancode",Featured Group   Day 2 [Main]
+https://in-mc-fdlive.fancode.com/mumbai/139778_english_hls_35c057050432718_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Sony-Open-In-Hawaii-web_opt2.jpg" group-title="Fancode",Featured Group   Day 2 [DAI]
+https://dai.google.com/linear/hls/event/fx4GIyhOTOua_ENWHRSutw/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138935_5808_DBR_SYL_fc-web_1766733054259.jpg" group-title="Fancode",Rajshahi Warriors Vs Sylhet Titans [Main]
+https://in-mc-fdlive.fancode.com/mumbai/138935_english_hls_7cc186844e13537_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138935_5808_DBR_SYL_fc-web_1766733054259.jpg" group-title="Fancode",Rajshahi Warriors Vs Sylhet Titans [DAI]
+https://dai.google.com/linear/hls/event/3vbwHpI1SrC9nh70qX7QzA/master.m3u8
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013429/176847408542089_PWL_26_Punjab-Royals-vs-Haryana-Thunders_15jan_landscape_thumb.jpg" group-title="SonyLIV",Punjab Royals vs Haryana Thunders - 16 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768624883~acl=/*~id=27004233807893708933557873767512~hmac=66b356f5a75957659349abf655ecf4077d24fef8226a06ec4e990424ff934045
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768626097~acl=/*~id=68299874560029559181275396932944~hmac=6c2d5057ce606f2dc0022311dfef183348e78b1af74b241e0cf7cf8e0b30ef8b
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013429/176847408542089_PWL_26_Punjab-Royals-vs-Haryana-Thunders_15jan_landscape_thumb.jpg" group-title="SonyLIV",Punjab Royals vs Haryana Thunders - 16 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768624883~acl=/*~id=27004233807893708933557873767512~hmac=66b356f5a75957659349abf655ecf4077d24fef8226a06ec4e990424ff934045
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768626097~acl=/*~id=68299874560029559181275396932944~hmac=6c2d5057ce606f2dc0022311dfef183348e78b1af74b241e0cf7cf8e0b30ef8b
