@@ -1,7 +1,7 @@
 {
   "Author": "\ud835\udd46\ud835\udd44\u2115\ud835\udd40\ud835\udd4f \ud835\udd3c\ud835\udd44\u2119\ud835\udd40\u211d\ud835\udd3c",
   "name": "FanCode Live Matches API",
-  "last_updated": "08:50:31 PM 16-01-2026",
+  "last_updated": "09:21:27 PM 16-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -64,8 +64,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "151587",
+                "shortName": "V Vanat",
+                "isOwnGoal": false,
+                "goalTime": "45'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -142,8 +149,21 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 2,
+            "goals": [
+              {
+                "id": "112653",
+                "shortName": "S Silvera",
+                "isOwnGoal": false,
+                "goalTime": "58'"
+              },
+              {
+                "id": "224120",
+                "shortName": "C Taylor",
+                "isOwnGoal": false,
+                "goalTime": "42'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -1238,73 +1258,6 @@
       "source": "Fancode"
     },
     {
-      "category": "Football",
-      "title": "Australia U23 Vs Korea Republic U23",
-      "tournament": "AFC U23 Asian Cup, 2026",
-      "match_id": 139278,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "17 January 2026 09:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Australia-U23_vs_KoraRepublicU23_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139278_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Australia-U23_vs_KoraRepublicU23_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-U23-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Australia-U23_vs_KoraRepublicU23_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Australia-U23_vs_KoraRepublicU23_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139278_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Australia U23",
-          "shortName": "AUS-U23",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/AUS-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#4d66a3",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Korea Republic U23",
-          "shortName": "KR-U23",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/KOR-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#dd717a",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
       "category": "Cricket",
       "title": "Otago Sparks Vs Northern Brave Women",
       "tournament": "Women's Super Smash, 2025-26",
@@ -1352,6 +1305,73 @@
           },
           "isWinner": null,
           "color": "#bcbcbc",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Football",
+      "title": "Australia U23 Vs Korea Republic U23",
+      "tournament": "AFC U23 Asian Cup, 2026",
+      "match_id": 139278,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "17 January 2026 09:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Australia-U23_vs_KoraRepublicU23_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139278_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Australia-U23_vs_KoraRepublicU23_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-U23-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Australia-U23_vs_KoraRepublicU23_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Australia-U23_vs_KoraRepublicU23_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139278_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Australia U23",
+          "shortName": "AUS-U23",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/AUS-FT1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#4d66a3",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Korea Republic U23",
+          "shortName": "KR-U23",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/KOR-FT1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#dd717a",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2109,6 +2129,73 @@
       "source": "Fancode"
     },
     {
+      "category": "Football",
+      "title": "Mexico Legends Vs International Legends",
+      "tournament": "Juego de Leyendas 2026",
+      "match_id": 139922,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "18 January 2026 06:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Juego-de-leyendas_web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139922_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Juego-de-leyendas_web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Juego-de-leyendas_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Juego-de-leyendas_old_sporty.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139922_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Mexico Legends",
+          "shortName": "ML",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT12@2x.png"
+          },
+          "isWinner": null,
+          "color": "#B8142D",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "International Legends",
+          "shortName": "IL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT14@2x.png"
+          },
+          "isWinner": null,
+          "color": "#132f86",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
       "category": "Cricket",
       "title": "Central Hinds Vs Auckland Hearts",
       "tournament": "Women's Super Smash, 2025-26",
@@ -2441,73 +2528,6 @@
       "source": "Fancode"
     },
     {
-      "category": "Football",
-      "title": "Mexico Legends Vs International Legends",
-      "tournament": "Juego de Leyendas 2026",
-      "match_id": 139922,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 January 2026 06:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Juego-de-leyendas_web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139922_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Juego-de-leyendas_web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Juego-de-leyendas_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Juego-de-leyendas_old_sporty.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139922_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Mexico Legends",
-          "shortName": "ML",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT12@2x.png"
-          },
-          "isWinner": null,
-          "color": "#B8142D",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "International Legends",
-          "shortName": "IL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT14@2x.png"
-          },
-          "isWinner": null,
-          "color": "#132f86",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
       "category": "Golf",
       "title": "Featured Group   Day 3",
       "tournament": "Sony Open in Hawaii 2026",
@@ -2658,7 +2678,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768639491~acl=/*~id=38430136130350801397973111115309~hmac=070e30adab3dc2ffb48aafff9d4f6f1eb471fb724a5925a019c79a512a35b56a"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768641311~acl=/*~id=72468548241667853633863963363062~hmac=4121cda761c6ec45cfebf87c31563860411211744de144e11183cd88d57c97ef"
       },
       "source": "SonyLIV"
     },
@@ -2670,12 +2690,12 @@
       "category": "SonyLIV",
       "tournament": "SonyLIV Events",
       "startTime": "",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013498/1768579174570211_AO2026_GOB_Landscape_Thumb_Dated_SP_2.jpg",
-      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013498/1768579174570211_AO2026_GOB_Landscape_Thumb_Dated_SP_2.jpg",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013508/1768596894597956_AO26_schedule_17janR_landscape_thumb.jpg",
+      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013508/1768596894597956_AO26_schedule_17janR_landscape_thumb.jpg",
       "image_cdn": {
-        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013498/1768579174570211_AO2026_GOB_Landscape_Thumb_Dated_SP_2.jpg",
-        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013498/1768579174570211_AO2026_GOB_Landscape_Thumb_Dated_SP_2.jpg",
-        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013498/1768579174570211_AO2026_GOB_Landscape_Thumb_Dated_SP_2.jpg"
+        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013508/1768596894597956_AO26_schedule_17janR_landscape_thumb.jpg",
+        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013508/1768596894597956_AO26_schedule_17janR_landscape_thumb.jpg",
+        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013508/1768596894597956_AO26_schedule_17janR_landscape_thumb.jpg"
       },
       "teams": [],
       "STREAMING_CDN": {
