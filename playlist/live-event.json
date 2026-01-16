@@ -1,13 +1,13 @@
 {
   "Author": "\ud835\udd46\ud835\udd44\u2115\ud835\udd40\ud835\udd4f \ud835\udd3c\ud835\udd44\u2119\ud835\udd40\u211d\ud835\udd3c",
   "name": "FanCode Live Matches API",
-  "last_updated": "05:53:33 PM 16-01-2026",
+  "last_updated": "06:33:30 PM 16-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 54,
-  "live_matches": 5,
+  "total_matches": 52,
+  "live_matches": 3,
   "upcoming_matches": 49,
   "matches": [
     {
@@ -360,6 +360,73 @@
     },
     {
       "category": "Football",
+      "title": "Castell\u00f3n Vs Legan\u00e9s",
+      "tournament": "LALIGA Hypermotion 2025-26",
+      "match_id": 139787,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "17 January 2026 01:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://images.fancode.com/aig/match/v1/139787_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139787_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1/139787_CASACARDS_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/139787_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/139787_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139787_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Castell\u00f3n",
+          "shortName": "CAS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT11@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FFFFFF",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Legan\u00e9s",
+          "shortName": "LEG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LEGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#efd84e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Football",
       "title": "Rcd Espanyol Vs Girona Fc",
       "tournament": "LALIGA 2025-26",
       "match_id": 131029,
@@ -560,34 +627,34 @@
       "source": "Fancode"
     },
     {
-      "category": "Football",
-      "title": "Castell\u00f3n Vs Legan\u00e9s",
-      "tournament": "LALIGA Hypermotion 2025-26",
-      "match_id": 139787,
+      "category": "Cricket",
+      "title": "Leeward Islands Women Vs Trinidad And Tobago Women",
+      "tournament": "CWI T20 Blaze 2026",
+      "match_id": 139751,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "17 January 2026 01:00 AM",
+      "startTime": "17 January 2026 07:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1/139787_CASACARDS_APP.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/CWI-Women's-T20-Blaze_fc-web.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139787_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1/139787_CASACARDS_APP.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139751_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/CWI-Women's-T20-Blaze_fc-web.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/139787_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/139787_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139787_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/CWI-T20-Blaze-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/CWI-Women's-T20-Blaze_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/CWI-Women's-T20-Blaze_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139751_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Castell\u00f3n",
-          "shortName": "CAS",
+          "name": "Leeward Islands Women",
+          "shortName": "LWI-W",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT11@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-LWI@2x.png"
           },
           "isWinner": null,
-          "color": "#FFFFFF",
+          "color": "#951403",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -600,80 +667,13 @@
           }
         },
         {
-          "name": "Legan\u00e9s",
-          "shortName": "LEG",
+          "name": "Trinidad and Tobago Women",
+          "shortName": "TT-W",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LEGA@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TNRF@2x.png"
           },
           "isWinner": null,
-          "color": "#efd84e",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Football",
-      "title": "Rangers Vs Annan Athletic",
-      "tournament": "Scottish Cup 2025-26",
-      "match_id": 139784,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "17 January 2026 01:15 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Scottish_Cup_2026_FC-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139784_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Scottish_Cup_2026_FC-Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Scottish-Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Scottish_Cup_2026_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Scottish_Cup_2026_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139784_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Rangers",
-          "shortName": "RNG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RNG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#1c1158",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Annan Athletic",
-          "shortName": "AAT",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AAT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#369D19",
+          "color": "#F84B47",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -761,34 +761,34 @@
       "source": "Fancode"
     },
     {
-      "category": "Cricket",
-      "title": "Leeward Islands Women Vs Trinidad And Tobago Women",
-      "tournament": "CWI T20 Blaze 2026",
-      "match_id": 139751,
+      "category": "Football",
+      "title": "Rangers Vs Annan Athletic",
+      "tournament": "Scottish Cup 2025-26",
+      "match_id": 139784,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "17 January 2026 07:00 PM",
+      "startTime": "17 January 2026 01:15 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/CWI-Women's-T20-Blaze_fc-web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Scottish_Cup_2026_FC-Web.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139751_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/CWI-Women's-T20-Blaze_fc-web.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139784_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Scottish_Cup_2026_FC-Web.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/CWI-T20-Blaze-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/CWI-Women's-T20-Blaze_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/CWI-Women's-T20-Blaze_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139751_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Scottish-Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Scottish_Cup_2026_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Scottish_Cup_2026_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139784_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Leeward Islands Women",
-          "shortName": "LWI-W",
+          "name": "Rangers",
+          "shortName": "RNG",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-LWI@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RNG@2x.png"
           },
           "isWinner": null,
-          "color": "#951403",
+          "color": "#1c1158",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -801,13 +801,13 @@
           }
         },
         {
-          "name": "Trinidad and Tobago Women",
-          "shortName": "TT-W",
+          "name": "Annan Athletic",
+          "shortName": "AAT",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TNRF@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AAT@2x.png"
           },
           "isWinner": null,
-          "color": "#F84B47",
+          "color": "#369D19",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -963,73 +963,6 @@
     },
     {
       "category": "Football",
-      "title": "Uzbekistan U23 Vs China Pr U23",
-      "tournament": "AFC U23 Asian Cup, 2026",
-      "match_id": 139277,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "17 January 2026 05:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Uzbekistan-U23_vs_ChinaPR_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139277_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Uzbekistan-U23_vs_ChinaPR_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-U23-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Uzbekistan-U23_vs_ChinaPR_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Uzbekistan-U23_vs_ChinaPR_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139277_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Uzbekistan U23",
-          "shortName": "UZB-U23",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/UZB-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#2a83e3",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "China PR U23",
-          "shortName": "CHN-U23",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/CHN-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#E96E5D",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Football",
       "title": "Egypt Vs Nigeria",
       "tournament": "Africa Cup of Nations 2025-26",
       "match_id": 138393,
@@ -1076,6 +1009,73 @@
           },
           "isWinner": null,
           "color": "#00752d",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Football",
+      "title": "Uzbekistan U23 Vs China Pr U23",
+      "tournament": "AFC U23 Asian Cup, 2026",
+      "match_id": 139277,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "17 January 2026 05:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Uzbekistan-U23_vs_ChinaPR_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139277_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Uzbekistan-U23_vs_ChinaPR_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-U23-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Uzbekistan-U23_vs_ChinaPR_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Uzbekistan-U23_vs_ChinaPR_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139277_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Uzbekistan U23",
+          "shortName": "UZB-U23",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/UZB-FT1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#2a83e3",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "China PR U23",
+          "shortName": "CHN-U23",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/CHN-FT1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#E96E5D",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1699,6 +1699,73 @@
       "source": "Fancode"
     },
     {
+      "category": "Cricket",
+      "title": "Otago Sparks Vs Northern Brave Women",
+      "tournament": "Women's Super Smash, 2025-26",
+      "match_id": 138784,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "18 January 2026 05:10 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138784_5801_OS-W_NB-W_fc-web_1766596522109.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138784_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138784_5801_OS-W_NB-W_fc-web_1766596522109.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138784_5801_OS-W_NB-W_fc-web_1766596522109.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138784_5801_OS-W_NB-W_fc-app_1766596319053.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138784_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Otago Sparks",
+          "shortName": "OS-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OSW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FFD433",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Northern Brave Women",
+          "shortName": "NB-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NB-W-CR1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#bcbcbc",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
       "category": "Golf",
       "title": "World Feed   Day 2",
       "tournament": "Sony Open in Hawaii 2026",
@@ -1833,73 +1900,6 @@
       "source": "Fancode"
     },
     {
-      "category": "Cricket",
-      "title": "Otago Sparks Vs Northern Brave Women",
-      "tournament": "Women's Super Smash, 2025-26",
-      "match_id": 138784,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 January 2026 05:10 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138784_5801_OS-W_NB-W_fc-web_1766596522109.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138784_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138784_5801_OS-W_NB-W_fc-web_1766596522109.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138784_5801_OS-W_NB-W_fc-web_1766596522109.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138784_5801_OS-W_NB-W_fc-app_1766596319053.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138784_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Otago Sparks",
-          "shortName": "OS-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-OSW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FFD433",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Northern Brave Women",
-          "shortName": "NB-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NB-W-CR1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#bcbcbc",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
       "category": "Tennis",
       "title": "Centre Court   Day 6",
       "tournament": "ATP 250 - Adelaide International",
@@ -1947,6 +1947,140 @@
           },
           "isWinner": null,
           "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Football",
+      "title": "Heart Of Midlothian Vs Falkirk",
+      "tournament": "Scottish Cup 2025-26",
+      "match_id": 139785,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "18 January 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Scottish_Cup_2026_FC-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139785_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Scottish_Cup_2026_FC-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Scottish-Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Scottish_Cup_2026_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Scottish_Cup_2026_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139785_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Heart of Midlothian",
+          "shortName": "HOM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-HOM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#77051A",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Falkirk",
+          "shortName": "FK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-FK@2x.png"
+          },
+          "isWinner": null,
+          "color": "#7DA9FA",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Football",
+      "title": "Almer\u00eda Vs Deportivo La Coruna",
+      "tournament": "LALIGA Hypermotion 2025-26",
+      "match_id": 139788,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "18 January 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://images.fancode.com/aig/match/v1/139788_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139788_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1/139788_CASACARDS_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/139788_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/139788_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139788_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Almer\u00eda",
+          "shortName": "ALM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#1278b9",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Deportivo La Coruna",
+          "shortName": "COR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-DEP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#71157B",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2299,140 +2433,6 @@
       "source": "Fancode"
     },
     {
-      "category": "Football",
-      "title": "Heart Of Midlothian Vs Falkirk",
-      "tournament": "Scottish Cup 2025-26",
-      "match_id": 139785,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 January 2026 01:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Scottish_Cup_2026_FC-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139785_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Scottish_Cup_2026_FC-Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Scottish-Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Scottish_Cup_2026_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Scottish_Cup_2026_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139785_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Heart of Midlothian",
-          "shortName": "HOM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-HOM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#77051A",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Falkirk",
-          "shortName": "FK",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-FK@2x.png"
-          },
-          "isWinner": null,
-          "color": "#7DA9FA",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Football",
-      "title": "Almer\u00eda Vs Deportivo La Coruna",
-      "tournament": "LALIGA Hypermotion 2025-26",
-      "match_id": 139788,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 January 2026 01:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1/139788_CASACARDS_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139788_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1/139788_CASACARDS_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/139788_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/139788_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139788_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Almer\u00eda",
-          "shortName": "ALM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#1278b9",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Deportivo La Coruna",
-          "shortName": "COR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-DEP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#71157B",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
       "category": "Cricket",
       "title": "Jamaica Women Vs Guyana Women",
       "tournament": "CWI T20 Blaze 2026",
@@ -2632,48 +2632,6 @@
         "Primary_Playback_URL": null
       },
       "source": "Fancode"
-    },
-    {
-      "match_id": "1090499624_ENG",
-      "title": "Punjab Royals vs Haryana Thunders - 16 Jan 2026 [ENG]",
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "category": "SonyLIV",
-      "tournament": "SonyLIV Events",
-      "startTime": "",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013429/176847408542089_PWL_26_Punjab-Royals-vs-Haryana-Thunders_15jan_landscape_thumb.jpg",
-      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013429/176847408542089_PWL_26_Punjab-Royals-vs-Haryana-Thunders_15jan_landscape_thumb.jpg",
-      "image_cdn": {
-        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013429/176847408542089_PWL_26_Punjab-Royals-vs-Haryana-Thunders_15jan_landscape_thumb.jpg",
-        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013429/176847408542089_PWL_26_Punjab-Royals-vs-Haryana-Thunders_15jan_landscape_thumb.jpg",
-        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013429/176847408542089_PWL_26_Punjab-Royals-vs-Haryana-Thunders_15jan_landscape_thumb.jpg"
-      },
-      "teams": [],
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768629164~acl=/*~id=96572073312253383349813745058481~hmac=594880193e3dcd1dafb7f97f49d9c31bf9959fafa3cfd6bbbd136f2c9f532859"
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": "1090499624_HIN",
-      "title": "Punjab Royals vs Haryana Thunders - 16 Jan 2026 [HIN]",
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "category": "SonyLIV",
-      "tournament": "SonyLIV Events",
-      "startTime": "",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013429/176847408542089_PWL_26_Punjab-Royals-vs-Haryana-Thunders_15jan_landscape_thumb.jpg",
-      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013429/176847408542089_PWL_26_Punjab-Royals-vs-Haryana-Thunders_15jan_landscape_thumb.jpg",
-      "image_cdn": {
-        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013429/176847408542089_PWL_26_Punjab-Royals-vs-Haryana-Thunders_15jan_landscape_thumb.jpg",
-        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013429/176847408542089_PWL_26_Punjab-Royals-vs-Haryana-Thunders_15jan_landscape_thumb.jpg",
-        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013429/176847408542089_PWL_26_Punjab-Royals-vs-Haryana-Thunders_15jan_landscape_thumb.jpg"
-      },
-      "teams": [],
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768629164~acl=/*~id=96572073312253383349813745058481~hmac=594880193e3dcd1dafb7f97f49d9c31bf9959fafa3cfd6bbbd136f2c9f532859"
-      },
-      "source": "SonyLIV"
     },
     {
       "match_id": 1090498827,
