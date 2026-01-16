@@ -1,103 +1,15 @@
 {
   "Author": "\ud835\udd46\ud835\udd44\u2115\ud835\udd40\ud835\udd4f \ud835\udd3c\ud835\udd44\u2119\ud835\udd40\u211d\ud835\udd3c",
   "name": "FanCode Live Matches API",
-  "last_updated": "11:30:24 AM 16-01-2026",
+  "last_updated": "11:49:17 AM 16-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 52,
-  "live_matches": 3,
-  "upcoming_matches": 49,
+  "live_matches": 2,
+  "upcoming_matches": 50,
   "matches": [
-    {
-      "category": "Cricket",
-      "title": "Noakhali Express Vs Chattogram Royals",
-      "tournament": "Bangladesh Premier League, 2025-26",
-      "match_id": 138934,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "16 January 2026 01:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138934_5808_CCH_NOE_fc-web_1766733054213.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138934_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138934_5808_CCH_NOE_fc-web_1766733054213.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138934_5808_CCH_NOE_fc-web_1766733054213.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/BPL-T20.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138934_5808_CCH_NOE_fc-web_1766733054213.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138934_5808_CCH_NOE_fc-App_1767706252216.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138934_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Noakhali Express",
-          "shortName": "NOE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NOE@2x.png"
-          },
-          "isWinner": false,
-          "color": "#2BA6BD",
-          "cricketScore": [
-            {
-              "runs": 126,
-              "overs": "18.5",
-              "balls": "113",
-              "status": "COMPLETED",
-              "wickets": 10
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Chattogram Royals",
-          "shortName": "CTR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CTR@2x.png"
-          },
-          "isWinner": true,
-          "color": "#0a213a",
-          "cricketScore": [
-            {
-              "runs": 128,
-              "overs": "17",
-              "balls": "102",
-              "status": "IN_PROGRESS",
-              "wickets": 5
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138934_english_hls_62a118a79b83261_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138934_english_hls_62a118a79b83261_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/138934_english_hls_62a118a79b83261_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/nHhIA53QSl-pxD6s84uRsA/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      },
-      "source": "Fancode"
-    },
     {
       "category": "Football",
       "title": "Japan U23 Vs Jordan U23",
@@ -223,6 +135,89 @@
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Cricket",
+      "title": "Noakhali Express Vs Chattogram Royals",
+      "tournament": "Bangladesh Premier League, 2025-26",
+      "match_id": 138934,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "16 January 2026 01:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138934_5808_CCH_NOE_fc-web_1766733054213.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138934_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138934_5808_CCH_NOE_fc-web_1766733054213.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/BPL-T20.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138934_5808_CCH_NOE_fc-web_1766733054213.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138934_5808_CCH_NOE_fc-App_1767706252216.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138934_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Noakhali Express",
+          "shortName": "NOE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NOE@2x.png"
+          },
+          "isWinner": false,
+          "color": "#2BA6BD",
+          "cricketScore": [
+            {
+              "runs": 126,
+              "overs": "18.5",
+              "balls": "113",
+              "status": "COMPLETED",
+              "wickets": 10
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Chattogram Royals",
+          "shortName": "CTR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CTR@2x.png"
+          },
+          "isWinner": true,
+          "color": "#0a213a",
+          "cricketScore": [
+            {
+              "runs": 128,
+              "overs": "17",
+              "balls": "102",
+              "status": "IN_PROGRESS",
+              "wickets": 5
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
       },
       "source": "Fancode"
     },
@@ -1634,73 +1629,6 @@
       "source": "Fancode"
     },
     {
-      "category": "Tennis",
-      "title": "Centre Court   Day 6",
-      "tournament": "ATP 250 - Adelaide International",
-      "match_id": 139569,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "17 January 2026 09:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139569_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(1)_1767943452385.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139569_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Centre Court - Day 6",
-          "shortName": "Centre Court - Day 6",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Adelaide",
-          "shortName": "Adelaide",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
       "category": "Football",
       "title": "Rcd Mallorca Vs Athletic Club",
       "tournament": "LALIGA 2025-26",
@@ -1748,6 +1676,73 @@
           },
           "isWinner": null,
           "color": "#ff674d",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Tennis",
+      "title": "Centre Court   Day 6",
+      "tournament": "ATP 250 - Adelaide International",
+      "match_id": 139569,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "17 January 2026 09:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139569_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(1)_1767943452407.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(1)_1767943452385.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139569_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Centre Court - Day 6",
+          "shortName": "Centre Court - Day 6",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Adelaide",
+          "shortName": "Adelaide",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2667,69 +2662,6 @@
       "source": "SonyLIV"
     },
     {
-      "match_id": 1090499594,
-      "title": "Upcoming - Inter vs Arsenal - UEFA Champions League 2025-26",
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "category": "SonyLIV",
-      "tournament": "SonyLIV Events",
-      "startTime": "",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768488992379434_UCL26_inter_vs_arsenal_dated_15jan_landscape_thumb.jpg",
-      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768488992379434_UCL26_inter_vs_arsenal_dated_15jan_landscape_thumb.jpg",
-      "image_cdn": {
-        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768488992379434_UCL26_inter_vs_arsenal_dated_15jan_landscape_thumb.jpg",
-        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768488992379434_UCL26_inter_vs_arsenal_dated_15jan_landscape_thumb.jpg",
-        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768488992379434_UCL26_inter_vs_arsenal_dated_15jan_landscape_thumb.jpg"
-      },
-      "teams": [],
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": ""
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": 1090499591,
-      "title": "Upcoming - Marseille vs Liverpool - UEFA Champions League 2025-26",
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "category": "SonyLIV",
-      "tournament": "SonyLIV Events",
-      "startTime": "",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768490378094434_UCL26_Marseille_vs_Liverpool_dated_15jan_landscape_thumb.jpg",
-      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768490378094434_UCL26_Marseille_vs_Liverpool_dated_15jan_landscape_thumb.jpg",
-      "image_cdn": {
-        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768490378094434_UCL26_Marseille_vs_Liverpool_dated_15jan_landscape_thumb.jpg",
-        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768490378094434_UCL26_Marseille_vs_Liverpool_dated_15jan_landscape_thumb.jpg",
-        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768490378094434_UCL26_Marseille_vs_Liverpool_dated_15jan_landscape_thumb.jpg"
-      },
-      "teams": [],
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": ""
-      },
-      "source": "SonyLIV"
-    },
-    {
-      "match_id": 1090499589,
-      "title": "Upcoming - Matchday 7 - UEFA Champions League 2025-26",
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "category": "SonyLIV",
-      "tournament": "SonyLIV Events",
-      "startTime": "",
-      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013352/1768331535063720_UCL26_MD7_promo_landscape_thumb.jpg",
-      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013352/1768331535063720_UCL26_MD7_promo_landscape_thumb.jpg",
-      "image_cdn": {
-        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013352/1768331535063720_UCL26_MD7_promo_landscape_thumb.jpg",
-        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013352/1768331535063720_UCL26_MD7_promo_landscape_thumb.jpg",
-        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013352/1768331535063720_UCL26_MD7_promo_landscape_thumb.jpg"
-      },
-      "teams": [],
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": ""
-      },
-      "source": "SonyLIV"
-    },
-    {
       "match_id": 1090496895,
       "title": "Upcoming - Australian Open 2026",
       "status": "COMPLETED",
@@ -2835,6 +2767,27 @@
       "source": "SonyLIV"
     },
     {
+      "match_id": 1090499594,
+      "title": "Upcoming - Inter vs Arsenal - UEFA Champions League 2025-26",
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "category": "SonyLIV",
+      "tournament": "SonyLIV Events",
+      "startTime": "",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768488992379434_UCL26_inter_vs_arsenal_dated_15jan_landscape_thumb.jpg",
+      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768488992379434_UCL26_inter_vs_arsenal_dated_15jan_landscape_thumb.jpg",
+      "image_cdn": {
+        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768488992379434_UCL26_inter_vs_arsenal_dated_15jan_landscape_thumb.jpg",
+        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768488992379434_UCL26_inter_vs_arsenal_dated_15jan_landscape_thumb.jpg",
+        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768488992379434_UCL26_inter_vs_arsenal_dated_15jan_landscape_thumb.jpg"
+      },
+      "teams": [],
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
       "match_id": 1090499595,
       "title": "Upcoming - Juventus vs Benfica - UEFA Champions League 2025-26",
       "status": "COMPLETED",
@@ -2856,6 +2809,27 @@
       "source": "SonyLIV"
     },
     {
+      "match_id": 1090499589,
+      "title": "Upcoming - Matchday 7 - UEFA Champions League 2025-26",
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "category": "SonyLIV",
+      "tournament": "SonyLIV Events",
+      "startTime": "",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013352/1768331535063720_UCL26_MD7_promo_landscape_thumb.jpg",
+      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013352/1768331535063720_UCL26_MD7_promo_landscape_thumb.jpg",
+      "image_cdn": {
+        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013352/1768331535063720_UCL26_MD7_promo_landscape_thumb.jpg",
+        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013352/1768331535063720_UCL26_MD7_promo_landscape_thumb.jpg",
+        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013352/1768331535063720_UCL26_MD7_promo_landscape_thumb.jpg"
+      },
+      "teams": [],
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
       "match_id": 1090499590,
       "title": "Upcoming - Galatasaray vs Atletico - UEFA Champions League 2025-26",
       "status": "COMPLETED",
@@ -2869,6 +2843,27 @@
         "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013352/1768331646662720_UCL26_MD7_ATM_promo_landscape_thumb.jpg",
         "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013352/1768331646662720_UCL26_MD7_ATM_promo_landscape_thumb.jpg",
         "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013352/1768331646662720_UCL26_MD7_ATM_promo_landscape_thumb.jpg"
+      },
+      "teams": [],
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": ""
+      },
+      "source": "SonyLIV"
+    },
+    {
+      "match_id": 1090499591,
+      "title": "Upcoming - Marseille vs Liverpool - UEFA Champions League 2025-26",
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "category": "SonyLIV",
+      "tournament": "SonyLIV Events",
+      "startTime": "",
+      "image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768490378094434_UCL26_Marseille_vs_Liverpool_dated_15jan_landscape_thumb.jpg",
+      "src": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768490378094434_UCL26_Marseille_vs_Liverpool_dated_15jan_landscape_thumb.jpg",
+      "image_cdn": {
+        "APP": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768490378094434_UCL26_Marseille_vs_Liverpool_dated_15jan_landscape_thumb.jpg",
+        "PLAYBACK": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768490378094434_UCL26_Marseille_vs_Liverpool_dated_15jan_landscape_thumb.jpg",
+        "BG_IMAGE": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013453/1768490378094434_UCL26_Marseille_vs_Liverpool_dated_15jan_landscape_thumb.jpg"
       },
       "teams": [],
       "STREAMING_CDN": {
