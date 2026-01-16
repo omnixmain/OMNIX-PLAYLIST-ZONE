@@ -7,7 +7,11 @@ https://dai.google.com/linear/hls/event/3vbwHpI1SrC9nh70qX7QzA/master.m3u8
 https://in-mc-fdlive.fancode.com/mumbai/139582_english_hls_6ece3b177a59256_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg" group-title="Fancode",Yalla Shabab Giants Vs Oman Development Team [DAI]
 https://dai.google.com/linear/hls/event/iQXh9HF4Rna3d0FPv1RGOw/master.m3u8
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013429/176847570074589_PWL_26_Maharashtra-Kesari-vs-Delhi-Dangal-Warrior_15jan_landscape_thumb.jpg" group-title="SonyLIV",Maharashtra Kesari vs Delhi Dangal Warriors - 16 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768618191~acl=/*~id=90962474001885892912056225563699~hmac=da6d1c0b78118e6b507f6c104bb2ec3988a450a9b10784fbbe51af0cb044345e
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013429/176847570074589_PWL_26_Maharashtra-Kesari-vs-Delhi-Dangal-Warrior_15jan_landscape_thumb.jpg" group-title="SonyLIV",Maharashtra Kesari vs Delhi Dangal Warriors - 16 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768618191~acl=/*~id=90962474001885892912056225563699~hmac=da6d1c0b78118e6b507f6c104bb2ec3988a450a9b10784fbbe51af0cb044345e
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Vietnam-U23_vs_UAE23_fc-web.jpg" group-title="Fancode",Vietnam U23 Vs United Arab Emirates U23 [Main]
+https://in-mc-fdlive.fancode.com/mumbai/139276_english_hls_89fca343c586276_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Vietnam-U23_vs_UAE23_fc-web.jpg" group-title="Fancode",Vietnam U23 Vs United Arab Emirates U23 [DAI]
+https://dai.google.com/linear/hls/event/FTvEwDNVRb6GaHoe83czCQ/master.m3u8
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013429/176847408542089_PWL_26_Punjab-Royals-vs-Haryana-Thunders_15jan_landscape_thumb.jpg" group-title="SonyLIV",Punjab Royals vs Haryana Thunders - 16 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768621237~acl=/*~id=98404521581219106180693308867697~hmac=fc5d6d9afe28b101c67410ebe7328bb15ff90f41ea95d44e1162f2198e5c6b0e
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013429/176847408542089_PWL_26_Punjab-Royals-vs-Haryana-Thunders_15jan_landscape_thumb.jpg" group-title="SonyLIV",Punjab Royals vs Haryana Thunders - 16 Jan 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768621237~acl=/*~id=98404521581219106180693308867697~hmac=fc5d6d9afe28b101c67410ebe7328bb15ff90f41ea95d44e1162f2198e5c6b0e
