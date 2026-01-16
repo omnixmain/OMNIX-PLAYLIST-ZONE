@@ -7,5 +7,9 @@ https://dai.google.com/linear/hls/event/nHhIA53QSl-pxD6s84uRsA/master.m3u8
 https://in-mc-fdlive.fancode.com/mumbai/139424_english_hls_cf389aeefd60676_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1/139424_CASACARDS_APP.png" group-title="Fancode",Melbourne City Vs Auckland [DAI]
 https://dai.google.com/linear/hls/event/5Rl7gaV_S_-HtaKxwdIITQ/master.m3u8
+#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1/139385_CASACARDS_APP.png" group-title="Fancode",Perth Glory Vs Brisbane Roar [Main]
+https://in-mc-fdlive.fancode.com/mumbai/139385_english_hls_0ea117155f37264_1ta-di_h264/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1/139385_CASACARDS_APP.png" group-title="Fancode",Perth Glory Vs Brisbane Roar [DAI]
+https://dai.google.com/linear/hls/event/JeC0cysaSqajAKQtOntUYw/master.m3u8
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013423/176846861552253_AO26_Redbull_Baseline_live_landscape_thumb.jpg" group-title="SonyLIV",Redbull Baseline - 16 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768601799~acl=/*~id=50619240189666602542401009572730~hmac=2c0ff35ae831f6f6a2b6e56b21d03235a04f919a17c8b8049860a411ea625751
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768603619~acl=/*~id=54965154313765810344265954970996~hmac=dd8275933edd901d799a18607536ea36e979b36b4eac83c3b85c8e5aafdbc39a
