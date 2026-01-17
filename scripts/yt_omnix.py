@@ -36,6 +36,7 @@ CLIENTS = ['android', 'ios', 'tv', 'web']
 def get_live_streams(category):
     """
     Fetches live streams for a given category using yt-dlp with client fallback strategies.
+    Uses parallel processing to check valid streams faster.
     """
     print(f"Fetching live streams for category: {category}...")
     
@@ -51,7 +52,6 @@ def get_live_streams(category):
             'no_warnings': True,
             'extract_flat': True,
             'ignoreerrors': True,
-            # 'user_agent': USER_AGENT, # Do NOT set user_agent when using player_client
             'extractor_args': {'youtube': {'player_client': [client]}},
         }
         
@@ -74,28 +74,38 @@ def get_live_streams(category):
                         print(f"    No entries found with {client}, trying next...")
                         continue
 
-                    valid_count = 0
+                    # Prepare list of potential videos to resolve
+                    videos_to_check = []
                     for entry in entries:
                         video_url = entry.get('url')
                         if not video_url:
-                            # Construct URL if missing
                             video_id = entry.get('id')
                             if video_id:
                                 video_url = f"https://www.youtube.com/watch?v={video_id}"
-                            else:
-                                continue
                         
-                        # Resolve stream info using the SAME client that worked for listing
-                        stream_info = resolve_stream_info(video_url, category, client_type=client)
-                        if stream_info:
-                            results.append(stream_info)
-                            valid_count += 1
-                            # INCREASED: Limit to 30 valid streams per category
-                            if len(results) >= 30: 
-                                break
+                        if video_url:
+                            videos_to_check.append(video_url)
+
+                    # Use ThreadPoolExecutor to resolve streams in parallel
+                    # We limit to 10 workers per category
+                    client_results = []
+                    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+                        future_to_url = {
+                            executor.submit(resolve_stream_info, url, category, client): url 
+                            for url in videos_to_check
+                        }
+                        
+                        for future in concurrent.futures.as_completed(future_to_url):
+                            try:
+                                stream_info = future.result()
+                                if stream_info:
+                                    client_results.append(stream_info)
+                            except Exception:
+                                pass
                     
-                    if valid_count > 0:
-                        print(f"    Successfully extracted {valid_count} valid streams with {client}.")
+                    if client_results:
+                        print(f"    Successfully extracted {len(client_results)} valid streams with {client}.")
+                        results.extend(client_results)
                         # If we found data, stop trying other clients for this category
                         break
                     else:
@@ -115,14 +125,12 @@ def get_live_streams(category):
 def resolve_stream_info(video_url, category, client_type='android', retries=2):
     """
     Resolves the M3U8 stream URL and other details for a specific video.
-    Includes simple retry logic and client consistency.
     """
     ydl_opts = {
         'quiet': True,
         'no_warnings': True,
         'format': 'best', 
         'ignoreerrors': True,
-        # 'user_agent': USER_AGENT, # Do NOT set user_agent when using player_client
         'extractor_args': {'youtube': {'player_client': [client_type]}},
     }
     
@@ -148,12 +156,9 @@ def resolve_stream_info(video_url, category, client_type='android', retries=2):
                     "category": category,
                     "channel": info.get('uploader', 'Unknown Channel')
                 }
-            except Exception as e:
+            except Exception:
                 if attempt == retries:
-                    # Only print on final failure to reduce noise
-                    # print(f"Error resolving {video_url} after retries: {e}")
                     pass
-                # Backoff slightly if needed, but keeping it fast for now
                 continue
     return None
 
@@ -172,7 +177,6 @@ def generate_m3u(streams):
 # Total Channels: {len(streams)}
 #================================="""
     
-    # Calculate file write manually without join to ensure line control
     with open(M3U_FILE, 'w', encoding='utf-8') as f:
         f.write(m3u_header + '\n')
         
@@ -209,7 +213,6 @@ def main():
     all_streams = []
     
     # Use ThreadPoolExecutor to fetch categories in parallel
-    # Increased workers slightly to speed up since we are processing more
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
         future_to_category = {executor.submit(get_live_streams, cat): cat for cat in CATEGORIES}
         for future in concurrent.futures.as_completed(future_to_category):
@@ -223,7 +226,6 @@ def main():
     
     print(f"Total streams found: {len(all_streams)}")
     
-    # Always generate, even if empty, to update timestamp/show state
     generate_m3u(all_streams)
     generate_json(all_streams)
     print("Done!")
