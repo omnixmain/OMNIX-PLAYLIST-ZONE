@@ -30,7 +30,7 @@ JSON_FILE = os.path.join(PLAYLIST_DIR, "yt_omnix.json")
 os.makedirs(PLAYLIST_DIR, exist_ok=True)
 
 # Clients to try for fetching data
-CLIENTS = ['android', 'ios', 'web']
+CLIENTS = ['android', 'ios', 'tv', 'web']
 
 def get_live_streams(category):
     """
@@ -50,7 +50,7 @@ def get_live_streams(category):
             'no_warnings': True,
             'extract_flat': True,
             'ignoreerrors': True,
-            'user_agent': USER_AGENT,
+            # 'user_agent': USER_AGENT, # Do NOT set user_agent when using player_client
             'extractor_args': {'youtube': {'player_client': [client]}},
         }
         
@@ -115,7 +115,7 @@ def resolve_stream_info(video_url, category, client_type='android', retries=2):
         'no_warnings': True,
         'format': 'best', 
         'ignoreerrors': True,
-        'user_agent': USER_AGENT,
+        # 'user_agent': USER_AGENT, # Do NOT set user_agent when using player_client
         'extractor_args': {'youtube': {'player_client': [client_type]}},
     }
     
