@@ -1,14 +1,14 @@
 {
   "Author": "\ud835\udd46\ud835\udd44\u2115\ud835\udd40\ud835\udd4f \ud835\udd3c\ud835\udd44\u2119\ud835\udd40\u211d\ud835\udd3c",
   "name": "FanCode Live Matches API",
-  "last_updated": "02:25:30 PM 17-01-2026",
+  "last_updated": "02:42:45 PM 17-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 58,
-  "live_matches": 12,
-  "upcoming_matches": 46,
+  "total_matches": 59,
+  "live_matches": 10,
+  "upcoming_matches": 49,
   "matches": [
     {
       "category": "Cricket",
@@ -68,11 +68,11 @@
           "color": "#fdcb83",
           "cricketScore": [
             {
-              "runs": 21,
-              "overs": "4.4",
-              "balls": "28",
+              "runs": 33,
+              "overs": "8",
+              "balls": "48",
               "status": "IN_PROGRESS",
-              "wickets": 3
+              "wickets": 4
             }
           ],
           "kabaddiScore": null,
@@ -172,10 +172,101 @@
     },
     {
       "category": "Football",
+      "title": "Real Madrid Vs Levante",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131025,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "17 January 2026 06:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131025_5427_RM_LE_fc-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131025_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131025_5427_RM_LE_fc-Web.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131025_5427_RM_LE_fc-Web.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131025_5427_RM_LE_fc-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131025_5427_RM_LE_fc-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131025_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Real Madrid",
+          "shortName": "RM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#004996",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 2,
+            "goals": [
+              {
+                "id": "189425",
+                "shortName": "R Asencio",
+                "isOwnGoal": false,
+                "goalTime": "65'"
+              },
+              {
+                "id": "21433",
+                "shortName": "K Mbappe",
+                "isOwnGoal": false,
+                "goalTime": "58'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Levante",
+          "shortName": "LE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png"
+          },
+          "isWinner": null,
+          "color": "#598bc1",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/131025_english_hls_ce5579a68110873_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/131025_english_hls_ce5579a68110873_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/131025_english_hls_ce5579a68110873_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Football",
       "title": "Coventry City Football Club Vs Leicester City F.c.",
       "tournament": "EFL Championship 2025-26",
       "match_id": 139914,
-      "status": "LIVE",
+      "status": "COMPLETED",
       "streamingStatus": "STARTED",
       "startTime": "17 January 2026 06:00 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -262,148 +353,6 @@
         "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139914_english_hls_ec0f740f6e39831_1ta-di_h264/index.m3u8",
         "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139914_english_hls_ec0f740f6e39831_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "https://dai.google.com/linear/hls/event/fboKTQ0wS8mTKXDUyZi-BQ/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Football",
-      "title": "Real Madrid Vs Levante",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131025,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "17 January 2026 06:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131025_5427_RM_LE_fc-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131025_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131025_5427_RM_LE_fc-Web.png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131025_5427_RM_LE_fc-Web.png",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131025_5427_RM_LE_fc-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131025_5427_RM_LE_fc-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131025_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Real Madrid",
-          "shortName": "RM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#004996",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Levante",
-          "shortName": "LE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LET@2x.png"
-          },
-          "isWinner": null,
-          "color": "#598bc1",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/131025_english_hls_ce5579a68110873_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/131025_english_hls_ce5579a68110873_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/131025_english_hls_ce5579a68110873_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Football",
-      "title": "Uzbekistan U23 Vs China Pr U23",
-      "tournament": "AFC U23 Asian Cup, 2026",
-      "match_id": 139277,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "17 January 2026 05:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Uzbekistan-U23_vs_ChinaPR_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139277_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Uzbekistan-U23_vs_ChinaPR_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Uzbekistan-U23_vs_ChinaPR_fc-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-U23-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Uzbekistan-U23_vs_ChinaPR_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Uzbekistan-U23_vs_ChinaPR_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139277_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Uzbekistan U23",
-          "shortName": "UZB-U23",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/UZB-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#2a83e3",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        },
-        {
-          "name": "China PR U23",
-          "shortName": "CHN-U23",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/CHN-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#E96E5D",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/139277_english_hls_de1c6a34da85554_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139277_english_hls_de1c6a34da85554_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139277_english_hls_de1c6a34da85554_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/DqmHwJvWQ3WRDjrP9A7rig/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -746,6 +695,140 @@
       "source": "Fancode"
     },
     {
+      "category": "Football",
+      "title": "Australia U23 Vs Korea Republic U23",
+      "tournament": "AFC U23 Asian Cup, 2026",
+      "match_id": 139278,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "17 January 2026 09:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Australia-U23_vs_KoraRepublicU23_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139278_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Australia-U23_vs_KoraRepublicU23_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-U23-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Australia-U23_vs_KoraRepublicU23_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Australia-U23_vs_KoraRepublicU23_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139278_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Australia U23",
+          "shortName": "AUS-U23",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/AUS-FT1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#4d66a3",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Korea Republic U23",
+          "shortName": "KR-U23",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/KOR-FT1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#dd717a",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "category": "Cricket",
+      "title": "Chattogram Royals Vs Dhaka Capitals",
+      "tournament": "Bangladesh Premier League, 2025-26",
+      "match_id": 138937,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "18 January 2026 05:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138937_5808_CCH_DC_fc-web_1766733054338.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138937_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138937_5808_CCH_DC_fc-web_1766733054338.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/BPL-T20.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138937_5808_CCH_DC_fc-web_1766733054338.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138937_5808_CCH_DC_fc-App_1767706252958.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138937_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Chattogram Royals",
+          "shortName": "CTR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CTR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0a213a",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Dhaka Capitals",
+          "shortName": "DC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DHC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#CFAE1C",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
       "category": "Cricket",
       "title": "Barbados Women Vs Windward Islands Women",
       "tournament": "CWI T20 Blaze 2026",
@@ -861,73 +944,6 @@
           "isWinner": null,
           "color": "#00752d",
           "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Cricket",
-      "title": "Chattogram Royals Vs Dhaka Capitals",
-      "tournament": "Bangladesh Premier League, 2025-26",
-      "match_id": 138937,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 January 2026 05:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138937_5808_CCH_DC_fc-web_1766733054338.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138937_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138937_5808_CCH_DC_fc-web_1766733054338.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/BPL-T20.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138937_5808_CCH_DC_fc-web_1766733054338.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138937_5808_CCH_DC_fc-App_1767706252958.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138937_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Chattogram Royals",
-          "shortName": "CTR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CTR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0a213a",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Dhaka Capitals",
-          "shortName": "DC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DHC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#CFAE1C",
-          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1598,73 +1614,6 @@
           "isWinner": null,
           "color": "#eb5160",
           "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "source": "Fancode"
-    },
-    {
-      "category": "Football",
-      "title": "Australia U23 Vs Korea Republic U23",
-      "tournament": "AFC U23 Asian Cup, 2026",
-      "match_id": 139278,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "17 January 2026 09:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Australia-U23_vs_KoraRepublicU23_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139278_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Australia-U23_vs_KoraRepublicU23_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-U23-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Australia-U23_vs_KoraRepublicU23_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Australia-U23_vs_KoraRepublicU23_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139278_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Australia U23",
-          "shortName": "AUS-U23",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/AUS-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#4d66a3",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Korea Republic U23",
-          "shortName": "KR-U23",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/KOR-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#dd717a",
-          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -2654,6 +2603,92 @@
       "source": "Fancode"
     },
     {
+      "category": "Cricket",
+      "title": "Wellington Blaze Vs Canterbury Magicians",
+      "tournament": "Women's Super Smash, 2025-26",
+      "match_id": 138785,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "19 January 2026 05:10 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138785_5801_WB-W_CM-W_fc-web_1766596522099.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138785_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138785_5801_WB-W_CM-W_fc-web_1766596522099.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138785_5801_WB-W_CM-W_fc-web_1766596522099.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138785_5801_WB-W_CM-W_fc-app_1766596319048.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138785_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Wellington Blaze",
+          "shortName": "WB-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WBLW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#dcdcdc",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Canterbury Magicians",
+          "shortName": "CM-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MAGW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#DE3018",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "source": "Fancode"
+    },
+    {
+      "match_id": 139789,
+      "title": "C\u00f3rdoba vs M\u00e1laga (LALIGA Hypermotion 2025-26)",
+      "status": "UPCOMING",
+      "streamingStatus": "NOT_STARTED",
+      "category": "Football",
+      "tournament": "LALIGA Hypermotion 2025-26",
+      "startTime": "01:30:00 AM 19-01-2026",
+      "image": "https://images.fancode.com/aig/match/v1/139789_CASACARDS_APP.png",
+      "src": "https://images.fancode.com/aig/match/v1/139789_CASACARDS_APP.png",
+      "image_cdn": {
+        "APP": "https://images.fancode.com/aig/match/v1/139789_CASACARDS_APP.png",
+        "PLAYBACK": "https://images.fancode.com/aig/match/v1/139789_CASACARDS_APP.png",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/139789_CASACARDS_APP.png"
+      },
+      "teams": [],
+      "STREAMING_CDN": {},
+      "source": "Fancode"
+    },
+    {
       "match_id": "1090499745_ENG",
       "title": "UP Dominators vs Tigers of Mumbai Dangals - 17 Jan 2026 [ENG]",
       "status": "LIVE",
@@ -2670,7 +2705,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768702565~acl=/*~id=07955157067218016949206818906448~hmac=bcbf6c0ed7c0903be039d8be8b9013b7e79e5fc8b06709f3005763d389230e7e"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768703785~acl=/*~id=31869209362075180940940485793200~hmac=3d2cdd64d2c946e22f6bde2152e90743db8fe3519cddeb02f1c75890d7f74a08"
       },
       "source": "SonyLIV"
     },
@@ -2691,7 +2726,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768702565~acl=/*~id=07955157067218016949206818906448~hmac=bcbf6c0ed7c0903be039d8be8b9013b7e79e5fc8b06709f3005763d389230e7e"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768703785~acl=/*~id=31869209362075180940940485793200~hmac=3d2cdd64d2c946e22f6bde2152e90743db8fe3519cddeb02f1c75890d7f74a08"
       },
       "source": "SonyLIV"
     },
@@ -2712,7 +2747,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768702565~acl=/*~id=07955157067218016949206818906448~hmac=bcbf6c0ed7c0903be039d8be8b9013b7e79e5fc8b06709f3005763d389230e7e"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768703785~acl=/*~id=31869209362075180940940485793200~hmac=3d2cdd64d2c946e22f6bde2152e90743db8fe3519cddeb02f1c75890d7f74a08"
       },
       "source": "SonyLIV"
     },
@@ -2733,7 +2768,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768702565~acl=/*~id=07955157067218016949206818906448~hmac=bcbf6c0ed7c0903be039d8be8b9013b7e79e5fc8b06709f3005763d389230e7e"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768703785~acl=/*~id=31869209362075180940940485793200~hmac=3d2cdd64d2c946e22f6bde2152e90743db8fe3519cddeb02f1c75890d7f74a08"
       },
       "source": "SonyLIV"
     },
@@ -2754,7 +2789,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768702565~acl=/*~id=07955157067218016949206818906448~hmac=bcbf6c0ed7c0903be039d8be8b9013b7e79e5fc8b06709f3005763d389230e7e"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768703785~acl=/*~id=31869209362075180940940485793200~hmac=3d2cdd64d2c946e22f6bde2152e90743db8fe3519cddeb02f1c75890d7f74a08"
       },
       "source": "SonyLIV"
     },
@@ -2775,7 +2810,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768702565~acl=/*~id=07955157067218016949206818906448~hmac=bcbf6c0ed7c0903be039d8be8b9013b7e79e5fc8b06709f3005763d389230e7e"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768703785~acl=/*~id=31869209362075180940940485793200~hmac=3d2cdd64d2c946e22f6bde2152e90743db8fe3519cddeb02f1c75890d7f74a08"
       },
       "source": "SonyLIV"
     },
@@ -2796,7 +2831,7 @@
       },
       "teams": [],
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768702565~acl=/*~id=07955157067218016949206818906448~hmac=bcbf6c0ed7c0903be039d8be8b9013b7e79e5fc8b06709f3005763d389230e7e"
+        "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768703785~acl=/*~id=31869209362075180940940485793200~hmac=3d2cdd64d2c946e22f6bde2152e90743db8fe3519cddeb02f1c75890d7f74a08"
       },
       "source": "SonyLIV"
     },
