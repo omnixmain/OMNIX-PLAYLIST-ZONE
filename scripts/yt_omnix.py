@@ -33,6 +33,12 @@ os.makedirs(PLAYLIST_DIR, exist_ok=True)
 # Clients to try for fetching data
 CLIENTS = ['android', 'ios', 'tv', 'web']
 
+print(f"yt-dlp version: {yt_dlp.version.__version__}")
+if os.path.exists(COOKIES_FILE):
+    print(f"Cookies found at: {COOKIES_FILE}")
+else:
+    print("No cookies.txt found. Search results may be limited.")
+
 def get_live_streams(category):
     """
     Fetches live streams for a given category using yt-dlp with client fallback strategies.
