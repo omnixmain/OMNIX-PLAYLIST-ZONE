@@ -2,7 +2,7 @@ import os
 import json
 import concurrent.futures
 import yt_dlp
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 # Categories to search for
 CATEGORIES = [
@@ -13,8 +13,13 @@ CATEGORIES = [
     "Music",
     "Program",
     "Space",
-    "Sports"
+    "Sports",
+    "Cricket",
+    "Football"
 ]
+
+# Common User-Agent
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 
 # Output files
 PLAYLIST_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "playlist")
@@ -36,7 +41,8 @@ def get_live_streams(category):
         'no_warnings': True,
         'extract_flat': True,
         'ignoreerrors': True,
-        'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'user_agent': USER_AGENT,
+        'extractor_args': {'youtube': {'player_client': ['android']}},
     }
     
     results = []
@@ -80,7 +86,8 @@ def resolve_stream_info(video_url, category, retries=2):
         'no_warnings': True,
         'format': 'best', 
         'ignoreerrors': True,
-        'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'extractor_args': {'youtube': {'player_client': ['android']}},
     }
     
     for attempt in range(retries + 1):
@@ -110,6 +117,53 @@ def resolve_stream_info(video_url, category, retries=2):
                 # Backoff slightly if needed, but keeping it fast for now
                 continue
     return None
+
+def generate_m3u(streams):
+    print(f"Generating M3U playlist with {len(streams)} streams...")
+    # BD Time (UTC + 6)
+    utc_now = datetime.now(timezone.utc)
+    bd_time = utc_now + timedelta(hours=6)
+    formatted_time = bd_time.strftime("%Y-%m-%d %I:%M %p")
+
+    m3u_header = f"""#EXTM3U
+#=================================
+# Developed By: OMNIX EMPIRE
+# Source: YouTube Live API
+# Last Updated: {formatted_time} (BD Time)
+# Total Channels: {len(streams)}
+#================================="""
+    
+    # Calculate file write manually without join to ensure line control
+    with open(M3U_FILE, 'w', encoding='utf-8') as f:
+        f.write(m3u_header + '\n')
+        
+        for stream in streams:
+            name = stream.get('name', 'Unknown')
+            logo = stream.get('logo', '')
+            url = stream.get('url', '')
+            group = stream.get('category', 'Uncategorized')
+            channel_name = stream.get('channel', '')
+            
+            # Write #EXTINF line
+            f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}",{name} ({channel_name})\n')
+            # Write User-Agent headers
+            f.write(f'#EXTVLCOPT:http-user-agent={USER_AGENT}\n')
+            f.write(f'#EXTHTTP:{{"User-Agent": "{USER_AGENT}"}}\n')
+            # Write URL
+            f.write(f'{url}\n')
+
+    print(f"Saved M3U to {M3U_FILE}")
+
+def generate_json(streams):
+    print(f"Saving JSON to {JSON_FILE}...")
+    data = {
+        "updated": datetime.now().isoformat(),
+        "total": len(streams),
+        "streams": streams
+    }
+    with open(JSON_FILE, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=4)
+    print("Saved JSON.")
 
 def main():
     print("Starting YouTube Live Playlist Generator...")

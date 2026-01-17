@@ -1,35 +1,44 @@
-name: yt_omnix
+name: YT OMNIX Playlist Update
 
 on:
   schedule:
-    - cron: '*/15 * * * *' # Run every 15 minutes
-  workflow_dispatch: # Allow manual trigger
+    - cron: '0 */6 * * *' # Run every 6 hours
+  workflow_dispatch:
 
 jobs:
-  build:
+  update-playlist:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.10'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install yt-dlp
 
-      - name: Run playlist generator script
-        run: python scripts/yt_omnix.py
-
-      - name: Commit and push changes
+      - name: Run script
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          python scripts/yt_omnix.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
           git add playlist/yt_omnix.m3u playlist/yt_omnix.json
-          git commit -m "Update YouTube live playlists [skip ci]" || echo "No changes to commit"
-          git push
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update YT OMNIX playlist [skip ci]"
+            git push
+          fi
