@@ -26,6 +26,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install yt-dlp
 
+      - name: Create cookies.txt
+        env:
+          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
+        run: |
+          if [ -n "$YOUTUBE_COOKIES" ]; then
+            echo "$YOUTUBE_COOKIES" > scripts/cookies.txt
+            echo "cookies.txt created"
+          else
+            echo "YOUTUBE_COOKIES secret not found, skipping cookies.txt creation"
+          fi
+
       - name: Run script
         run: |
           python scripts/yt_omnix.py

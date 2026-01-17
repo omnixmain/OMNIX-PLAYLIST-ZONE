@@ -25,6 +25,7 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 PLAYLIST_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "playlist")
 M3U_FILE = os.path.join(PLAYLIST_DIR, "yt_omnix.m3u")
 JSON_FILE = os.path.join(PLAYLIST_DIR, "yt_omnix.json")
+COOKIES_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "cookies.txt")
 
 # Ensure playlist directory exists
 os.makedirs(PLAYLIST_DIR, exist_ok=True)
@@ -54,6 +55,12 @@ def get_live_streams(category):
             'extractor_args': {'youtube': {'player_client': [client]}},
         }
         
+        # Add cookies if available
+        if os.path.exists(COOKIES_FILE):
+            ydl_opts['cookiefile'] = COOKIES_FILE
+            # Enable verbose logging if using cookies to debug potential issues, or if explicitly needed
+            # ydl_opts['verbose'] = True 
+
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             try:
                 # INCREASED: Search for 60 entries to get "big data"
@@ -118,6 +125,9 @@ def resolve_stream_info(video_url, category, client_type='android', retries=2):
         # 'user_agent': USER_AGENT, # Do NOT set user_agent when using player_client
         'extractor_args': {'youtube': {'player_client': [client_type]}},
     }
+    
+    if os.path.exists(COOKIES_FILE):
+        ydl_opts['cookiefile'] = COOKIES_FILE
     
     for attempt in range(retries + 1):
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
