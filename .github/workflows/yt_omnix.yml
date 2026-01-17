@@ -2,7 +2,7 @@ name: YT OMNIX Playlist Update
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Run every 6 hours
+    - cron: '*/30 * * * *' # Run every 30 minutes
   workflow_dispatch:
 
 jobs:
