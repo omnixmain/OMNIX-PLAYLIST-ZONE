@@ -29,65 +29,94 @@ JSON_FILE = os.path.join(PLAYLIST_DIR, "yt_omnix.json")
 # Ensure playlist directory exists
 os.makedirs(PLAYLIST_DIR, exist_ok=True)
 
+# Clients to try for fetching data
+CLIENTS = ['android', 'ios', 'web']
+
 def get_live_streams(category):
     """
-    Fetches live streams for a given category using yt-dlp.
+    Fetches live streams for a given category using yt-dlp with client fallback strategies.
     """
     print(f"Fetching live streams for category: {category}...")
     
-    # yt-dlp options
-    ydl_opts = {
-        'quiet': True,
-        'no_warnings': True,
-        'extract_flat': True,
-        'ignoreerrors': True,
-        'user_agent': USER_AGENT,
-        'extractor_args': {'youtube': {'player_client': ['android']}},
-    }
-    
     results = []
-    
     query = f"{category} live"
     
-    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        try:
-            # INCREASED: Search for 60 entries to get "big data"
-            search_results = ydl.extract_info(f"ytsearch60:{query}", download=False)
-            
-            if 'entries' in search_results:
-                for entry in search_results['entries']:
-                    if not entry:
-                        continue
-                        
-                    video_url = entry.get('url')
-                    if not video_url:
-                        video_url = f"https://www.youtube.com/watch?v={entry.get('id')}"
+    for client in CLIENTS:
+        print(f"  Trying client: {client}...")
+        
+        # yt-dlp options
+        ydl_opts = {
+            'quiet': True,
+            'no_warnings': True,
+            'extract_flat': True,
+            'ignoreerrors': True,
+            'user_agent': USER_AGENT,
+            'extractor_args': {'youtube': {'player_client': [client]}},
+        }
+        
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            try:
+                # INCREASED: Search for 60 entries to get "big data"
+                search_results = ydl.extract_info(f"ytsearch60:{query}", download=False)
+                
+                if 'entries' in search_results:
+                    entries = [e for e in search_results['entries'] if e]
+                    print(f"    Found {len(entries)} raw entries with {client}.")
                     
-                    # Resolve stream info
-                    stream_info = resolve_stream_info(video_url, category)
-                    if stream_info:
-                        results.append(stream_info)
-                        # INCREASED: Limit to 30 valid streams per category (instead of 5)
-                        if len(results) >= 30: 
-                            break
+                    if not entries:
+                        print(f"    No entries found with {client}, trying next...")
+                        continue
+
+                    valid_count = 0
+                    for entry in entries:
+                        video_url = entry.get('url')
+                        if not video_url:
+                            # Construct URL if missing
+                            video_id = entry.get('id')
+                            if video_id:
+                                video_url = f"https://www.youtube.com/watch?v={video_id}"
+                            else:
+                                continue
                         
-        except Exception as e:
-            print(f"Error searching for {category}: {e}")
+                        # Resolve stream info using the SAME client that worked for listing
+                        stream_info = resolve_stream_info(video_url, category, client_type=client)
+                        if stream_info:
+                            results.append(stream_info)
+                            valid_count += 1
+                            # INCREASED: Limit to 30 valid streams per category
+                            if len(results) >= 30: 
+                                break
+                    
+                    if valid_count > 0:
+                        print(f"    Successfully extracted {valid_count} valid streams with {client}.")
+                        # If we found data, stop trying other clients for this category
+                        break
+                    else:
+                         print(f"    Found entries but failed to resolve streams with {client}. Trying next...")
+
+            except Exception as e:
+                print(f"    Error searching with {client}: {e}")
+                
+        if results:
+            break
             
+    if not results:
+        print(f"Warning: Could not find any streams for {category} with any client.")
+
     return results
 
-def resolve_stream_info(video_url, category, retries=2):
+def resolve_stream_info(video_url, category, client_type='android', retries=2):
     """
     Resolves the M3U8 stream URL and other details for a specific video.
-    Includes simple retry logic for robustness.
+    Includes simple retry logic and client consistency.
     """
     ydl_opts = {
         'quiet': True,
         'no_warnings': True,
         'format': 'best', 
         'ignoreerrors': True,
-        'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'extractor_args': {'youtube': {'player_client': ['android']}},
+        'user_agent': USER_AGENT,
+        'extractor_args': {'youtube': {'player_client': [client_type]}},
     }
     
     for attempt in range(retries + 1):
