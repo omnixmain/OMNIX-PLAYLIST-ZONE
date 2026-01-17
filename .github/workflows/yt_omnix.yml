@@ -40,5 +40,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update YT OMNIX playlist [skip ci]"
+            git pull --rebase
             git push
           fi
